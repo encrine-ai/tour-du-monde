@@ -10,7 +10,7 @@ var CLASSE = {
   "sous_titre": "classe de démonstration",
   "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
-  "theme": "demo",
+  "theme": "tour-du-monde",
   "ton": "tu",
   "moteur": {
     "depot": "encrine-ai/moteur",
@@ -145,7 +145,8 @@ var CLASSE = {
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
       "nom": "imagier",
-      "budget": 30000
+      "budget": 30000,
+      "couverture": true
     },
     {
       "cle": "cartes-corpus",
@@ -158,7 +159,8 @@ var CLASSE = {
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
       "nom": "cartes-corpus",
-      "budget": 30000
+      "budget": 30000,
+      "couverture": true
     }
   ],
   "documents": [
