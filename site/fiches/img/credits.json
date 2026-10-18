@@ -56,11 +56,11 @@
   "auteur": "Paxtoncrafts Charitable Trust"
  },
  "drapeau": {
-  "fichier": "drapeau.svg",
-  "source": "Mulberry Symbols",
-  "page": "https://mulberrysymbols.org/",
-  "licence": "CC BY-SA 4.0",
-  "auteur": "Paxtoncrafts Charitable Trust"
+  "fichier": "drapeau.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/5918",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
  },
  "chateau": {
   "fichier": "chateau.svg",
@@ -298,7 +298,8 @@
   "source": "ARASAAC",
   "page": "https://arasaac.org/pictograms/fr/6194",
   "licence": "CC BY-NC-SA",
-  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)",
+  "modification": "flèche de désignation retirée (adaptation mécanique, même licence)"
  },
  "chouette": {
   "fichier": "chouette.svg",

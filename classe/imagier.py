@@ -68,7 +68,7 @@ OVERRIDES = {
     "chataignier": 156687202,
     "chene-pedoncule": 216854955,
     "chouette-hulotte": 192781832,
-    "cigogne-blanche": 601229857,
+    "cigogne-blanche": 72429124,     # seule, entière, de profil, dans l’herbe (l’ancienne était sur un lampadaire)
     "coquelicot": 77613327,
     "ecureuil-roux": 60496860,
     "edelweiss": 560454686,
