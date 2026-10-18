@@ -268,7 +268,7 @@
       html += page.periode.cahiers.map(function (c) {
         return '<a class="a-bouton a-clair" href="' + c.href + '" download="' + esc(c.nom) + '">' + o.icone(c.icone) + esc(c.titre) + '</a>';
       }).join('');
-      html += '<a class="a-bouton a-clair" href="' + page.periode.lien + '">' + o.icone('map-pin') + 'La planche ' + esc(minuscule(page.periode.milieu)) + '</a>';
+      html += '<a class="a-bouton a-clair" href="' + page.periode.lien + '">' + o.icone('map-pin') + 'Planche ' + page.periode.romain + ' · ' + esc(court(page.periode.milieu)) + '</a>';
     }
     return html;
   }

@@ -308,7 +308,7 @@ periodes:
     embleme: {imagier: colibri}
     theme:
       atlas:
-        carte: {x: 36, y: 45.5, cote: droite}
+        carte: {x: 36, y: 45.5, cote: dessous}
         planche:
           centre: {x: 34, y: 45}
           zoom: 2.4

@@ -370,6 +370,7 @@ body[data-support="ecran"] {
 .a-epingle .a-cartouche { position: absolute; top: 50%; left: calc(100% + 10px); transform: translateY(-50%); }
 .a-epingle.a-gauche .a-cartouche { left: auto; right: calc(100% + 10px); }
 .a-epingle.a-dessus .a-cartouche { left: 50%; top: auto; bottom: calc(100% + 10px); transform: translateX(-50%); }
+.a-epingle.a-dessous .a-cartouche { left: 50%; top: calc(100% + 10px); transform: translateX(-50%); }
 .a-sceau {
   width: 52px; height: 52px; border-radius: 50%; flex: none; display: grid; place-items: center; color: #fff4dc; font: 400 22px/1 var(--police-etiquette);
   background: radial-gradient(circle at 35% 30%, #d4553c, var(--sapin) 55%, #6e1d10);
@@ -390,7 +391,7 @@ body[data-support="ecran"] {
 .a-ici-point { display: block; width: 22px; height: 22px; border-radius: 50%; background: #fff4dc; box-shadow: 0 0 0 4px var(--sapin), 0 0 0 9px rgba(163, 50, 29, .3); position: relative; }
 .a-ici-point::after { content: ""; position: absolute; inset: -14px; border-radius: 50%; border: 2px solid rgba(255, 244, 220, .9); }
 .a-ici-texte {
-  position: absolute; top: 50%; left: calc(100% + 16px); transform: translateY(-12%); width: 240px;
+  position: absolute; top: 50%; right: calc(100% + 16px); transform: translateY(-50%); width: 240px;
   background: var(--sapin); color: var(--t-sur-vermillon); padding: 7px 12px 8px; font: italic 400 16px/1.25 var(--police-titre); box-shadow: 0 8px 18px -8px rgba(0, 0, 0, .6);
 }
 .a-ici-texte b { font: 400 15px/1 var(--police-etiquette); letter-spacing: .1em; display: block; font-style: normal; margin-bottom: 2px; }

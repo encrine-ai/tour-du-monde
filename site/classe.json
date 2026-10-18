@@ -878,7 +878,7 @@
             "carte": {
               "x": 36,
               "y": 45.5,
-              "cote": "droite"
+              "cote": "dessous"
             },
             "planche": {
               "centre": {
