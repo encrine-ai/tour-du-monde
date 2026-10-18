@@ -1,7 +1,61 @@
 # Ce que l'année traite du programme, période par période (skill progressions-programme).
-# Vide : la classe de démonstration n'a pas encore de progressions.
+#
+# Chaque bloc dit : dans ce document, à cette période, ces attendus-là sont
+# travaillés. Établi en relisant les tableaux de la période 1 de chacune des
+# sept progressions ; les périodes 2 à 5 n'ont pas encore de bloc, puisque
+# leurs progressions ne sont qu'esquissées.
+
 annee: 2026-2027
 classe: Grande Section
 projet: Le tour du monde
 
-blocs: []
+blocs:
+
+# ─────────────────────────────── LANGAGE ────────────────────────────────
+- document: 03-progressions/01-langage-oral-ecrit.md
+  periode: 1
+  attendus: [lang.voc.corpus, lang.voc.categories, lang.synt.pronoms,
+             lang.disc.conversation, lang.phono.syllabes, lang.let.trois-graphies,
+             lang.let.epeler, lang.geste.pince, lang.ecr.types, lang.ecr.archetypes,
+             lang.ecr.emotions-perso, lang.prod.dictee, lang.disc.memorisation]
+
+# ───────────────────────────── MATHÉMATIQUES ────────────────────────────
+- document: 03-progressions/02-mathematiques.md
+  periode: 1
+  attendus: [math.qte.collections, math.qte.enumeration, math.qte.decompositions,
+             math.qte.comparaison, math.qte.ecriture, math.qte.comptine-30,
+             math.rang.ordinaux, math.for.figures, math.mot.repetitifs,
+             math.mot.decrire, math.pb.ajout-retrait]
+
+# ─────────────────────────── ACTIVITÉS PHYSIQUES ────────────────────────
+- document: 03-progressions/03-activites-physiques.md
+  periode: 1
+  attendus: [eps.coop.strategies, eps.coop.roles, eps.coop.equipe,
+             eps.eq.combinaisons, eps.eq.securite, eps.dep.courir-longtemps]
+
+# ────────────────────────── ACTIVITÉS ARTISTIQUES ───────────────────────
+- document: 03-progressions/04-activites-artistiques.md
+  periode: 1
+  attendus: [arts.des.modele, arts.des.vocabulaire, arts.des.collective,
+             arts.gra.creer, arts.pla.combiner, arts.img.types, arts.img.elements,
+             arts.voix.collectif, arts.voix.repertoire, arts.voix.memoire,
+             arts.eco.elements, arts.eco.dessin, arts.eco.patrimoine,
+             arts.spec.scene]
+
+# ─────────────────────────── TEMPS ET ESPACE ────────────────────────────
+- document: 03-progressions/05-temps-espace.md
+  periode: 1
+  attendus: [te.tps.semaine, te.tps.date, te.tps.saisons, te.esp.planisphere,
+             te.esp.situer, te.env.ecole, te.env.milieux]
+
+# ─────────────────────── LE VIVANT, LA MATIÈRE, LES OBJETS ──────────────
+- document: 03-progressions/06-monde-vivant-matiere-objets.md
+  periode: 1
+  attendus: [monde.viv.classer, monde.viv.morphologie, monde.viv.biodiversite,
+             monde.obj.recette]
+
+# ────────────────────────────────── EVAR ────────────────────────────────
+- document: 03-progressions/07-evar.md
+  periode: 1
+  attendus: [evar.soc.differences, evar.soc.respect, evar.corps.sensations,
+             lang.voc.emotions]
