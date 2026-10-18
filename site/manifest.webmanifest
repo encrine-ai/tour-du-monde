@@ -1,15 +1,15 @@
 {
   "name": "Classe de démonstration — Le tour du monde",
   "short_name": "Tour du monde",
-  "description": "Une classe de démonstration en cours d’écriture : un continent par période. Les documents et les cahiers arriveront période par période.",
+  "description": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
   "lang": "fr",
   "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#ffffff",
-  "background_color": "#f6f7f2",
+  "theme_color": "#fffcf6",
+  "background_color": "#f5efe4",
   "categories": [
     "education"
   ],

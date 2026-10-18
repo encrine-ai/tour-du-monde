@@ -17,7 +17,7 @@
  */
 'use strict';
 
-var VERSION = "7a77527817b8";
+var VERSION = "56c02e0d1460";
 var PRECACHE = [
   "./",
   "index.html",
@@ -44,13 +44,31 @@ var PRECACHE = [
   "charte/polices/andika-latin-700.woff2",
   "charte/polices/andika-latin-ext-400.woff2",
   "charte/polices/andika-latin-ext-700.woff2",
-  "charte/themes/demo/polices/atkinson-next-latin-ext.woff2",
-  "charte/themes/demo/polices/atkinson-next-latin-italic.woff2",
-  "charte/themes/demo/polices/atkinson-next-latin.woff2",
-  "charte/themes/demo/polices/bricolage-grotesque-latin-ext.woff2",
-  "charte/themes/demo/polices/bricolage-grotesque-latin.woff2",
+  "charte/themes/tour-du-monde/motifs/ficelle.svg",
+  "charte/themes/tour-du-monde/motifs/grille.svg",
+  "charte/themes/tour-du-monde/motifs/itineraire.svg",
+  "charte/themes/tour-du-monde/motifs/obliteration.svg",
+  "charte/themes/tour-du-monde/motifs/tampon.svg",
+  "charte/themes/tour-du-monde/polices/atkinson-next-latin-ext.woff2",
+  "charte/themes/tour-du-monde/polices/atkinson-next-latin-italic.woff2",
+  "charte/themes/tour-du-monde/polices/atkinson-next-latin.woff2",
+  "charte/themes/tour-du-monde/polices/courier-prime-latin-400.woff2",
+  "charte/themes/tour-du-monde/polices/courier-prime-latin-700.woff2",
+  "charte/themes/tour-du-monde/polices/courier-prime-latin-ext-400.woff2",
+  "charte/themes/tour-du-monde/polices/courier-prime-latin-ext-700.woff2",
+  "charte/themes/tour-du-monde/polices/grandstander-latin-ext.woff2",
+  "charte/themes/tour-du-monde/polices/grandstander-latin.woff2",
   "content/01-projet-annuel.md",
-  "content/02-programmation-annuelle.md"
+  "content/02-programmation-annuelle.md",
+  "content/03-progressions/01-langage-oral-ecrit.md",
+  "content/03-progressions/02-mathematiques.md",
+  "content/03-progressions/03-activites-physiques.md",
+  "content/03-progressions/04-activites-artistiques.md",
+  "content/03-progressions/05-temps-espace.md",
+  "content/03-progressions/06-monde-vivant-matiere-objets.md",
+  "content/03-progressions/07-evar.md",
+  "content/04-evaluations/00-mode-emploi-et-livret-de-suivi.md",
+  "content/04-evaluations/periode-1-europe.md"
 ];
 
 var PORTEE = self.registration.scope;
