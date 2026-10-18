@@ -25,16 +25,18 @@ ton: tu
 # partagée : l'entretien passe en mode « enrichir » et écrit `origine`
 # (depot, titre, auteur, licence, site, reprise_le), que le pied du site
 # crédite.
-depot: à définir
+depot: encrine-ai/tour-du-monde
 moteur:
   depot: encrine-ai/moteur
-  version: null
+  version: 7f6ce09
 galerie:
   depot: encrine-ai/encrine-ai.github.io
 partage:
   # les personnages des problèmes de mathématiques (« Nils a 3 valises »)
   prenoms_fictifs: [Nils, Ana, Malik, Elsa]
   textes_autorises: []
+  licence: CC BY-SA 4.0
+  auteur: Encrine
 contenu:
   referentiel: referentiel/cycle1-gs.yml
   annotations: classe/annotations.yml

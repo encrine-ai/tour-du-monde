@@ -11,10 +11,10 @@
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
   "theme": "tour-du-monde",
   "ton": "tu",
-  "depot": "à définir",
+  "depot": "encrine-ai/tour-du-monde",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": null
+    "version": "7f6ce09"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
@@ -26,7 +26,9 @@
       "Malik",
       "Elsa"
     ],
-    "textes_autorises": []
+    "textes_autorises": [],
+    "licence": "CC BY-SA 4.0",
+    "auteur": "Encrine"
   },
   "contenu": {
     "referentiel": "referentiel/cycle1-gs.yml",
