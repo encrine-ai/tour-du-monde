@@ -267,5 +267,10 @@ var CLASSE = {
       "titre": "Période 1 · L’Europe",
       "icone": "map-pin"
     }
-  ]
+  ],
+  "appli": {
+    "nom": "Classe de démonstration — Le tour du monde",
+    "nom_court": "Tour du monde",
+    "initiale": "T"
+  }
 };

@@ -2,6 +2,11 @@
 
 Ce fichier est la source des consignes du dépôt, pour tout agent de code
 (standard `AGENTS.md`) ; Claude Code le lit par l'import de `CLAUDE.md`.
+Claude Code est l'agent recommandé et le seul éprouvé : la qualité attendue
+(maquettes de mini-sites jugées sur captures, contrôles, PDF) tient au
+modèle. La compatibilité avec d'autres agents est un acquis qu'on garde,
+pas un chantier (décidé le 18 octobre 2026) : aucun travail propre à un
+autre agent, et rien n'est promis pour eux.
 
 Ce dépôt est **le modèle** d'Encrine (https://encrine.ai) : le moteur qui
 fabrique l'année d'une classe — programmation, progressions conformes au
@@ -47,7 +52,7 @@ chaque déploiement avec Chromium en mode `--print-to-pdf`.
 Après avoir touché à un manifeste ou à un gabarit, régénérer les pages :
 
 ```sh
-python3 scripts/classe.py generer        # site/classe.json et classe.js, après toute retouche de classe.yml
+python3 scripts/classe.py generer        # site/classe.json et classe.js, la charte, l'appli installable (manifeste, icônes, sw.js), après toute retouche de classe.yml ou du thème
 python3 scripts/generer-cartes-corpus.py # site/cartes-corpus/periode-N.html
 python3 scripts/generer-imagier.py     # site/imagier/periode-N.html
 python3 scripts/generer-credits.py     # page des crédits des fiches
