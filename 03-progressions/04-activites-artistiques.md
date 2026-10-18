@@ -1,6 +1,6 @@
 # Progression GS — Agir, s’exprimer, comprendre à travers les activités artistiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Arts visuels, univers sonores et spectacle vivant ; chaque période s’appuie sur des œuvres de référence du continent. Seule la période 1 est détaillée.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Arts visuels, univers sonores et spectacle vivant ; chaque période s’appuie sur des œuvres de référence du continent. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -26,9 +26,18 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | repérer **tempo** et **nuances** ; traduire la musique par le corps et le dessin | Grieg, « Dans l’antre du roi de la montagne » (*Peer Gynt*) : la musique accélère et devient de plus en plus forte — on marche, puis on court, comme les trolls ; dessin « la musique qui grandit » | dit « ça va de plus en plus vite, de plus en plus fort » |
 | Spectacle vivant | jouer un personnage avec sa voix et son corps devant les autres | théâtre de marionnettes *Boucle d’or et les trois ours* : la grosse voix, la voix moyenne, la petite voix ; entrer et sortir de l’espace de jeu | joue un des ours en changeant sa voix, entre et sort de scène au bon moment |
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (7 semaines)
 
-À écrire avec la période : tissus et motifs (wax, bogolan) ; percussions et chant à répondre ; *Le Carnaval des animaux* (œuvre patrimoniale 2).
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Dessin | représenter un personnage et un événement d’une histoire | dessiner Handa et son panier, puis l’animal qui prend un fruit ; le portrait d’un animal de l’imagier d’après photographie (les rayures du zèbre, les taches de la girafe) | dessine un personnage reconnaissable dans une action de l’histoire |
+| Graphisme | **transformer et détourner** des motifs ; composer avec plusieurs contraintes | les tissus **wax** et **bogolan** du Mali : relever leurs motifs (points, zigzags, spirales) ; les peintures murales **ndébélé** d’Esther Mahlangu (Afrique du Sud) : de grandes formes cernées de noir ; inventer un pagne « avec des zigzags et des points, et deux couleurs seulement » | détourne un motif (le zigzag devient une herbe, une vague) ; compose un tissu en respectant deux consignes |
+| Compositions plastiques | choisir et combiner matériaux et techniques ; peindre avec des **terres et des ocres** | peinture à la terre et à l’ocre délayées ; tampons gravés dans la pomme de terre pour un tissu collectif ; la grande carte du monde : deuxième pièce, l’Afrique, peinte en ocres et habitée des animaux de la classe | choisit un outil et une matière pour obtenir un effet (tamponner, frotter, étaler) |
+| Images | identifier et nommer des éléments esthétiques : **motif, couleur, contraste** | comparer un tissu wax, un bogolan et une peinture ndébélé : couleurs vives ou terres, formes, répétitions | dit ce qui se répète dans un tissu et quelles couleurs il emploie |
+| Voix et chant | chanter un **chant à répondre** ; explorer sa voix | *Kye Kye Kule* (meneur et chœur) ; *Funga Alafia* (chant d’accueil, avec gestes) ; jeux de voix des animaux (le rugissement grave, le cri aigu du singe) | tient le rôle du meneur ou du chœur dans un chant à répondre |
+| Instruments | faire le lien entre le son et le geste ; jouer ensemble | le djembé de la valise : frapper au centre (grave), au bord (aigu) ; appels et réponses ; fabriquer un tambour avec un pot et une peau tendue (ballon) | produit un son grave et un son aigu sur un tambour ; répond à un appel en rythme |
+| Écoute | repérer les **timbres** et les hauteurs ; connaître une œuvre patrimoniale | Saint-Saëns, *Le Carnaval des animaux* : « Marche royale du lion » (les cordes graves qui rugissent) et « L’Éléphant » (la contrebasse qui danse lourdement) ; dessin « la musique de l’éléphant » | reconnaît le lion et l’éléphant à l’écoute et dit pourquoi (grave, lent, lourd) |
+| Spectacle vivant | **enchaîner des émotions** par le corps et la voix ; jouer devant un public | *La Surprise de Handa* mimée et chantée pour la fête de fin d’année : chaque animal entre, prend un fruit, repart ; Handa est contente, puis inquiète, puis surprise | joue un animal ou Handa en montrant deux émotions successives |
 
 ## Période 3 — 🌏 L’Asie (esquisse)
 

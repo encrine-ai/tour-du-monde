@@ -101,7 +101,7 @@ var CLASSE = {
       "icone": "sprout",
       "emoji": "🌍",
       "couleur": "vert",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes d’Afrique, de la savane au désert et au bord du fleuve."
     },
     {
       "cle": "asie",
@@ -136,7 +136,8 @@ var CLASSE = {
       "icone": "pencil",
       "desc": "12 fiches, 2 niveaux (★ / ★★) et défis",
       "periodes": [
-        1
+        1,
+        2
       ],
       "source": "fiches/entrainement-periode-{n}.html",
       "pdf": "pdf/fiches-entrainement-periode-{n}.pdf",
@@ -149,7 +150,8 @@ var CLASSE = {
       "icone": "printer",
       "desc": "les fiches élève de fin de période",
       "periodes": [
-        1
+        1,
+        2
       ],
       "source": "fiches/periode-{n}.html",
       "pdf": "pdf/fiches-eleve-periode-{n}.pdf",
@@ -164,7 +166,8 @@ var CLASSE = {
       "intitule": "animaux et plantes du monde",
       "fichier": "imagier-monde",
       "periodes": [
-        1
+        1,
+        2
       ],
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
@@ -177,7 +180,8 @@ var CLASSE = {
       "icone": "layers",
       "desc": "les mots des trois corpus et les étiquettes de tri",
       "periodes": [
-        1
+        1,
+        2
       ],
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
@@ -285,6 +289,15 @@ var CLASSE = {
       "desc": "12 fiches d’évaluation + grilles d’observation (octobre).",
       "titre": "Période 1 · L’Europe",
       "icone": "map-pin"
+    },
+    {
+      "id": "eval-p2",
+      "fiches": 2,
+      "md": "content/04-evaluations/periode-2-afrique.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (décembre).",
+      "titre": "Période 2 · L’Afrique",
+      "icone": "sprout"
     }
   ]
 };

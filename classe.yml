@@ -82,7 +82,7 @@ periodes:
   icone: sprout
   emoji: 🌍
   couleur: vert
-  imagier: À écrire.
+  imagier: Les animaux et les plantes d’Afrique, de la savane au désert et au bord du fleuve.
 - cle: asie
   milieu: L’Asie
   icone: mountain-snow
@@ -107,24 +107,24 @@ materiel:
   titre: Entraînement
   icone: pencil
   desc: 12 fiches, 2 niveaux (★ / ★★) et défis
-  periodes: [1]
+  periodes: [1, 2]
 - cle: evaluation
   titre: Évaluation
   icone: printer
   desc: les fiches élève de fin de période
-  periodes: [1]
+  periodes: [1, 2]
 - cle: imagier
   titre: Imagier
   icone: image
   desc: 12 animaux et 12 plantes en photographies
   intitule: animaux et plantes du monde
   fichier: imagier-monde
-  periodes: [1]
+  periodes: [1, 2]
 - cle: cartes-corpus
   titre: Cartes-corpus
   icone: layers
   desc: les mots des trois corpus et les étiquettes de tri
-  periodes: [1]
+  periodes: [1, 2]
 documents:
 - id: accueil
   titre: Accueil
@@ -200,3 +200,8 @@ documents:
   md: content/04-evaluations/periode-1-europe.md
   groupe: Mes évaluations
   desc: 12 fiches d’évaluation + grilles d’observation (octobre).
+- id: eval-p2
+  fiches: 2
+  md: content/04-evaluations/periode-2-afrique.md
+  groupe: Mes évaluations
+  desc: 12 fiches d’évaluation + grilles d’observation (décembre).

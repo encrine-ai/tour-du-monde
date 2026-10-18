@@ -1,9 +1,8 @@
 # Ce que l'année traite du programme, période par période (skill progressions-programme).
 #
 # Chaque bloc dit : dans ce document, à cette période, ces attendus-là sont
-# travaillés. Établi en relisant les tableaux de la période 1 de chacune des
-# sept progressions ; les périodes 2 à 5 n'ont pas encore de bloc, puisque
-# leurs progressions ne sont qu'esquissées.
+# travaillés. Établi en relisant les tableaux de chacune des
+# sept progressions, période par période, à mesure qu'elles sont écrites.
 
 annee: 2026-2027
 classe: Grande Section
@@ -19,6 +18,10 @@ blocs:
              lang.let.epeler, lang.geste.pince, lang.ecr.types, lang.ecr.archetypes,
              lang.ecr.emotions-perso, lang.prod.dictee, lang.disc.memorisation]
 
+- document: 03-progressions/01-langage-oral-ecrit.md
+  periode: 2
+  attendus: [lang.voc.corpus, lang.voc.categories, lang.voc.reseaux, lang.disc.decrire-action, lang.synt.temps-passe, lang.art.ch-s, lang.phono.syllabes, lang.phono.rimes, lang.let.trois-graphies, lang.geste.ligatures, lang.geste.cursive, lang.ecr.archetypes, lang.ecr.emotions-perso, lang.prod.segmenter, lang.prod.dictee, lang.disc.memorisation]
+
 # ───────────────────────────── MATHÉMATIQUES ────────────────────────────
 - document: 03-progressions/02-mathematiques.md
   periode: 1
@@ -27,11 +30,19 @@ blocs:
              math.rang.ordinaux, math.for.figures, math.mot.repetitifs,
              math.mot.decrire, math.pb.ajout-retrait]
 
+- document: 03-progressions/02-mathematiques.md
+  periode: 2
+  attendus: [math.qte.collections, math.qte.ecriture, math.qte.decompositions, math.qte.surcomptage, math.qte.comptine-30, math.qte.depart-donne, math.rang.jusqu-10, math.pb.ajout-retrait, math.pb.parties-tout, math.gr.long-indirecte, math.gr.long-ordonner, math.mot.transcrire, math.mot.creer]
+
 # ─────────────────────────── ACTIVITÉS PHYSIQUES ────────────────────────
 - document: 03-progressions/03-activites-physiques.md
   periode: 1
   attendus: [eps.coop.strategies, eps.coop.roles, eps.coop.equipe,
              eps.eq.combinaisons, eps.eq.securite, eps.dep.courir-longtemps]
+
+- document: 03-progressions/03-activites-physiques.md
+  periode: 2
+  attendus: [eps.exp.geste-danse, eps.exp.espace-scenique, eps.exp.choregraphie, eps.exp.spectateur, eps.dep.lancer, eps.dep.courir-longtemps]
 
 # ────────────────────────── ACTIVITÉS ARTISTIQUES ───────────────────────
 - document: 03-progressions/04-activites-artistiques.md
@@ -42,17 +53,29 @@ blocs:
              arts.eco.elements, arts.eco.dessin, arts.eco.patrimoine,
              arts.spec.scene]
 
+- document: 03-progressions/04-activites-artistiques.md
+  periode: 2
+  attendus: [arts.des.representer, arts.gra.detourner, arts.gra.contraintes, arts.pla.combiner, arts.des.collective, arts.img.elements, arts.voix.collectif, arts.voix.inventivite, arts.voix.repertoire, arts.ins.son-geste, arts.ins.collective, arts.eco.elements, arts.eco.patrimoine, arts.eco.dessin, arts.spec.emotions, arts.spec.scene]
+
 # ─────────────────────────── TEMPS ET ESPACE ────────────────────────────
 - document: 03-progressions/05-temps-espace.md
   periode: 1
   attendus: [te.tps.semaine, te.tps.date, te.tps.saisons, te.esp.planisphere,
              te.esp.situer, te.env.ecole, te.env.milieux]
 
+- document: 03-progressions/05-temps-espace.md
+  periode: 2
+  attendus: [te.tps.mois, te.tps.date, te.tps.saisons, te.esp.gauche-droite, te.esp.situer, te.esp.planisphere, te.esp.trajets, te.env.milieux, te.env.architecture]
+
 # ─────────────────────── LE VIVANT, LA MATIÈRE, LES OBJETS ──────────────
 - document: 03-progressions/06-monde-vivant-matiere-objets.md
   periode: 1
   attendus: [monde.viv.classer, monde.viv.morphologie, monde.viv.biodiversite,
              monde.obj.recette]
+
+- document: 03-progressions/06-monde-vivant-matiere-objets.md
+  periode: 2
+  attendus: [monde.viv.deplacement, monde.viv.classer, monde.viv.morphologie, monde.viv.etapes, monde.viv.besoins, monde.mat.environnement, monde.obj.fabriquer, monde.obj.fonction, monde.obj.recette]
 
 # ────────────────────────────────── EVAR ────────────────────────────────
 - document: 03-progressions/07-evar.md

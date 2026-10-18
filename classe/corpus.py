@@ -10,13 +10,13 @@ Chaque entrée : (slug, nom écrit sur l'étiquette, source), la source étant
   ("imagier", slug)  une photographie de l'imagier, déjà choisie et créditée ;
   ("fiche", slug)    une image de la banque partagée site/fiches/img/.
 
-Seule la période 1 est écrite ; les autres le seront avec leur période
-(skill cartes-corpus).
+Les périodes s'écrivent l'une après l'autre (skill cartes-corpus).
 """
 
 # Les trois corpus de chaque période, tels que les nomme 01-projet-annuel.md.
 CORPUS = {
     1: ("le voyage et l’Europe", "les animaux d’Europe", "les arbres et les plantes d’Europe"),
+    2: ("le voyage en Afrique", "les animaux d’Afrique", "les arbres et les plantes d’Afrique"),
 }
 
 GROUPES = ("milieu", "faune", "flore")
@@ -65,7 +65,50 @@ CARTES = {
    ("coquelicot",  "le coquelicot",  ("imagier", "coquelicot")),
   ],
  },
- 2: {g: [] for g in GROUPES},
+ 2: {
+  "milieu": [
+   ("savane",      "la savane",      ("fiche", "savane")),
+   ("desert",      "le désert",      ("fiche", "desert")),
+   ("dune",        "la dune",        ("fiche", "dune")),
+   ("oasis",       "l’oasis",        ("fiche", "oasis")),
+   ("fleuve",      "le fleuve",      ("fiche", "fleuve")),
+   ("pirogue",     "la pirogue",     ("fiche", "pirogue")),
+   ("case",        "la case",        ("fiche", "case")),
+   ("village",     "le village",     ("fiche", "village")),
+   ("puits",       "le puits",       ("fiche", "puits")),
+   ("marche",      "le marché",      ("fiche", "marche")),
+   ("panier",      "le panier",      ("fiche", "panier")),
+   ("djembe",      "le djembé",      ("fiche", "djembe")),
+  ],
+  "faune": [
+   ("lion",        "le lion",        ("imagier", "lion")),
+   ("elephant",    "l’éléphant",     ("imagier", "elephant-afrique")),
+   ("girafe",      "la girafe",      ("imagier", "girafe")),
+   ("zebre",       "le zèbre",       ("imagier", "zebre")),
+   ("hippopotame", "l’hippopotame",  ("imagier", "hippopotame")),
+   ("rhinoceros",  "le rhinocéros",  ("imagier", "rhinoceros-blanc")),
+   ("gorille",     "le gorille",     ("imagier", "gorille")),
+   ("autruche",    "l’autruche",     ("imagier", "autruche")),
+   ("tortue",      "la tortue",      ("imagier", "tortue-sillonnee")),
+   ("trompe",      "la trompe",      ("fiche", "trompe")),
+   ("carapace",    "la carapace",    ("fiche", "carapace")),
+   ("oeuf",        "l’œuf",          ("fiche", "oeuf")),
+  ],
+  "flore": [
+   ("baobab",      "le baobab",      ("imagier", "baobab")),
+   ("acacia",      "l’acacia",       ("imagier", "acacia-parasol")),
+   ("palmier",     "le palmier",     ("imagier", "palmier-dattier")),
+   ("datte",       "la datte",       ("fiche", "datte")),
+   ("sorgho",      "le sorgho",      ("imagier", "sorgho")),
+   ("pasteque",    "la pastèque",    ("imagier", "pasteque")),
+   ("papyrus",     "le papyrus",     ("imagier", "papyrus")),
+   ("nenuphar",    "le nénuphar",    ("imagier", "nenuphar-bleu")),
+   ("graine",      "la graine",      ("fiche", "graine")),
+   ("tronc",       "le tronc",       ("fiche", "tronc")),
+   ("branche",     "la branche",     ("fiche", "branche")),
+   ("racine",      "la racine",      ("fiche", "racine")),
+  ],
+ },
  3: {g: [] for g in GROUPES},
  4: {g: [] for g in GROUPES},
  5: {g: [] for g in GROUPES},
@@ -81,11 +124,15 @@ NON_ILLUSTRES = {
  1: ("voyager", "partir", "arriver", "traverser", "loin", "près",
      "migrer", "hiberner", "grimper", "se cacher", "roux", "piquant",
      "pousser", "cueillir", "ramasser", "parfumé"),
+ 2: ("porter", "acheter", "vendre", "chaud", "sec", "sauvage",
+     "rugir", "galoper", "se baigner", "rayé", "lourd", "léger",
+     "semer", "arroser", "germer", "sucré", "épineux"),
 }
 
 # Les étiquettes de tri de la fiche X.1 (les « boîtes-catégories »).
 TRI = {
  1: ("le voyage", "les animaux", "les végétaux"),
+ 2: ("le voyage", "les animaux", "les végétaux"),
 }
 TRI_MILIEUX = ()
 

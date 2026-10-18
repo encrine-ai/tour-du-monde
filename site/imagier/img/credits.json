@@ -1,4 +1,56 @@
 {
+ "acacia-parasol": {
+  "auteur": "Михаил Голомысов",
+  "fichier": "acacia-parasol.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "l’acacia",
+  "observation": "https://www.inaturalist.org/observations/342732647",
+  "periode": 2,
+  "photo_id": 624175037,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Vachellia tortilis"
+ },
+ "aloes": {
+  "auteur": "desertnaturalist",
+  "fichier": "aloes.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "l’aloès",
+  "observation": "https://www.inaturalist.org/observations/146085111",
+  "periode": 2,
+  "photo_id": 251076585,
+  "px": "1100x753",
+  "source_px": "2048x1949",
+  "taxon": "Aloe ferox"
+ },
+ "autruche": {
+  "auteur": "Tom Heijnen",
+  "fichier": "autruche.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "l’autruche",
+  "observation": "https://www.inaturalist.org/observations/231275074",
+  "periode": 2,
+  "photo_id": 410703952,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Struthio camelus"
+ },
+ "baobab": {
+  "auteur": "John Brew",
+  "fichier": "baobab.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le baobab",
+  "observation": "https://www.inaturalist.org/observations/142536045",
+  "periode": 2,
+  "photo_id": 244384816,
+  "px": "1100x753",
+  "source_px": "2048x1279",
+  "taxon": "Adansonia digitata"
+ },
  "bouleau": {
   "auteur": "Matteo Martini",
   "fichier": "bouleau.jpg",
@@ -37,6 +89,19 @@
   "px": "1100x753",
   "source_px": "2048x1536",
   "taxon": "Calluna vulgaris"
+ },
+ "cafeier": {
+  "auteur": "GERMAN LEONEL SARMIENTO CRUZ",
+  "fichier": "cafeier.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le caféier",
+  "observation": "https://www.inaturalist.org/observations/74844817",
+  "periode": 2,
+  "photo_id": 122358955,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Coffea arabica"
  },
  "cerf-elaphe": {
   "auteur": "Frank Sengpiel",
@@ -116,6 +181,19 @@
   "source_px": "2048x1536",
   "taxon": "Papaver rhoeas"
  },
+ "dromadaire": {
+  "auteur": "no rights reserved",
+  "fichier": "dromadaire.jpg",
+  "groupe": "faune",
+  "licence": "CC0",
+  "nom": "le dromadaire",
+  "observation": "https://www.inaturalist.org/observations/65803331",
+  "periode": 2,
+  "photo_id": 105974064,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Camelus dromedarius"
+ },
  "ecureuil-roux": {
   "auteur": "no rights reserved",
   "fichier": "ecureuil-roux.jpg",
@@ -141,6 +219,19 @@
   "px": "1100x753",
   "source_px": "2048x1542",
   "taxon": "Leontopodium nivale"
+ },
+ "elephant-afrique": {
+  "auteur": "William Stephens",
+  "fichier": "elephant-afrique.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "l’éléphant d’Afrique",
+  "observation": "https://www.inaturalist.org/observations/39839971",
+  "periode": 2,
+  "photo_id": 63248024,
+  "px": "1100x753",
+  "source_px": "2048x1358",
+  "taxon": "Loxodonta africana"
  },
  "epicea": {
   "auteur": "no rights reserved",
@@ -168,6 +259,45 @@
   "source_px": "2048x1536",
   "taxon": "Pteridium aquilinum"
  },
+ "girafe": {
+  "auteur": "Tom Heijnen",
+  "fichier": "girafe.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "la girafe",
+  "observation": "https://www.inaturalist.org/observations/323129116",
+  "periode": 2,
+  "photo_id": 584655415,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Giraffa camelopardalis"
+ },
+ "gorille": {
+  "auteur": "Luca Napelo",
+  "fichier": "gorille.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "le gorille",
+  "observation": "https://www.inaturalist.org/observations/53295981",
+  "periode": 2,
+  "photo_id": 84758833,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Gorilla gorilla"
+ },
+ "grue-couronnee": {
+  "auteur": "no rights reserved",
+  "fichier": "grue-couronnee.jpg",
+  "groupe": "faune",
+  "licence": "CC0",
+  "nom": "la grue couronnée",
+  "observation": "https://www.inaturalist.org/observations/143482322",
+  "periode": 2,
+  "photo_id": 246076120,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Balearica regulorum"
+ },
  "herisson": {
   "auteur": "Linda Lötjönen",
   "fichier": "herisson.jpg",
@@ -180,6 +310,19 @@
   "px": "1100x753",
   "source_px": "2048x1524",
   "taxon": "Erinaceus europaeus"
+ },
+ "hippopotame": {
+  "auteur": "Morten Ross",
+  "fichier": "hippopotame.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "l’hippopotame",
+  "observation": "https://www.inaturalist.org/observations/111237080",
+  "periode": 2,
+  "photo_id": 187733006,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Hippopotamus amphibius"
  },
  "houx": {
   "auteur": "Craig Williams",
@@ -194,6 +337,19 @@
   "source_px": "2048x1536",
   "taxon": "Ilex aquifolium"
  },
+ "karite": {
+  "auteur": "martin ingemansson",
+  "fichier": "karite.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le karité",
+  "observation": "https://www.inaturalist.org/observations/261580773",
+  "periode": 2,
+  "photo_id": 469968092,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Vitellaria paradoxa"
+ },
  "lavande": {
   "auteur": "Bob Walker",
   "fichier": "lavande.jpg",
@@ -206,6 +362,19 @@
   "px": "1100x753",
   "source_px": "2048x1536",
   "taxon": "Lavandula angustifolia"
+ },
+ "lion": {
+  "auteur": "David Knox",
+  "fichier": "lion.jpg",
+  "groupe": "faune",
+  "licence": "CC BY-SA",
+  "nom": "le lion",
+  "observation": "https://www.inaturalist.org/observations/173202924",
+  "periode": 2,
+  "photo_id": 300761357,
+  "px": "1100x753",
+  "source_px": "2040x1360",
+  "taxon": "Panthera leo"
  },
  "loup-gris": {
   "auteur": "Bob",
@@ -246,6 +415,19 @@
   "source_px": "2048x2048",
   "taxon": "Fratercula arctica"
  },
+ "nenuphar-bleu": {
+  "auteur": "no rights reserved",
+  "fichier": "nenuphar-bleu.jpg",
+  "groupe": "flore",
+  "licence": "CC0",
+  "nom": "le nénuphar bleu",
+  "observation": "https://www.inaturalist.org/observations/8628931",
+  "periode": 2,
+  "photo_id": 11548018,
+  "px": "1100x753",
+  "source_px": "2048x2013",
+  "taxon": "Nymphaea nouchali caerulea"
+ },
  "olivier": {
   "auteur": "Ioannis Magouras",
   "fichier": "olivier.jpg",
@@ -271,6 +453,58 @@
   "px": "1100x753",
   "source_px": "2000x1490",
   "taxon": "Ursus arctos"
+ },
+ "palmier-dattier": {
+  "auteur": "Bob",
+  "fichier": "palmier-dattier.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le palmier dattier",
+  "observation": "https://www.inaturalist.org/observations/260184400",
+  "periode": 2,
+  "photo_id": 467199719,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Phoenix dactylifera"
+ },
+ "papyrus": {
+  "auteur": "Shaun Swanepoel",
+  "fichier": "papyrus.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le papyrus",
+  "observation": "https://www.inaturalist.org/observations/9848468",
+  "periode": 2,
+  "photo_id": 13488403,
+  "px": "1100x753",
+  "source_px": "2048x1154",
+  "taxon": "Cyperus papyrus"
+ },
+ "pasteque": {
+  "auteur": "Karen Fry",
+  "fichier": "pasteque.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "la pastèque",
+  "observation": "https://www.inaturalist.org/observations/138743522",
+  "periode": 2,
+  "photo_id": 237181024,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Citrullus lanatus"
+ },
+ "protee-royale": {
+  "auteur": "Ren Hoekstra",
+  "fichier": "protee-royale.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "la protée royale",
+  "observation": "https://www.inaturalist.org/observations/125807302",
+  "periode": 2,
+  "photo_id": 213126269,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Protea cynaroides"
  },
  "renard-roux": {
   "auteur": "Genevieve Early",
@@ -298,6 +532,71 @@
   "source_px": "2048x1365",
   "taxon": "Rangifer tarandus"
  },
+ "rhinoceros-blanc": {
+  "auteur": "B Pulman005",
+  "fichier": "rhinoceros-blanc.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "le rhinocéros",
+  "observation": "https://www.inaturalist.org/observations/330772156",
+  "periode": 2,
+  "photo_id": 599886911,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Ceratotherium simum"
+ },
+ "sorgho": {
+  "auteur": "Clifton Ladd, C.W.B.",
+  "fichier": "sorgho.jpg",
+  "groupe": "flore",
+  "licence": "CC BY",
+  "nom": "le sorgho",
+  "observation": "https://www.inaturalist.org/observations/48694707",
+  "periode": 2,
+  "photo_id": 77277173,
+  "px": "1100x753",
+  "source_px": "2048x2048",
+  "taxon": "Sorghum bicolor"
+ },
+ "strelitzia": {
+  "auteur": "no rights reserved",
+  "fichier": "strelitzia.jpg",
+  "groupe": "flore",
+  "licence": "CC0",
+  "nom": "le strélitzia",
+  "observation": "https://www.inaturalist.org/observations/218982004",
+  "periode": 2,
+  "photo_id": 387549553,
+  "px": "1100x753",
+  "source_px": "2048x1365",
+  "taxon": "Strelitzia reginae"
+ },
+ "suricate": {
+  "auteur": "David George",
+  "fichier": "suricate.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "le suricate",
+  "observation": "https://www.inaturalist.org/observations/116929287",
+  "periode": 2,
+  "photo_id": 197422056,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Suricata suricatta"
+ },
+ "tortue-sillonnee": {
+  "auteur": "ONG SOS Biodiversity",
+  "fichier": "tortue-sillonnee.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "la tortue sillonnée",
+  "observation": "https://www.inaturalist.org/observations/128860937",
+  "periode": 2,
+  "photo_id": 218917335,
+  "px": "1100x753",
+  "source_px": "2048x1536",
+  "taxon": "Centrochelys sulcata"
+ },
  "vigne": {
   "auteur": "no rights reserved",
   "fichier": "vigne.jpg",
@@ -310,5 +609,18 @@
   "px": "1100x753",
   "source_px": "2048x1363",
   "taxon": "Vitis vinifera"
+ },
+ "zebre": {
+  "auteur": "Stan Rullman",
+  "fichier": "zebre.jpg",
+  "groupe": "faune",
+  "licence": "CC BY",
+  "nom": "le zèbre",
+  "observation": "https://www.inaturalist.org/observations/172047675",
+  "periode": 2,
+  "photo_id": 298612820,
+  "px": "1100x753",
+  "source_px": "2048x1382",
+  "taxon": "Equus quagga"
  }
 }

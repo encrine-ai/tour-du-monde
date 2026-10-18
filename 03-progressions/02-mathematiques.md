@@ -1,6 +1,6 @@
 # Progression GS — Acquérir les premiers outils mathématiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche constante : **manipulation → représentation → verbalisation → abstraction**. Ateliers dirigés quotidiens, jeux structurés, rituels. Seule la période 1 est détaillée.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche constante : **manipulation → représentation → verbalisation → abstraction**. Ateliers dirigés quotidiens, jeux structurés, rituels. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -27,9 +27,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Motifs organisés | reproduire et prolonger un motif répétitif (AB, ABC, AAB) ; dire sa règle | **la guirlande de drapeaux** pour la fête de la classe ; colliers de perles ; frises de pictogrammes (avion, bateau, avion…) | prolonge un motif AB et ABC et dit « c’est toujours… puis… » |
 | Problèmes | résoudre un problème simple d’ajout avec du matériel | Plume dépose 3 valises dans le train, puis 2 autres : combien maintenant ? (avec cubes, puis dessin) | résout un ajout jusqu’à 6 en manipulant et explique comment il a fait |
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (7 semaines)
 
-À écrire avec la période : quantités jusqu’à 8, doubles, surcomptage ; rang jusqu’à 10 ; problèmes d’ajout et de retrait (les fruits du marché) ; longueurs : bande témoin (le cou de la girafe).
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Quantités et nombres | stabiliser les quantités jusqu’à **8** ; écrire les chiffres de 1 à 8 ; connaître les **doubles** (1 + 1 à 4 + 4) | **le marché de Handa** : « va chercher juste assez de mangues pour remplir le panier » ; les doubles au djembé (« 3 coups, puis 3 coups ») ; cartes-constellations et doigts | constitue une collection de 8 en un seul voyage ; écrit les chiffres jusqu’à 8 ; dit les doubles jusqu’à 4 + 4 |
+| Surcomptage | compter à partir d’un nombre caché | **le panier fermé** : « il y a 5 fruits dedans, j’en ajoute 2 » ; le jeu de l’oie de la savane (avancer de 1, 2 ou 3 cases) | surcompte de 1, 2 ou 3 à partir d’un nombre jusqu’à 6 |
+| Suite orale | dire la suite jusqu’à 25, puis à partir d’un nombre donné | compter les jours d’école sur la bande ; « on compte à partir de 7 » ; compter en swahili jusqu’à cinq | récite la suite jusqu’à 25 et repart d’un nombre donné jusqu’à 10 |
+| Rang et position | repérer un **rang jusqu’à 10**, en changeant le point de départ | **la file des animaux qui vont boire** : « le zèbre est le quatrième en partant du fleuve, et en partant de l’arbre ? » ; le défilé des animaux de la savane en motricité | désigne le 7ᵉ d’une file et dit qu’il change de rang si l’on part de l’autre bout |
+| Problèmes | résoudre des problèmes d’**ajout et de retrait** ; problèmes **parties-tout** à deux parties | les fruits que les animaux prennent à Handa (on retire) ; les mandarines qui tombent dans le panier (on ajoute) ; « 7 fruits : des bananes et des mangues ; 3 bananes, combien de mangues ? » | résout un ajout et un retrait jusqu’à 8 en dessinant ou en manipulant, et explique comment |
+| Grandeurs — longueurs | comparer des longueurs directement, puis avec une **bande témoin** ; ranger 5 objets selon leur longueur | **le cou des girafes** : des girafes dessinées loin l’une de l’autre, on mesure avec une bande de papier ; ranger des bâtons de pluie, des pagnes roulés, des branches | utilise une bande témoin pour comparer deux longueurs qu’on ne peut pas rapprocher ; range 5 bandes de la plus courte à la plus longue |
+| Motifs organisés | **transcrire** un motif avec d’autres éléments ; créer un motif | **les tissus du marché** : wax et bogolan observés, puis reproduits avec des gommettes ; le motif dit au djembé (fort, fort, doux) puis dessiné (rond, rond, croix) | refait un motif ABB avec d’autres objets et le joue au tambour |
 
 ## Période 3 — 🌏 L’Asie (esquisse)
 

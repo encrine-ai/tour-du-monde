@@ -1,6 +1,6 @@
 # Progression GS — Agir, s’exprimer, comprendre à travers les activités physiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». **Activité physique quotidienne de 30 à 45 minutes effectives** ; unités d’apprentissage de **6 à 8 séances** ; les quatre sous-domaines sont tous travaillés dans l’année. Seule la période 1 est détaillée.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». **Activité physique quotidienne de 30 à 45 minutes effectives** ; unités d’apprentissage de **6 à 8 séances** ; les quatre sous-domaines sont tous travaillés dans l’année. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -27,9 +27,21 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 - Dix minutes de course régulière chaque jour, sans s’arrêter, en augmentant la durée d’une semaine à l’autre ; chaque minute courue fait avancer Plume d’une étape sur la carte d’Europe affichée.
 - Réussite en fin de période : court 4 à 5 minutes sans s’arrêter, à son allure.
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (2 unités + course quotidienne)
 
-À écrire avec la période : une unité de danse sur des musiques d’Afrique (rondes, appels et réponses) ; lancers (loin et précis).
+### Unité 3 : Danse — « Les animaux de la savane » (7 séances)
+- Objectifs : enrichir son geste en imitant un animal (lourd, léger, rapide, lent) ; occuper tout l’espace de danse ; enchaîner trois mouvements avec son groupe ; regarder les autres et leur donner un conseil.
+- Situations : « L’Éléphant » et la « Marche royale du lion » du *Carnaval des animaux* de Saint-Saëns, puis des appels et réponses au djembé ; un inducteur par séance (la girafe qui s’étire, l’autruche qui court, l’hippopotame qui se roule) ; à partir de la séance 4, les groupes composent une petite danse « le point d’eau » (arriver, boire, repartir) et la montrent ; la moitié de la classe regarde et dit ce qui lui a plu.
+- Réussite : enchaîne trois gestes d’animaux différents sur la musique ; danse en même temps que son groupe ; formule un conseil (« vous pourriez aller plus loin dans la salle »).
+
+### Unité 4 : Lancers — « Les paniers du marché » (6 séances)
+- Objectifs : lancer loin à bras cassé ; lancer avec précision dans une cible ; adapter son geste à la distance et à l’objet.
+- Situations : remplir le panier de Handa (sacs de graines lancés dans des cerceaux à 2, 3, 4 m) ; lancer loin des balles par-dessus « le fleuve » (une corde tendue) ; ateliers tournants, chacun note ses réussites avec des gommettes.
+- Réussite : lance une balle au-delà de la corde à bras cassé ; met 3 sacs sur 5 dans le cerceau à 3 m.
+
+### Course quotidienne — « Le voyage de Plume vers l’Afrique »
+- Dix minutes de course régulière chaque jour ; chaque minute courue fait avancer Plume sur la carte, de l’Europe au Sahel, en traversant la mer et le désert.
+- Réussite en fin de période : court 6 minutes sans s’arrêter, à son allure.
 
 ## Période 3 — 🌏 L’Asie (esquisse)
 

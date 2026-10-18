@@ -1,6 +1,6 @@
 # Progression GS — Explorer le monde : le vivant, la matière, les objets
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche d’investigation : questionnement, hypothèses, observation ou expérience, conclusion, trace (passeport du petit voyageur). Seule la période 1 est détaillée.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche d’investigation : questionnement, hypothèses, observation ou expérience, conclusion, trace (passeport du petit voyageur). Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -21,9 +21,16 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Végétaux | observer et nommer les parties d’un arbre ; reconnaître quelques arbres d’Europe | sortie au parc : chêne et châtaignier, feuille, fruit, tronc ; tri de la collecte (gland, châtaigne, feuilles) ; l’olivier et l’olive (Semaine du goût) | nomme 3 arbres et associe chacun à son fruit |
 | Recette | suivre une recette en images | Semaine du goût : **le petit-déjeuner d’Europe** — une salade de raisin et de pomme, des tartines, des olives à goûter ; la recette illustrée, étape par étape | suit une recette de 4 étapes en lisant les images |
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (7 semaines)
 
-À écrire avec la période : associer mode de déplacement et anatomie (courir, sauter, ramper) ; semis de mil, besoins de la plante ; l’eau rare.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Animaux — se déplacer | **associer un mode de déplacement** à des éléments du corps : courir (longues pattes), voler (ailes), nager (palmes, nageoires), sauter (pattes arrière puissantes) | les cartes de l’imagier (12 animaux d’Afrique) : tri selon le déplacement ; l’autruche a des ailes mais court ; imiter chaque déplacement en motricité | relie un animal à sa manière de se déplacer et à la partie du corps qui l’aide |
+| Animaux — classer | classer selon la couverture du corps : **poils, plumes, écailles** | la tortue et sa carapace, les poissons du fleuve, l’autruche et ses plumes, le lion et sa crinière ; tri des cartes en trois colonnes | range un animal parmi les poils, les plumes ou les écailles et le justifie |
+| Végétaux — le semis | observer qu’une **graine** devient une plante ; décrire les **besoins** d’une plante | **semis de sorgho** (le mil de l’Afrique de l’Ouest) en barquettes : avec et sans eau, à la lumière et dans le noir ; carnet d’observation dans le passeport du petit voyageur | dit qu’une plante a besoin d’eau et de lumière pour pousser, et le montre avec l’expérience |
+| L’eau, rare et précieuse | agir de manière autonome pour **ne pas gaspiller l’eau** | le puits du village : on porte l’eau ; en classe, on ferme le robinet, on récupère l’eau du lavage des pinceaux pour arroser le sorgho ; affiche des gestes | ferme le robinet seul et explique pourquoi |
+| Objets — fabriquer | fabriquer un objet en exploitant une propriété : une **peau tendue** vibre | fabriquer un tambour avec un pot de fleurs et un ballon tendu ; plus la peau est tendue, plus le son est aigu | fabrique son tambour en suivant une fiche en images et dit ce qui fait le son |
+| Recette | suivre une **recette** en images | **la salade de fruits de Handa** : mangue, banane, ananas, orange, coupés et mélangés ; la recette illustrée, étape par étape | suit une recette de 5 étapes en lisant les images |
 
 ## Période 3 — 🌏 L’Asie (esquisse)
 

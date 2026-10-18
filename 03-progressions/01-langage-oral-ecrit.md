@@ -1,6 +1,6 @@
 # Progression GS — Le développement et la structuration du langage oral et écrit
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Enseignement **quotidien, structuré et explicite**, en petits groupes de compétences pour les séances dirigées. Seule la période 1 est détaillée ; les autres continents sont esquissés et seront écrits avec leur période.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Enseignement **quotidien, structuré et explicite**, en petits groupes de compétences pour les séances dirigées. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -30,9 +30,20 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Textes mémorisés | un par semaine | comptines de rentrée ; *Frère Jacques* en quatre langues ; *Promenons-nous dans les bois* ; comptine pour compter jusqu’à dix | récite ou chante 6 à 7 textes courts |
 | Diversité des langues | dire bonjour, merci et compter jusqu’à cinq dans quelques langues d’Europe et dans les langues des familles | rituel du bonjour (un pays par semaine) ; les familles viennent dire une comptine dans leur langue | salue dans deux ou trois langues ; remarque que les mots changent d’une langue à l’autre |
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (7 semaines)
 
-À écrire avec la période : corpus de la savane ; phonologie : fusion, suppression de syllabes, **rimes** ; premières lettres cursives ; personnages rusés des contes (le lièvre) ; articulation ch/s.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Oral — vocabulaire | s’approprier les 3 corpus « le voyage en Afrique », « les animaux d’Afrique », « les arbres et les plantes d’Afrique » ; construire des **contraires** (lourd / léger, chaud / froid, sec / mouillé, acheter / vendre) | la carte postale de Plume arrivée au Sénégal et la valise de la période (un djembé, un pagne en wax, des dattes, une calebasse) ; leçon en trois temps avec les cartes-corpus et l’imagier ; le jeu du marché (acheter, vendre, porter) ; jeu des contraires « l’éléphant est lourd, la plume est… » | comprend et réemploie ≈ 45 mots nouveaux ; trouve le contraire d’un adjectif ou d’un verbe connu |
+| Oral — syntaxe et discours | **décrire l’action d’un autre** ; raconter au passé en employant l’imparfait (« il y avait », « Handa marchait ») | « Que fait ton camarade ? » : photographies des ateliers (le semis, la danse) commentées à la 3ᵉ personne ; rappel de *La Surprise de Handa* avec le panier et les fruits | décrit en 2 ou 3 phrases ce que fait un camarade sur une photographie ; commence un récit par « il était une fois » ou « il y avait » |
+| Articulation | prononcer les couples **ch / s** et **ch / j** | virelangues de la savane (« le chameau cherche son sac », « un chat sage sous le baobab ») ; jeu « chut ! » : je chuchote un mot en ch, le voisin le répète ; tri d’images *chameau / cigogne / girafe* | prononce distinctement *chameau, sac, girafe, chapeau* |
+| Phonologie | fusionner et supprimer des syllabes ; repérer et produire des **rimes** | le train des syllabes avec des mots longs (*hi-ppo-po-ta-me*) ; « le mot caché » : l’adulte dit *gi-ra-fe*, on trouve le mot ; « enlève la première syllabe de *rhinocéros* » ; le panier des rimes : on y met *lion, camion, melon* | fusionne et supprime une syllabe ; trouve deux mots qui riment et en propose un troisième |
+| Lettres | associer les **capitales et le script** ; reconnaître et nommer les **voyelles** | l’abécédaire de la savane en deux graphies ; les étiquettes du marché écrites en capitales et en script ; le loto des voyelles | nomme les voyelles et les retrouve en capitales et en script ; nomme ≈ 20 lettres capitales |
+| Écriture | enchaîner boucles, ponts et coupes ; **premières lettres cursives** (*e, l*) et leurs liaisons | graphisme « la trompe de l’éléphant » (boucles), « les vagues du fleuve » (ponts et coupes), « les herbes de la savane » (traits verticaux) ; la maîtresse écrit le modèle cursif de *e, l, le, elle*, l’enfant le reproduit sur l’ardoise puis sur la fiche | trace boucles et ponts sans lever le crayon ; écrit *e*, *l* et *le* en cursive liée d’après le modèle |
+| Écrit — compréhension | comprendre un album et sa chute ; reconnaître le **personnage rusé** des contes ; identifier les émotions et les intentions | ★ *La Surprise de Handa* (Eileen Browne) : les animaux qui prennent les fruits, la surprise de Handa ; en réseau, *Rafara* (conte populaire malgache, version d’Anne-Catherine De Boel) et un conte du lièvre rusé d’Afrique de l’Ouest, raconté à partir de *La Belle Histoire de Leuk-le-Lièvre* (Léopold Sédar Senghor et Abdoulaye Sadji) : comment le petit trompe le plus fort | raconte la chute de *La Surprise de Handa* ; dit pourquoi le lièvre ou Rafara est rusé |
+| Production d’écrits | **segmenter l’oral** en mots ; encoder une syllabe connue ; dictée à l’adulte | la liste des courses du marché (combien de mots ? on les compte avec des jetons) ; la lettre à Plume dictée chaque semaine ; écrire *LA*, *LI*, *LO* sous le dessin de la case avec les lettres mobiles | compte les mots d’une phrase courte ; dicte une phrase qui commence par une majuscule à l’oral (« Chère Plume… ») |
+| Textes mémorisés | un par semaine | *Funga Alafia* (chant d’accueil traditionnel d’Afrique de l’Ouest) ; *Kye Kye Kule* (chant à répondre traditionnel du Ghana) ; comptines des animaux ; compter jusqu’à cinq en swahili (*moja, mbili, tatu, nne, tano*) | récite ou chante 6 à 7 nouveaux textes courts |
+| Diversité des langues | saluer et compter dans une langue d’Afrique ; accueillir les langues des familles | « Jambo ! » (swahili) et « Na nga def ? » (wolof) au rituel du bonjour ; les familles qui parlent une langue d’Afrique viennent dire une comptine | salue en swahili ; compte jusqu’à cinq en swahili |
 
 ## Période 3 — 🌏 L’Asie (esquisse)
 
