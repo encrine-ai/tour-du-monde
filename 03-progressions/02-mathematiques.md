@@ -39,9 +39,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs — longueurs | comparer des longueurs directement, puis avec une **bande témoin** ; ranger 5 objets selon leur longueur | **le cou des girafes** : des girafes dessinées loin l’une de l’autre, on mesure avec une bande de papier ; ranger des bâtons de pluie, des pagnes roulés, des branches | utilise une bande témoin pour comparer deux longueurs qu’on ne peut pas rapprocher ; range 5 bandes de la plus courte à la plus longue |
 | Motifs organisés | **transcrire** un motif avec d’autres éléments ; créer un motif | **les tissus du marché** : wax et bogolan observés, puis reproduits avec des gommettes ; le motif dit au djembé (fort, fort, doux) puis dessiné (rond, rond, croix) | refait un motif ABB avec d’autres objets et le joue au tambour |
 
-## Période 3 — 🌏 L’Asie (esquisse)
+## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
 
-À écrire avec la période : quantités jusqu’à 10, décompositions de 10 ; suite jusqu’à 30, à rebours ; bande numérique ; solides (les pagodes) ; masses à la balance.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Quantités et nombres | stabiliser les quantités jusqu’à **10** ; écrire les chiffres jusqu’à 10 ; **décomposer 10** | **les dix baguettes** : on en cache sous le bol, combien sont cachées ? ; les plaques de 10 ; les dix doigts ; compter les lanternes de la fête | constitue une collection de 10 ; dit au moins quatre décompositions de 10 sans recompter |
+| Suite orale | dire la suite jusqu’à 30 ; **à rebours de 10 à 1** | le **compte à rebours du Nouvel An** ; compter les jours jusqu’à la fête sur la bande ; compter en japonais | récite la suite jusqu’à 30 et à rebours de 10 à 1 |
+| Rang et bande numérique | utiliser et **compléter la bande numérique** jusqu’à 15 ; repérer un rang jusqu’à 12 | **la file du zodiaque** : le rat est le 1ᵉʳ, le bœuf le 2ᵉ… ; la bande numérique à trous ; le jeu de piste des douze animaux | complète une bande numérique jusqu’à 15 ; dit le rang d’un animal de la file |
+| Problèmes | résoudre des problèmes d’**écart** (« combien de plus ? combien de moins ? ») | les cerfs-volants de Nils et d’Ana ; « le rat a 7 grains de riz, le bœuf en a 10 : combien de plus ? » avec des cubes, puis dessinés | trouve un écart jusqu’à 10 en mettant les collections côte à côte, puis en comptant |
+| Solides | reconnaître, nommer et décrire **cube, pavé, boule, cylindre, cône, pyramide** ; reproduire un assemblage | **les solides du temple** : la pagode est faite de cubes et de pavés, la lanterne est une boule, la tour un cylindre ; le sac à toucher ; reproduire une pagode en cubes d’après une photographie | nomme les six solides et dit lequel roule ; reproduit une construction de 5 solides |
+| Grandeurs — masses | comparer des masses à la **balance de Roberval** ; ranger 3 objets selon leur masse | les sacs de riz, de thé, de sable : lequel est le plus lourd ? ; la balance du marchand de thé ; si le riz est plus lourd que le thé et le thé plus lourd que le coton… | compare deux masses à la balance et range trois objets du plus léger au plus lourd |
+| Motifs organisés | reconnaître et prolonger un **motif évolutif** | les guirlandes de lanternes qui grandissent (1, 2, 3…) ; les marches du temple ; « un coq, un chien ; un coq, deux chiens ; un coq, trois chiens » | prolonge un motif évolutif et dit ce qui change à chaque fois |
 
 ## Période 4 — 🌎 Les Amériques (esquisse)
 

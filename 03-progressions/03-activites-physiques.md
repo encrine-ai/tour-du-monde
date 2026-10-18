@@ -43,9 +43,21 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 - Dix minutes de course régulière chaque jour ; chaque minute courue fait avancer Plume sur la carte, de l’Europe au Sahel, en traversant la mer et le désert.
 - Réussite en fin de période : court 6 minutes sans s’arrêter, à son allure.
 
-## Période 3 — 🌏 L’Asie (esquisse)
+## Période 3 — 🌏 L’Asie (2 unités)
 
-À écrire avec la période : arts du cirque et jonglage (rubans du Nouvel An) ; jeux d’opposition (lutte au sol).
+### Unité 5 : Arts du cirque — « Le cirque du Nouvel An » (7 séances)
+- Objectifs : jongler avec un, puis deux foulards ; tenir en équilibre sur un objet instable (plateau, gros ballon tenu par l’adulte) ; tourner des rubans ; présenter un petit numéro devant les autres.
+- Situations : ateliers tournants — foulards et rubans du Nouvel An, assiettes chinoises sur baguette, marche sur la poutre avec un éventail, le dragon à plusieurs (une file qui ondule sous un tissu) ; à partir de la séance 5, chaque groupe compose un numéro de trois figures pour la fête.
+- Réussite : jongle avec deux foulards ; enchaîne trois figures de son numéro devant la classe ; dit ce qu’il a aimé dans le numéro d’un autre groupe.
+
+### Unité 6 : Jeux d’opposition — « Les petits lutteurs » (6 séances)
+- Objectifs : pousser, tirer, retourner, immobiliser un partenaire en respectant les règles ; accepter de perdre ; arbitrer.
+- Situations : le jeu de la tortue (retourner son partenaire à quatre pattes) ; pousser hors du cercle, comme les lutteurs de sumo, à genoux puis debout ; la règle d’or : on lâche quand le partenaire tape deux fois sur le tapis ; un enfant arbitre et compte les points.
+- Réussite : respecte la règle d’arrêt et le partenaire ; trouve une stratégie (« je me fais lourd », « je pousse par le côté ») ; arbitre un combat.
+
+### Course quotidienne — « Plume traverse les montagnes »
+- Course régulière deux fois par semaine, malgré l’hiver ; Plume franchit les montagnes de l’Himalaya sur la carte.
+- Réussite en fin de période : court 7 minutes sans s’arrêter.
 
 ## Période 4 — 🌎 Les Amériques (esquisse)
 

@@ -79,7 +79,36 @@ IMAGIER = {
    ("protee-royale",     "la protée royale",     "Protea cynaroides"),
   ],
  },
- 3: {"faune": [], "flore": []},
+ 3: {
+  "faune": [
+   ("panda-geant",       "le panda géant",       "Ailuropoda melanoleuca"),
+   ("panda-roux",        "le panda roux",        "Ailurus fulgens"),
+   ("elephant-asie",     "l’éléphant d’Asie",    "Elephas maximus"),
+   ("orang-outan",       "l’orang-outan",        "Pongo pygmaeus"),
+   ("yack",              "le yack",              "Bos grunniens"),
+   ("chameau",           "le chameau",           "Camelus bactrianus"),
+   ("macaque-japonais",  "le macaque japonais",  "Macaca fuscata"),
+   ("paon",              "le paon",              "Pavo cristatus"),
+   ("grue-japon",        "la grue du Japon",     "Grus japonensis"),
+   ("carpe-koi",         "la carpe koï",         "Cyprinus rubrofuscus"),
+   ("canard-mandarin",   "le canard mandarin",   "Aix galericulata"),
+   ("phasme",            "le phasme",            "Carausius morosus"),
+  ],
+  "flore": [
+   ("bambou",            "le bambou",            "Phyllostachys edulis"),
+   ("riz",               "le riz",               "Oryza sativa"),
+   ("theier",            "le théier",            "Camellia sinensis"),
+   ("lotus",             "le lotus",             "Nelumbo nucifera"),
+   ("cerisier-japon",    "le cerisier du Japon", "Prunus serrulata"),
+   ("orchidee",          "l’orchidée",           "Phalaenopsis amabilis"),
+   ("ginkgo",            "le ginkgo",            "Ginkgo biloba"),
+   ("erable-japon",      "l’érable du Japon",    "Acer palmatum"),
+   ("bananier",          "le bananier",          "Musa acuminata"),
+   ("manguier",          "le manguier",          "Mangifera indica"),
+   ("murier-blanc",      "le mûrier blanc",      "Morus alba"),
+   ("rhododendron",      "le rhododendron",      "Rhododendron arboreum"),
+  ],
+ },
  4: {"faune": [], "flore": []},
  5: {"faune": [], "flore": []},
 }
@@ -89,6 +118,9 @@ DOMESTIQUES = {
     # période 2 : l'animal d'élevage et les cultures (un champ est « captive »)
     "Camelus dromedarius", "Sorghum bicolor", "Phoenix dactylifera",
     "Coffea arabica",
+    # période 3 : les animaux d'élevage, l'élevage de la soie, la rizière
+    "Bos grunniens", "Camelus bactrianus", "Oryza sativa",
+    "Cyprinus rubrofuscus",
 }
 
 # La photographie retenue à l'œil pour chaque espèce, sur planche de
@@ -145,6 +177,32 @@ OVERRIDES = {
     "aloes": 251076585,             # la plante entière et ses épis rouges
     "strelitzia": 387549553,        # une fleur seule, fond net
     "protee-royale": 213126269,     # la grosse fleur rose
+    # — période 3, l'Asie : choisies à l'œil sur planches (parcs animaliers
+    #   pour les pandas ; cultures pour le riz, le cerisier et le ginkgo) —
+    "panda-geant": 347071046,          # il mange du bambou, assis (parc animalier)
+    "panda-roux": 156682958,           # entier, de profil sur sa branche
+    "elephant-asie": 113994860,        # un seul, entier, de profil
+    "orang-outan": 62662319,           # un mâle adulte entier, assis
+    "yack": 51516618,          # un seul, entier, de profil, ses longs poils
+    "chameau": 258581917,              # un seul, ses deux bosses bien visibles
+    "macaque-japonais": 616559799,     # assis seul sur la pierre
+    "paon": 402383086,                 # la roue ouverte
+    "grue-japon": 336788747,           # une seule grue, entière
+    "carpe-koi": 545083626,            # une seule carpe dans l'eau claire
+    "canard-mandarin": 208838007,      # un mâle seul, entier
+    "phasme": 1830461,                 # entier, sur fond clair
+    "bambou": 376124726,               # la forêt de tiges
+    "riz": 159866036,                  # les pieds de riz dans l'eau de la rizière
+    "theier": 339550710,               # le rameau, ses feuilles et une fleur
+    "lotus": 390395891,                # la fleur rose
+    "cerisier-japon": 266820893,       # un rameau en fleurs
+    "orchidee": 368194406,             # les fleurs blanches
+    "ginkgo": 105759016,               # les feuilles en éventail, dorées
+    "erable-japon": 248194967,         # l'arbre entier, rouge à l'automne
+    "bananier": 437308275,             # le régime de bananes sous les grandes feuilles
+    "manguier": 67997344,              # la mangue pendue à l'arbre
+    "murier-blanc": 395310852,         # le rameau et ses mûres
+    "rhododendron": 518147795,         # un bouquet de fleurs rouges
 }
 
 

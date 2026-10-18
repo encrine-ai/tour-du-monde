@@ -20,9 +20,19 @@ Références : programme d’éducation à la vie affective et relationnelle (BO
 - **Ce que l’élève sait dire** : « on se ressemble parce que…, on est différents parce que… » ; « on ne se moque pas ».
 - **Vigilance** : aucune question sur la composition des familles ni sur l’origine : chacun dit ce qu’il veut dire, rien n’est noté.
 
-## Séances spécifiques n°2 et n°3 — à écrire
+## Séance spécifique n°2 (Période 3) — « Mes émotions et celles des autres »
 
-Prévues en période 3 (« Mes émotions et celles des autres ») et en période 5 (« Les adultes à qui je peux parler »), elles seront écrites avec leur période.
+- **Objectif** : connaître ses émotions et les sensations du corps qui les accompagnent ; reconnaître les émotions des autres ; identifier différents sentiments dans la relation (amitié, colère, jalousie, confiance).
+- **Déroulement (45 min, en deux temps)** :
+  1. *Le chat de la grande course* : on relit la fin du conte. Le chat est en colère contre le rat. « Où sent-on la colère dans son corps ? » (le cœur qui bat, les poings serrés, le visage chaud). On fait de même pour la peur, la joie, la fierté. Chacun montre l’émotion avec son visage ; la classe devine.
+  2. *Qu’est-ce qui peut aider ?* : « Le chat est en colère. Qu’est-ce qui pourrait l’aider ? » (respirer, s’éloigner, le dire avec des mots, demander à un adulte) ; « Et le rat, était-il un bon ami ? » On parle de l’amitié et de la confiance.
+- **Trace** : la page « mes émotions » du passeport du petit voyageur — quatre visages coloriés et une phrase dictée « Quand je suis en colère, je peux… ».
+- **Ce que l’élève sait dire** : « je suis en colère parce que… » ; « mon copain a l’air triste, je vais le voir ».
+- **Vigilance** : on parle des émotions des personnages d’abord ; chacun choisit ce qu’il dit de lui-même, rien n’est noté.
+
+## La séance n°3 — à écrire avec la période 5
+
+Prévue en période 5 (« Les adultes à qui je peux parler »).
 
 ## Fil continu sur l’année
 

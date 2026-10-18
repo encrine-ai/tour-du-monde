@@ -853,5 +853,245 @@
   "page": "https://arasaac.org/pictograms/fr/11298",
   "licence": "CC BY-NC-SA",
   "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "riziere": {
+  "fichier": "riziere.jpg",
+  "source": "« Country side near Hồ Chí Minh trail L1004835 » (Openverse)",
+  "page": "https://www.flickr.com/photos/57669526@N04/13797660425",
+  "licence": "CC BY 2.0",
+  "auteur": "Dai Luo"
+ },
+ "lanterne": {
+  "fichier": "lanterne.jpg",
+  "source": "« Lanterns, Xi'an, China » (Openverse)",
+  "page": "https://www.flickr.com/photos/61533954@N00/12132699044",
+  "licence": "CC BY 2.0",
+  "auteur": "Dimitry B"
+ },
+ "montagne": {
+  "fichier": "montagne.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "pagode": {
+  "fichier": "pagode.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/39573",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "muraille": {
+  "fichier": "muraille.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/10272",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "cerf-volant": {
+  "fichier": "cerf-volant.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "baguettes": {
+  "fichier": "baguettes.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/32090",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "eventail": {
+  "fichier": "eventail.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6871",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "gong": {
+  "fichier": "gong.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/36639",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "dragon": {
+  "fichier": "dragon.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/5572",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "feu-artifice": {
+  "fichier": "feu-artifice.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "panda": {
+  "fichier": "panda.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "ver-a-soie": {
+  "fichier": "ver-a-soie.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/16727",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)",
+  "modification": "recadré sur la chenille (le cocon forme la carte « le cocon »)"
+ },
+ "phasme": {
+  "fichier": "phasme.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/38395",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "rat": {
+  "fichier": "rat.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/2821",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "boeuf": {
+  "fichier": "boeuf.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/10238",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "tigre": {
+  "fichier": "tigre.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "cheval": {
+  "fichier": "cheval.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "coq": {
+  "fichier": "coq.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chien": {
+  "fichier": "chien.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "riz": {
+  "fichier": "riz.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "cube": {
+  "fichier": "cube.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/8308",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "boule": {
+  "fichier": "boule.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/8296",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "cylindre": {
+  "fichier": "cylindre.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/9111",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "cone": {
+  "fichier": "cone.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/9112",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "pyramide": {
+  "fichier": "pyramide.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/9110",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-peur": {
+  "fichier": "visage-peur.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/35571",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-fier": {
+  "fichier": "visage-fier.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/31408",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "cocon": {
+  "fichier": "cocon.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/16727",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)",
+  "modification": "recadré sur le cocon et sa branche (la chenille forme la carte « le ver à soie »)"
+ },
+ "papillon-soie": {
+  "fichier": "papillon-soie.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/27982",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "sucre": {
+  "fichier": "sucre.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/25560",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "sel": {
+  "fichier": "sel.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "sable": {
+  "fichier": "sable.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/4790",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "caillou": {
+  "fichier": "caillou.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
  }
 }

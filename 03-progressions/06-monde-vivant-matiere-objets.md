@@ -32,9 +32,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Objets — fabriquer | fabriquer un objet en exploitant une propriété : une **peau tendue** vibre | fabriquer un tambour avec un pot de fleurs et un ballon tendu ; plus la peau est tendue, plus le son est aigu | fabrique son tambour en suivant une fiche en images et dit ce qui fait le son |
 | Recette | suivre une **recette** en images | **la salade de fruits de Handa** : mangue, banane, ananas, orange, coupés et mélangés ; la recette illustrée, étape par étape | suit une recette de 5 étapes en lisant les images |
 
-## Période 3 — 🌏 L’Asie (esquisse)
+## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
 
-À écrire avec la période : étapes de la vie (phasmes ou vers à soie) ; dissolution (le thé, le sucre) ; fabriquer un cerf-volant (l’air).
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Animaux — étapes de la vie | reconnaître les **étapes de la vie** d’un animal ; ses **besoins** | **l’élevage de phasmes** (une espèce venue d’Inde) : l’œuf, le petit phasme, les mues, l’adulte ; il mange des feuilles de ronce, il a besoin d’humidité ; le ver à soie en documentaire (chenille, cocon, papillon) | ordonne les étapes de la vie du phasme et du ver à soie ; dit ce dont le phasme a besoin |
+| Végétaux | observer la germination du **riz** | riz en barquette, dans l’eau : la graine, la pousse, les feuilles ; comparer avec le sorgho de la période 2 | dit ce qu’il faut au riz pour pousser |
+| La matière — dissolution | distinguer les solides qui **se dissolvent** dans l’eau | le thé qui colore l’eau, le sucre et le sel qui disparaissent, le riz et le sable qui restent au fond ; on goûte (eau sucrée, eau salée) | classe des solides en deux groupes : ceux qui disparaissent dans l’eau et ceux qu’on voit encore |
+| La matière — l’air | mettre en évidence la **présence de l’air** | l’éventail qui fait bouger les cheveux, le sac plastique gonflé, les bulles dans l’eau ; le moulinet à vent | montre que l’air existe même si on ne le voit pas |
+| Objets — fabriquer | fabriquer un **cerf-volant** ; associer une solution technique à une fonction | cerf-volant en papier et baguettes : la voile prend l’air, la queue l’équilibre, la ficelle le retient ; essais dans la cour et améliorations | fabrique un cerf-volant en suivant une fiche technique et dit à quoi sert chaque partie |
+| Objets — instructions | élaborer une **suite d’instructions** | dicter à un camarade les étapes du pliage de la grue en origami, ou de la recette du riz au lait (3 à 5 étapes) | donne 4 instructions dans l’ordre pour qu’un camarade réussisse |
+| Le corps — articulations | nommer les **articulations** ; se représenter **en mouvement** | les figurines d’ombres articulées : où plier les bras et les jambes ? (épaule, coude, poignet, hanche, genou, cheville) ; se dessiner en train de jongler | nomme 5 articulations ; dessine un personnage aux bras et aux jambes pliés |
 
 ## Période 4 — 🌎 Les Amériques (esquisse)
 

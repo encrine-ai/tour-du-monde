@@ -39,9 +39,18 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | repérer les **timbres** et les hauteurs ; connaître une œuvre patrimoniale | Saint-Saëns, *Le Carnaval des animaux* : « Marche royale du lion » (les cordes graves qui rugissent) et « L’Éléphant » (la contrebasse qui danse lourdement) ; dessin « la musique de l’éléphant » | reconnaît le lion et l’éléphant à l’écoute et dit pourquoi (grave, lent, lourd) |
 | Spectacle vivant | **enchaîner des émotions** par le corps et la voix ; jouer devant un public | *La Surprise de Handa* mimée et chantée pour la fête de fin d’année : chaque animal entre, prend un fruit, repart ; Handa est contente, puis inquiète, puis surprise | joue un animal ou Handa en montrant deux émotions successives |
 
-## Période 3 — 🌏 L’Asie (esquisse)
+## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
 
-À écrire avec la période : estampes d’Hokusai, pinceau et encre ; théâtre d’ombres ; paysage sonore.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Dessin | dessiner d’après nature ; employer les mots *trait, épais, fin, tache* | dessin d’observation d’une branche de cerisier, d’une tige de bambou, d’un phasme de l’élevage ; dessin à l’encre au pinceau, trait fin et trait épais | dessine un phasme ou une tige de bambou en respectant ses proportions |
+| Graphisme | composer avec plusieurs contraintes ; créer des motifs | la grande vague (spirales), les écailles du dragon (ponts superposés), les créneaux de la muraille ; un éventail décoré « avec trois motifs différents, en noir seulement » | compose un éventail avec trois motifs choisis |
+| Compositions plastiques | découvrir des formes d’expression : **l’estampe**, le papier plié | Hokusai, *La Grande Vague de Kanagawa* (estampe) : on imprime une vague avec une plaque de polystyrène gravée ; **origami** (la grue, le bateau) ; lanternes de papier pour la fête | imprime une estampe ; plie une forme simple en suivant les gestes montrés |
+| Images | différencier **paysage** et **portrait** ; nommer les éléments d’une estampe | *La Grande Vague* : où est la montagne ? les bateaux ? ; comparaison avec un portrait du théâtre japonais | dit ce qu’il voit dans une estampe et si c’est un paysage ou un portrait |
+| Voix et chant | chanter dans une autre langue ; trouver sa place dans le chœur | *Sakura* (chant traditionnel japonais) ; la comptine des douze animaux ; chanter doucement ou fort au signe du chef de chœur | chante *Sakura* avec le groupe en suivant les nuances |
+| Instruments | créer un **paysage sonore** | « le temple au lever du jour » : le gong, les clochettes, le bâton de pluie, la flûte de bambou ; chacun joue à son tour, au signe du chef d’orchestre | joue son instrument au bon moment dans le paysage sonore |
+| Écoute | repérer les **timbres** ; connaître une œuvre patrimoniale | Debussy, « Pagodes » (*Estampes*) (œuvre patrimoniale 4) : un piano qui imite les gongs et les cloches d’un orchestre de Java ; écoute comparée d’un gong et d’un erhu ; traduire la musique en dessin à l’encre | reconnaît le gong et la flûte ; dit que le piano de Debussy « fait comme des cloches » |
+| Spectacle vivant | **théâtre d’ombres** : jouer derrière l’écran, utiliser les coulisses | *La Grande Course des animaux* en ombres chinoises pour la fête du Nouvel An : figurines articulées découpées, la lampe, l’écran ; entrer et sortir au bon moment | anime une figurine derrière l’écran en montrant une émotion du personnage |
 
 ## Période 4 — 🌎 Les Amériques (esquisse)
 

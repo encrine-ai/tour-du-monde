@@ -17,6 +17,7 @@ Les périodes s'écrivent l'une après l'autre (skill cartes-corpus).
 CORPUS = {
     1: ("le voyage et l’Europe", "les animaux d’Europe", "les arbres et les plantes d’Europe"),
     2: ("le voyage en Afrique", "les animaux d’Afrique", "les arbres et les plantes d’Afrique"),
+    3: ("le voyage en Asie", "les animaux d’Asie", "les arbres et les plantes d’Asie"),
 }
 
 GROUPES = ("milieu", "faune", "flore")
@@ -109,7 +110,50 @@ CARTES = {
    ("racine",      "la racine",      ("fiche", "racine")),
   ],
  },
- 3: {g: [] for g in GROUPES},
+ 3: {
+  "milieu": [
+   ("riziere",     "la rizière",     ("fiche", "riziere")),
+   ("montagne",    "la montagne",    ("fiche", "montagne")),
+   ("pagode",      "la pagode",      ("fiche", "pagode")),
+   ("muraille",    "la muraille",    ("fiche", "muraille")),
+   ("cerf-volant", "le cerf-volant", ("fiche", "cerf-volant")),
+   ("lanterne",    "la lanterne",    ("fiche", "lanterne")),
+   ("baguettes",   "les baguettes",  ("fiche", "baguettes")),
+   ("bol",         "le bol",         ("fiche", "bol")),
+   ("eventail",    "l’éventail",     ("fiche", "eventail")),
+   ("gong",        "le gong",        ("fiche", "gong")),
+   ("dragon",      "le dragon",      ("fiche", "dragon")),
+   ("feu-artifice", "le feu d’artifice", ("fiche", "feu-artifice")),
+  ],
+  "faune": [
+   ("panda",       "le panda",       ("imagier", "panda-geant")),
+   ("orang-outan", "l’orang-outan",  ("imagier", "orang-outan")),
+   ("yack",        "le yack",        ("imagier", "yack")),
+   ("chameau",     "le chameau",     ("imagier", "chameau")),
+   ("singe",       "le singe",       ("imagier", "macaque-japonais")),
+   ("paon",        "le paon",        ("imagier", "paon")),
+   ("grue",        "la grue",        ("imagier", "grue-japon")),
+   ("carpe",       "la carpe",       ("imagier", "carpe-koi")),
+   ("canard",      "le canard",      ("imagier", "canard-mandarin")),
+   ("phasme",      "le phasme",      ("imagier", "phasme")),
+   ("ver-a-soie",  "le ver à soie",  ("fiche", "ver-a-soie")),
+   ("cocon",       "le cocon",       ("fiche", "cocon")),
+  ],
+  "flore": [
+   ("bambou",      "le bambou",      ("imagier", "bambou")),
+   ("riz",         "le riz",         ("imagier", "riz")),
+   ("the",         "le thé",         ("imagier", "theier")),
+   ("lotus",       "le lotus",       ("imagier", "lotus")),
+   ("cerisier",    "le cerisier",    ("imagier", "cerisier-japon")),
+   ("orchidee",    "l’orchidée",     ("imagier", "orchidee")),
+   ("ginkgo",      "le ginkgo",      ("imagier", "ginkgo")),
+   ("erable",      "l’érable",       ("imagier", "erable-japon")),
+   ("mangue",      "la mangue",      ("imagier", "manguier")),
+   ("banane",      "la banane",      ("imagier", "bananier")),
+   ("murier",      "le mûrier",      ("imagier", "murier-blanc")),
+   ("rhododendron", "le rhododendron", ("imagier", "rhododendron")),
+  ],
+ },
  4: {g: [] for g in GROUPES},
  5: {g: [] for g in GROUPES},
 }
@@ -127,12 +171,16 @@ NON_ILLUSTRES = {
  2: ("porter", "acheter", "vendre", "chaud", "sec", "sauvage",
      "rugir", "galoper", "se baigner", "rayé", "lourd", "léger",
      "semer", "arroser", "germer", "sucré", "épineux"),
+ 3: ("fêter", "souhaiter", "joyeux", "fier", "timide", "surpris",
+     "se transformer", "pondre", "manger", "lent", "soyeux", "doux",
+     "planter", "repiquer", "fleurir", "lisse", "rugueux"),
 }
 
 # Les étiquettes de tri de la fiche X.1 (les « boîtes-catégories »).
 TRI = {
  1: ("le voyage", "les animaux", "les végétaux"),
  2: ("le voyage", "les animaux", "les végétaux"),
+ 3: ("le voyage", "les animaux", "les végétaux"),
 }
 TRI_MILIEUX = ()
 
