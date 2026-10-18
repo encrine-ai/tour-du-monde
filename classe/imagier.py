@@ -139,7 +139,36 @@ IMAGIER = {
    ("victoria",          "le nénuphar géant",    "Victoria amazonica"),
   ],
  },
- 5: {"faune": [], "flore": []},
+ 5: {
+  "faune": [
+   ("kangourou",         "le kangourou",         "Macropus giganteus"),
+   ("koala",             "le koala",             "Phascolarctos cinereus"),
+   ("wombat",            "le wombat",            "Vombatus ursinus"),
+   ("emeu",              "l’émeu",               "Dromaius novaehollandiae"),
+   ("cacatoes",          "le cacatoès",          "Cacatua galerita"),
+   ("tortue-verte",      "la tortue verte",      "Chelonia mydas"),
+   ("poisson-clown",     "le poisson-clown",     "Amphiprion ocellaris"),
+   ("manchot-empereur",  "le manchot empereur",  "Aptenodytes forsteri"),
+   ("ours-blanc",        "l’ours blanc",         "Ursus maritimus"),
+   ("phoque",            "le phoque de Weddell", "Leptonychotes weddellii"),
+   ("renard-polaire",    "le renard polaire",    "Vulpes lagopus"),
+   ("baleine",           "la baleine à bosse",   "Megaptera novaeangliae"),
+  ],
+  "flore": [
+   ("eucalyptus",        "l’eucalyptus",         "Eucalyptus globulus"),
+   ("fougere-arborescente", "la fougère arborescente", "Dicksonia antarctica"),
+   ("mimosa",            "le mimosa doré",       "Acacia pycnantha"),
+   ("banksia",           "le banksia",           "Banksia integrifolia"),
+   ("patte-kangourou",   "la patte de kangourou", "Anigozanthos manglesii"),
+   ("cocotier",          "le cocotier",          "Cocos nucifera"),
+   ("algue-geante",      "l’algue géante",       "Macrocystis pyrifera"),
+   ("linaigrette",       "la linaigrette",       "Eriophorum scheuchzeri"),
+   ("pavot-arctique",    "le pavot arctique",    "Oreomecon radicata"),
+   ("lichen",            "le lichen des rennes", "Cladonia rangiferina"),
+   ("saule-arctique",    "le saule arctique",    "Salix arctica"),
+   ("mousse",            "la mousse",            "Racomitrium lanuginosum"),
+  ],
+ },
 }
 
 # Les espèces domestiques se cherchent avec captive=true (skill imagier-photos).
@@ -261,6 +290,31 @@ OVERRIDES = {
     "sequoia": 234355751,              # le tronc géant
     "erable-sucre": 27471670,          # la feuille, symbole du Canada
     "victoria": 68253999,              # une feuille géante, son bord relevé
+    # — période 5, l'Océanie et les pôles : choisies à l'œil sur planches —
+    "kangourou": 420260120,            # un seul, debout, entier
+    "koala": 470926273,                # seul, dans la fourche de l'eucalyptus
+    "wombat": 698547159,               # entier, de profil
+    "emeu": 594056522,                 # un seul, de face
+    "cacatoes": 543330106,             # entier sur sa branche, la huppe jaune
+    "tortue-verte": 628142620,         # une seule, qui nage, entière
+    "poisson-clown": 698862945,        # un seul, dans son anémone
+    "manchot-empereur": 606729452,     # un seul, sur la banquise
+    "ours-blanc": 109439406,           # un seul, entier, qui marche
+    "phoque": 5613067,            # couché sur la neige, entier, de face
+    "renard-polaire": 536021710,  # un seul, entier, sur les rochers (l’autre tenait une proie)
+    "baleine": 432947691,              # le saut hors de l'eau
+    "eucalyptus": 13601383,            # l'arbre entier
+    "fougere-arborescente": 452666686, # son tronc et sa couronne de frondes
+    "mimosa": 565309522,               # les boules jaunes sur le ciel bleu
+    "banksia": 83548287,               # l'épi de fleurs
+    "patte-kangourou": 574580523,      # les fleurs rouges et vertes
+    "cocotier": 221434888,             # un seul cocotier sur la plage
+    "algue-geante": 317807517,         # la forêt d'algues sous la mer
+    "linaigrette": 307826240,          # les houppes blanches
+    "pavot-arctique": 549597162,       # les fleurs jaunes entre les pierres
+    "lichen": 458119264,               # le lichen en buisson
+    "saule-arctique": 89159079,        # le petit saule au ras du sol, ses chatons
+    "mousse": 530054886,               # un coussin de mousse
 }
 
 

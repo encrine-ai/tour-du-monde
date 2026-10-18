@@ -19,6 +19,7 @@ CORPUS = {
     2: ("le voyage en Afrique", "les animaux d’Afrique", "les arbres et les plantes d’Afrique"),
     3: ("le voyage en Asie", "les animaux d’Asie", "les arbres et les plantes d’Asie"),
     4: ("le voyage aux Amériques", "les animaux des Amériques", "les arbres et les plantes des Amériques"),
+    5: ("le voyage en Océanie et aux pôles", "les animaux d’Océanie et des pôles", "les plantes d’Océanie et des pôles"),
 }
 
 GROUPES = ("milieu", "faune", "flore")
@@ -199,7 +200,49 @@ CARTES = {
    ("epi", "l’épi", ("fiche", "epi")),
   ],
  },
- 5: {g: [] for g in GROUPES},
+ 5: {
+  "milieu": [
+   ("banquise", "la banquise", ("fiche", "banquise")),
+   ("iceberg", "l’iceberg", ("fiche", "iceberg")),
+   ("igloo", "l’igloo", ("fiche", "igloo")),
+   ("traineau", "le traîneau", ("fiche", "traineau")),
+   ("glacon", "le glaçon", ("fiche", "glacon")),
+   ("bonnet", "le bonnet", ("fiche", "bonnet")),
+   ("ile", "l’île", ("fiche", "ile")),
+   ("plage", "la plage", ("fiche", "plage")),
+   ("corail", "le corail", ("fiche", "corail")),
+   ("boomerang", "le boomerang", ("fiche", "boomerang")),
+   ("lettre", "la lettre", ("fiche", "lettre")),
+  ],
+  "faune": [
+   ("kangourou", "le kangourou", ("imagier", "kangourou")),
+   ("koala", "le koala", ("imagier", "koala")),
+   ("emeu", "l’émeu", ("imagier", "emeu")),
+   ("cacatoes", "le cacatoès", ("imagier", "cacatoes")),
+   ("tortue-mer", "la tortue de mer", ("imagier", "tortue-verte")),
+   ("poisson-clown", "le poisson-clown", ("imagier", "poisson-clown")),
+   ("manchot", "le manchot", ("imagier", "manchot-empereur")),
+   ("ours-blanc", "l’ours blanc", ("imagier", "ours-blanc")),
+   ("phoque", "le phoque", ("imagier", "phoque")),
+   ("baleine", "la baleine", ("imagier", "baleine")),
+   ("renard-polaire", "le renard polaire", ("imagier", "renard-polaire")),
+   ("crabe", "le crabe", ("fiche", "crabe")),
+  ],
+  "flore": [
+   ("eucalyptus", "l’eucalyptus", ("imagier", "eucalyptus")),
+   ("fougere", "la fougère arborescente", ("imagier", "fougere-arborescente")),
+   ("mimosa", "le mimosa", ("imagier", "mimosa")),
+   ("banksia", "le banksia", ("imagier", "banksia")),
+   ("cocotier", "le cocotier", ("imagier", "cocotier")),
+   ("noix-coco", "la noix de coco", ("fiche", "noix-coco")),
+   ("algue", "l’algue", ("imagier", "algue-geante")),
+   ("mousse", "la mousse", ("imagier", "mousse")),
+   ("lichen", "le lichen", ("imagier", "lichen")),
+   ("pavot", "le pavot", ("imagier", "pavot-arctique")),
+   ("linaigrette", "la linaigrette", ("imagier", "linaigrette")),
+   ("saule", "le saule", ("imagier", "saule-arctique")),
+  ],
+ },
 }
 
 # Un mot qui revient d'une période à l'autre : sa carte y est réimprimée.
@@ -221,6 +264,9 @@ NON_ILLUSTRES = {
  4: ("explorer", "défiler", "se déguiser", "immense", "coloré", "humide",
      "butiner", "se balancer", "s’envoler", "lent", "rapide", "minuscule",
      "récolter", "éplucher", "mûr", "juteux", "géant"),
+ 5: ("fondre", "geler", "flotter", "glisser", "glacé", "transparent",
+     "bondir", "nager", "plonger", "blanc", "imperméable",
+     "pousser", "résister", "doux", "duveteux"),
 }
 
 # Les étiquettes de tri de la fiche X.1 (les « boîtes-catégories »).
@@ -229,6 +275,7 @@ TRI = {
  2: ("le voyage", "les animaux", "les végétaux"),
  3: ("le voyage", "les animaux", "les végétaux"),
  4: ("le voyage", "les animaux", "les végétaux"),
+ 5: ("le voyage", "les animaux", "les végétaux"),
 }
 TRI_MILIEUX = ()
 

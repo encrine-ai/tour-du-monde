@@ -1,6 +1,6 @@
 # Progression GS — Agir, s’exprimer, comprendre à travers les activités physiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». **Activité physique quotidienne de 30 à 45 minutes effectives** ; unités d’apprentissage de **6 à 8 séances** ; les quatre sous-domaines sont tous travaillés dans l’année. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». **Activité physique quotidienne de 30 à 45 minutes effectives** ; unités d’apprentissage de **6 à 8 séances** ; les quatre sous-domaines sont tous travaillés dans l’année. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -71,6 +71,19 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 - Situations : retrouver dans la cour un objet photographié ; la course aux balises dans l’école avec le plan de la classe ; la chasse au trésor au parc (les balises sont des cartes-corpus des Amériques) ; par deux, l’un lit le plan, l’autre court.
 - Réussite : trouve 4 balises sur 5 avec le plan ; montre sur le plan où il est.
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (3 unités)
 
-À écrire avec la période : glisser (patins, draisiennes) ; activités aquatiques si possible ; chorégraphie de fin d’année.
+### Unité 9 : Glisser, rouler — « La banquise glissante » (6 séances)
+- Objectifs : se déplacer sur un engin qui roule ou qui glisse (trottinette, draisienne, patins à roulettes selon le matériel de l’école) ; freiner et s’arrêter dans une zone ; respecter les règles de sécurité (casque, sens de circulation).
+- Situations : le slalom entre les icebergs (plots) ; s’arrêter dans l’igloo (un cerceau) ; la course de traîneaux à deux (l’un pousse le carton, l’autre glisse sur le tapis).
+- Réussite : fait le slalom sans toucher un plot ; s’arrête dans la zone ; porte son casque sans qu’on le lui dise.
+
+### Unité 10 : Milieu aquatique — « Nager comme le manchot » (8 séances, à la piscine)
+- Objectifs : entrer dans l’eau seul ; se déplacer en se tenant au bord, puis sans appui ; immerger la tête ; flotter ; respecter les règles de sécurité du bassin.
+- Situations : la banquise (le bord) que l’on quitte ; les manchots qui plongent chercher des anneaux ; l’étoile de mer (flotter sur le dos avec une frite) ; le toboggan.
+- Réussite : se déplace dans le petit bain sans appui ; met la tête sous l’eau et souffle ; flotte quelques secondes sur le ventre.
+
+### Unité 11 : Danse — chorégraphie de fin d’année « Notre tour du monde » (7 séances)
+- Objectifs : danser à plusieurs en respectant une chorégraphie simple ; entrer et sortir de scène ; être spectateur et donner un conseil.
+- Situations : un tableau par continent, un geste par animal (la cigogne, l’éléphant, le panda, le colibri, le kangourou) ; répétitions en groupe puis devant l’autre moitié de la classe ; spectacle pour les familles le jour de l’exposition.
+- Réussite : enchaîne les gestes de son tableau en même temps que son groupe ; entre et sort au bon moment ; dit un conseil utile à un autre groupe.

@@ -1,6 +1,6 @@
 # Progression GS — Agir, s’exprimer, comprendre à travers les activités artistiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Arts visuels, univers sonores et spectacle vivant ; chaque période s’appuie sur des œuvres de référence du continent. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Arts visuels, univers sonores et spectacle vivant ; chaque période s’appuie sur des œuvres de référence du continent. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -65,6 +65,15 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | connaître une **œuvre patrimoniale** ; repérer les **timbres** et dire ce qu’on ressent | Dvořák, *Symphonie du Nouveau Monde*, le *Largo* : le cor anglais, une mélodie lente et douce ; la flûte de pan des Andes ; dessiner « la musique lente » | reconnaît le *Largo* et dit ce qu’il ressent (calme, triste, doux) |
 | Spectacle vivant | être **spectateur** de genres variés ; jouer dans un défilé | sortie au théâtre ou spectacle de marionnettes invité ; on en parle en revenant (qu’as-tu compris ? qu’as-tu aimé ?) ; le **défilé du carnaval** dans l’école, déguisés et masqués | dit ce qu’il a compris et aimé d’un spectacle ; défile en rythme dans son rôle |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
 
-À écrire avec la période : peinture à points ; blanc sur bleu ; création d’un paysage sonore glacé ; spectacle de fin d’année.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Dessin | dessiner un événement fictif ; dessiner d’après nature | illustrer *Tiddalik* (la grenouille énorme, le rire) ; dessiner un coquillage, une noix de coco | dessine une scène d’une histoire avec plusieurs personnages |
+| Graphisme | composer avec plusieurs contraintes | **la peinture à points** des peintres aborigènes du désert australien (les points, les cercles, les chemins) : « un animal d’Océanie, des points, trois couleurs » | compose un tableau à points en respectant trois contraintes |
+| Compositions plastiques | combiner techniques et matériaux ; collage | Matisse, *Polynésie, la mer* (1946) : papiers découpés blancs sur fond bleu, poissons et algues ; « blanc sur bleu » : la banquise en collage ; la grande carte du monde : dernière pièce, l’Océanie et les pôles | découpe et colle des formes pour composer un paysage de mer à la manière de Matisse |
+| Images | nommer des éléments esthétiques ; différencier les types d’images | comparer *Polynésie, la mer* et Friedrich, *La Mer de glace* (paysage) : les couleurs froides, les formes pointues ou douces | dit ce qui rend une image « froide » ou « chaude » |
+| Voix et chant | chanter de mémoire, **en canon** | *Kookaburra* en canon à deux voix ; les chants de l’exposition, chantés sans l’aide de l’adulte | chante 10 chants de l’année de mémoire ; tient sa voix dans un canon |
+| Instruments | créer un **paysage sonore** | « la banquise » : le vent (souffler), la glace qui craque (papier froissé), les baleines (voix glissées) ; le didgeridoo écouté | joue sa partie dans le paysage sonore au signal du chef d’orchestre |
+| Écoute | connaître une **œuvre patrimoniale** ; repérer les timbres et le tempo | Vivaldi, « L’Hiver » (*Les Quatre Saisons*) (œuvre patrimoniale 5) : les violons qui grelottent, la pluie ; chants des baleines enregistrés | reconnaît « L’Hiver » et dit ce que la musique fait entendre |
+| Spectacle vivant | jouer dans un espace scénique devant un public ; enchaîner des émotions | l’**exposition « Notre tour du monde »** et la chorégraphie de fin d’année pour les familles ; *Tiddalik* mimé : la soif, la colère, le rire | joue son rôle devant les familles |

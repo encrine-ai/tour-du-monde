@@ -1,6 +1,6 @@
 # Progression GS — Explorer le monde : le vivant, la matière, les objets
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche d’investigation : questionnement, hypothèses, observation ou expérience, conclusion, trace (passeport du petit voyageur). Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche d’investigation : questionnement, hypothèses, observation ou expérience, conclusion, trace (passeport du petit voyageur). Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -55,6 +55,13 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Recette | suivre une **recette** et repérer sa structure | **le chocolat chaud** (le cacao vient des Amériques) : ingrédients, ustensiles, étapes numérotées ; le pop-corn | suit une recette de 5 étapes et dit ce qu’il faut avant de commencer |
 | Biodiversité | agir pour le vivant : **faire sa part** | après *La Légende du colibri* : un hôtel à insectes et un coin de fleurs pour les papillons au potager | dit ce qu’il fait, lui, pour aider la nature (« je fais ma part ») |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
 
-À écrire avec la période : l’eau, la glace, la fonte ; flottabilité (la banquise, les icebergs) ; risques et pictogrammes ; étapes de la vie d’un enfant.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| La matière — l’eau | identifier et nommer les **états de l’eau** : la glace, l’eau liquide, la vapeur | le bac à glace et la banquise miniature : glaçons au soleil, à l’ombre, dans la main ; l’eau qui gèle au congélateur ; la buée sur la vitre | nomme la glace et l’eau liquide et dit ce qui fait passer de l’une à l’autre |
+| Objets — flotter | explorer la **flottabilité** | l’iceberg flotte, la clé coule ; la bassine : prévoir, essayer, noter ; fabriquer un radeau qui porte trois manchots en pâte à modeler | prévoit si un objet flotte, vérifie et explique |
+| Risques | prendre en compte les **risques** : les pictogrammes de danger, **alerter un adulte** ; les **objets dangereux** | les pictogrammes des produits ménagers de la classe ; le soleil de l’été (chapeau, ombre, eau) ; « que fais-tu si un camarade se fait mal ? » ; les objets qui coupent, qui piquent, qui brûlent, la prise électrique | reconnaît un objet ou un produit dangereux et sait qu’il faut prévenir un adulte |
+| Le corps — grandir | connaître quelques **étapes de la vie d’un enfant** jusqu’à six ans | « moi, de bébé à aujourd’hui » : la frise du passeport (photographies prêtées par les familles qui le souhaitent, ou dessins) ; ce que je savais faire, ce que je sais faire | ordonne trois étapes de sa vie et dit ce qu’il savait faire à chacune |
+| Environnement | agir de manière autonome pour le **respect de l’environnement** | la plage et les déchets (documentaire) ; le ramassage raisonné dans la cour ; la frise « combien de temps ça reste ? » ; retour sur la charte de l’eau de la période 2 | trie ses déchets seul et explique pourquoi |
+| Le vivant — classer | classer les animaux de l’année selon plusieurs critères | le grand tri de l’imagier : 60 animaux du monde, poils, plumes, écailles ; terre, eau, glace | classe un animal selon deux critères |

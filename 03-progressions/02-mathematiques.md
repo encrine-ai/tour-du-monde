@@ -1,6 +1,6 @@
 # Progression GS — Acquérir les premiers outils mathématiques
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche constante : **manipulation → représentation → verbalisation → abstraction**. Ateliers dirigés quotidiens, jeux structurés, rituels. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Démarche constante : **manipulation → représentation → verbalisation → abstraction**. Ateliers dirigés quotidiens, jeux structurés, rituels. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -63,6 +63,13 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs | **produire une longueur** égale à une longueur donnée | couper une ficelle aussi longue que la tige du tournesol ; tracer un trait aussi long que la bande | produit une longueur égale à une longueur donnée avec une ficelle ou la règle |
 | Motifs | **créer** un motif et le faire reproduire | les motifs des ponchos ; « invente un motif pour ton poncho, ton voisin le continue » | crée un motif, en dit la règle et vérifie celui du voisin |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
 
-À écrire avec la période : consolidation ; problèmes d’écart ; motifs évolutifs ; déplacements codés sur quadrillage.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Quantités et nombres | consolidation : dénombrer, comparer, décomposer les nombres jusqu’à 10 ; au-delà de 20 | les manchots sur la banquise ; les glaçons de l’expérience ; le jeu du loto des nombres | dénombre une collection de 25 objets ; dit toutes les décompositions de 6, 7 et 8 |
+| Suite orale | la suite jusqu’à 30 et au-delà ; **à rebours de 20** ; à partir d’un nombre donné ; de 2 en 2 | le compte à rebours du départ du traîneau ; les bonds du kangourou de 2 en 2 | dit la suite jusqu’à 30, à rebours de 20 à 0 et de 2 en 2 |
+| Bande numérique | utiliser une **bande lacunaire** jusqu’à 30 | la bande des jours jusqu’à l’exposition ; « quel nombre est caché sous le glaçon ? » | complète une bande lacunaire jusqu’à 30 |
+| Problèmes | **problèmes variés** : ajout et retrait avec position inconnue, **écarts à énoncé discordant**, partages | « 4 phoques sur la banquise, d’autres arrivent, il y en a 9 » ; « le manchot a 12 poissons, 5 de plus que son petit » ; partager les glaçons | choisit une procédure (dessin, matériel, comptage) et l’explique |
+| Motifs | **décrire la structure** d’un motif ; motifs évolutifs | les peintures à points du désert australien : « à chaque fois, deux points de plus » | décrit la règle d’un motif évolutif avec ses mots |
+| Classements | classer selon un critère, puis selon deux | les animaux de l’année : où vivent-ils ? ont-ils des poils, des plumes, des écailles ? | classe des cartes selon deux critères dans un tableau |

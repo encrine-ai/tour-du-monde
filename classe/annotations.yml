@@ -30,6 +30,10 @@ blocs:
   periode: 4
   attendus: [lang.voc.corpus, lang.voc.categories, lang.voc.reseaux, lang.disc.adulte-absent, lang.synt.futur, lang.art.ch-s, lang.phono.phonemes, lang.let.epeler, lang.let.trois-graphies, lang.geste.cursive, lang.geste.prenom, lang.geste.ligatures, lang.ecr.types, lang.prod.dictee, lang.prod.encoder, lang.prod.segmenter, lang.disc.memorisation]
 
+- document: 03-progressions/01-langage-oral-ecrit.md
+  periode: 5
+  attendus: [lang.voc.corpus, lang.voc.categories, lang.voc.sens-figure, lang.disc.conversation, lang.synt.complexite, lang.art.phonemes-36, lang.phono.phonemes, lang.let.valeur-sonore, lang.let.proches, lang.geste.mots, lang.geste.cursive, lang.ecr.raconter, lang.ecr.types, lang.prod.norme, lang.prod.encoder, lang.prod.segmenter, lang.prod.dictee, lang.disc.memorisation]
+
 # ───────────────────────────── MATHÉMATIQUES ────────────────────────────
 - document: 03-progressions/02-mathematiques.md
   periode: 1
@@ -50,6 +54,10 @@ blocs:
   periode: 4
   attendus: [math.qte.collections, math.qte.ecriture, math.qte.comptine-30, math.qte.depart-donne, math.qte.deux-en-deux, math.rang.deplacement, math.pb.groupements, math.pb.partage, math.pb.position, math.for.regle, math.for.assemblages, math.gr.long-produire, math.mot.creer, math.mot.decrire]
 
+- document: 03-progressions/02-mathematiques.md
+  periode: 5
+  attendus: [math.qte.collections, math.qte.decompositions, math.qte.comptine-30, math.qte.rebours, math.qte.deux-en-deux, math.qte.depart-donne, math.rang.bande, math.pb.ecarts, math.pb.ajout-retrait, math.pb.position, math.pb.partage, math.mot.decrire, math.mot.evolutifs]
+
 # ─────────────────────────── ACTIVITÉS PHYSIQUES ────────────────────────
 - document: 03-progressions/03-activites-physiques.md
   periode: 1
@@ -67,6 +75,10 @@ blocs:
 - document: 03-progressions/03-activites-physiques.md
   periode: 4
   attendus: [eps.dep.courir-vite, eps.dep.sauter, eps.dep.orientation, eps.coop.equipe]
+
+- document: 03-progressions/03-activites-physiques.md
+  periode: 5
+  attendus: [eps.eq.glisser, eps.eq.aquatique, eps.eq.securite, eps.exp.choregraphie, eps.exp.espace-scenique, eps.exp.spectateur]
 
 # ────────────────────────── ACTIVITÉS ARTISTIQUES ───────────────────────
 - document: 03-progressions/04-activites-artistiques.md
@@ -89,6 +101,10 @@ blocs:
   periode: 4
   attendus: [arts.des.representer, arts.des.vocabulaire, arts.gra.detourner, arts.pla.expression, arts.pla.combiner, arts.des.collective, arts.img.types, arts.voix.collectif, arts.ins.collective, arts.ins.son-geste, arts.eco.patrimoine, arts.eco.elements, arts.eco.dessin, arts.spec.spectateur, arts.spec.scene]
 
+- document: 03-progressions/04-activites-artistiques.md
+  periode: 5
+  attendus: [arts.des.representer, arts.des.modele, arts.gra.contraintes, arts.pla.combiner, arts.des.collective, arts.img.elements, arts.img.types, arts.voix.memoire, arts.voix.repertoire, arts.voix.collectif, arts.ins.paysage, arts.eco.patrimoine, arts.eco.elements, arts.spec.scene, arts.spec.emotions]
+
 # ─────────────────────────── TEMPS ET ESPACE ────────────────────────────
 - document: 03-progressions/05-temps-espace.md
   periode: 1
@@ -106,6 +122,10 @@ blocs:
 - document: 03-progressions/05-temps-espace.md
   periode: 4
   attendus: [te.tps.durees, te.tps.organiser, te.esp.parcours-plan, te.esp.coder, te.esp.trajets, te.esp.planisphere, te.env.milieux, te.env.architecture, te.env.ecole]
+
+- document: 03-progressions/05-temps-espace.md
+  periode: 5
+  attendus: [te.tps.saisons, te.tps.temps-long, te.esp.plan, te.esp.planisphere, te.env.milieux]
 
 # ─────────────────────── LE VIVANT, LA MATIÈRE, LES OBJETS ──────────────
 - document: 03-progressions/06-monde-vivant-matiere-objets.md
@@ -125,6 +145,10 @@ blocs:
   periode: 4
   attendus: [monde.viv.etapes, monde.viv.besoins, monde.corps.mouvement, monde.obj.recette, monde.viv.biodiversite]
 
+- document: 03-progressions/06-monde-vivant-matiere-objets.md
+  periode: 5
+  attendus: [monde.mat.eau, monde.obj.flottabilite, monde.mat.risques, monde.obj.risques, monde.corps.etapes-vie, monde.mat.environnement, monde.viv.classer, monde.obj.fabriquer]
+
 # ────────────────────────────────── EVAR ────────────────────────────────
 - document: 03-progressions/07-evar.md
   periode: 1
@@ -134,3 +158,7 @@ blocs:
 - document: 03-progressions/07-evar.md
   periode: 3
   attendus: [evar.corps.sensations, evar.rel.sentiments, lang.voc.emotions]
+
+- document: 03-progressions/07-evar.md
+  periode: 5
+  attendus: [evar.soc.protection, evar.corps.sensations, evar.soc.respect]

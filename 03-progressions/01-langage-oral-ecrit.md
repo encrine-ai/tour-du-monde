@@ -1,6 +1,6 @@
 # Progression GS — Le développement et la structuration du langage oral et écrit
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Enseignement **quotidien, structuré et explicite**, en petits groupes de compétences pour les séances dirigées. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Enseignement **quotidien, structuré et explicite**, en petits groupes de compétences pour les séances dirigées. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -75,6 +75,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Textes mémorisés | un par semaine | une comptine pour compter en espagnol (*uno, dos, tres*) ; les chants du carnaval ; la comptine du colibri | récite ou chante 6 nouveaux textes courts |
 | Diversité des langues | saluer et compter dans les langues des Amériques | « Hola » (espagnol), « Olá » (portugais), « Hello » (anglais) au rituel du bonjour ; compter jusqu’à dix en espagnol | salue en trois langues et compte jusqu’à dix en espagnol |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
 
-À écrire avec la période : sens propre et figuré ; manipulation de phonèmes ; mots transparents en cursive ; valeur sonore des lettres, b/d et p/q ; norme de l’écrit ; liaison CP.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Oral — vocabulaire | s’approprier les 3 corpus « le voyage en Océanie et aux pôles », « les animaux d’Océanie et des pôles », « les plantes d’Océanie et des pôles » ; distinguer le **sens propre et le sens figuré** ; **réinvestir les 15 corpus** de l’année | la dernière carte postale de Plume, qui a fini le tour du monde ; la valise de la période (un boomerang, un bonnet, une noix de coco, un glaçon dans une boîte isotherme) ; « il fait un froid de canard », « avoir une faim de loup », « un chat dans la gorge » : on dessine le sens propre, puis on explique ; le grand loto des 15 corpus | comprend et réemploie ≈ 45 mots nouveaux ; explique deux expressions au sens figuré ; retrouve de quel continent vient un mot |
+| Oral — syntaxe et discours | participer à une **conversation argumentée** ; employer les **introducteurs de complexité** (*parce que, quand, si, pour que, où*) | le débat « faut-il protéger la banquise ? » après les documentaires ; « je suis d’accord avec… parce que… » ; préparer la visite de l’exposition pour les familles | donne son avis et le justifie ; reformule l’avis d’un camarade |
+| Articulation | **bilan des 36 phonèmes** : chacun s’enregistre sur 20 mots tirés des 15 corpus | le dictaphone de la classe ; le relevé individuel des sons encore fragiles, transmis avec le dossier de liaison CP | prononce avec exactitude les mots de l’année |
+| Phonologie | **manipuler des phonèmes** : localiser, supprimer, remplacer, inverser | « dis *lit* sans [l] » ; « remplace [l] par [n] » ; le mot à l’envers son par son ; l’horloge des sons | supprime et remplace le premier son d’un mot de 3 sons |
+| Lettres | la **valeur sonore** des lettres (hors occlusives) ; les lettres proches **b/d, p/q** | les lettres qui chantent : *ffff*, *ssss*, *mmmm* ; le lit (b à gauche, d à droite, avec les mains) ; les lettres mobiles | dit le son de 8 lettres ; ne confond plus b et d |
+| Écriture | écrire des **mots transparents en cursive** ; copier une phrase | écrire *lit, riz, lama, île* en disant les sons ; la carte postale de fin d’année à Plume ; les étiquettes de l’exposition | écrit seul un mot transparent de 3 ou 4 lettres en cursive |
+| Écrit — compréhension | **raconter une histoire entière** ; comprendre la **lettre** comme type d’écrit | ★ *Tiddalik, la grenouille qui avait bu toute l’eau* (légende aborigène d’Australie) ; en réseau, la série *Plume, le petit ours polaire* (Hans de Beer) — un autre Plume voyageur ! ; les lettres reçues de la classe correspondante | raconte *Tiddalik* en entier, sans support, avec les connecteurs |
+| Production d’écrits | la **norme de l’écrit** : majuscule, point, espaces entre les mots, la mise en page d’une lettre ; encoder des mots transparents | la lettre de la classe aux futurs CP ; la carte postale à Plume (la date, « Chère Plume », la signature) ; compter les mots d’une phrase et laisser les espaces | dicte une lettre avec sa date et sa signature ; laisse des espaces entre les mots qu’il écrit |
+| Textes mémorisés | un par semaine | *Kookaburra sits in the old gum tree* (chant traditionnel australien, en canon) ; les chants de l’exposition ; une comptine en anglais | récite ou chante 9 à 10 textes courts ; connaît au moins 10 comptines ou chants depuis septembre |
+| Diversité des langues | saluer en anglais, en maori, en inuktitut ; revisiter toutes les langues de l’année | « G’day ! », « Kia ora ! », « Ai ! » au rituel du bonjour ; le grand bonjour du tour du monde : une langue par continent | salue dans une langue de chaque continent visité |

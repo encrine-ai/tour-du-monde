@@ -1,6 +1,6 @@
 # Progression GS — Explorer le monde : se repérer dans le temps et dans l’espace
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Le tour du monde donne à l’espace un fil naturel : la grande carte du monde de la classe se complète à chaque période. Les périodes sont détaillées au fur et à mesure ; celles qui restent sont esquissées.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Le tour du monde donne à l’espace un fil naturel : la grande carte du monde de la classe se complète à chaque période. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -54,6 +54,12 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Espace — la carte du monde | situer les Amériques, l’océan Atlantique et l’océan Pacifique | le trajet de Plume à travers l’Atlantique ; le globe | montre les Amériques et nomme l’océan que Plume a traversé |
 | Environnement | des espaces **moins familiers** ; des **éléments d’architecture** | photographies et documentaires : la forêt amazonienne, la prairie et ses bisons, le Grand Canyon ; les pyramides mayas et les gratte-ciel de New York | compare une pyramide et un gratte-ciel (en pierre, en verre ; des marches, des fenêtres) |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
 
-À écrire avec la période : les saisons et les pôles ; dessiner un plan ; le tour du monde complet sur la carte.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Temps — les saisons | les **quatre saisons** et leurs caractéristiques ; aux antipodes, les saisons sont inversées | la frise des saisons de l’année : le départ de Plume en automne, son retour au printemps ; au pôle Sud, en juin, c’est l’hiver ; le jour et la nuit polaires | nomme les quatre saisons dans l’ordre avec un signe de chacune |
+| Temps — l’année entière | se repérer dans l’année scolaire ; le **temps long** | la grande frise du tour du monde : septembre l’Europe… juin l’Océanie ; « l’an prochain, au CP » | situe les cinq continents dans l’ordre du voyage |
+| Espace — le plan | **dessiner un plan** | le plan de la classe, vu d’en haut ; le plan de sa chambre ; le plan de l’exposition pour guider les familles | dessine le plan d’un lieu connu vu d’en haut |
+| Espace — le tour du monde | **continents et océans** : le tour du monde complet | la grande carte du monde terminée : les cinq étapes, le trajet de Plume ; le globe : les deux pôles, la banquise | montre les cinq continents, deux océans et les pôles sur le globe et sur la carte |
+| Espaces moins familiers | la banquise, l’île, le récif | documentaires : la vie sur la banquise, le récif de corail, le désert rouge d’Australie | décrit un paysage polaire et un paysage d’île avec les mots du corpus |

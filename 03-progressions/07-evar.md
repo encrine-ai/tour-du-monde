@@ -30,9 +30,15 @@ Références : programme d’éducation à la vie affective et relationnelle (BO
 - **Ce que l’élève sait dire** : « je suis en colère parce que… » ; « mon copain a l’air triste, je vais le voir ».
 - **Vigilance** : on parle des émotions des personnages d’abord ; chacun choisit ce qu’il dit de lui-même, rien n’est noté.
 
-## La séance n°3 — à écrire avec la période 5
+## Séance spécifique n°3 (Période 5) — « Les adultes à qui je peux parler »
 
-Prévue en période 5 (« Les adultes à qui je peux parler »).
+- **Objectif** : identifier les adultes de confiance, à l’école et en dehors ; savoir que l’on peut dire non à ce qui met mal à l’aise et qu’on a le droit d’en parler ; respecter son corps et celui des autres.
+- **Déroulement (45 min, en deux temps)** :
+  1. *Le cercle des adultes* : « Quand Plume a eu un problème pendant son voyage, à qui a-t-elle demandé de l’aide ? » Puis : « À l’école, à qui peux-tu parler si quelque chose ne va pas ? » (la maîtresse, l’ATSEM, la directrice, l’adulte de la cantine). « Et en dehors de l’école ? » Chacun colle les pictogrammes de ses adultes de confiance autour de son dessin.
+  2. *Oui ou non ?* : de courtes situations dites par l’enseignante (« un camarade te prend ton goûter », « quelqu’un veut te faire un câlin et tu n’en as pas envie »). On s’entraîne à dire « non » avec la voix et le corps, et à le dire ensuite à un adulte. « Un secret qui fait mal, on a le droit de le raconter. »
+- **Trace** : la page « mes adultes de confiance » du passeport du petit voyageur, rapportée à la maison avec un mot aux familles.
+- **Ce que l’élève sait dire** : « je peux en parler à… » ; « non, je ne veux pas » ; « ce n’est pas un secret qu’on doit garder ».
+- **Vigilance** : séance préparée avec l’équipe et annoncée aux familles ; on reste dans des situations générales ; toute parole d’enfant qui inquiète est prise au sérieux et suit la procédure de l’école (protection de l’enfance).
 
 ## Fil continu sur l’année
 

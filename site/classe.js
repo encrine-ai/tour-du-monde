@@ -8,7 +8,7 @@ var CLASSE = {
   "annee": "2026-2027",
   "projet": "Le tour du monde",
   "sous_titre": "classe de démonstration",
-  "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
+  "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
   "theme": "demo",
   "ton": "tu",
@@ -125,7 +125,7 @@ var CLASSE = {
       "icone": "waves",
       "emoji": "🧊",
       "couleur": "turquoise",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes de l’Océanie et des pôles, du récif de corail à la banquise et à la toundra."
     }
   ],
   "periodes_nom": "continents",
@@ -139,7 +139,8 @@ var CLASSE = {
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "source": "fiches/entrainement-periode-{n}.html",
       "pdf": "pdf/fiches-entrainement-periode-{n}.pdf",
@@ -155,7 +156,8 @@ var CLASSE = {
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "source": "fiches/periode-{n}.html",
       "pdf": "pdf/fiches-eleve-periode-{n}.pdf",
@@ -173,7 +175,8 @@ var CLASSE = {
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
@@ -189,7 +192,8 @@ var CLASSE = {
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
@@ -324,6 +328,15 @@ var CLASSE = {
       "desc": "12 fiches d’évaluation + grilles d’observation (avril).",
       "titre": "Période 4 · Les Amériques",
       "icone": "compass"
+    },
+    {
+      "id": "eval-p5",
+      "fiches": 5,
+      "md": "content/04-evaluations/periode-5-oceanie-poles.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (juin).",
+      "titre": "Période 5 · L’Océanie et les pôles",
+      "icone": "waves"
     }
   ]
 };
