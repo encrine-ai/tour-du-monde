@@ -98,7 +98,7 @@ for p, mots in sorted(mots_corpus.items()):
     if p not in declarees:
         print("P%d : pas de cahier de cartes-corpus déclaré, couverture des mots sautée" % p)
         continue
-    cartes ={normalise(nom) for _, _, _, nom, _ in entrees(p)}
+    cartes = {normalise(nom) for _, _, _, nom, _ in entrees(p)}
     declares = {normalise(m) for m in NON_ILLUSTRES.get(p, ())}
     for mot in mots:
         if normalise(mot) not in cartes and normalise(mot) not in declares:
