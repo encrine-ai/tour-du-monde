@@ -1,6 +1,6 @@
 # Progression GS — Explorer le monde : se repérer dans le temps et dans l’espace
 
-Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Le tour du monde donne à l’espace un fil naturel : la grande carte du monde de la classe se complète à chaque période. Seule la période 1 est détaillée.
+Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans ». Le tour du monde donne à l’espace un fil naturel : la grande carte du monde de la classe se complète à chaque période. Les cinq périodes sont détaillées.
 
 ## Attendus travaillés en GS (rappel du programme)
 
@@ -21,18 +21,45 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Environnement proche | reconnaître les espaces de l’école et leurs usages ; les espaces voisins | visite de l’école avec le passeport (un tampon par lieu) ; la sortie au parc : le chemin, le grand arbre, le banc | nomme les lieux de l’école et dit à quoi ils servent |
 | Espaces moins familiers | découvrir un milieu lointain par les documentaires et les photographies | photographies d’Europe : un moulin des Pays-Bas, un château, un pont, une montagne des Alpes, une côte de Norvège ; les animaux qui y vivent | décrit une photographie de paysage avec les mots du corpus |
 
-## Période 2 — 🌍 L’Afrique (esquisse)
+## Période 2 — 🌍 L’Afrique (7 semaines)
 
-À écrire avec la période : le mois et les mois de l’année ; trajet de Plume de l’Europe à l’Afrique sur la carte ; savane et désert ; gauche et droite.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Temps — les mois | nommer les **mois** ; situer novembre et décembre dans l’année ; énoncer la date complète | la frise des mois de la classe (le départ de Plume en septembre, son arrivée en Afrique en octobre) ; le calendrier de l’Avent des contes : une histoire d’Afrique par jour | dit la date complète (jour, numéro, mois) ; nomme le mois en cours, le précédent et le suivant |
+| Temps — les saisons | comparer l’hiver qui arrive ici et la saison sèche au Sahel | les cartes postales de Plume : chez nous les arbres sont nus, au Sahel il fait chaud et sec ; pourquoi Plume est-elle partie ? | explique que Plume part quand l’hiver arrive et qu’il fait chaud là où elle va |
+| Espace — gauche et droite | distinguer **sa gauche et sa droite** ; placer un objet à gauche ou à droite d’un autre | le foulard au poignet droit ; jeux de consignes en motricité ; « pose la datte à gauche du panier » ; le marché : « le marchand de fruits est à droite du puits » | lève la main demandée sans hésiter ; place un objet à gauche ou à droite d’un autre |
+| Espace — la carte du monde | situer l’Afrique ; suivre un **trajet** sur la carte : de l’Europe à l’Afrique en traversant la mer Méditerranée et le Sahara | la grande carte du monde : on trace le trajet de Plume, on colle la mer et le désert ; le globe : où est la mer ? où est le désert ? | montre l’Europe, l’Afrique et la mer entre les deux ; suit du doigt le trajet de Plume |
+| Espaces moins familiers | découvrir la **savane**, le **désert** et le **fleuve** par les documentaires | documentaires et photographies : la savane et ses animaux, le désert et son oasis, le fleuve Niger et ses pirogues ; maquette « le point d’eau » | décrit un paysage d’Afrique avec les mots du corpus |
+| Architecture | identifier des éléments d’**architecture** : la case ronde, le toit de paille, la grande mosquée de terre de Djenné | photographies de cases, de greniers, de la mosquée de Djenné ; construire une case en argile et en paille | dit en quoi une case est faite et nomme le toit, le mur, la porte |
 
-## Période 3 — 🌏 L’Asie (esquisse)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
-À écrire avec la période : chronologie (le ver à soie, le riz) ; temps long (les anciens jouets) ; puzzles et tangrams ; continents et océans.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Temps — chronologie | **ordonner les étapes** d’un processus et les raconter avec *avant, après, pendant* | la pousse du riz en barquette, photographiée chaque semaine ; la vie du phasme de l’élevage ; la recette du riz au lait | range 4 photographies d’un processus et les raconte |
+| Temps — les relations | exprimer l’**antériorité et la postériorité** avec les temps verbaux | « avant, le phasme était tout petit ; maintenant il est grand ; bientôt il pondra » ; le journal de l’élevage | emploie *avant / maintenant / bientôt* avec le passé, le présent et le futur |
+| Temps long | appréhender le **temps long** : les années, les générations | le Nouvel An lunaire et les douze animaux des années : quel est l’animal de l’année de ma naissance ? de celle de mes parents ? ; les jouets d’autrefois (le cerf-volant, la toupie) | dit que ses parents sont nés bien avant lui ; place sa naissance et celle d’un grand-parent sur une frise |
+| Espace — assemblages | réaliser des **assemblages** complexes : **tangram**, puzzles | le tangram (un jeu chinois) : le dragon, la pagode, le chat ; puzzles de 30 à 50 pièces de paysages d’Asie | reproduit une figure de tangram d’après un modèle à l’échelle |
+| Espace — la carte du monde | nommer les **continents et les océans** visités ; situer l’Asie | la grande carte du monde : l’Europe, l’Afrique, puis l’Asie ; le trajet de Plume ; l’océan Indien et l’océan Pacifique | montre trois continents et deux océans sur la carte et sur le globe |
+| Espace — la page | utiliser une page selon les **normes de l’écrit** (de haut en bas, de gauche à droite) — et découvrir d’autres écritures | la calligraphie chinoise s’écrit de haut en bas ; nos lignes vont de gauche à droite : on compare, puis on écrit son prénom au bon endroit sur la page | commence à écrire en haut à gauche et suit la ligne |
 
-## Période 4 — 🌎 Les Amériques (esquisse)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
-À écrire avec la période : durées (le sablier) ; parcours sur une représentation plane ; coder un déplacement.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Temps — les durées | **comparer des durées** ; utiliser le sablier | le sablier de 3 minutes : se laver les mains, ranger un atelier, chanter une chanson ; la germination du haricot (une semaine) et la cuisson du pop-corn (deux minutes) : « qu’est-ce qui dure le plus longtemps ? » | compare deux durées et dit laquelle est la plus longue |
+| Temps — s’organiser | **organiser son activité dans un temps imparti** | « finis ton dessin avant que le sablier soit vide » ; le minuteur de l’atelier de cuisine | finit une tâche simple dans le temps donné en surveillant le sablier |
+| Espace — le plan | **reproduire un parcours sur une représentation plane** ; utiliser le plan de l’école | la chasse au trésor : le chemin tracé sur le plan de l’école, puis refait pour de vrai ; le plan de la classe | suit un parcours sur le plan et le trace après l’avoir fait |
+| Espace — coder | **coder un déplacement avec des flèches** | le quadrillage au sol de la salle de motricité : « dicte les flèches à ton camarade pour qu’il aille chercher le maïs » ; le robot de sol de l’école | code un chemin de 6 déplacements avec des flèches et suit le codage d’un autre |
+| Espace — la carte du monde | situer les Amériques, l’océan Atlantique et l’océan Pacifique | le trajet de Plume à travers l’Atlantique ; le globe | montre les Amériques et nomme l’océan que Plume a traversé |
+| Environnement | des espaces **moins familiers** ; des **éléments d’architecture** | photographies et documentaires : la forêt amazonienne, la prairie et ses bisons, le Grand Canyon ; les pyramides mayas et les gratte-ciel de New York | compare une pyramide et un gratte-ciel (en pierre, en verre ; des marches, des fenêtres) |
 
-## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
-À écrire avec la période : les saisons et les pôles ; dessiner un plan ; le tour du monde complet sur la carte.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Temps — les saisons | les **quatre saisons** et leurs caractéristiques ; aux antipodes, les saisons sont inversées | la frise des saisons de l’année : le départ de Plume en automne, son retour au printemps ; au pôle Sud, en juin, c’est l’hiver ; le jour et la nuit polaires | nomme les quatre saisons dans l’ordre avec un signe de chacune |
+| Temps — l’année entière | se repérer dans l’année scolaire ; le **temps long** | la grande frise du tour du monde : septembre l’Europe… juin l’Océanie ; « l’an prochain, au CP » | situe les cinq continents dans l’ordre du voyage |
+| Espace — le plan | **dessiner un plan** | le plan de la classe, vu d’en haut ; le plan de sa chambre ; le plan de l’exposition pour guider les familles | dessine le plan d’un lieu connu vu d’en haut |
+| Espace — le tour du monde | **continents et océans** : le tour du monde complet | la grande carte du monde terminée : les cinq étapes, le trajet de Plume ; le globe : les deux pôles, la banquise | montre les cinq continents, deux océans et les pôles sur le globe et sur la carte |
+| Espaces moins familiers | la banquise, l’île, le récif | documentaires : la vie sur la banquise, le récif de corail, le désert rouge d’Australie | décrit un paysage polaire et un paysage d’île avec les mots du corpus |

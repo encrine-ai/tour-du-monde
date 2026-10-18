@@ -1,7 +1,7 @@
 {
   "name": "Classe de démonstration — Le tour du monde",
   "short_name": "Tour du monde",
-  "description": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
+  "description": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.",
   "lang": "fr",
   "dir": "ltr",
   "start_url": "./",

@@ -17,7 +17,7 @@
  */
 'use strict';
 
-var VERSION = "56c02e0d1460";
+var VERSION = "e5f721afe5b0";
 var PRECACHE = [
   "./",
   "index.html",
@@ -68,7 +68,11 @@ var PRECACHE = [
   "content/03-progressions/06-monde-vivant-matiere-objets.md",
   "content/03-progressions/07-evar.md",
   "content/04-evaluations/00-mode-emploi-et-livret-de-suivi.md",
-  "content/04-evaluations/periode-1-europe.md"
+  "content/04-evaluations/periode-1-europe.md",
+  "content/04-evaluations/periode-2-afrique.md",
+  "content/04-evaluations/periode-3-asie.md",
+  "content/04-evaluations/periode-4-ameriques.md",
+  "content/04-evaluations/periode-5-oceanie-poles.md"
 ];
 
 var PORTEE = self.registration.scope;

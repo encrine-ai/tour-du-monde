@@ -8,7 +8,7 @@ var CLASSE = {
   "annee": "2026-2027",
   "projet": "Le tour du monde",
   "sous_titre": "classe de démonstration",
-  "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
+  "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
   "theme": "tour-du-monde",
   "ton": "tu",
@@ -80,7 +80,7 @@ var CLASSE = {
       "icone": "sprout",
       "emoji": "🌍",
       "couleur": "vert",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes d’Afrique, de la savane au désert et au bord du fleuve."
     },
     {
       "cle": "asie",
@@ -88,7 +88,7 @@ var CLASSE = {
       "icone": "mountain-snow",
       "emoji": "🌏",
       "couleur": "violet",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes d’Asie, des forêts de bambous aux rizières et aux jardins du Japon."
     },
     {
       "cle": "ameriques",
@@ -96,7 +96,7 @@ var CLASSE = {
       "icone": "compass",
       "emoji": "🌎",
       "couleur": "ocre",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes des Amériques, de la prairie aux forêts tropicales et aux déserts."
     },
     {
       "cle": "oceanie-poles",
@@ -104,7 +104,7 @@ var CLASSE = {
       "icone": "waves",
       "emoji": "🧊",
       "couleur": "turquoise",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes de l’Océanie et des pôles, du récif de corail à la banquise et à la toundra."
     }
   ],
   "periodes_nom": "continents",
@@ -115,7 +115,11 @@ var CLASSE = {
       "icone": "pencil",
       "desc": "12 fiches, 2 niveaux (★ / ★★) et défis",
       "periodes": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "source": "fiches/entrainement-periode-{n}.html",
       "pdf": "pdf/fiches-entrainement-periode-{n}.pdf",
@@ -128,7 +132,11 @@ var CLASSE = {
       "icone": "printer",
       "desc": "les fiches élève de fin de période",
       "periodes": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "source": "fiches/periode-{n}.html",
       "pdf": "pdf/fiches-eleve-periode-{n}.pdf",
@@ -143,7 +151,11 @@ var CLASSE = {
       "intitule": "animaux et plantes du monde",
       "fichier": "imagier-monde",
       "periodes": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
@@ -157,7 +169,11 @@ var CLASSE = {
       "icone": "layers",
       "desc": "les mots des trois corpus et les étiquettes de tri",
       "periodes": [
-        1
+        1,
+        2,
+        3,
+        4,
+        5
       ],
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
@@ -266,6 +282,42 @@ var CLASSE = {
       "desc": "12 fiches d’évaluation + grilles d’observation (octobre).",
       "titre": "Période 1 · L’Europe",
       "icone": "map-pin"
+    },
+    {
+      "id": "eval-p2",
+      "fiches": 2,
+      "md": "content/04-evaluations/periode-2-afrique.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (décembre).",
+      "titre": "Période 2 · L’Afrique",
+      "icone": "sprout"
+    },
+    {
+      "id": "eval-p3",
+      "fiches": 3,
+      "md": "content/04-evaluations/periode-3-asie.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (février).",
+      "titre": "Période 3 · L’Asie",
+      "icone": "mountain-snow"
+    },
+    {
+      "id": "eval-p4",
+      "fiches": 4,
+      "md": "content/04-evaluations/periode-4-ameriques.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (avril).",
+      "titre": "Période 4 · Les Amériques",
+      "icone": "compass"
+    },
+    {
+      "id": "eval-p5",
+      "fiches": 5,
+      "md": "content/04-evaluations/periode-5-oceanie-poles.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (juin).",
+      "titre": "Période 5 · L’Océanie et les pôles",
+      "icone": "waves"
     }
   ],
   "appli": {

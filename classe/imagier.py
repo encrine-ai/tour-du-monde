@@ -49,14 +49,140 @@ IMAGIER = {
    ("vigne",             "la vigne",             "Vitis vinifera"),
   ],
  },
- 2: {"faune": [], "flore": []},
- 3: {"faune": [], "flore": []},
- 4: {"faune": [], "flore": []},
- 5: {"faune": [], "flore": []},
+ 2: {
+  "faune": [
+   ("lion",              "le lion",              "Panthera leo"),
+   ("elephant-afrique",  "l’éléphant d’Afrique", "Loxodonta africana"),
+   ("girafe",            "la girafe",            "Giraffa camelopardalis"),
+   ("zebre",             "le zèbre",             "Equus quagga"),
+   ("hippopotame",       "l’hippopotame",        "Hippopotamus amphibius"),
+   ("rhinoceros-blanc",  "le rhinocéros",        "Ceratotherium simum"),
+   ("gorille",           "le gorille",           "Gorilla gorilla"),
+   ("suricate",          "le suricate",          "Suricata suricatta"),
+   ("dromadaire",        "le dromadaire",        "Camelus dromedarius"),
+   ("autruche",          "l’autruche",           "Struthio camelus"),
+   ("grue-couronnee",    "la grue couronnée",    "Balearica regulorum"),
+   ("tortue-sillonnee",  "la tortue sillonnée",  "Centrochelys sulcata"),
+  ],
+  "flore": [
+   ("baobab",            "le baobab",            "Adansonia digitata"),
+   ("acacia-parasol",    "l’acacia",             "Vachellia tortilis"),
+   ("palmier-dattier",   "le palmier dattier",   "Phoenix dactylifera"),
+   ("karite",            "le karité",            "Vitellaria paradoxa"),
+   ("cafeier",           "le caféier",           "Coffea arabica"),
+   ("sorgho",            "le sorgho",            "Sorghum bicolor"),
+   ("pasteque",          "la pastèque",          "Citrullus lanatus"),
+   ("papyrus",           "le papyrus",           "Cyperus papyrus"),
+   ("nenuphar-bleu",     "le nénuphar bleu",     "Nymphaea nouchali caerulea"),
+   ("aloes",             "l’aloès",              "Aloe ferox"),
+   ("strelitzia",        "le strélitzia",        "Strelitzia reginae"),
+   ("protee-royale",     "la protée royale",     "Protea cynaroides"),
+  ],
+ },
+ 3: {
+  "faune": [
+   ("panda-geant",       "le panda géant",       "Ailuropoda melanoleuca"),
+   ("panda-roux",        "le panda roux",        "Ailurus fulgens"),
+   ("elephant-asie",     "l’éléphant d’Asie",    "Elephas maximus"),
+   ("orang-outan",       "l’orang-outan",        "Pongo pygmaeus"),
+   ("yack",              "le yack",              "Bos grunniens"),
+   ("chameau",           "le chameau",           "Camelus bactrianus"),
+   ("macaque-japonais",  "le macaque japonais",  "Macaca fuscata"),
+   ("paon",              "le paon",              "Pavo cristatus"),
+   ("grue-japon",        "la grue du Japon",     "Grus japonensis"),
+   ("carpe-koi",         "la carpe koï",         "Cyprinus rubrofuscus"),
+   ("canard-mandarin",   "le canard mandarin",   "Aix galericulata"),
+   ("phasme",            "le phasme",            "Carausius morosus"),
+  ],
+  "flore": [
+   ("bambou",            "le bambou",            "Phyllostachys edulis"),
+   ("riz",               "le riz",               "Oryza sativa"),
+   ("theier",            "le théier",            "Camellia sinensis"),
+   ("lotus",             "le lotus",             "Nelumbo nucifera"),
+   ("cerisier-japon",    "le cerisier du Japon", "Prunus serrulata"),
+   ("orchidee",          "l’orchidée",           "Phalaenopsis amabilis"),
+   ("ginkgo",            "le ginkgo",            "Ginkgo biloba"),
+   ("erable-japon",      "l’érable du Japon",    "Acer palmatum"),
+   ("bananier",          "le bananier",          "Musa acuminata"),
+   ("manguier",          "le manguier",          "Mangifera indica"),
+   ("murier-blanc",      "le mûrier blanc",      "Morus alba"),
+   ("rhododendron",      "le rhododendron",      "Rhododendron arboreum"),
+  ],
+ },
+ 4: {
+  "faune": [
+   ("lama",              "le lama",              "Lama glama"),
+   ("bison",             "le bison",             "Bos bison"),
+   ("raton-laveur",      "le raton laveur",      "Procyon lotor"),
+   ("tatou",             "le tatou",             "Dasypus novemcinctus"),
+   ("paresseux",         "le paresseux",         "Bradypus variegatus"),
+   ("capybara",          "le capybara",          "Hydrochoerus hydrochaeris"),
+   ("toucan",            "le toucan",            "Ramphastos toco"),
+   ("ara-rouge",         "l’ara rouge",          "Ara macao"),
+   ("colibri",           "le colibri",           "Archilochus colubris"),
+   ("rainette",          "la rainette aux yeux rouges", "Agalychnis callidryas"),
+   ("iguane",            "l’iguane vert",        "Iguana iguana"),
+   ("monarque",          "le papillon monarque", "Danaus plexippus"),
+  ],
+  "flore": [
+   ("mais",              "le maïs",              "Zea mays"),
+   ("haricot",           "le haricot",           "Phaseolus vulgaris"),
+   ("potiron",           "le potiron",           "Cucurbita maxima"),
+   ("tomate",            "la tomate",            "Solanum lycopersicum"),
+   ("pomme-de-terre",    "la pomme de terre",    "Solanum tuberosum"),
+   ("cacaoyer",          "le cacaoyer",          "Theobroma cacao"),
+   ("ananas",            "l’ananas",             "Ananas comosus"),
+   ("tournesol",         "le tournesol",         "Helianthus annuus"),
+   ("saguaro",           "le cactus saguaro",    "Carnegiea gigantea"),
+   ("sequoia",           "le séquoia géant",     "Sequoiadendron giganteum"),
+   ("erable-sucre",      "l’érable à sucre",     "Acer saccharum"),
+   ("victoria",          "le nénuphar géant",    "Victoria amazonica"),
+  ],
+ },
+ 5: {
+  "faune": [
+   ("kangourou",         "le kangourou",         "Macropus giganteus"),
+   ("koala",             "le koala",             "Phascolarctos cinereus"),
+   ("wombat",            "le wombat",            "Vombatus ursinus"),
+   ("emeu",              "l’émeu",               "Dromaius novaehollandiae"),
+   ("cacatoes",          "le cacatoès",          "Cacatua galerita"),
+   ("tortue-verte",      "la tortue verte",      "Chelonia mydas"),
+   ("poisson-clown",     "le poisson-clown",     "Amphiprion ocellaris"),
+   ("manchot-empereur",  "le manchot empereur",  "Aptenodytes forsteri"),
+   ("ours-blanc",        "l’ours blanc",         "Ursus maritimus"),
+   ("phoque",            "le phoque de Weddell", "Leptonychotes weddellii"),
+   ("renard-polaire",    "le renard polaire",    "Vulpes lagopus"),
+   ("baleine",           "la baleine à bosse",   "Megaptera novaeangliae"),
+  ],
+  "flore": [
+   ("eucalyptus",        "l’eucalyptus",         "Eucalyptus globulus"),
+   ("fougere-arborescente", "la fougère arborescente", "Dicksonia antarctica"),
+   ("mimosa",            "le mimosa doré",       "Acacia pycnantha"),
+   ("banksia",           "le banksia",           "Banksia integrifolia"),
+   ("patte-kangourou",   "la patte de kangourou", "Anigozanthos manglesii"),
+   ("cocotier",          "le cocotier",          "Cocos nucifera"),
+   ("algue-geante",      "l’algue géante",       "Macrocystis pyrifera"),
+   ("linaigrette",       "la linaigrette",       "Eriophorum scheuchzeri"),
+   ("pavot-arctique",    "le pavot arctique",    "Oreomecon radicata"),
+   ("lichen",            "le lichen des rennes", "Cladonia rangiferina"),
+   ("saule-arctique",    "le saule arctique",    "Salix arctica"),
+   ("mousse",            "la mousse",            "Racomitrium lanuginosum"),
+  ],
+ },
 }
 
 # Les espèces domestiques se cherchent avec captive=true (skill imagier-photos).
-DOMESTIQUES = set()
+DOMESTIQUES = {
+    # période 2 : l'animal d'élevage et les cultures (un champ est « captive »)
+    "Camelus dromedarius", "Sorghum bicolor", "Phoenix dactylifera",
+    "Coffea arabica",
+    # période 3 : les animaux d'élevage, l'élevage de la soie, la rizière
+    "Bos grunniens", "Camelus bactrianus", "Oryza sativa",
+    "Cyprinus rubrofuscus",
+    # période 4 : le lama et les cultures des Amériques
+    "Lama glama", "Zea mays", "Phaseolus vulgaris", "Cucurbita maxima",
+    "Solanum lycopersicum", "Solanum tuberosum", "Ananas comosus",
+}
 
 # La photographie retenue à l'œil pour chaque espèce, sur planche de
 # candidats (identifiant de photo iNaturalist).
@@ -68,7 +194,7 @@ OVERRIDES = {
     "chataignier": 156687202,
     "chene-pedoncule": 216854955,
     "chouette-hulotte": 192781832,
-    "cigogne-blanche": 601229857,
+    "cigogne-blanche": 72429124,     # seule, entière, de profil, dans l’herbe (l’ancienne était sur un lampadaire)
     "coquelicot": 77613327,
     "ecureuil-roux": 60496860,
     "edelweiss": 560454686,
@@ -85,6 +211,110 @@ OVERRIDES = {
     "renard-roux": 543807440,
     "renne": 724700305,
     "vigne": 343502942,
+    # — période 2, l'Afrique : choisies à l'œil sur planches (savane, puis
+    #   parcs animaliers et cultures pour le gorille, le suricate, le dattier,
+    #   le caféier, le sorgho et le strélitzia) —
+    "lion": 300761357,              # couché, calme, la crinière ; jamais en chasse
+    "elephant-afrique": 63248024,   # seul, entier, de profil (l'autre avait un second éléphant)
+    "girafe": 584655415,            # entière, seule dans la savane
+    "zebre": 298612820,             # seul sur la piste, de profil
+    "hippopotame": 187733006,       # hors de l'eau : on le voit en entier
+    "rhinoceros-blanc": 599886911,  # de trois quarts, les deux cornes
+    "gorille": 84758833,            # un dos argenté qui marche dans l'herbe (parc animalier)
+    "suricate": 197422056,          # debout, en sentinelle
+    "dromadaire": 105974064,        # entier, de profil, une seule bosse bien visible
+    "autruche": 410703952,          # un mâle seul, entier
+    "grue-couronnee": 246076120,    # entière, la couronne de plumes
+    "tortue-sillonnee": 218917335,  # sur le sable, la carapace en entier
+    "baobab": 244384816,            # l'arbre entier, son tronc énorme
+    "acacia-parasol": 624175037,    # seul dans le désert, la forme en parasol
+    "palmier-dattier": 467199719,   # un seul palmier, avec ses régimes de dattes
+    "karite": 469968092,            # l'arbre entier en fleurs
+    "cafeier": 122358955,           # le rameau et ses cerises rouges
+    "sorgho": 77277173,             # les épis mûrs du champ
+    "pasteque": 237181024,          # le fruit au pied de la plante
+    "papyrus": 13488403,            # une tige et son ombelle
+    "nenuphar-bleu": 11548018,      # la fleur bleue et ses feuilles flottantes
+    "aloes": 251076585,             # la plante entière et ses épis rouges
+    "strelitzia": 387549553,        # une fleur seule, fond net
+    "protee-royale": 213126269,     # la grosse fleur rose
+    # — période 3, l'Asie : choisies à l'œil sur planches (parcs animaliers
+    #   pour les pandas ; cultures pour le riz, le cerisier et le ginkgo) —
+    "panda-geant": 347071046,          # il mange du bambou, assis (parc animalier)
+    "panda-roux": 156682958,           # entier, de profil sur sa branche
+    "elephant-asie": 113994860,        # un seul, entier, de profil
+    "orang-outan": 62662319,           # un mâle adulte entier, assis
+    "yack": 51516618,          # un seul, entier, de profil, ses longs poils
+    "chameau": 258581917,              # un seul, ses deux bosses bien visibles
+    "macaque-japonais": 616559799,     # assis seul sur la pierre
+    "paon": 402383086,                 # la roue ouverte
+    "grue-japon": 336788747,           # une seule grue, entière
+    "carpe-koi": 545083626,            # une seule carpe dans l'eau claire
+    "canard-mandarin": 208838007,      # un mâle seul, entier
+    "phasme": 1830461,                 # entier, sur fond clair
+    "bambou": 376124726,               # la forêt de tiges
+    "riz": 159866036,                  # les pieds de riz dans l'eau de la rizière
+    "theier": 339550710,               # le rameau, ses feuilles et une fleur
+    "lotus": 390395891,                # la fleur rose
+    "cerisier-japon": 266820893,       # un rameau en fleurs
+    "orchidee": 368194406,             # les fleurs blanches
+    "ginkgo": 105759016,               # les feuilles en éventail, dorées
+    "erable-japon": 248194967,         # l'arbre entier, rouge à l'automne
+    "bananier": 437308275,             # le régime de bananes sous les grandes feuilles
+    "manguier": 67997344,              # la mangue pendue à l'arbre
+    "murier-blanc": 395310852,         # le rameau et ses mûres
+    "rhododendron": 518147795,         # un bouquet de fleurs rouges
+    # — période 4, les Amériques : choisies à l'œil sur planches ; le lama et
+    #   les cultures cherchés en captivité —
+    "lama": 343380888,                 # un seul, entier, sa laine
+    "bison": 297923496,                # entier, de profil
+    "raton-laveur": 37567305,          # entier, sur le chemin, son masque
+    "tatou": 58055050,           # entier, de profil, sa carapace en bandes
+    "paresseux": 333191551,            # accroché, entier, au milieu des feuilles
+    "capybara": 415053243,             # entier, de profil
+    "toucan": 684246875,               # entier sur sa branche, le grand bec
+    "ara-rouge": 625153580,    # grand, net, dans les feuilles (les autres : un panneau, ou coupé)
+    "colibri": 76330558,               # un mâle posé, la gorge rouge
+    "rainette": 38855688,              # entière, les yeux rouges
+    "iguane": 19063248,                # vert, entier sur son poteau
+    "monarque": 45078365,              # ailes ouvertes sur une fleur
+    "mais": 308363418,                 # les épis
+    "haricot": 194171827,              # les gousses sur la plante
+    "potiron": 56392554,               # le fruit sur la tige
+    "tomate": 135603141,               # une grappe de tomates qui mûrissent
+    "pomme-de-terre": 418668629,       # les tubercules
+    "cacaoyer": 339713047,             # la cabosse sur le tronc
+    "ananas": 263834600,               # le fruit au cœur de la plante
+    "tournesol": 191809016,            # une plante entière en fleur
+    "saguaro": 34304159,               # les grands cactus du désert de Sonora
+    "sequoia": 234355751,              # le tronc géant
+    "erable-sucre": 27471670,          # la feuille, symbole du Canada
+    "victoria": 68253999,              # une feuille géante, son bord relevé
+    # — période 5, l'Océanie et les pôles : choisies à l'œil sur planches —
+    "kangourou": 420260120,            # un seul, debout, entier
+    "koala": 470926273,                # seul, dans la fourche de l'eucalyptus
+    "wombat": 698547159,               # entier, de profil
+    "emeu": 594056522,                 # un seul, de face
+    "cacatoes": 543330106,             # entier sur sa branche, la huppe jaune
+    "tortue-verte": 628142620,         # une seule, qui nage, entière
+    "poisson-clown": 698862945,        # un seul, dans son anémone
+    "manchot-empereur": 606729452,     # un seul, sur la banquise
+    "ours-blanc": 109439406,           # un seul, entier, qui marche
+    "phoque": 5613067,            # couché sur la neige, entier, de face
+    "renard-polaire": 536021710,  # un seul, entier, sur les rochers (l’autre tenait une proie)
+    "baleine": 432947691,              # le saut hors de l'eau
+    "eucalyptus": 13601383,            # l'arbre entier
+    "fougere-arborescente": 452666686, # son tronc et sa couronne de frondes
+    "mimosa": 565309522,               # les boules jaunes sur le ciel bleu
+    "banksia": 83548287,               # l'épi de fleurs
+    "patte-kangourou": 574580523,      # les fleurs rouges et vertes
+    "cocotier": 221434888,             # un seul cocotier sur la plage
+    "algue-geante": 317807517,         # la forêt d'algues sous la mer
+    "linaigrette": 307826240,          # les houppes blanches
+    "pavot-arctique": 549597162,       # les fleurs jaunes entre les pierres
+    "lichen": 458119264,               # le lichen en buisson
+    "saule-arctique": 89159079,        # le petit saule au ras du sol, ses chatons
+    "mousse": 530054886,               # un coussin de mousse
 }
 
 
