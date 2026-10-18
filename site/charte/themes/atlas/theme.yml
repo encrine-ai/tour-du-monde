@@ -1,0 +1,77 @@
+# Le design system de la classe « Le tour du monde » : le grand atlas.
+# Déclare chaque police et chaque image du thème, avec sa licence ; contrôlé
+# par scripts/verifier-theme.py (skill charte-graphique, « Le mini-site »).
+nom: Le grand atlas
+description: >-
+  Le site est un grand atlas ancien qu'on feuillette : on ouvre la mappemonde,
+  on touche le sceau d'un continent, et chaque période est une planche gravée
+  — sa carte et ses repères, son glossaire, son bestiaire et son herbier, sa
+  bibliothèque, son cabinet des arts, le portefeuille de ses cahiers. Le menu
+  est la table de l'atlas (la « Légende » sur téléphone, derrière une rose des
+  vents) ; l'année est une échelle de carte, à l'échelle des semaines.
+  Parchemin, encre sépia, mer profonde, vermillon ; IM Fell English (les
+  fontes gravées du XVIIe siècle) pour les titres, Spectral pour la lecture,
+  Andika pour les mots de l'enfant. Le papier reste sobre : sépia et
+  vermillon sur blanc, sans ornement.
+retenu_le: 2026-10-18
+gabarits: gabarits.js
+polices:
+  - famille: IM Fell
+    role: titres de l'adulte (--police-titre)
+    fichiers: [polices/imfell-latin.woff2, polices/imfell-latin-italic.woff2]
+    licence: OFL-1.1
+    auteur: Igino Marini, d'après les fontes du Dr John Fell
+    source: https://fontsource.org/fonts/im-fell-english
+  - famille: IM Fell SC
+    role: petites capitales, étiquettes, numéros de planche (--police-etiquette)
+    fichiers: [polices/imfellsc-latin.woff2]
+    licence: OFL-1.1
+    auteur: Igino Marini, d'après les fontes du Dr John Fell
+    source: https://fontsource.org/fonts/im-fell-english-sc
+  - famille: Spectral
+    role: texte de l'adulte (--police-texte)
+    fichiers: [polices/spectral-latin-400.woff2, polices/spectral-latin-ext-400.woff2,
+               polices/spectral-latin-400-italic.woff2, polices/spectral-latin-ext-400-italic.woff2,
+               polices/spectral-latin-600.woff2, polices/spectral-latin-ext-600.woff2]
+    licence: OFL-1.1
+    auteur: The Spectral Project Authors (Production Type)
+    source: https://github.com/productiontype/Spectral
+motifs:
+  - fichier: motifs/grain.svg
+    role: le grain du parchemin et du vélin (écran seulement)
+    licence: CC0-1.0
+    auteur: tracé pour le thème
+# Les images du thème : des cartes anciennes du domaine public. Regardées à
+# l'œil, en grand : aucune figure dénudée ni violente (site pour des enfants
+# de cinq ans). La mappemonde de Blaeu et l'Europe de Schenk, d'abord
+# retenues en maquette, ont été écartées pour leurs allégories.
+images:
+  - fichier: images/carte-monde-delisle.jpg
+    titre: Mappemonde à l'usage du roi
+    auteur: Guillaume Delisle, éditée par Jean Covens et Corneille Mortier
+    date: 1721-1774
+    institution: Rijksmuseum, RP-P-1929-1438
+    source: https://id.rijksmuseum.nl/200450285
+    licence: PDM
+    recadrage: >-
+      Cartouche allégorique (les quatre continents personnifiés) et rubans du
+      titre effacés en papier nu ; recadrée sur le trait d'encadrement.
+  - fichier: images/carte-europe-maaskamp.jpg
+    titre: Nouvelle carte du théâtre de la guerre actuelle en Russie, Pologne, Moldavie, Valachie
+    auteur: Evert Maaskamp
+    date: 1812
+    institution: Rijksmuseum
+    source: https://id.rijksmuseum.nl/200720684
+    licence: PDM
+    recadrage: Recadrée sur le trait d'encadrement (marges et numéro d'inventaire retirés).
+# Les icônes du sprite que demandent les gabarits (scripts/generer-icones.py)
+icones: [chevron-down, arrow-right, book-open, music]
+# Les jetons propres au thème, tenus à 4,5:1 comme les autres
+contrastes:
+  - [--t-sur-mer, --t-mer]
+  - [--t-or-clair, --t-mer]
+  - [--t-sur-mer-doux, --t-mer]
+  - [--t-sur-vermillon, --sapin]
+  - [--encre, --t-velin]
+  - [--encre-douce, --t-velin]
+  - [--sapin, --t-velin]

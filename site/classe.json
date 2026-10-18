@@ -9,8 +9,14 @@
   "sous_titre": "classe de démonstration",
   "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
-  "theme": "tour-du-monde",
+  "theme": "atlas",
   "ton": "tu",
+  "enseignant": {
+    "signature": "",
+    "mot": "",
+    "ecole": "",
+    "ville": ""
+  },
   "depot": "encrine-ai/tour-du-monde",
   "moteur": {
     "depot": "encrine-ai/moteur",
@@ -34,7 +40,8 @@
     "referentiel": "referentiel/cycle1-gs.yml",
     "annotations": "classe/annotations.yml",
     "imagier": "classe/imagier.py",
-    "corpus": "classe/corpus.py"
+    "corpus": "classe/corpus.py",
+    "projet": "classe/projet.yml"
   },
   "calendrier": {
     "zone": "C",
@@ -323,5 +330,2214 @@
     "nom": "Classe de démonstration — Le tour du monde",
     "nom_court": "Tour du monde",
     "initiale": "T"
-  }
+  },
+  "donnees_projet": {
+    "annee": {
+      "mascotte": {
+        "cle": "plume",
+        "nom": "Plume, la cigogne voyageuse",
+        "texte": "La mascotte de la classe. Une cigogne blanche quitte l’Europe à la fin de l’été pour passer l’hiver en Afrique : c’est elle qui emmène la classe, envoie une carte postale de chaque continent et introduit les situations-problèmes.",
+        "embleme": "projet/cigogne-gravure.jpg"
+      },
+      "fils_rouges": [
+        {
+          "cle": "passeport",
+          "nom": "Le passeport du petit voyageur",
+          "texte": "Un carnet individuel, tamponné à chaque continent : dessins d’observation légendés, photographies, traces des expériences. Il montre les progrès et circule à la maison à chaque fin de période."
+        },
+        {
+          "cle": "carte",
+          "nom": "La grande carte du monde",
+          "texte": "Un planisphère affiché dans la classe, où l’on pique à chaque période les animaux, les plantes et les étapes du voyage de Plume."
+        },
+        {
+          "cle": "valise",
+          "nom": "La valise de la période",
+          "texte": "Une vraie valise arrive à chaque continent avec des objets-mystères : un instrument, une étoffe, un fruit, une carte postale. Elle lance le corpus et les questions des enfants."
+        },
+        {
+          "cle": "langues",
+          "nom": "Bonjour dans toutes les langues",
+          "texte": "Saluer, compter jusqu’à cinq et chanter une comptine dans une langue du continent ; les langues des familles de la classe sont invitées en premier."
+        },
+        {
+          "cle": "elevages",
+          "nom": "Élevages et plantations",
+          "texte": "Abri à hérisson et mangeoire, semis de mil ou de sorgho, riz en barquette et phasmes, maïs, haricots et courges, bac à glace et banquise miniature : un par continent."
+        }
+      ]
+    },
+    "periodes": {
+      "europe": {
+        "resume": "On part de ce que les enfants voient chaque jour : l’Europe, c’est ici, dans la cour et dans le parc voisin. Les repères de la carte disent où vivent les animaux, les contes et les œuvres de la période.",
+        "fil_rouge": {
+          "nom": "Lettre de Plume",
+          "message": "« Chers enfants, l’été se termine et je prépare mon grand voyage. Je quitte l’Europe pour passer l’hiver en Afrique : venez avec moi ! »",
+          "texte": "Une cigogne blanche quitte l’Europe à la fin de l’été pour passer l’hiver en Afrique : c’est elle qui emmène la classe. Son départ, à la fin de la période 1, ouvre la période 2.",
+          "embleme": "projet/cigogne-gravure.jpg"
+        },
+        "albums": [
+          {
+            "titre": "Boucle d’or et les trois ours",
+            "auteur": "conte traditionnel anglais",
+            "etude": true,
+            "image": "projet/trois-ours.jpg"
+          },
+          {
+            "titre": "Le Petit Chaperon rouge",
+            "auteur": "Perrault, Grimm",
+            "image": "projet/fokke-chaperon.jpg"
+          },
+          {
+            "titre": "Les Trois Petits Cochons",
+            "auteur": "conte traditionnel anglais"
+          },
+          {
+            "titre": "Le réseau « l’ours et le loup des contes »",
+            "note": "la version lue est au choix de l’enseignant"
+          }
+        ],
+        "documentaires": [
+          "la carte du monde et l’Europe",
+          "la cigogne et sa migration",
+          {
+            "titre": "le hérisson",
+            "image": "projet/tempesta-herisson.jpg"
+          },
+          "les arbres d’automne"
+        ],
+        "textes": [
+          "comptines de rentrée",
+          "*Frère Jacques* chanté en français, en anglais, en allemand et en espagnol",
+          "*Promenons-nous dans les bois* (traditionnel)",
+          "une comptine pour compter jusqu’à dix"
+        ],
+        "oeuvres": [
+          {
+            "titre": "Les Coquelicots",
+            "auteur": "Claude Monet",
+            "note": "un paysage",
+            "image": "projet/monet-coquelicots.jpg"
+          },
+          {
+            "titre": "L’Arbre de vie",
+            "auteur": "Gustav Klimt",
+            "note": "spirales et motifs",
+            "image": "projet/klimt-arbre-de-vie.jpg"
+          },
+          {
+            "titre": "Joan Miró",
+            "note": "signes, lignes et couleurs pures"
+          },
+          {
+            "titre": "Dessin d’observation",
+            "note": "les feuilles et les fruits d’automne"
+          }
+        ],
+        "musique": [
+          {
+            "titre": "« Dans l’antre du roi de la montagne »",
+            "auteur": "Edvard Grieg, *Peer Gynt*",
+            "note": "œuvre patrimoniale 1 — un tempo qui accélère, des nuances qui enflent"
+          },
+          "rondes et jeux dansés traditionnels d’Europe"
+        ],
+        "sorties": [
+          "sortie au parc ou au bois le plus proche (chêne, châtaignier, traces du hérisson, oiseaux)",
+          "Semaine du goût « le petit-déjeuner d’Europe »",
+          "installation de l’abri à hérisson et de la mangeoire"
+        ],
+        "spectacle": [
+          "théâtre de marionnettes « Boucle d’or et les trois ours » (trois voix : la grosse, la moyenne, la petite)"
+        ],
+        "embleme": {
+          "imagier": "herisson"
+        },
+        "theme": {
+          "atlas": {
+            "carte": {
+              "x": 64,
+              "y": 24,
+              "cote": "gauche"
+            },
+            "planche": {
+              "image": "images/carte-europe-maaskamp.jpg",
+              "route": "M44 57 C 38 66, 31 80, 24 99",
+              "route_texte": "En pointillé, la route de Plume vers l’Afrique, par le détroit de Gibraltar.",
+              "reperes": [
+                {
+                  "lieu": "Islande",
+                  "texte": "le macareux",
+                  "x": 19,
+                  "y": 15
+                },
+                {
+                  "lieu": "Laponie",
+                  "texte": "le renne",
+                  "x": 57,
+                  "y": 15
+                },
+                {
+                  "lieu": "Norvège",
+                  "texte": "Grieg, « Dans l’antre du roi de la montagne »",
+                  "x": 44,
+                  "y": 31
+                },
+                {
+                  "lieu": "Angleterre",
+                  "texte": "Boucle d’or et Les Trois Petits Cochons, contes anglais",
+                  "x": 31,
+                  "y": 45
+                },
+                {
+                  "lieu": "Allemagne",
+                  "texte": "Le Petit Chaperon rouge des frères Grimm",
+                  "x": 45,
+                  "y": 56
+                },
+                {
+                  "lieu": "France",
+                  "texte": "Monet, Les Coquelicots ; Perrault",
+                  "x": 31,
+                  "y": 61
+                },
+                {
+                  "lieu": "Vienne",
+                  "texte": "Klimt, L’Arbre de vie",
+                  "x": 52,
+                  "y": 64
+                },
+                {
+                  "lieu": "Les Alpes",
+                  "texte": "le bouquetin, l’edelweiss",
+                  "x": 38.5,
+                  "y": 67
+                },
+                {
+                  "lieu": "Provence",
+                  "texte": "la lavande",
+                  "x": 33.5,
+                  "y": 74
+                },
+                {
+                  "lieu": "Grèce",
+                  "texte": "l’olivier",
+                  "x": 65,
+                  "y": 86
+                }
+              ]
+            }
+          }
+        }
+      },
+      "afrique": {
+        "resume": "Plume arrive au Sahel, où les cigognes d’Europe passent l’hiver. La classe découvre la savane, le désert et l’oasis, le baobab, et le marché de Handa.",
+        "fil_rouge": {
+          "nom": "Plume au Sahel",
+          "texte": "Plume arrive au Sahel, où les cigognes d’Europe passent l’hiver ; elle envoie sa carte postale d’Afrique."
+        },
+        "albums": [
+          {
+            "titre": "La Surprise de Handa",
+            "auteur": "Eileen Browne",
+            "etude": true
+          },
+          {
+            "titre": "Rafara",
+            "auteur": "conte populaire malgache, version d’Anne-Catherine De Boel"
+          },
+          {
+            "titre": "un conte du lièvre rusé",
+            "auteur": "raconté d’après *La Belle Histoire de Leuk-le-Lièvre* (Léopold Sédar Senghor et Abdoulaye Sadji)"
+          },
+          {
+            "titre": "Le réseau « le petit qui trompe le plus fort »"
+          }
+        ],
+        "documentaires": [
+          "les animaux de la savane",
+          "le baobab",
+          "le voyage de la cigogne jusqu’au Sahel",
+          "le désert et l’oasis"
+        ],
+        "textes": [
+          "*Funga Alafia* (chant d’accueil traditionnel d’Afrique de l’Ouest)",
+          "*Kye Kye Kule* (chant à répondre traditionnel du Ghana)",
+          "compter jusqu’à cinq en swahili",
+          "comptines des animaux"
+        ],
+        "oeuvres": [
+          {
+            "titre": "tissus wax et bogolan du Mali",
+            "note": "motifs"
+          },
+          {
+            "titre": "peintures murales ndébélé",
+            "auteur": "Esther Mahlangu (Afrique du Sud)"
+          },
+          {
+            "titre": "peinture à la terre et à l’ocre"
+          }
+        ],
+        "musique": [
+          {
+            "titre": "Le Carnaval des animaux",
+            "auteur": "Camille Saint-Saëns",
+            "note": "œuvre patrimoniale 2 — « Marche royale du lion », « L’Éléphant » : les timbres graves"
+          },
+          "le djembé, appels et réponses ; *Kye Kye Kule*"
+        ],
+        "sorties": [
+          "visite d’un parc zoologique (la savane africaine)",
+          "un conteur invité",
+          "semis de sorgho en classe",
+          "le marché de Handa (jeu d’achat et de vente)"
+        ],
+        "spectacle": [
+          "*La Surprise de Handa* mimée et chantée pour la fête de fin d’année, avec les tambours de la classe"
+        ],
+        "embleme": {
+          "imagier": "girafe"
+        },
+        "theme": {
+          "atlas": {
+            "carte": {
+              "x": 65,
+              "y": 51,
+              "cote": "droite"
+            },
+            "planche": {
+              "centre": {
+                "x": 60,
+                "y": 52
+              },
+              "zoom": 2.4,
+              "route": "M53 30 C 55 36, 58 41, 62 44.4",
+              "route_texte": "En pointillé, la route de Plume jusqu’au Sahel.",
+              "reperes": [
+                {
+                  "lieu": "Le Sahel",
+                  "texte": "Plume passe l’hiver avec les cigognes d’Europe",
+                  "x": 62,
+                  "y": 44.4
+                },
+                {
+                  "lieu": "Sénégal",
+                  "texte": "Leuk-le-Lièvre",
+                  "le conte de Senghor": null,
+                  "x": 52.4,
+                  "y": 42
+                },
+                {
+                  "lieu": "Mali",
+                  "texte": "les tissus bogolan",
+                  "x": 56,
+                  "y": 42.6
+                },
+                {
+                  "lieu": "Ghana",
+                  "texte": "*Kye Kye Kule*, le chant à répondre",
+                  "x": 55.4,
+                  "y": 47.5
+                },
+                {
+                  "lieu": "Égypte",
+                  "texte": "le désert, l’oasis et le papyrus",
+                  "x": 64.6,
+                  "y": 40.3
+                },
+                {
+                  "lieu": "Kenya",
+                  "texte": "La Surprise de Handa",
+                  "x": 67.6,
+                  "y": 52.5
+                },
+                {
+                  "lieu": "La savane",
+                  "texte": "le lion, la girafe, le zèbre",
+                  "x": 64.6,
+                  "y": 55.5
+                },
+                {
+                  "lieu": "Madagascar",
+                  "texte": "Rafara",
+                  "le conte malgache": null,
+                  "x": 68.2,
+                  "y": 58.4
+                },
+                {
+                  "lieu": "Afrique du Sud",
+                  "texte": "Esther Mahlangu, les peintures ndébélé",
+                  "x": 64.4,
+                  "y": 64
+                }
+              ]
+            }
+          }
+        }
+      },
+      "asie": {
+        "resume": "Plume franchit l’Himalaya et arrive en Chine. Le riz et la rizière, le panda, le phasme et le ver à soie, et le Nouvel An lunaire, juste avant les vacances.",
+        "fil_rouge": {
+          "nom": "Plume en Chine",
+          "texte": "Plume franchit l’Himalaya et arrive en Chine, à temps pour le Nouvel An lunaire."
+        },
+        "albums": [
+          {
+            "titre": "La Grande Course des animaux",
+            "auteur": "légende chinoise du zodiaque",
+            "etude": true
+          },
+          {
+            "titre": "Le Lièvre de la Lune",
+            "auteur": "conte traditionnel de l’Inde et du Japon"
+          },
+          {
+            "titre": "Issun-bōshi",
+            "auteur": "conte traditionnel japonais"
+          },
+          {
+            "titre": "Le réseau « le petit qui réussit »"
+          }
+        ],
+        "documentaires": [
+          "le panda",
+          "le riz et la rizière",
+          "le phasme et le ver à soie",
+          "le Nouvel An lunaire"
+        ],
+        "textes": [
+          "*Sakura* (chant traditionnel japonais)",
+          "la comptine des douze animaux",
+          "compter jusqu’à cinq en japonais et en chinois"
+        ],
+        "oeuvres": [
+          {
+            "titre": "La Grande Vague de Kanagawa",
+            "auteur": "Hokusai",
+            "note": "estampe"
+          },
+          {
+            "titre": "calligraphie au pinceau et à l’encre"
+          },
+          {
+            "titre": "origami"
+          }
+        ],
+        "musique": [
+          {
+            "titre": "« Pagodes » (*Estampes*)",
+            "auteur": "Claude Debussy",
+            "note": "œuvre patrimoniale 4 — le piano qui imite les gongs"
+          },
+          "paysage sonore du temple (gong, clochettes, flûte de bambou)"
+        ],
+        "sorties": [
+          "élevage de phasmes et riz en barquette",
+          "atelier d’origami et de calligraphie",
+          "fabrication des cerfs-volants",
+          "fête du Nouvel An lunaire (l’année de la chèvre commence le 6 février 2027)"
+        ],
+        "spectacle": [
+          "théâtre d’ombres *La Grande Course des animaux* et numéros de cirque"
+        ],
+        "embleme": {
+          "imagier": "panda-geant"
+        },
+        "theme": {
+          "atlas": {
+            "carte": {
+              "x": 79,
+              "y": 31,
+              "cote": "dessus"
+            },
+            "planche": {
+              "centre": {
+                "x": 80,
+                "y": 38
+              },
+              "zoom": 2.3,
+              "route": "M64 41 C 68 36, 72 36, 76.8 38.7",
+              "route_texte": "En pointillé, la route de Plume par-dessus l’Himalaya.",
+              "reperes": [
+                {
+                  "lieu": "L’Himalaya",
+                  "texte": "Plume franchit les montagnes ; le yack",
+                  "x": 76.8,
+                  "y": 38.7
+                },
+                {
+                  "lieu": "Chine",
+                  "texte": "le Nouvel An lunaire, la Grande Course des animaux, le panda",
+                  "x": 80.8,
+                  "y": 38.1
+                },
+                {
+                  "lieu": "Japon",
+                  "texte": "Hokusai, Issun-bōshi, *Sakura*",
+                  "x": 85.8,
+                  "y": 33.6
+                },
+                {
+                  "lieu": "Inde",
+                  "texte": "Le Lièvre de la Lune",
+                  "x": 74.4,
+                  "y": 45.7
+                },
+                {
+                  "lieu": "Asie du Sud-Est",
+                  "texte": "le riz et la rizière",
+                  "x": 78.9,
+                  "y": 46.3
+                },
+                {
+                  "lieu": "Bornéo",
+                  "texte": "l’orang-outan",
+                  "x": 82,
+                  "y": 51.1
+                },
+                {
+                  "lieu": "Java",
+                  "texte": "le gamelan, qui a inspiré « Pagodes » à Debussy",
+                  "x": 82.6,
+                  "y": 54.7
+                }
+              ]
+            }
+          }
+        }
+      },
+      "ameriques": {
+        "resume": "Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil. Le maïs et le potager, le colibri, la forêt amazonienne, et le défilé du carnaval.",
+        "fil_rouge": {
+          "nom": "Plume au Brésil",
+          "texte": "Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil."
+        },
+        "albums": [
+          {
+            "titre": "La Légende des trois sœurs",
+            "auteur": "légende haudenosaunee, peuples iroquoiens",
+            "etude": true
+          },
+          {
+            "titre": "La Légende du colibri",
+            "auteur": "conte amérindien, popularisé par Pierre Rabhi"
+          },
+          {
+            "titre": "Le réseau « s’entraider, faire sa part »",
+            "note": "et des écrits fonctionnels — la recette, le documentaire"
+          }
+        ],
+        "documentaires": [
+          "le maïs et le potager",
+          "le colibri",
+          "les oiseaux d’Amérique",
+          "la forêt amazonienne"
+        ],
+        "textes": [
+          "une comptine pour compter en espagnol",
+          "les chants du carnaval",
+          "la comptine du colibri"
+        ],
+        "oeuvres": [
+          {
+            "titre": "autoportraits",
+            "auteur": "Frida Kahlo",
+            "note": "le portrait"
+          },
+          {
+            "titre": "molas du Panama",
+            "note": "pavages"
+          },
+          {
+            "titre": "masques du carnaval"
+          }
+        ],
+        "musique": [
+          {
+            "titre": "Symphonie du Nouveau Monde (largo)",
+            "auteur": "Antonín Dvořák",
+            "note": "œuvre patrimoniale 3 — le cor anglais, une mélodie lente"
+          },
+          "la flûte de pan des Andes ; la batucada"
+        ],
+        "sorties": [
+          "semis du potager des trois sœurs (maïs, haricots, courges)",
+          "atelier du chocolat chaud",
+          "chasse au trésor au parc",
+          "un spectacle vu au théâtre"
+        ],
+        "spectacle": [
+          "défilé du carnaval masqué dans l’école"
+        ],
+        "embleme": {
+          "imagier": "colibri"
+        },
+        "theme": {
+          "atlas": {
+            "carte": {
+              "x": 36,
+              "y": 45.5,
+              "cote": "droite"
+            },
+            "planche": {
+              "centre": {
+                "x": 34,
+                "y": 45
+              },
+              "zoom": 2.4,
+              "route": "M50 42 C 47 48, 44 54, 40.9 58",
+              "route_texte": "En pointillé, la traversée de Plume, sur le mât d’un voilier.",
+              "reperes": [
+                {
+                  "lieu": "Brésil",
+                  "texte": "Plume arrive ; le carnaval, la batucada",
+                  "x": 40.9,
+                  "y": 58
+                },
+                {
+                  "lieu": "L’Amazonie",
+                  "texte": "la forêt amazonienne, le colibri",
+                  "x": 36.7,
+                  "y": 53.8
+                },
+                {
+                  "lieu": "Les Andes",
+                  "texte": "la flûte de pan, le lama",
+                  "x": 33.3,
+                  "y": 57.4
+                },
+                {
+                  "lieu": "Panama",
+                  "texte": "les molas",
+                  "x": 31.2,
+                  "y": 47.8
+                },
+                {
+                  "lieu": "Mexique",
+                  "texte": "Frida Kahlo ; le cacao",
+                  "x": 28.4,
+                  "y": 42.4
+                },
+                {
+                  "lieu": "Les Grandes Plaines",
+                  "texte": "le bison",
+                  "x": 28.4,
+                  "y": 37.8
+                },
+                {
+                  "lieu": "Les Grands Lacs",
+                  "texte": "La Légende des trois sœurs",
+                  "x": 30.2,
+                  "y": 31.6
+                },
+                {
+                  "lieu": "New York",
+                  "texte": "Dvořák y écrit la Symphonie du Nouveau Monde",
+                  "x": 33.3,
+                  "y": 36.1
+                }
+              ]
+            }
+          }
+        }
+      },
+      "oceanie-poles": {
+        "resume": "Plume rentre en Europe au printemps : la classe continue seule vers l’Océanie et les pôles, et lui raconte tout par lettre. La glace et les pôles, le kangourou, le récif de corail, et l’exposition « Notre tour du monde ».",
+        "fil_rouge": {
+          "nom": "Des lettres pour Plume",
+          "texte": "Plume rentre en Europe au printemps : la classe continue seule vers l’Océanie et les pôles, et lui raconte tout par lettre."
+        },
+        "albums": [
+          {
+            "titre": "Tiddalik, la grenouille qui avait bu toute l’eau",
+            "auteur": "légende aborigène d’Australie",
+            "etude": true
+          },
+          {
+            "titre": "Perdu ? Retrouvé !",
+            "auteur": "Oliver Jeffers, traduit par Élisabeth Duval, Kaléidoscope",
+            "note": "un petit garçon traverse la mer en barque pour ramener un manchot chez lui"
+          },
+          {
+            "titre": "Le réseau « le voyage et l’amitié »"
+          },
+          {
+            "titre": "les lettres de la classe correspondante"
+          }
+        ],
+        "documentaires": [
+          "la glace et les pôles",
+          "le kangourou",
+          "le récif de corail"
+        ],
+        "textes": [
+          "*Kookaburra* (chant traditionnel australien, en canon)",
+          "une comptine en anglais",
+          "les chants de l’exposition"
+        ],
+        "oeuvres": [
+          {
+            "titre": "peinture à points",
+            "auteur": "les peintres aborigènes du désert australien"
+          },
+          {
+            "titre": "Polynésie, la mer",
+            "auteur": "Henri Matisse",
+            "note": "papiers découpés, blanc sur bleu"
+          },
+          {
+            "titre": "La Mer de glace",
+            "auteur": "Caspar David Friedrich"
+          }
+        ],
+        "musique": [
+          {
+            "titre": "« L’Hiver » (*Les Quatre Saisons*)",
+            "auteur": "Antonio Vivaldi",
+            "note": "œuvre patrimoniale 5"
+          },
+          "chants des baleines ; le didgeridoo ; paysage sonore de la banquise"
+        ],
+        "sorties": [
+          "expériences sur la glace (bac à glace, banquise miniature)",
+          "cycle piscine",
+          "liaison GS-CP"
+        ],
+        "spectacle": [
+          "exposition « Notre tour du monde » et chorégraphie de fin d’année pour les familles"
+        ],
+        "embleme": {
+          "imagier": "koala"
+        },
+        "theme": {
+          "atlas": {
+            "carte": {
+              "x": 88,
+              "y": 66,
+              "cote": "gauche"
+            },
+            "planche": {
+              "centre": {
+                "x": 84,
+                "y": 70
+              },
+              "zoom": 2,
+              "route_texte": "Plume est rentrée en Europe ; la classe lui écrit.",
+              "reperes": [
+                {
+                  "lieu": "Australie",
+                  "texte": "Tiddalik ; la peinture à points",
+                  "x": 86.9,
+                  "y": 66.4
+                },
+                {
+                  "lieu": "Le récif de corail",
+                  "texte": "le poisson-clown, la tortue de mer",
+                  "x": 90.7,
+                  "y": 63.6
+                },
+                {
+                  "lieu": "La côte est",
+                  "texte": "le kangourou, le koala, *Kookaburra*",
+                  "x": 89.6,
+                  "y": 72.1
+                },
+                {
+                  "lieu": "Les terres australes",
+                  "texte": "vers le pôle Sud : la banquise, le manchot",
+                  "x": 78.2,
+                  "y": 75.8
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "images": [
+      {
+        "fichier": "projet/cigogne-gravure.jpg",
+        "titre": "Cigogne debout, une grenouille au premier plan",
+        "auteur": "anonyme",
+        "date": "1688-1698",
+        "institution": "Rijksmuseum",
+        "source": "https://id.rijksmuseum.nl/200394304",
+        "licence": "PDM",
+        "alt": "Gravure ancienne en couleurs d’une cigogne debout, une grenouille à ses pieds.",
+        "chemin": "projet/cigogne-gravure.jpg"
+      },
+      {
+        "fichier": "projet/trois-ours.jpg",
+        "titre": "Trois ours (Animalium quadrupedum)",
+        "auteur": "Nicolaes de Bruyn, édité par Assuerus van Londerseel",
+        "date": "1594",
+        "institution": "Rijksmuseum, RP-P-OB-16.164",
+        "source": "https://id.rijksmuseum.nl/200167447",
+        "licence": "PDM",
+        "alt": "Gravure ancienne de trois ours près d’un arbre.",
+        "chemin": "projet/trois-ours.jpg"
+      },
+      {
+        "fichier": "projet/fokke-chaperon.jpg",
+        "titre": "Le Petit Chaperon rouge et le loup (Contes de ma mère l’Oye)",
+        "auteur": "Simon Fokke",
+        "date": "1754-1784",
+        "institution": "Rijksmuseum",
+        "source": "https://id.rijksmuseum.nl/200191322",
+        "licence": "PDM",
+        "alt": "Gravure du XVIIIe siècle, le Petit Chaperon rouge entre chez sa grand-mère.",
+        "chemin": "projet/fokke-chaperon.jpg"
+      },
+      {
+        "fichier": "projet/tempesta-herisson.jpg",
+        "titre": "Hérisson (Herinaceus / Riccio)",
+        "auteur": "Antonio Tempesta",
+        "date": "1565-1630",
+        "institution": "Rijksmuseum, RP-P-H-H-423",
+        "source": "https://id.rijksmuseum.nl/200263487",
+        "licence": "PDM",
+        "alt": "Gravure ancienne d’un hérisson de profil.",
+        "chemin": "projet/tempesta-herisson.jpg"
+      },
+      {
+        "fichier": "projet/monet-coquelicots.jpg",
+        "titre": "Les Coquelicots (1873), Claude Monet",
+        "auteur": "photographie de Grégory Lejeune",
+        "institution": "Flickr, via Openverse",
+        "source": "https://www.flickr.com/photos/125149010@N07/37991319026",
+        "licence": "CC0-1.0",
+        "alt": "Les Coquelicots de Claude Monet, un champ de coquelicots rouges et deux promeneuses.",
+        "chemin": "projet/monet-coquelicots.jpg"
+      },
+      {
+        "fichier": "projet/klimt-arbre-de-vie.jpg",
+        "titre": "L’Arbre de vie (1905-1909), Gustav Klimt",
+        "auteur": "reproduction de rawpixel",
+        "institution": "rawpixel, via Openverse",
+        "source": "https://www.rawpixel.com/image/3844931/larbre-vie-1905-1909-paintings-high-resolution-gustav-klimt",
+        "licence": "CC0-1.0",
+        "alt": "L’Arbre de vie de Gustav Klimt, un arbre doré aux branches en spirales.",
+        "chemin": "projet/klimt-arbre-de-vie.jpg"
+      }
+    ]
+  },
+  "imagier": {
+    "1": {
+      "faune": [
+        {
+          "slug": "herisson",
+          "nom": "le hérisson",
+          "chemin": "imagier/img/herisson.jpg",
+          "auteur": "Linda Lötjönen",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/359917393"
+        },
+        {
+          "slug": "cigogne-blanche",
+          "nom": "la cigogne blanche",
+          "chemin": "imagier/img/cigogne-blanche.jpg",
+          "auteur": "Patrick Hacker",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/45670972"
+        },
+        {
+          "slug": "renard-roux",
+          "nom": "le renard roux",
+          "chemin": "imagier/img/renard-roux.jpg",
+          "auteur": "Genevieve Early",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/301768846"
+        },
+        {
+          "slug": "ours-brun",
+          "nom": "l’ours brun",
+          "chemin": "imagier/img/ours-brun.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/228535861"
+        },
+        {
+          "slug": "loup-gris",
+          "nom": "le loup",
+          "chemin": "imagier/img/loup-gris.jpg",
+          "auteur": "Bob",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/149713608"
+        },
+        {
+          "slug": "cerf-elaphe",
+          "nom": "le cerf",
+          "chemin": "imagier/img/cerf-elaphe.jpg",
+          "auteur": "Frank Sengpiel",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/321792336"
+        },
+        {
+          "slug": "ecureuil-roux",
+          "nom": "l’écureuil roux",
+          "chemin": "imagier/img/ecureuil-roux.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/38095132"
+        },
+        {
+          "slug": "chouette-hulotte",
+          "nom": "la chouette hulotte",
+          "chemin": "imagier/img/chouette-hulotte.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/114141861"
+        },
+        {
+          "slug": "lynx-boreal",
+          "nom": "le lynx",
+          "chemin": "imagier/img/lynx-boreal.jpg",
+          "auteur": "Julia Moning",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/143728649"
+        },
+        {
+          "slug": "bouquetin",
+          "nom": "le bouquetin",
+          "chemin": "imagier/img/bouquetin.jpg",
+          "auteur": "Matteo Martini",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/230729758"
+        },
+        {
+          "slug": "macareux-moine",
+          "nom": "le macareux",
+          "chemin": "imagier/img/macareux-moine.jpg",
+          "auteur": "nbasargin",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/188402991"
+        },
+        {
+          "slug": "renne",
+          "nom": "le renne",
+          "chemin": "imagier/img/renne.jpg",
+          "auteur": "EstebanMH",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/395264849"
+        }
+      ],
+      "flore": [
+        {
+          "slug": "chene-pedoncule",
+          "nom": "le chêne",
+          "chemin": "imagier/img/chene-pedoncule.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/127718410"
+        },
+        {
+          "slug": "olivier",
+          "nom": "l’olivier",
+          "chemin": "imagier/img/olivier.jpg",
+          "auteur": "Ioannis Magouras",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/315586143"
+        },
+        {
+          "slug": "bouleau",
+          "nom": "le bouleau",
+          "chemin": "imagier/img/bouleau.jpg",
+          "auteur": "Matteo Martini",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/351138955"
+        },
+        {
+          "slug": "epicea",
+          "nom": "l’épicéa",
+          "chemin": "imagier/img/epicea.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/45572827"
+        },
+        {
+          "slug": "chataignier",
+          "nom": "le châtaignier",
+          "chemin": "imagier/img/chataignier.jpg",
+          "auteur": "bogsuckers",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/94455558"
+        },
+        {
+          "slug": "houx",
+          "nom": "le houx",
+          "chemin": "imagier/img/houx.jpg",
+          "auteur": "Craig Williams",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/211568435"
+        },
+        {
+          "slug": "lavande",
+          "nom": "la lavande",
+          "chemin": "imagier/img/lavande.jpg",
+          "auteur": "Bob Walker",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/54068816"
+        },
+        {
+          "slug": "bruyere",
+          "nom": "la bruyère",
+          "chemin": "imagier/img/bruyere.jpg",
+          "auteur": "Duarte Frade",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/309059014"
+        },
+        {
+          "slug": "coquelicot",
+          "nom": "le coquelicot",
+          "chemin": "imagier/img/coquelicot.jpg",
+          "auteur": "Andrew Bazdyrev",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/48921922"
+        },
+        {
+          "slug": "edelweiss",
+          "nom": "l’edelweiss",
+          "chemin": "imagier/img/edelweiss.jpg",
+          "auteur": "Elias",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/310529115"
+        },
+        {
+          "slug": "fougere-aigle",
+          "nom": "la fougère",
+          "chemin": "imagier/img/fougere-aigle.jpg",
+          "auteur": "luluchouette",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/123545481"
+        },
+        {
+          "slug": "vigne",
+          "nom": "la vigne",
+          "chemin": "imagier/img/vigne.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/195279881"
+        }
+      ]
+    },
+    "2": {
+      "faune": [
+        {
+          "slug": "lion",
+          "nom": "le lion",
+          "chemin": "imagier/img/lion.jpg",
+          "auteur": "David Knox",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/173202924"
+        },
+        {
+          "slug": "elephant-afrique",
+          "nom": "l’éléphant d’Afrique",
+          "chemin": "imagier/img/elephant-afrique.jpg",
+          "auteur": "William Stephens",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/39839971"
+        },
+        {
+          "slug": "girafe",
+          "nom": "la girafe",
+          "chemin": "imagier/img/girafe.jpg",
+          "auteur": "Tom Heijnen",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/323129116"
+        },
+        {
+          "slug": "zebre",
+          "nom": "le zèbre",
+          "chemin": "imagier/img/zebre.jpg",
+          "auteur": "Stan Rullman",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/172047675"
+        },
+        {
+          "slug": "hippopotame",
+          "nom": "l’hippopotame",
+          "chemin": "imagier/img/hippopotame.jpg",
+          "auteur": "Morten Ross",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/111237080"
+        },
+        {
+          "slug": "rhinoceros-blanc",
+          "nom": "le rhinocéros",
+          "chemin": "imagier/img/rhinoceros-blanc.jpg",
+          "auteur": "B Pulman005",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/330772156"
+        },
+        {
+          "slug": "gorille",
+          "nom": "le gorille",
+          "chemin": "imagier/img/gorille.jpg",
+          "auteur": "Luca Napelo",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/53295981"
+        },
+        {
+          "slug": "suricate",
+          "nom": "le suricate",
+          "chemin": "imagier/img/suricate.jpg",
+          "auteur": "David George",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/116929287"
+        },
+        {
+          "slug": "dromadaire",
+          "nom": "le dromadaire",
+          "chemin": "imagier/img/dromadaire.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/65803331"
+        },
+        {
+          "slug": "autruche",
+          "nom": "l’autruche",
+          "chemin": "imagier/img/autruche.jpg",
+          "auteur": "Tom Heijnen",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/231275074"
+        },
+        {
+          "slug": "grue-couronnee",
+          "nom": "la grue couronnée",
+          "chemin": "imagier/img/grue-couronnee.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/143482322"
+        },
+        {
+          "slug": "tortue-sillonnee",
+          "nom": "la tortue sillonnée",
+          "chemin": "imagier/img/tortue-sillonnee.jpg",
+          "auteur": "ONG SOS Biodiversity",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/128860937"
+        }
+      ],
+      "flore": [
+        {
+          "slug": "baobab",
+          "nom": "le baobab",
+          "chemin": "imagier/img/baobab.jpg",
+          "auteur": "John Brew",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/142536045"
+        },
+        {
+          "slug": "acacia-parasol",
+          "nom": "l’acacia",
+          "chemin": "imagier/img/acacia-parasol.jpg",
+          "auteur": "Михаил Голомысов",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/342732647"
+        },
+        {
+          "slug": "palmier-dattier",
+          "nom": "le palmier dattier",
+          "chemin": "imagier/img/palmier-dattier.jpg",
+          "auteur": "Bob",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/260184400"
+        },
+        {
+          "slug": "karite",
+          "nom": "le karité",
+          "chemin": "imagier/img/karite.jpg",
+          "auteur": "martin ingemansson",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/261580773"
+        },
+        {
+          "slug": "cafeier",
+          "nom": "le caféier",
+          "chemin": "imagier/img/cafeier.jpg",
+          "auteur": "GERMAN LEONEL SARMIENTO CRUZ",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/74844817"
+        },
+        {
+          "slug": "sorgho",
+          "nom": "le sorgho",
+          "chemin": "imagier/img/sorgho.jpg",
+          "auteur": "Clifton Ladd, C.W.B.",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/48694707"
+        },
+        {
+          "slug": "pasteque",
+          "nom": "la pastèque",
+          "chemin": "imagier/img/pasteque.jpg",
+          "auteur": "Karen Fry",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/138743522"
+        },
+        {
+          "slug": "papyrus",
+          "nom": "le papyrus",
+          "chemin": "imagier/img/papyrus.jpg",
+          "auteur": "Shaun Swanepoel",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/9848468"
+        },
+        {
+          "slug": "nenuphar-bleu",
+          "nom": "le nénuphar bleu",
+          "chemin": "imagier/img/nenuphar-bleu.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/8628931"
+        },
+        {
+          "slug": "aloes",
+          "nom": "l’aloès",
+          "chemin": "imagier/img/aloes.jpg",
+          "auteur": "desertnaturalist",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/146085111"
+        },
+        {
+          "slug": "strelitzia",
+          "nom": "le strélitzia",
+          "chemin": "imagier/img/strelitzia.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/218982004"
+        },
+        {
+          "slug": "protee-royale",
+          "nom": "la protée royale",
+          "chemin": "imagier/img/protee-royale.jpg",
+          "auteur": "Ren Hoekstra",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/125807302"
+        }
+      ]
+    },
+    "3": {
+      "faune": [
+        {
+          "slug": "panda-geant",
+          "nom": "le panda géant",
+          "chemin": "imagier/img/panda-geant.jpg",
+          "auteur": "Jay Pruett",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/197105964"
+        },
+        {
+          "slug": "panda-roux",
+          "nom": "le panda roux",
+          "chemin": "imagier/img/panda-roux.jpg",
+          "auteur": "Liam Steele",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/94457930"
+        },
+        {
+          "slug": "elephant-asie",
+          "nom": "l’éléphant d’Asie",
+          "chemin": "imagier/img/elephant-asie.jpg",
+          "auteur": "Ashwin Viswanathan",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/70156249"
+        },
+        {
+          "slug": "orang-outan",
+          "nom": "l’orang-outan",
+          "chemin": "imagier/img/orang-outan.jpg",
+          "auteur": "Pirataber",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/39490830"
+        },
+        {
+          "slug": "yack",
+          "nom": "le yack",
+          "chemin": "imagier/img/yack.jpg",
+          "auteur": "Julien Lepage",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/32828206"
+        },
+        {
+          "slug": "chameau",
+          "nom": "le chameau",
+          "chemin": "imagier/img/chameau.jpg",
+          "auteur": "Alex Sosnovshchenko",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/150008112"
+        },
+        {
+          "slug": "macaque-japonais",
+          "nom": "le macaque japonais",
+          "chemin": "imagier/img/macaque-japonais.jpg",
+          "auteur": "Daniel Carr",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/338985328"
+        },
+        {
+          "slug": "paon",
+          "nom": "le paon",
+          "chemin": "imagier/img/paon.jpg",
+          "auteur": "Brooke J.",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/226862836"
+        },
+        {
+          "slug": "grue-japon",
+          "nom": "la grue du Japon",
+          "chemin": "imagier/img/grue-japon.jpg",
+          "auteur": "Nathan Ruser",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/191911545"
+        },
+        {
+          "slug": "carpe-koi",
+          "nom": "la carpe koï",
+          "chemin": "imagier/img/carpe-koi.jpg",
+          "auteur": "Jay Pruett",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/302455446"
+        },
+        {
+          "slug": "canard-mandarin",
+          "nom": "le canard mandarin",
+          "chemin": "imagier/img/canard-mandarin.jpg",
+          "auteur": "Pål A. Olsvik",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/123286915"
+        },
+        {
+          "slug": "phasme",
+          "nom": "le phasme",
+          "chemin": "imagier/img/phasme.jpg",
+          "auteur": "Jesse Rorabaugh",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/1476603"
+        }
+      ],
+      "flore": [
+        {
+          "slug": "bambou",
+          "nom": "le bambou",
+          "chemin": "imagier/img/bambou.jpg",
+          "auteur": "Michael Berardozzi",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/212838334"
+        },
+        {
+          "slug": "riz",
+          "nom": "le riz",
+          "chemin": "imagier/img/riz.jpg",
+          "auteur": "Marc Riera",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/96244197"
+        },
+        {
+          "slug": "theier",
+          "nom": "le théier",
+          "chemin": "imagier/img/theier.jpg",
+          "auteur": "胡正恆(Jackson Hu)",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/193300105"
+        },
+        {
+          "slug": "lotus",
+          "nom": "le lotus",
+          "chemin": "imagier/img/lotus.jpg",
+          "auteur": "Igor' R.",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/220498981"
+        },
+        {
+          "slug": "cerisier-japon",
+          "nom": "le cerisier du Japon",
+          "chemin": "imagier/img/cerisier-japon.jpg",
+          "auteur": "Yoshihiro Tokue",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/154420382"
+        },
+        {
+          "slug": "orchidee",
+          "nom": "l’orchidée",
+          "chemin": "imagier/img/orchidee.jpg",
+          "auteur": "Tom Heijnen",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/208118863"
+        },
+        {
+          "slug": "ginkgo",
+          "nom": "le ginkgo",
+          "chemin": "imagier/img/ginkgo.jpg",
+          "auteur": "Marco Mussita",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/65683503"
+        },
+        {
+          "slug": "erable-japon",
+          "nom": "l’érable du Japon",
+          "chemin": "imagier/img/erable-japon.jpg",
+          "auteur": "Jenny Saito",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/144590380"
+        },
+        {
+          "slug": "bananier",
+          "nom": "le bananier",
+          "chemin": "imagier/img/bananier.jpg",
+          "auteur": "Maria Janeiro",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/245100411"
+        },
+        {
+          "slug": "manguier",
+          "nom": "le manguier",
+          "chemin": "imagier/img/manguier.jpg",
+          "auteur": "Alexis López Hernández",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/42817415"
+        },
+        {
+          "slug": "murier-blanc",
+          "nom": "le mûrier blanc",
+          "chemin": "imagier/img/murier-blanc.jpg",
+          "auteur": "Donald Davesne",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/223128377"
+        },
+        {
+          "slug": "rhododendron",
+          "nom": "le rhododendron",
+          "chemin": "imagier/img/rhododendron.jpg",
+          "auteur": "Morten Ross",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/288147652"
+        }
+      ]
+    },
+    "4": {
+      "faune": [
+        {
+          "slug": "lama",
+          "nom": "le lama",
+          "chemin": "imagier/img/lama.jpg",
+          "auteur": "Eduardo Chacón Madrigal",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/195221063"
+        },
+        {
+          "slug": "bison",
+          "nom": "le bison",
+          "chemin": "imagier/img/bison.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/171672860"
+        },
+        {
+          "slug": "raton-laveur",
+          "nom": "le raton laveur",
+          "chemin": "imagier/img/raton-laveur.jpg",
+          "auteur": "Cody Stricker",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/24294715"
+        },
+        {
+          "slug": "tatou",
+          "nom": "le tatou",
+          "chemin": "imagier/img/tatou.jpg",
+          "auteur": "Leo Lagos",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/36701730"
+        },
+        {
+          "slug": "paresseux",
+          "nom": "le paresseux",
+          "chemin": "imagier/img/paresseux.jpg",
+          "auteur": "Vincent A. Vos",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/190111588"
+        },
+        {
+          "slug": "capybara",
+          "nom": "le capybara",
+          "chemin": "imagier/img/capybara.jpg",
+          "auteur": "Luis Martin Stivanello",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/233541413"
+        },
+        {
+          "slug": "toucan",
+          "nom": "le toucan",
+          "chemin": "imagier/img/toucan.jpg",
+          "auteur": "Enéas V. Gouvêa Junior",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/374359105"
+        },
+        {
+          "slug": "ara-rouge",
+          "nom": "l’ara rouge",
+          "chemin": "imagier/img/ara-rouge.jpg",
+          "auteur": "Eric Klug",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/343216801"
+        },
+        {
+          "slug": "colibri",
+          "nom": "le colibri",
+          "chemin": "imagier/img/colibri.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/48115943"
+        },
+        {
+          "slug": "rainette",
+          "nom": "la rainette aux yeux rouges",
+          "chemin": "imagier/img/rainette.jpg",
+          "auteur": "Brian Gratwicke",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/25105320"
+        },
+        {
+          "slug": "iguane",
+          "nom": "l’iguane vert",
+          "chemin": "imagier/img/iguane.jpg",
+          "auteur": "Richard Stovall",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/13085946"
+        },
+        {
+          "slug": "monarque",
+          "nom": "le papillon monarque",
+          "chemin": "imagier/img/monarque.jpg",
+          "auteur": "Shirley Zundell",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/28901993"
+        }
+      ],
+      "flore": [
+        {
+          "slug": "mais",
+          "nom": "le maïs",
+          "chemin": "imagier/img/mais.jpg",
+          "auteur": "Yannick ST-Jacques Prescod",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/177307208"
+        },
+        {
+          "slug": "haricot",
+          "nom": "le haricot",
+          "chemin": "imagier/img/haricot.jpg",
+          "auteur": "四角銅鑼",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/115025458"
+        },
+        {
+          "slug": "potiron",
+          "nom": "le potiron",
+          "chemin": "imagier/img/potiron.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/35739924"
+        },
+        {
+          "slug": "tomate",
+          "nom": "la tomate",
+          "chemin": "imagier/img/tomate.jpg",
+          "auteur": "Paulo Galvão",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/82611832"
+        },
+        {
+          "slug": "pomme-de-terre",
+          "nom": "la pomme de terre",
+          "chemin": "imagier/img/pomme-de-terre.jpg",
+          "auteur": "lejones417",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/235415533"
+        },
+        {
+          "slug": "cacaoyer",
+          "nom": "le cacaoyer",
+          "chemin": "imagier/img/cacaoyer.jpg",
+          "auteur": "Emily Abrego",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/193385292"
+        },
+        {
+          "slug": "ananas",
+          "nom": "l’ananas",
+          "chemin": "imagier/img/ananas.jpg",
+          "auteur": "Navaneeth Sini George",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/152806416"
+        },
+        {
+          "slug": "tournesol",
+          "nom": "le tournesol",
+          "chemin": "imagier/img/tournesol.jpg",
+          "auteur": "Oscar Alejandro Morales Juárez",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/113542751"
+        },
+        {
+          "slug": "saguaro",
+          "nom": "le cactus saguaro",
+          "chemin": "imagier/img/saguaro.jpg",
+          "auteur": "John Brew",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/22157636"
+        },
+        {
+          "slug": "sequoia",
+          "nom": "le séquoia géant",
+          "chemin": "imagier/img/sequoia.jpg",
+          "auteur": "Jason Hernandez",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/137241757"
+        },
+        {
+          "slug": "erable-sucre",
+          "nom": "l’érable à sucre",
+          "chemin": "imagier/img/erable-sucre.jpg",
+          "auteur": "Sandy Wolkenberg",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/17974118"
+        },
+        {
+          "slug": "victoria",
+          "nom": "le nénuphar géant",
+          "chemin": "imagier/img/victoria.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/42986245"
+        }
+      ]
+    },
+    "5": {
+      "faune": [
+        {
+          "slug": "kangourou",
+          "nom": "le kangourou",
+          "chemin": "imagier/img/kangourou.jpg",
+          "auteur": "James K. Douch",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/236237777"
+        },
+        {
+          "slug": "koala",
+          "nom": "le koala",
+          "chemin": "imagier/img/koala.jpg",
+          "auteur": "jirau",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/262083661"
+        },
+        {
+          "slug": "wombat",
+          "nom": "le wombat",
+          "chemin": "imagier/img/wombat.jpg",
+          "auteur": "Barry Stewart",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/381755705"
+        },
+        {
+          "slug": "emeu",
+          "nom": "l’émeu",
+          "chemin": "imagier/img/emeu.jpg",
+          "auteur": "Donald Davesne",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/327879005"
+        },
+        {
+          "slug": "cacatoes",
+          "nom": "le cacatoès",
+          "chemin": "imagier/img/cacatoes.jpg",
+          "auteur": "Romain Boisseau",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/301517367"
+        },
+        {
+          "slug": "tortue-verte",
+          "nom": "la tortue verte",
+          "chemin": "imagier/img/tortue-verte.jpg",
+          "auteur": "Matteo Bellucci",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/344728230"
+        },
+        {
+          "slug": "poisson-clown",
+          "nom": "le poisson-clown",
+          "chemin": "imagier/img/poisson-clown.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/381910764"
+        },
+        {
+          "slug": "manchot-empereur",
+          "nom": "le manchot empereur",
+          "chemin": "imagier/img/manchot-empereur.jpg",
+          "auteur": "Alex Brown",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/334139827"
+        },
+        {
+          "slug": "ours-blanc",
+          "nom": "l’ours blanc",
+          "chemin": "imagier/img/ours-blanc.jpg",
+          "auteur": "Алексей Логинов",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/67694709"
+        },
+        {
+          "slug": "phoque",
+          "nom": "le phoque de Weddell",
+          "chemin": "imagier/img/phoque.jpg",
+          "auteur": "Kim, Hyun-tae",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/4637943"
+        },
+        {
+          "slug": "renard-polaire",
+          "nom": "le renard polaire",
+          "chemin": "imagier/img/renard-polaire.jpg",
+          "auteur": "Emily Turteltaub Nelson",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/297626398"
+        },
+        {
+          "slug": "baleine",
+          "nom": "la baleine à bosse",
+          "chemin": "imagier/img/baleine.jpg",
+          "auteur": "Lawrence Hylton",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/242835098"
+        }
+      ],
+      "flore": [
+        {
+          "slug": "eucalyptus",
+          "nom": "l’eucalyptus",
+          "chemin": "imagier/img/eucalyptus.jpg",
+          "auteur": "whichchick",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/9915792"
+        },
+        {
+          "slug": "fougere-arborescente",
+          "nom": "la fougère arborescente",
+          "chemin": "imagier/img/fougere-arborescente.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/252845198"
+        },
+        {
+          "slug": "mimosa",
+          "nom": "le mimosa doré",
+          "chemin": "imagier/img/mimosa.jpg",
+          "auteur": "Bryce Watts-Parker",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/313061272"
+        },
+        {
+          "slug": "banksia",
+          "nom": "le banksia",
+          "chemin": "imagier/img/banksia.jpg",
+          "auteur": "Thomas Mesaglio",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/52551619"
+        },
+        {
+          "slug": "patte-kangourou",
+          "nom": "la patte de kangourou",
+          "chemin": "imagier/img/patte-kangourou.jpg",
+          "auteur": "Andrew Allen",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/317946530"
+        },
+        {
+          "slug": "cocotier",
+          "nom": "le cocotier",
+          "chemin": "imagier/img/cocotier.jpg",
+          "auteur": "Riccardo Rocca",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/130225710"
+        },
+        {
+          "slug": "algue-geante",
+          "nom": "l’algue géante",
+          "chemin": "imagier/img/algue-geante.jpg",
+          "auteur": "Luca Davenport-Thomas",
+          "licence": "CC BY-NC",
+          "observation": "https://www.inaturalist.org/observations/182290548"
+        },
+        {
+          "slug": "linaigrette",
+          "nom": "la linaigrette",
+          "chemin": "imagier/img/linaigrette.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/177026686"
+        },
+        {
+          "slug": "pavot-arctique",
+          "nom": "le pavot arctique",
+          "chemin": "imagier/img/pavot-arctique.jpg",
+          "auteur": "no rights reserved",
+          "licence": "CC0",
+          "observation": "https://www.inaturalist.org/observations/304847244"
+        },
+        {
+          "slug": "lichen",
+          "nom": "le lichen des rennes",
+          "chemin": "imagier/img/lichen.jpg",
+          "auteur": "Yves Bas",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/255618289"
+        },
+        {
+          "slug": "saule-arctique",
+          "nom": "le saule arctique",
+          "chemin": "imagier/img/saule-arctique.jpg",
+          "auteur": "Donald Hampton",
+          "licence": "CC BY-SA",
+          "observation": "https://www.inaturalist.org/observations/55972082"
+        },
+        {
+          "slug": "mousse",
+          "nom": "la mousse",
+          "chemin": "imagier/img/mousse.jpg",
+          "auteur": "Chase Mathey",
+          "licence": "CC BY",
+          "observation": "https://www.inaturalist.org/observations/294481659"
+        }
+      ]
+    }
+  },
+  "corpus": {
+    "1": {
+      "corpus": [
+        {
+          "groupe": "milieu",
+          "titre": "le voyage et l’Europe",
+          "mots": [
+            "la valise",
+            "le billet",
+            "le passeport",
+            "le train",
+            "l’avion",
+            "le bateau",
+            "la carte",
+            "le globe",
+            "le drapeau",
+            "le château",
+            "le moulin",
+            "le pont"
+          ]
+        },
+        {
+          "groupe": "faune",
+          "titre": "les animaux d’Europe",
+          "mots": [
+            "le hérisson",
+            "la cigogne",
+            "le renard",
+            "l’ours",
+            "le loup",
+            "le cerf",
+            "l’écureuil",
+            "la chouette",
+            "le nid",
+            "le terrier",
+            "la plume"
+          ]
+        },
+        {
+          "groupe": "flore",
+          "titre": "les arbres et les plantes d’Europe",
+          "mots": [
+            "l’arbre",
+            "le chêne",
+            "l’olivier",
+            "le sapin",
+            "la feuille",
+            "le gland",
+            "la châtaigne",
+            "l’olive",
+            "le raisin",
+            "la fleur",
+            "la lavande",
+            "le coquelicot"
+          ]
+        }
+      ],
+      "sans_carte": [
+        "voyager",
+        "partir",
+        "arriver",
+        "traverser",
+        "loin",
+        "près",
+        "migrer",
+        "hiberner",
+        "grimper",
+        "se cacher",
+        "roux",
+        "piquant",
+        "pousser",
+        "cueillir",
+        "ramasser",
+        "parfumé"
+      ]
+    },
+    "2": {
+      "corpus": [
+        {
+          "groupe": "milieu",
+          "titre": "le voyage en Afrique",
+          "mots": [
+            "la savane",
+            "le désert",
+            "la dune",
+            "l’oasis",
+            "le fleuve",
+            "la pirogue",
+            "la case",
+            "le village",
+            "le puits",
+            "le marché",
+            "le panier",
+            "le djembé"
+          ]
+        },
+        {
+          "groupe": "faune",
+          "titre": "les animaux d’Afrique",
+          "mots": [
+            "le lion",
+            "l’éléphant",
+            "la girafe",
+            "le zèbre",
+            "l’hippopotame",
+            "le rhinocéros",
+            "le gorille",
+            "l’autruche",
+            "la tortue",
+            "la trompe",
+            "la carapace",
+            "l’œuf"
+          ]
+        },
+        {
+          "groupe": "flore",
+          "titre": "les arbres et les plantes d’Afrique",
+          "mots": [
+            "le baobab",
+            "l’acacia",
+            "le palmier",
+            "la datte",
+            "le sorgho",
+            "la pastèque",
+            "le papyrus",
+            "le nénuphar",
+            "la graine",
+            "le tronc",
+            "la branche",
+            "la racine"
+          ]
+        }
+      ],
+      "sans_carte": [
+        "porter",
+        "acheter",
+        "vendre",
+        "chaud",
+        "sec",
+        "sauvage",
+        "rugir",
+        "galoper",
+        "se baigner",
+        "rayé",
+        "lourd",
+        "léger",
+        "semer",
+        "arroser",
+        "germer",
+        "sucré",
+        "épineux"
+      ]
+    },
+    "3": {
+      "corpus": [
+        {
+          "groupe": "milieu",
+          "titre": "le voyage en Asie",
+          "mots": [
+            "la rizière",
+            "la montagne",
+            "la pagode",
+            "la muraille",
+            "le cerf-volant",
+            "la lanterne",
+            "les baguettes",
+            "le bol",
+            "l’éventail",
+            "le gong",
+            "le dragon",
+            "le feu d’artifice"
+          ]
+        },
+        {
+          "groupe": "faune",
+          "titre": "les animaux d’Asie",
+          "mots": [
+            "le panda",
+            "l’orang-outan",
+            "le yack",
+            "le chameau",
+            "le singe",
+            "le paon",
+            "la grue",
+            "la carpe",
+            "le canard",
+            "le phasme",
+            "le ver à soie",
+            "le cocon"
+          ]
+        },
+        {
+          "groupe": "flore",
+          "titre": "les arbres et les plantes d’Asie",
+          "mots": [
+            "le bambou",
+            "le riz",
+            "le thé",
+            "le lotus",
+            "le cerisier",
+            "l’orchidée",
+            "le ginkgo",
+            "l’érable",
+            "la mangue",
+            "la banane",
+            "le mûrier",
+            "le rhododendron"
+          ]
+        }
+      ],
+      "sans_carte": [
+        "fêter",
+        "souhaiter",
+        "joyeux",
+        "fier",
+        "timide",
+        "surpris",
+        "se transformer",
+        "pondre",
+        "manger",
+        "lent",
+        "soyeux",
+        "doux",
+        "planter",
+        "repiquer",
+        "fleurir",
+        "lisse",
+        "rugueux"
+      ]
+    },
+    "4": {
+      "corpus": [
+        {
+          "groupe": "milieu",
+          "titre": "le voyage aux Amériques",
+          "mots": [
+            "la forêt tropicale",
+            "la prairie",
+            "le canyon",
+            "le volcan",
+            "la pyramide",
+            "le gratte-ciel",
+            "le hamac",
+            "le poncho",
+            "la flûte de pan",
+            "les maracas",
+            "le masque",
+            "le voilier"
+          ]
+        },
+        {
+          "groupe": "faune",
+          "titre": "les animaux des Amériques",
+          "mots": [
+            "le lama",
+            "le bison",
+            "le raton laveur",
+            "le tatou",
+            "le paresseux",
+            "le capybara",
+            "le toucan",
+            "le perroquet",
+            "le colibri",
+            "la grenouille",
+            "l’iguane",
+            "le papillon"
+          ]
+        },
+        {
+          "groupe": "flore",
+          "titre": "les arbres et les plantes des Amériques",
+          "mots": [
+            "le maïs",
+            "le haricot",
+            "le potiron",
+            "la tomate",
+            "la pomme de terre",
+            "le cacao",
+            "l’ananas",
+            "le tournesol",
+            "le cactus",
+            "le séquoia",
+            "l’érable",
+            "l’épi"
+          ]
+        }
+      ],
+      "sans_carte": [
+        "explorer",
+        "défiler",
+        "se déguiser",
+        "immense",
+        "coloré",
+        "humide",
+        "butiner",
+        "se balancer",
+        "s’envoler",
+        "lent",
+        "rapide",
+        "minuscule",
+        "récolter",
+        "éplucher",
+        "mûr",
+        "juteux",
+        "géant"
+      ]
+    },
+    "5": {
+      "corpus": [
+        {
+          "groupe": "milieu",
+          "titre": "le voyage en Océanie et aux pôles",
+          "mots": [
+            "la banquise",
+            "l’iceberg",
+            "l’igloo",
+            "le traîneau",
+            "le glaçon",
+            "le bonnet",
+            "l’île",
+            "la plage",
+            "le corail",
+            "le boomerang",
+            "la lettre"
+          ]
+        },
+        {
+          "groupe": "faune",
+          "titre": "les animaux d’Océanie et des pôles",
+          "mots": [
+            "le kangourou",
+            "le koala",
+            "l’émeu",
+            "le cacatoès",
+            "la tortue de mer",
+            "le poisson-clown",
+            "le manchot",
+            "l’ours blanc",
+            "le phoque",
+            "la baleine",
+            "le renard polaire",
+            "le crabe"
+          ]
+        },
+        {
+          "groupe": "flore",
+          "titre": "les plantes d’Océanie et des pôles",
+          "mots": [
+            "l’eucalyptus",
+            "la fougère arborescente",
+            "le mimosa",
+            "le banksia",
+            "le cocotier",
+            "la noix de coco",
+            "l’algue",
+            "la mousse",
+            "le lichen",
+            "le pavot",
+            "la linaigrette",
+            "le saule"
+          ]
+        }
+      ],
+      "sans_carte": [
+        "fondre",
+        "geler",
+        "flotter",
+        "glisser",
+        "glacé",
+        "transparent",
+        "bondir",
+        "nager",
+        "plonger",
+        "blanc",
+        "imperméable",
+        "pousser",
+        "résister",
+        "doux",
+        "duveteux"
+      ]
+    }
+  },
+  "images_theme": [
+    {
+      "fichier": "images/carte-monde-delisle.jpg",
+      "titre": "Mappemonde à l'usage du roi",
+      "auteur": "Guillaume Delisle, éditée par Jean Covens et Corneille Mortier",
+      "date": "1721-1774",
+      "institution": "Rijksmuseum, RP-P-1929-1438",
+      "source": "https://id.rijksmuseum.nl/200450285",
+      "licence": "PDM",
+      "recadrage": "Cartouche allégorique (les quatre continents personnifiés) et rubans du titre effacés en papier nu ; recadrée sur le trait d'encadrement.",
+      "chemin": "charte/themes/atlas/images/carte-monde-delisle.jpg"
+    },
+    {
+      "fichier": "images/carte-europe-maaskamp.jpg",
+      "titre": "Nouvelle carte du théâtre de la guerre actuelle en Russie, Pologne, Moldavie, Valachie",
+      "auteur": "Evert Maaskamp",
+      "date": 1812,
+      "institution": "Rijksmuseum",
+      "source": "https://id.rijksmuseum.nl/200720684",
+      "licence": "PDM",
+      "recadrage": "Recadrée sur le trait d'encadrement (marges et numéro d'inventaire retirés).",
+      "chemin": "charte/themes/atlas/images/carte-europe-maaskamp.jpg"
+    }
+  ],
+  "polices_theme": [
+    {
+      "famille": "IM Fell",
+      "auteur": "Igino Marini, d'après les fontes du Dr John Fell",
+      "licence": "OFL-1.1",
+      "source": "https://fontsource.org/fonts/im-fell-english"
+    },
+    {
+      "famille": "IM Fell SC",
+      "auteur": "Igino Marini, d'après les fontes du Dr John Fell",
+      "licence": "OFL-1.1",
+      "source": "https://fontsource.org/fonts/im-fell-english-sc"
+    },
+    {
+      "famille": "Spectral",
+      "auteur": "The Spectral Project Authors (Production Type)",
+      "licence": "OFL-1.1",
+      "source": "https://github.com/productiontype/Spectral"
+    }
+  ]
 }

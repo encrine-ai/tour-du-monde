@@ -1,4 +1,4 @@
-/* Fabriqué par scripts/classe.py : socle.css, composants.css, puis le thème « tour-du-monde » (themes/tour-du-monde/ : theme.css, habillage.css).
+/* Fabriqué par scripts/classe.py : socle.css, composants.css, puis le thème « atlas » (themes/atlas/ : theme.css, habillage.css).
    Ne pas modifier à la main : éditer ces fichiers, puis relancer  python3 scripts/classe.py generer */
 
 /* Le socle de la charte — ce que toutes les classes partagent, quel que soit
@@ -138,371 +138,675 @@
 
 } /* fin de la couche moteur */
 
-/* ——— themes/tour-du-monde/theme.css ——— */
-/* Le thème « tour-du-monde » — le carnet de voyage de la classe.
+/* ——— themes/atlas/theme.css ——— */
+/* Le thème « atlas » — le grand atlas de la classe « Le tour du monde ».
  *
- * Un carnet de voyage d'enfant : un papier crème, pointé comme un carnet, une
- * encre de stylo bleu-noir, le cuir de la valise pour la couleur de la
- * maison, et pour chaque continent la couleur d'un timbre. Les titres sont
- * écrits à la main de l'adulte (Grandstander), les étiquettes tapées à la
- * machine comme un billet ou une étiquette de bagage (Courier Prime) ; le
- * texte reste en Atkinson Hyperlegible, les mots de l'enfant en Andika (socle).
- *
- * Ce fichier porte les jetons (clair, sombre, impression) ; l'habillage des
- * composants est dans habillage.css, les motifs dans motifs/, les polices dans
- * polices/ — tout est déclaré, avec sa licence, dans theme.yml.
+ * Parchemin et vélin, encre sépia, mer profonde, vermillon des sceaux ; les
+ * cinq continents gardent la famille de couleur que citent les modes
+ * d'emploi imprimés (bleu, vert, violet, ocre, turquoise), en teintes
+ * d'encre ancienne. L'atlas reste un parchemin en mode sombre : c'est un
+ * objet, pas une interface (les jetons sombres reprennent les clairs). Le
+ * papier est sobre : blanc, encre sépia, filets de période.
  */
 
-/* ——— Polices du thème (auto-hébergées, OFL) ——— */
-@font-face { font-family: "Grandstander"; font-style: normal; font-weight: 100 900; font-display: swap;
-  src: url("themes/tour-du-monde/polices/grandstander-latin.woff2") format("woff2");
+/* ——— Polices du thème (auto-hébergées) ——— */
+@font-face { font-family: "IM Fell"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/imfell-latin.woff2") format("woff2"); }
+@font-face { font-family: "IM Fell"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/imfell-latin-italic.woff2") format("woff2"); }
+@font-face { font-family: "IM Fell SC"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/imfellsc-latin.woff2") format("woff2"); }
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-400.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Grandstander"; font-style: normal; font-weight: 100 900; font-display: swap;
-  src: url("themes/tour-du-monde/polices/grandstander-latin-ext.woff2") format("woff2");
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-ext-400.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 400; font-display: swap;
-  src: url("themes/tour-du-monde/polices/courier-prime-latin-400.woff2") format("woff2");
+@font-face { font-family: "Spectral"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-400-italic.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 400; font-display: swap;
-  src: url("themes/tour-du-monde/polices/courier-prime-latin-ext-400.woff2") format("woff2");
+@font-face { font-family: "Spectral"; font-style: italic; font-weight: 400; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-ext-400-italic.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 700; font-display: swap;
-  src: url("themes/tour-du-monde/polices/courier-prime-latin-700.woff2") format("woff2");
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 600 700; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-600.woff2") format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Courier Prime"; font-style: normal; font-weight: 700; font-display: swap;
-  src: url("themes/tour-du-monde/polices/courier-prime-latin-ext-700.woff2") format("woff2");
+@font-face { font-family: "Spectral"; font-style: normal; font-weight: 600 700; font-display: swap;
+  src: url("themes/atlas/polices/spectral-latin-ext-600.woff2") format("woff2");
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "Atkinson Hyperlegible Next"; font-style: normal; font-weight: 200 800; font-display: swap;
-  src: url("themes/tour-du-monde/polices/atkinson-next-latin.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Atkinson Hyperlegible Next"; font-style: normal; font-weight: 200 800; font-display: swap;
-  src: url("themes/tour-du-monde/polices/atkinson-next-latin-ext.woff2") format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "Atkinson Hyperlegible Next"; font-style: italic; font-weight: 200 800; font-display: swap;
-  src: url("themes/tour-du-monde/polices/atkinson-next-latin-italic.woff2") format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 /* ——— Jetons du thème ——— */
 :root {
-  /* Le papier du carnet */
-  --papier: #f5efe4;          /* la page crème, pointée (habillage.css) */
-  --feuille: #fffcf6;         /* la feuille collée dans le carnet */
-  --feuille-creuse: #f1e9da;  /* zone en retrait */
-  --trait: #e3d7c3;           /* filets */
-  --trait-fort: #8c7a5e;      /* bord d'un contrôle (3:1) */
+  /* Fonds et traits : le parchemin, le vélin des planches */
+  --papier: #efe3c8;
+  --feuille: #f8f1e1;
+  --feuille-creuse: #f2e7cf;
+  --trait: #c8b38e;
+  --trait-fort: #8a6f52;
 
-  /* Les encres */
-  --encre: #1e2838;           /* encre de stylo bleu-noir */
-  --encre-douce: #5d5547;     /* crayon */
-  --sapin: #7b3f1e;           /* le cuir de la valise : titres, action principale, état actif */
-  --sapin-pale: #f6e7da;
-  --sur-sapin: #ffffff;
-  --bouton-dor: #f1b83a;      /* le jaune des étiquettes : « aujourd'hui », le défi */
-  --sur-bouton-dor: #1e2838;
-  --coquelicot: #b42318;      /* erreur, alerte */
-  --anneau: #7b3f1e;
+  /* Encres */
+  --encre: #2f2117;           /* sépia */
+  --encre-douce: #5a4636;
+  --sapin: #a3321d;           /* la couleur de la maison : le vermillon des sceaux */
+  --sapin-pale: #f4ddd2;
+  --sur-sapin: #fff8ec;
+  --bouton-dor: #e8c77e;      /* l'or des cartouches : « nous y sommes » */
+  --sur-bouton-dor: #2f2117;
+  --coquelicot: #9b2c17;
+  --anneau: #a3321d;
 
-  /* Les cinq continents : la couleur d'un timbre. Les familles restent celles
-     que les modes d'emploi impriment (« le filet bleu ») : bleu, vert,
-     violet, ocre, turquoise. */
-  --p1: #2b5c9e; --p1-trait: #b8cdea; --p1-pale: #e9f0fa;   /* l'Europe — bleu cobalt */
-  --p2: #2e6f3e; --p2-trait: #b5d8bd; --p2-pale: #e8f3ea;   /* l'Afrique — vert baobab */
-  --p3: #74498f; --p3-trait: #d4c2e3; --p3-pale: #f3edf8;   /* l'Asie — violet lotus */
-  --p4: #93540f; --p4-trait: #ebcf9f; --p4-pale: #fbf0dd;   /* les Amériques — ocre canyon */
-  --p5: #0c6b78; --p5-trait: #a6d8df; --p5-pale: #e4f3f5;   /* l'Océanie et les pôles — turquoise lagon */
-  --sur-periode: #ffffff;
+  /* Les cinq continents, en encres anciennes — la famille ne change pas
+     (bleu, vert, violet, ocre, turquoise : classe.yml, periodes[].couleur) */
+  --p1: #2c5b88; --p1-trait: #b9cbdc; --p1-pale: #e8eef1;   /* l'Europe — bleu */
+  --p2: #3f6a2c; --p2-trait: #c3d2ad; --p2-pale: #ebf0de;   /* l'Afrique — vert */
+  --p3: #6b4a86; --p3-trait: #d0c1db; --p3-pale: #f1eaf1;   /* l'Asie — violet */
+  --p4: #85570f; --p4-trait: #e1c896; --p4-pale: #f6ecd6;   /* les Amériques — ocre */
+  --p5: #1d6870; --p5-trait: #a8d0cf; --p5-pale: #e4f0ec;   /* l'Océanie et les pôles — turquoise */
+  --sur-periode: #fffaf0;
 
-  /* Rayons : un carnet a des coins doux, pas des pilules partout */
-  --rayon-s: 6px; --rayon-m: 10px; --rayon-l: 14px; --rayon-pilule: 999px;
+  --rayon-s: 2px; --rayon-m: 3px; --rayon-l: 4px; --rayon-pilule: 999px;
 
-  /* Les polices de l'adulte */
-  --police-titre: "Grandstander", "Comic Neue", "Segoe UI", system-ui, sans-serif;
-  --police-texte: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
-  --police-etiquette: "Courier Prime", "Courier New", ui-monospace, monospace;
+  --police-titre: "IM Fell", "Iowan Old Style", Georgia, serif;
+  --police-texte: "Spectral", Georgia, serif;
+  --police-etiquette: "IM Fell SC", "IM Fell", Georgia, serif;
 
-
-  --ombre-flotte: 0 1px 2px rgba(60, 40, 20, .08), 0 10px 26px rgba(60, 40, 20, .12);
-
-  /* Les accroches du papier */
-  --consigne-fond: #fbf5e8; --consigne-bord: #a07f4c; --consigne-encre: #3f3420; --consigne-accent: #7b3f1e;
-  --sous-objectif-fond: #eef3f9; --sous-objectif-bord: #8fa9c8; --sous-objectif-encre: #23446e;
-  --defi-fond: #fdf3dc; --defi-bord: #c08a2a; --defi-accent: #7b4a07;
-  --fiche-cadre: #2b2a28;
+  --ombre-flotte: 0 24px 40px -18px rgba(47, 33, 23, .55);
 
   /* Propres au thème */
-  --t-kraft: #ece0c8;         /* le kraft de la couverture */
-  --t-ruban: rgba(241, 184, 58, .55);  /* le ruban adhésif qui tient les feuilles */
+  --t-velin: #f8f1e1;
+  --t-mer: #123843;
+  --t-mer-2: #1b4c59;
+  --t-sur-mer: #f4e9d0;
+  --t-sur-mer-doux: #d9cdb3;
+  --t-or: #b88a36;
+  --t-or-clair: #e8c77e;
+  --t-sur-vermillon: #fff8ec;
+  --t-vermillon-fonce: #87281a;
+  --t-avenir: #23434d;
+  --t-lavis1: #c9d8e6; --t-lavis2: #d3dfbf; --t-lavis3: #dccfe4; --t-lavis4: #ecd6a6; --t-lavis5: #c2dedb;
 }
 
+/* L'atlas reste un parchemin en mode sombre. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papier: #17140f; --feuille: #211c16; --feuille-creuse: #1b1712;
-    --trait: #3a3127; --trait-fort: #7d6f5c;
-    --encre: #efe8dc; --encre-douce: #b9ad9a;
-    --sapin: #e5a57c; --sapin-pale: #3a2618; --sur-sapin: #1a120c;
-    --bouton-dor: #f1b83a; --sur-bouton-dor: #1e2838;
-    --coquelicot: #f48a78; --anneau: #f1b83a;
-    --p1: #8fb4ec; --p1-trait: #2f4566; --p1-pale: #1b2638;
-    --p2: #86c896; --p2-trait: #2d4a35; --p2-pale: #182a1d;
-    --p3: #c3a6e0; --p3-trait: #4a3a5c; --p3-pale: #2a2135;
-    --p4: #e7b061; --p4-trait: #5a4321; --p4-pale: #33260f;
-    --p5: #6ccbd6; --p5-trait: #23525a; --p5-pale: #112c30; --sur-periode: #14100b;
-    --ombre-flotte: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
-    --t-kraft: #2b241b; --t-ruban: rgba(241, 184, 58, .35);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --papier: #17140f; --feuille: #211c16; --feuille-creuse: #1b1712;
-  --trait: #3a3127; --trait-fort: #7d6f5c;
-  --encre: #efe8dc; --encre-douce: #b9ad9a;
-  --sapin: #e5a57c; --sapin-pale: #3a2618; --sur-sapin: #1a120c;
-  --bouton-dor: #f1b83a; --sur-bouton-dor: #1e2838;
-  --coquelicot: #f48a78; --anneau: #f1b83a;
-  --p1: #8fb4ec; --p1-trait: #2f4566; --p1-pale: #1b2638;
-  --p2: #86c896; --p2-trait: #2d4a35; --p2-pale: #182a1d;
-  --p3: #c3a6e0; --p3-trait: #4a3a5c; --p3-pale: #2a2135;
-  --p4: #e7b061; --p4-trait: #5a4321; --p4-pale: #33260f;
-  --p5: #6ccbd6; --p5-trait: #23525a; --p5-pale: #112c30; --sur-periode: #14100b;
-  --ombre-flotte: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .35);
-  --t-kraft: #2b241b; --t-ruban: rgba(241, 184, 58, .35);
-  color-scheme: dark;
-}
-
-/* Le papier imprimé reste clair, quel que soit le thème de l'écran. */
-@media print {
-  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
-    --papier: #ffffff; --feuille: #ffffff; --feuille-creuse: #f6f1e8;
-    --trait: #d6cab5; --trait-fort: #7a6a51;
-    --encre: #1e2838; --encre-douce: #4f4839;
-    --sapin: #7b3f1e; --sapin-pale: #f6e7da; --sur-sapin: #ffffff;
-    --p1: #2b5c9e; --p1-trait: #b8cdea; --p1-pale: #e9f0fa;
-    --p2: #2e6f3e; --p2-trait: #b5d8bd; --p2-pale: #e8f3ea;
-    --p3: #74498f; --p3-trait: #d4c2e3; --p3-pale: #f3edf8;
-    --p4: #93540f; --p4-trait: #ebcf9f; --p4-pale: #fbf0dd;
-    --p5: #0c6b78; --p5-trait: #a6d8df; --p5-pale: #e4f3f5; --sur-periode: #ffffff;
-    --t-kraft: #f1e7d4; --t-ruban: rgba(241, 184, 58, .45);
+    --papier: #efe3c8; --feuille: #f8f1e1; --feuille-creuse: #f2e7cf; --trait: #c8b38e; --trait-fort: #8a6f52;
+    --encre: #2f2117; --encre-douce: #5a4636; --sapin: #a3321d; --sapin-pale: #f4ddd2; --sur-sapin: #fff8ec;
+    --bouton-dor: #e8c77e; --sur-bouton-dor: #2f2117; --coquelicot: #9b2c17; --anneau: #a3321d;
+    --p1: #2c5b88; --p1-trait: #b9cbdc; --p1-pale: #e8eef1;
+    --p2: #3f6a2c; --p2-trait: #c3d2ad; --p2-pale: #ebf0de;
+    --p3: #6b4a86; --p3-trait: #d0c1db; --p3-pale: #f1eaf1;
+    --p4: #85570f; --p4-trait: #e1c896; --p4-pale: #f6ecd6;
+    --p5: #1d6870; --p5-trait: #a8d0cf; --p5-pale: #e4f0ec; --sur-periode: #fffaf0;
+    --ombre-flotte: 0 24px 40px -18px rgba(47, 33, 23, .55);
     color-scheme: light;
   }
 }
+:root[data-theme="dark"] {
+  --papier: #efe3c8; --feuille: #f8f1e1; --feuille-creuse: #f2e7cf; --trait: #c8b38e; --trait-fort: #8a6f52;
+  --encre: #2f2117; --encre-douce: #5a4636; --sapin: #a3321d; --sapin-pale: #f4ddd2; --sur-sapin: #fff8ec;
+  --bouton-dor: #e8c77e; --sur-bouton-dor: #2f2117; --coquelicot: #9b2c17; --anneau: #a3321d;
+  --p1: #2c5b88; --p1-trait: #b9cbdc; --p1-pale: #e8eef1;
+  --p2: #3f6a2c; --p2-trait: #c3d2ad; --p2-pale: #ebf0de;
+  --p3: #6b4a86; --p3-trait: #d0c1db; --p3-pale: #f1eaf1;
+  --p4: #85570f; --p4-trait: #e1c896; --p4-pale: #f6ecd6;
+  --p5: #1d6870; --p5-trait: #a8d0cf; --p5-pale: #e4f0ec; --sur-periode: #fffaf0;
+  --ombre-flotte: 0 24px 40px -18px rgba(47, 33, 23, .55);
+}
 
-/* ——— themes/tour-du-monde/habillage.css ——— */
-/* L'habillage du thème « tour-du-monde » — le carnet de voyage.
+/* Le papier : blanc, encre sépia — peu d'encre, rien d'autre. */
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) {
+    --papier: #ffffff; --feuille: #ffffff; --feuille-creuse: #f6f2ea;
+    --trait: #d8ccb6; --trait-fort: #7d6650;
+    --encre: #2f2117; --encre-douce: #5a4636;
+    --sapin: #8f2c19; --sapin-pale: #f7e9e2; --sur-sapin: #ffffff;
+    --p1: #2c5b88; --p1-trait: #b9cbdc; --p1-pale: #edf2f6;
+    --p2: #3f6a2c; --p2-trait: #c3d2ad; --p2-pale: #eff4e6;
+    --p3: #6b4a86; --p3-trait: #d0c1db; --p3-pale: #f4eff6;
+    --p4: #85570f; --p4-trait: #e1c896; --p4-pale: #f8f0de;
+    --p5: #1d6870; --p5-trait: #a8d0cf; --p5-pale: #e9f3f1; --sur-periode: #ffffff;
+  }
+}
+
+/* ——— themes/atlas/habillage.css ——— */
+/* L'habillage du thème « atlas » : le mini-site, à l'écran seulement.
  *
- * Le thème habille, il ne restructure pas : chaque règle part d'un composant
- * que le moteur nomme (data-composant, data-orne, .fiche, .pastille, .btn) et
- * ne touche que ses parties documentées (skill charte-graphique). Sur le
- * papier, il ne change que l'apparence ; ses ornements sont en position
- * absolue. scripts/verifier-theme.py le contrôle.
- *
- * Trois objets du voyage, et pas un de plus : le timbre (la frise, le numéro
- * de période), le tampon de la poste (l'accueil, les couvertures) et
- * l'étiquette de bagage (les cahiers à imprimer, la couverture, la consigne).
- * Les ornements sont des tracés : aucun dessin d'objet ni d'animal.
+ * Tout est dans @media screen : le papier (fiches, cahiers, PDF) reste
+ * sobre et n'en reçoit rien. Les classes « a-… » sont celles des gabarits
+ * du thème (gabarits.js) ; les couleurs passent par les jetons (theme.css).
+ * Skill charte-graphique, « L'habillage du mini-site ».
  */
+@media screen {
 
-/* ════════════════════════ L'écran ════════════════════════ */
+/* ═════════ La page ═════════ */
+body[data-support="ecran"] {
+  background: url("themes/atlas/motifs/grain.svg"), radial-gradient(60% 40% at 12% 8%, rgba(150, 105, 40, .13), transparent 70%),
+    radial-gradient(50% 50% at 92% 30%, rgba(150, 105, 40, .10), transparent 70%), var(--papier);
+  background-attachment: fixed;
+  font-size: 18.5px; line-height: 1.62;
+}
+[data-composant="entete"] { position: sticky; top: 0; z-index: 30; }
+[data-composant="page"] { display: block; min-height: 60vh; }
+.a-feuillet { max-width: 1320px; margin: 0 auto; padding: 0 32px; }
+.a-fleuron { display: block; width: 140px; height: 18px; margin: 0 auto; color: var(--trait-fort); }
+.a-lavis { display: inline-block; width: 18px; height: 18px; flex: none; border: 1px solid var(--periode); background: var(--periode-pale); }
+.a-lavis[data-periode="1"] { background: var(--t-lavis1); } .a-lavis[data-periode="2"] { background: var(--t-lavis2); }
+.a-lavis[data-periode="3"] { background: var(--t-lavis3); } .a-lavis[data-periode="4"] { background: var(--t-lavis4); }
+.a-lavis[data-periode="5"] { background: var(--t-lavis5); }
+.a-rose { width: 50px; height: 50px; color: var(--sapin); flex: none; }
 
-/* Le papier pointé du carnet */
-body[data-support="ecran"] { background-image: url("themes/tour-du-monde/motifs/grille.svg"); background-size: 22px 22px; }
+/* ═════════ L'en-tête : le titre de l'atlas, la table ═════════ */
+.a-entete {
+  background: url("themes/atlas/motifs/grain.svg"), var(--feuille); border-bottom: 1px solid var(--trait-fort);
+  box-shadow: 0 3px 0 -1px var(--feuille), 0 4px 0 -1px var(--trait-fort), 0 12px 24px -18px rgba(47, 33, 23, .6);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.a-entete-int { max-width: 1320px; margin: 0 auto; padding: 12px 32px; display: flex; align-items: center; gap: 28px; }
+.a-marque { display: flex; align-items: center; gap: 14px; text-decoration: none; margin-right: auto; color: var(--encre); min-width: 0; }
+.a-marque-nom { display: block; font: 400 27px/1 var(--police-etiquette); letter-spacing: .08em; }
+.a-marque-sous { display: block; font: italic 400 16.5px/1.2 var(--police-titre); color: var(--encre-douce); margin-top: 3px; }
+.a-table > ul { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0; align-items: center; }
+.a-table > ul > li { position: relative; display: flex; align-items: center; }
+.a-table > ul > li + li::before { content: "❧"; font-size: 13px; color: var(--t-or); margin: 0 4px; transform: rotate(-90deg) translateX(1px); }
+.a-entree {
+  display: inline-flex; align-items: center; gap: 6px; padding: 10px; border: 0; border-bottom: 2px solid transparent; background: none;
+  cursor: pointer; color: var(--encre); text-decoration: none; font: 400 19px/1 var(--police-etiquette); letter-spacing: .05em;
+}
+.a-entree:hover, .a-entree[aria-expanded="true"] { color: var(--sapin); }
+.a-entree[aria-current="page"], .a-entree[data-actif] { border-bottom-color: var(--sapin); color: var(--sapin); }
+.a-chevron { width: 14px; height: 14px; transition: transform .2s; }
+.a-entree[aria-expanded="true"] .a-chevron { transform: rotate(180deg); }
+.a-planche-menu {
+  position: absolute; top: calc(100% + 16px); left: 50%; transform: translateX(-50%); width: 400px; z-index: 40;
+  background: url("themes/atlas/motifs/grain.svg"), var(--feuille); padding: 22px 24px 18px; border: 1px solid var(--trait-fort);
+  box-shadow: inset 0 0 0 4px var(--feuille), inset 0 0 0 5px var(--trait-fort), var(--ombre-flotte);
+  max-height: calc(100vh - 120px); overflow-y: auto;
+}
+.a-planche-menu.a-large { width: 660px; }
+.a-planche-menu.a-droite { left: auto; right: -10px; transform: none; }
+.a-planche-menu-titre { font: italic 400 24px/1.1 var(--police-titre); text-align: center; margin: 0 0 4px; }
+.a-planche-menu .a-fleuron { margin-bottom: 10px; }
+.a-planche-menu ol { list-style: none; margin: 0; padding: 0; }
+.a-planche-menu.a-large ol { columns: 2; column-gap: 26px; }
+.a-planche-menu a {
+  display: grid; grid-template-columns: 34px 1fr; gap: 2px 8px; padding: 8px 6px; text-decoration: none; color: var(--encre);
+  break-inside: avoid; border-bottom: 1px dotted rgba(138, 111, 82, .5);
+}
+.a-planche-menu a:hover { background: rgba(184, 138, 54, .14); }
+.a-planche-menu a[aria-current="page"] strong { color: var(--sapin); }
+.a-planche-menu .a-rom { font: 400 18px/1.25 var(--police-etiquette); color: var(--sapin); text-align: right; }
+.a-planche-menu strong { font: 600 16.5px/1.3 var(--police-texte); }
+.a-planche-menu small { grid-column: 2; font: italic 400 15px/1.35 var(--police-texte); color: var(--encre-douce); }
+.a-planche-menu .a-lavis { width: 22px; height: 22px; justify-self: end; margin-top: 2px; }
+.a-boussole { display: none; }
 
-/* — Bandeau — */
-[data-composant="bandeau"] { border-bottom: 2px dashed var(--trait); }
-[data-composant="bandeau"] .marque-titre { font-weight: 800; letter-spacing: 0; }
-[data-composant="bandeau"] .marque-sous { font-family: var(--police-etiquette); font-size: 13px; }
+/* ═════════ L'accueil : la mappemonde ═════════ */
+.a-ouverture {
+  background: repeating-linear-gradient(0deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px),
+    repeating-linear-gradient(90deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px),
+    radial-gradient(120% 90% at 50% 0%, var(--t-mer-2), var(--t-mer) 70%);
+  color: var(--t-sur-mer); padding: 34px 32px 56px; position: relative; overflow: hidden;
+}
+.a-ouverture-int { max-width: 1320px; margin: 0 auto; }
+.a-ouverture-tete { display: grid; grid-template-columns: 1.15fr 1fr; gap: 20px 56px; align-items: end; margin-bottom: 26px; }
+.a-surtitre { font: 400 19px/1 var(--police-etiquette); letter-spacing: .2em; color: var(--t-or-clair); margin: 0 0 10px; }
+.a-ouverture h1 { font: 400 clamp(54px, 6.3vw, 86px)/.92 var(--police-titre); margin: 0; letter-spacing: -.01em; }
+.a-ouverture h1 em { display: block; font-size: .44em; line-height: 1.2; color: var(--t-or-clair); margin-top: 12px; letter-spacing: 0; }
+.a-signature-classe { font: italic 400 21px/1.3 var(--police-titre); margin: 14px 0 0; }
+.a-ouverture .a-signature-classe { color: var(--t-sur-mer); }
+.a-chapo { font-size: 19.5px; line-height: 1.6; margin: 0 0 18px; max-width: 46ch; }
+.a-ouverture .a-chapo { color: var(--t-sur-mer); }
+.a-mot { font: italic 400 19px/1.5 var(--police-titre); margin: 0 0 16px; color: var(--t-or-clair); }
+.a-reperes { display: flex; flex-wrap: wrap; gap: 6px 26px; list-style: none; margin: 0; padding: 0; font: 400 18px/1.2 var(--police-etiquette); letter-spacing: .08em; color: var(--t-or-clair); }
+.a-reperes b { font: 400 30px/1 var(--police-titre); color: var(--t-sur-mer); margin-right: 6px; }
 
-/* — En-tête de l'accueil : le tampon de la poste au bout de l'itinéraire — */
-[data-composant="accueil-tete"] { padding-right: 230px; }
-[data-composant="accueil-tete"] h1 { font-weight: 800; letter-spacing: -.015em; line-height: 1.02; }
-[data-composant="accueil-tete"] .surtitre { font-family: var(--police-etiquette); letter-spacing: .14em; font-size: 14px; }
-[data-orne="accueil"] {
-  display: block; position: absolute; z-index: -1; right: 0; top: 10px; width: 250px; height: 190px;
+.a-carte-monde { margin: 0; position: relative; border: 1px solid rgba(232, 199, 126, .6); padding: 10px; background: #d9cdb3;
+  box-shadow: 0 0 0 6px var(--t-mer), 0 0 0 7px rgba(232, 199, 126, .35), 0 40px 70px -30px rgba(0, 0, 0, .8); }
+.a-carte-cadre { position: relative; overflow: hidden; }
+.a-carte-cadre img { display: block; width: 100%; height: auto; filter: saturate(.95) contrast(1.03); }
+.a-route { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.a-route path, .a-depart path { fill: none; stroke: var(--sapin); stroke-width: 3.5; stroke-dasharray: 3 9; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.a-epingle { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); z-index: 2; text-decoration: none; display: block; color: var(--encre); }
+.a-epingle .a-cartouche { position: absolute; top: 50%; left: calc(100% + 10px); transform: translateY(-50%); }
+.a-epingle.a-gauche .a-cartouche { left: auto; right: calc(100% + 10px); }
+.a-epingle.a-dessus .a-cartouche { left: 50%; top: auto; bottom: calc(100% + 10px); transform: translateX(-50%); }
+.a-sceau {
+  width: 52px; height: 52px; border-radius: 50%; flex: none; display: grid; place-items: center; color: #fff4dc; font: 400 22px/1 var(--police-etiquette);
+  background: radial-gradient(circle at 35% 30%, #d4553c, var(--sapin) 55%, #6e1d10);
+  box-shadow: 0 0 0 3px rgba(255, 244, 220, .85), 0 6px 14px rgba(0, 0, 0, .45); transition: transform .2s;
 }
-[data-orne="accueil"]::before {           /* l'itinéraire pointillé */
-  content: ""; position: absolute; left: 0; bottom: 18px; width: 170px; height: 70px;
-  background: var(--trait-fort);
-  -webkit-mask: url("themes/tour-du-monde/motifs/itineraire.svg") center / contain no-repeat;
-          mask: url("themes/tour-du-monde/motifs/itineraire.svg") center / contain no-repeat;
-  opacity: .7;
+[data-statut^="a-venir"] .a-sceau, [data-statut="a-venir"] > .a-sceau { background: radial-gradient(circle at 35% 30%, #4a6b75, var(--t-avenir) 60%, #12262c); }
+[data-statut$="prochaine"] .a-sceau, [data-statut$="prochaine"] > .a-sceau { background: radial-gradient(circle at 35% 30%, #d7a94d, #9a6b1c 60%, #5e3f0c); }
+.a-cartouche {
+  background: rgba(248, 241, 225, .97); color: var(--encre); padding: 8px 14px 9px; border: 1px solid var(--trait-fort); white-space: nowrap; transition: transform .2s;
+  box-shadow: inset 0 0 0 3px rgba(248, 241, 225, .97), inset 0 0 0 4px rgba(138, 111, 82, .6), 0 8px 18px -8px rgba(0, 0, 0, .5);
 }
-[data-orne="accueil"]::after {            /* le tampon, et ses ondes */
-  content: ""; position: absolute; right: 8px; top: 0; width: 130px; height: 130px;
-  background: var(--sapin); transform: rotate(-14deg); opacity: .78;
-  -webkit-mask: url("themes/tour-du-monde/motifs/tampon.svg") center / contain no-repeat;
-          mask: url("themes/tour-du-monde/motifs/tampon.svg") center / contain no-repeat;
+.a-cartouche b { display: block; font: 400 21px/1.05 var(--police-titre); }
+.a-cartouche span { display: block; font: italic 400 14.5px/1.3 var(--police-texte); color: var(--encre-douce); }
+.a-cartouche .a-etat { font: 400 13.5px/1 var(--police-etiquette); letter-spacing: .08em; color: var(--sapin); font-style: normal; margin-top: 4px; }
+.a-epingle:hover .a-sceau, .a-epingle:focus-visible .a-sceau { transform: scale(1.12) rotate(-6deg); }
+.a-epingle[data-statut^="en-cours"] .a-sceau { box-shadow: 0 0 0 3px #fff4dc, 0 0 0 7px var(--t-or-clair), 0 6px 14px rgba(0, 0, 0, .45); }
+.a-ici { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); z-index: 3; pointer-events: none; }
+.a-ici-point { display: block; width: 22px; height: 22px; border-radius: 50%; background: #fff4dc; box-shadow: 0 0 0 4px var(--sapin), 0 0 0 9px rgba(163, 50, 29, .3); position: relative; }
+.a-ici-point::after { content: ""; position: absolute; inset: -14px; border-radius: 50%; border: 2px solid rgba(255, 244, 220, .9); }
+.a-ici-texte {
+  position: absolute; top: 50%; left: calc(100% + 16px); transform: translateY(-12%); width: 240px;
+  background: var(--sapin); color: var(--t-sur-vermillon); padding: 7px 12px 8px; font: italic 400 16px/1.25 var(--police-titre); box-shadow: 0 8px 18px -8px rgba(0, 0, 0, .6);
+}
+.a-ici-texte b { font: 400 15px/1 var(--police-etiquette); letter-spacing: .1em; display: block; font-style: normal; margin-bottom: 2px; }
+.a-carte-legende { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 16px 0 0; font: italic 400 14.5px/1.4 var(--police-texte); color: var(--t-sur-mer-doux); }
+.a-planches-liste { display: none; }
+
+/* ═════════ Les chapitres de l'atlas ═════════ */
+.a-chapitre { padding: 76px 0 20px; }
+.a-chapitre-tete { text-align: center; margin: 0 auto 38px; max-width: 760px; }
+.a-num { display: block; font: 400 18px/1 var(--police-etiquette); letter-spacing: .3em; color: var(--sapin); margin-bottom: 10px; }
+.a-chapitre-tete h2 { font: 400 clamp(38px, 4.6vw, 58px)/1.02 var(--police-titre); margin: 0 0 12px; }
+.a-chapitre-tete p { margin: 14px auto 0; color: var(--encre-douce); font-style: italic; font-size: 19px; max-width: 60ch; }
+
+/* L'échelle de l'année, à l'échelle des semaines */
+.a-echelle { position: relative; margin: 76px 0 0; }
+.a-echelle-barre { display: flex; height: 26px; border: 1.5px solid var(--encre); }
+.a-seg { flex: var(--sem) 1 0; position: relative; }
+.a-seg-p { background: var(--periode); }
+.a-vac { background: repeating-linear-gradient(135deg, transparent 0 4px, rgba(47, 33, 23, .45) 4px 5px), var(--papier); border-left: 1.5px solid var(--encre); border-right: 1.5px solid var(--encre); }
+.a-seg-nom { position: absolute; bottom: calc(100% + 10px); left: 0; right: 0; text-align: center; font: 400 21px/1.05 var(--police-titre); white-space: nowrap; }
+.a-seg-nom small { display: block; font: 400 14px/1 var(--police-etiquette); letter-spacing: .14em; color: var(--sapin); margin-bottom: 4px; }
+.a-seg-bas { position: absolute; top: calc(100% + 10px); left: 0; right: 0; text-align: center; font: italic 400 15px/1.3 var(--police-texte); color: var(--encre-douce); }
+.a-seg-bas b { display: block; font: 400 15px/1 var(--police-etiquette); letter-spacing: .06em; font-style: normal; color: var(--encre); }
+.a-ici-seg::after { content: ""; position: absolute; left: 50%; top: -14px; border: 9px solid transparent; border-top-color: var(--sapin); transform: translateX(-50%); }
+.a-ici-fleche { position: absolute; top: calc(100% + 66px); margin: 0; font: italic 400 16.5px/1.35 var(--police-titre); color: var(--sapin); width: 250px; padding-left: 14px; border-left: 2px solid var(--sapin); }
+.a-ici-fleche b { display: block; font: 400 15px/1 var(--police-etiquette); letter-spacing: .1em; font-style: normal; margin-bottom: 2px; }
+.a-echelle-liste { display: none; }
+.a-echelle-pied { margin: 190px 0 0; display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: start; }
+.a-escales { width: 100%; border-collapse: collapse; font-size: 17px; }
+.a-escales caption { text-align: left; font: italic 400 24px/1.1 var(--police-titre); padding-bottom: 10px; }
+.a-escales th, .a-escales td { text-align: left; padding: 10px 12px; border-top: 1px solid rgba(138, 111, 82, .55); }
+.a-escales thead th { font: 400 15px/1 var(--police-etiquette); letter-spacing: .1em; color: var(--encre-douce); border-top: 0; border-bottom: 1.5px solid var(--encre); }
+.a-escales tbody tr:last-child td, .a-escales tbody tr:last-child th { border-bottom: 1.5px solid var(--encre); }
+.a-escales tbody th { font: 400 20px/1.2 var(--police-titre); }
+.a-escales .a-ici-ligne { background: rgba(163, 50, 29, .07); }
+.a-marque-ici { display: inline-block; font: 400 13px/1 var(--police-etiquette); letter-spacing: .08em; color: var(--t-sur-vermillon); background: var(--sapin); padding: 4px 7px 5px; margin-left: 8px; vertical-align: 3px; }
+.a-notes-echelle p { margin: 0 0 12px; font-size: 17px; color: var(--encre-douce); }
+.a-notes-echelle p:first-child { font: italic 400 21px/1.45 var(--police-titre); color: var(--encre); }
+
+/* Le portefeuille : les cahiers */
+.a-portefeuille { display: grid; grid-template-columns: repeat(4, 1fr) 1.1fr; gap: 18px; align-items: stretch; }
+.a-estampe {
+  display: flex; flex-direction: column; text-decoration: none; color: var(--encre); position: relative; padding: 22px 20px 18px;
+  background: url("themes/atlas/motifs/grain.svg"), var(--feuille); border: 1px solid var(--trait-fort);
+  box-shadow: inset 0 0 0 5px var(--feuille), inset 0 0 0 6px var(--trait-fort), 0 18px 30px -22px rgba(47, 33, 23, .7); transition: transform .25s, box-shadow .25s;
+}
+.a-estampe:hover { transform: translateY(-6px); box-shadow: inset 0 0 0 5px var(--feuille), inset 0 0 0 6px var(--sapin), 0 26px 36px -22px rgba(47, 33, 23, .8); }
+.a-lettre { font: 400 46px/1 var(--police-titre); color: var(--sapin); text-align: center; border-bottom: 1px solid var(--trait-fort); padding-bottom: 10px; margin-bottom: 12px; }
+.a-ic-grand { width: 30px; height: 30px; color: var(--encre-douce); margin: 0 auto 8px; display: block; }
+.a-estampe strong { font: 400 26px/1.05 var(--police-titre); text-align: center; }
+.a-estampe small { font: 400 16px/1.4 var(--police-texte); text-align: center; margin-top: 8px; color: var(--encre-douce); }
+.a-estampe em { display: block; text-align: center; font: italic 400 16px/1.3 var(--police-texte); margin-top: auto; padding-top: 12px; }
+.a-pdf { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 12px; padding: 9px 10px; background: var(--encre); color: var(--feuille); font: 400 16px/1 var(--police-etiquette); letter-spacing: .08em; }
+.a-a-graver { border: 1.5px dashed var(--trait-fort); padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+.a-a-graver p { margin: 0 0 4px; font: italic 400 20px/1.2 var(--police-titre); }
+.a-a-graver a { display: flex; gap: 10px; align-items: center; font-size: 15.5px; line-height: 1.3; color: var(--encre-douce); text-decoration: none; }
+.a-a-graver a:hover b { color: var(--sapin); }
+.a-a-graver b { color: var(--encre); font-weight: 600; }
+.a-note-materiel { text-align: center; font-style: italic; color: var(--encre-douce); margin: 22px auto 0; max-width: 72ch; }
+
+/* La table des matières */
+.a-matieres {
+  display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 0 48px; padding: 40px 44px 34px;
+  background: url("themes/atlas/motifs/grain.svg"), var(--feuille); border: 1px solid var(--trait-fort); box-shadow: inset 0 0 0 6px var(--feuille), inset 0 0 0 7px var(--trait-fort);
+}
+.a-matieres h3 { font: 400 17px/1.2 var(--police-etiquette); letter-spacing: .2em; color: var(--sapin); margin: 0 0 14px; text-align: center; }
+.a-matieres ol { list-style: none; margin: 0 0 24px; padding: 0; }
+.a-matieres a { display: grid; grid-template-columns: 30px 1fr auto; gap: 0 8px; align-items: baseline; padding: 9px 0; text-decoration: none; color: var(--encre); }
+.a-matieres a:hover strong, .a-matieres a[aria-current="page"] strong { color: var(--sapin); }
+.a-matieres .a-rom { font: 400 17px/1 var(--police-etiquette); color: var(--sapin); }
+.a-matieres strong { font: 600 17.5px/1.3 var(--police-texte); display: flex; gap: 8px; align-items: baseline; }
+.a-matieres strong::after { content: ""; flex: 1; border-bottom: 2px dotted rgba(90, 70, 54, .45); min-width: 20px; transform: translateY(-4px); }
+.a-matieres .ic { color: var(--encre-douce); }
+.a-matieres small { grid-column: 2 / -1; font: italic 400 15.5px/1.35 var(--police-texte); color: var(--encre-douce); }
+
+/* ═════════ Le colophon ═════════ */
+.a-colophon {
+  margin-top: 90px; color: #e8dcc2; padding: 54px 32px calc(46px + env(safe-area-inset-bottom, 0px)); text-align: center;
+  background: repeating-linear-gradient(0deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px),
+    repeating-linear-gradient(90deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px), var(--t-mer);
+}
+.a-colophon-int { max-width: 860px; margin: 0 auto; }
+.a-colophon .a-fleuron { color: var(--t-or-clair); margin-bottom: 18px; }
+.a-colophon p { margin: 0 0 10px; font-size: 15.5px; line-height: 1.6; color: var(--t-sur-mer); }
+.a-colophon .a-signature-classe { color: var(--t-or-clair); font-size: 22px; }
+.a-colophon .a-credits { font-size: 14px; color: var(--t-sur-mer-doux); }
+.a-colophon a { color: var(--t-sur-mer); }
+.a-signature {
+  display: inline-flex; align-items: center; gap: 14px; margin: 18px 0; text-decoration: none; padding: 12px 22px;
+  border: 1px solid rgba(232, 199, 126, .7); box-shadow: inset 0 0 0 4px var(--t-mer), inset 0 0 0 5px rgba(232, 199, 126, .4); transition: background .2s;
+}
+.a-signature:hover { background: rgba(232, 199, 126, .1); }
+.a-signature .a-rose { width: 34px; height: 34px; color: var(--t-or-clair); }
+.a-signature span { font: italic 400 19px/1.2 var(--police-titre); text-align: left; color: var(--t-sur-mer); }
+.a-signature b { display: block; font: 400 22px/1 var(--police-etiquette); letter-spacing: .14em; font-style: normal; color: var(--t-or-clair); }
+
+/* ═════════ Un document : un chapitre de l'atlas ═════════ */
+.a-doc-tete { text-align: center; padding: 60px 0 30px; max-width: 900px; margin: 0 auto; }
+.a-fil { font: 400 17px/1.3 var(--police-etiquette); letter-spacing: .18em; color: var(--sapin); margin: 0 0 14px; }
+.a-doc-tete h1 { font: 400 clamp(44px, 6vw, 76px)/1 var(--police-titre); margin: 0 0 12px; text-wrap: balance; }
+.a-sous { font-style: italic; color: var(--encre-douce); margin: 0 auto 18px; max-width: 56ch; font-size: 19px; }
+.a-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 24px; }
+.a-actions.a-gauche { justify-content: flex-start; margin: 0 0 8px; }
+.a-bouton {
+  display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; text-decoration: none; background: var(--sapin); color: var(--t-sur-vermillon);
+  font: 400 18px/1 var(--police-etiquette); letter-spacing: .08em; box-shadow: inset 0 0 0 3px var(--sapin), inset 0 0 0 4px rgba(255, 248, 236, .6); transition: background .2s;
+}
+.a-bouton:hover { background: var(--t-vermillon-fonce); box-shadow: inset 0 0 0 3px var(--t-vermillon-fonce), inset 0 0 0 4px rgba(255, 248, 236, .6); }
+.a-bouton.a-clair { background: transparent; color: var(--encre); box-shadow: inset 0 0 0 1px var(--encre); }
+.a-bouton.a-clair:hover { background: rgba(47, 33, 23, .06); }
+.a-extraits { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px; align-items: center; margin: 22px 0 0; font-style: italic; color: var(--encre-douce); font-size: 16px; }
+.a-extraits a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: var(--encre); font: normal 400 16px/1 var(--police-texte); padding: 7px 12px 7px 8px; border: 1px solid var(--trait-fort); background: var(--feuille); }
+.a-extraits a:hover { border-color: var(--sapin); }
+.a-extraits .a-lavis { width: 16px; height: 16px; }
+.a-doc-corps { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 56px; padding: 30px 0 40px; border-top: 1px solid var(--trait-fort); box-shadow: 0 -4px 0 -3px var(--trait-fort); }
+.a-doc-corps.a-sans-sommaire { grid-template-columns: minmax(0, 1fr); }
+.a-sommaire { position: sticky; top: 110px; align-self: start; min-width: 0; }
+.a-sommaire p { font: 400 16px/1 var(--police-etiquette); letter-spacing: .2em; color: var(--sapin); margin: 0 0 12px; }
+.a-sommaire ol { list-style: none; margin: 0; padding: 0; border-left: 1px solid var(--trait-fort); }
+.a-sommaire a { display: block; padding: 8px 0 8px 16px; text-decoration: none; font-size: 16.5px; line-height: 1.3; position: relative; color: var(--encre); }
+.a-sommaire a::before { content: ""; position: absolute; left: -5px; top: 50%; width: 9px; height: 9px; margin-top: -4.5px; background: var(--papier); border: 1px solid var(--trait-fort); transform: rotate(45deg); }
+.a-sommaire a:hover, .a-sommaire a.a-actif { color: var(--sapin); }
+.a-sommaire a.a-actif { font-weight: 600; }
+.a-sommaire a.a-actif::before { background: var(--sapin); border-color: var(--sapin); }
+
+/* Le texte du document (le Markdown de l'enseignant) */
+.a-texte { max-width: 980px; min-width: 0; overflow-wrap: break-word; }
+.a-texte > p:first-child::first-letter { font: 400 4.2em/.8 var(--police-titre); float: left; margin: 8px 10px 0 0; color: var(--sapin); }
+.a-texte > p, .a-texte > ul, .a-texte > ol, .a-texte > blockquote { max-width: 68ch; }
+.a-texte h2 { font: 400 40px/1.08 var(--police-titre); margin: 58px 0 18px; scroll-margin-top: 110px; text-wrap: balance; }
+.a-texte h3 { font: 400 28px/1.15 var(--police-titre); margin: 36px 0 12px; scroll-margin-top: 110px; }
+.a-texte h4 { font: 600 18px/1.3 var(--police-texte); margin: 24px 0 8px; }
+.a-texte a { color: var(--sapin); text-underline-offset: 3px; }
+.a-texte strong { font-weight: 600; }
+.a-texte ul { padding-left: 0; list-style: none; }
+.a-texte ul > li { padding: 5px 0 5px 30px; position: relative; }
+.a-texte ul > li::before { content: "☙"; position: absolute; left: 0; top: 4px; color: var(--sapin); font-size: 18px; }
+.a-texte ol { padding-left: 1.4em; }
+.a-texte ol > li { padding: 3px 0; }
+.a-texte blockquote { margin: 18px 0; padding: 14px 20px; border-left: 2px solid var(--sapin); background: rgba(248, 241, 225, .7); font-style: italic; }
+.a-texte blockquote p { margin: 4px 0; }
+.a-texte hr { border: 0; height: 18px; margin: 36px 0; background: none; }
+.a-texte code { background: var(--feuille-creuse); padding: .1em .35em; font-size: .9em; }
+.a-texte .zone-badge {
+  display: inline-block; margin-left: 12px; padding: 6px 12px; vertical-align: middle; white-space: normal;
+  font: italic 400 16px/1.3 var(--police-texte); color: var(--encre-douce); background: var(--feuille-creuse); letter-spacing: 0;
+}
+.a-tableau { overflow-x: auto; margin: 18px 0; border: 1px solid var(--trait-fort); background: url("themes/atlas/motifs/grain.svg"), var(--feuille); }
+.a-tableau table { border-collapse: collapse; width: 100%; font-size: 16px; line-height: 1.45; }
+.a-tableau th, .a-tableau td { padding: 10px 12px; vertical-align: top; text-align: left; border-bottom: 1px solid rgba(138, 111, 82, .45); }
+.a-tableau td + td, .a-tableau th + th { border-left: 1px solid rgba(138, 111, 82, .3); }
+.a-tableau thead th { font: 400 15px/1.25 var(--police-etiquette); letter-spacing: .08em; color: var(--encre-douce); border-bottom: 1.5px solid var(--encre); }
+.a-tableau tbody tr:last-child td { border-bottom: 0; }
+
+/* Une période dans une progression : « Planche I · L'Europe » */
+.a-titre-planche { display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap; padding-bottom: 14px; border-bottom: 1px solid var(--encre); box-shadow: 0 4px 0 -3px var(--encre); }
+.a-titre-planche .a-num { display: inline; margin: 0; font-size: 18px; color: var(--periode); }
+.a-titre-planche .a-nom { font: 400 48px/1 var(--police-titre); }
+.a-titre-planche .a-mention { font: italic 400 17px/1 var(--police-texte); color: var(--encre-douce); }
+.a-titre-planche .zone-badge { margin-left: auto; background: var(--periode-pale); }
+.a-titre-planche.a-esquisse .a-nom { font-size: 32px; }
+.a-article { display: grid; grid-template-columns: minmax(0, 66ch) 1fr; gap: 0 40px; padding: 22px 0 24px; border-bottom: 1px solid rgba(138, 111, 82, .45); }
+.a-article h3 { grid-column: 1 / -1; font: 400 30px/1.1 var(--police-titre); margin: 0 0 8px; }
+.a-article .a-rom { font: 400 18px/1 var(--police-etiquette); color: var(--sapin); margin-right: 10px; letter-spacing: .1em; }
+.a-princ p { margin: 0 0 10px; }
+.a-lab { font: 400 15px/1 var(--police-etiquette); letter-spacing: .1em; color: var(--encre-douce); margin-right: 6px; }
+.a-marge { border-left: 2px solid var(--periode); padding: 2px 0 2px 16px; font: italic 400 16.5px/1.5 var(--police-texte); color: var(--encre); align-self: start; }
+.a-marge b { display: block; font: normal 400 14px/1 var(--police-etiquette); letter-spacing: .12em; color: var(--periode); margin-bottom: 6px; }
+
+/* ═════════ Une période : une planche gravée ═════════ */
+.a-planche-tete { display: grid; grid-template-columns: 1fr 1.55fr; gap: 48px; align-items: start; padding: 56px 0 30px; }
+.a-planche-tete.a-sans-carte { grid-template-columns: minmax(0, 1fr); max-width: 760px; }
+.a-planche-tete .a-num { font-size: 19px; margin-bottom: 8px; }
+.a-planche-tete h1 { font: 400 clamp(64px, 8.6vw, 128px)/.9 var(--police-titre); margin: 0 0 18px; color: var(--periode); }
+.a-dates { font: italic 400 21px/1.4 var(--police-titre); margin: 0 0 4px; }
+.a-meta { font: 400 16px/1.3 var(--police-etiquette); letter-spacing: .1em; color: var(--encre-douce); margin: 0 0 22px; }
+.a-planche-tete .a-chapo { font-size: 19px; max-width: 60ch; }
+.a-esquisse-note { font: italic 400 17px/1.5 var(--police-texte); color: var(--encre-douce); border-left: 2px solid var(--trait-fort); padding-left: 14px; margin: 0 0 20px; }
+.a-carte-planche { position: relative; margin: 0; border: 1px solid var(--encre); padding: 8px; background: var(--feuille);
+  box-shadow: 0 0 0 5px var(--feuille), 0 0 0 6px var(--encre), 0 30px 50px -30px rgba(47, 33, 23, .8); }
+.a-carte-planche .a-cadre { position: relative; }
+.a-carte-planche img { display: block; width: 100%; height: auto; }
+.a-loupe { overflow: hidden; aspect-ratio: 2400 / 1387; }
+.a-loupe-int { position: absolute; }
+.a-repere {
+  position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center; text-decoration: none; background: var(--sapin); color: var(--t-sur-vermillon); font: 600 15px/1 var(--police-texte);
+  box-shadow: 0 0 0 2.5px #fff7e6, 0 4px 10px rgba(0, 0, 0, .45); transition: transform .2s, background .2s;
+}
+.a-repere:hover, .a-repere:focus-visible, .a-repere.a-actif { transform: translate(-50%, -50%) scale(1.25); background: var(--t-mer); }
+.a-depart { position: absolute; pointer-events: none; inset: 0; width: 100%; height: 100%; }
+.a-carte-planche figcaption { font: italic 400 14.5px/1.4 var(--police-texte); color: var(--encre-douce); margin-top: 10px; text-align: right; }
+.a-legende-carte { list-style: none; margin: 18px 0 0; padding: 0; columns: 2; column-gap: 24px; font-size: 16px; }
+.a-legende-carte li { display: grid; grid-template-columns: 28px 1fr; gap: 8px; padding: 5px 0; break-inside: avoid; scroll-margin-top: 110px; }
+.a-n { width: 24px; height: 24px; border-radius: 50%; background: var(--sapin); color: var(--t-sur-vermillon); display: grid; place-items: center; font: 600 13px/1 var(--police-texte); margin-top: 1px; }
+.a-legende-carte b { font-weight: 600; }
+
+/* Le carnet de route */
+.a-carnet-route { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+.a-carnet-route.a-sans-lettre { grid-template-columns: minmax(0, 1fr); }
+.a-lettre-plume { position: relative; padding: 30px 32px; background: url("themes/atlas/motifs/grain.svg"), var(--feuille); border: 1px solid var(--trait-fort); box-shadow: inset 0 0 0 5px var(--feuille), inset 0 0 0 6px var(--trait-fort); }
+.a-lettre-plume h3 { font: 400 30px/1.1 var(--police-titre); margin: 0 0 12px; }
+.a-ecrit { font: italic 400 22px/1.45 var(--police-titre); margin: 0 0 12px; }
+.a-signe { text-align: right; font: italic 400 26px/1 var(--police-titre); color: var(--sapin); margin: 0 0 14px; }
+.a-lettre-plume p { font-size: 16.5px; color: var(--encre-douce); margin: 0 0 8px; }
+.a-lettre-plume img { float: right; width: 150px; height: auto; margin: -6px -6px 10px 16px; mix-blend-mode: multiply; }
+.a-notes { columns: 2; column-gap: 40px; font-size: 17px; }
+.a-notes.a-une-colonne { columns: 1; }
+.a-notes p { margin: 0 0 14px; break-inside: avoid; }
+.a-notes b { font: 400 15px/1.2 var(--police-etiquette); letter-spacing: .1em; color: var(--sapin); display: block; margin-bottom: 3px; }
+.a-notes b .ic { width: 15px; height: 15px; vertical-align: -2px; }
+.a-passeport {
+  color: var(--t-sur-mer); padding: 30px 32px; margin-top: 10px;
+  background: repeating-linear-gradient(0deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px),
+    repeating-linear-gradient(90deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px), var(--t-mer);
+}
+.a-passeport h3 { font: 400 30px/1.1 var(--police-titre); margin: 0 0 10px; color: var(--t-or-clair); }
+.a-passeport p { font-size: 16.5px; margin: 0 0 18px; }
+.a-visas { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
+.a-visas > span { aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; text-align: center; font: 400 13px/1.1 var(--police-etiquette); letter-spacing: .06em; border: 1.5px dashed rgba(240, 230, 207, .45); color: var(--t-sur-mer-doux); padding: 6px; }
+.a-visas > span.a-fait { border: 3px double var(--t-or-clair); color: var(--t-or-clair); transform: rotate(-10deg); }
+.a-visas > span.a-ici-visa { box-shadow: 0 0 0 3px rgba(232, 199, 126, .35); }
+.a-visa-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* Le glossaire : les mots de l'enfant */
+.a-glossaire { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1.5px solid var(--encre); border-bottom: 1.5px solid var(--encre); }
+.a-glossaire section { padding: 22px 26px 24px; }
+.a-glossaire section + section { border-left: 1px solid var(--trait-fort); }
+.a-glossaire h3 { font: 400 26px/1.1 var(--police-titre); margin: 0 0 4px; }
+.a-glossaire h3 small { display: block; font: 400 14px/1 var(--police-etiquette); letter-spacing: .16em; color: var(--sapin); margin-bottom: 6px; }
+.a-glossaire ul { list-style: none; margin: 12px 0 0; padding: 0; columns: 2; column-gap: 18px; }
+.a-glossaire li { padding: 4px 0; break-inside: avoid; }
+.a-glossaire .mot-enfant { font-size: 19px; line-height: 1.25; }
+.a-sans-carte { text-align: center; color: var(--encre-douce); margin: 18px auto 0; max-width: 80ch; font-style: italic; }
+.a-sans-carte .mot-enfant { font-size: 18px; color: var(--encre); font-style: normal; }
+
+/* Le bestiaire et l'herbier */
+.a-planches-gravees { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 440px)); justify-content: center; gap: 34px; margin: 0 auto 30px; }
+.a-gravure { margin: 0; }
+.a-gravure .a-cadre, .a-toile .a-cadre { background: var(--feuille); padding: 12px; border: 1px solid var(--trait-fort); box-shadow: inset 0 0 0 4px var(--feuille), inset 0 0 0 5px var(--trait-fort); }
+.a-gravure img { display: block; width: 100%; height: auto; mix-blend-mode: multiply; }
+.a-gravure figcaption, .a-toile figcaption { font: italic 400 15px/1.4 var(--police-texte); color: var(--encre-douce); margin-top: 10px; }
+.a-gravure figcaption b, .a-toile figcaption b { font: normal 400 20px/1.2 var(--police-titre); color: var(--encre); display: block; }
+.a-herbier { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px 18px; list-style: none; padding: 0; margin: 30px 0 0; }
+.a-herbier li { text-align: center; }
+.a-ovale { aspect-ratio: 4 / 5; border-radius: 50%; overflow: hidden; border: 1px solid var(--encre); box-shadow: 0 0 0 4px var(--feuille), 0 0 0 5px var(--trait-fort); }
+.a-ovale img { width: 100%; height: 100%; object-fit: cover; filter: sepia(.55) saturate(.8) contrast(1.05); transition: filter .4s; }
+.a-herbier li:hover img { filter: none; }
+.a-herbier .mot-enfant { display: block; margin-top: 12px; font-size: 19px; line-height: 1.15; }
+.a-herbier .a-groupe { grid-column: 1 / -1; text-align: left; font: italic 400 24px/1 var(--police-titre); margin: 10px 0 0; border-bottom: 1px solid var(--trait-fort); padding-bottom: 6px; }
+
+/* La bibliothèque */
+.a-bibliotheque { display: grid; grid-template-columns: .62fr 1.4fr; gap: 48px; align-items: start; }
+.a-bibliotheque.a-sans-image, .a-cabinet.a-sans-image { grid-template-columns: minmax(0, 1fr); max-width: 980px; margin: 0 auto; }
+.a-bibli-images { display: grid; gap: 26px; }
+.a-ouvrages { list-style: none; margin: 0 0 20px; padding: 0; }
+.a-ouvrages li { padding: 14px 0; border-bottom: 1px solid rgba(138, 111, 82, .55); display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; }
+.a-ouvrages .a-rom { font: 400 18px/1 var(--police-etiquette); color: var(--sapin); width: 26px; flex: none; }
+.a-ouvrages li > span:nth-child(2) { flex: 1; min-width: 200px; }
+.a-ouvrages b { font: 400 25px/1.15 var(--police-titre); }
+.a-ouvrages small { display: block; font-style: italic; color: var(--encre-douce); font-size: 16px; }
+.a-etoile { font: 400 14px/1 var(--police-etiquette); letter-spacing: .1em; color: var(--t-sur-vermillon); background: var(--sapin); padding: 4px 8px 5px; white-space: nowrap; align-self: center; }
+
+/* Le cabinet des arts */
+.a-cabinet { display: grid; grid-template-columns: 1.4fr .62fr 1fr; gap: 30px; align-items: start; }
+.a-toile { margin: 0; }
+.a-toile .a-cadre { padding: 16px; background: linear-gradient(145deg, #6e4e24, #c49a52 35%, #8a6430 60%, #d8b06a); border: 0; box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .25), 0 18px 30px -18px rgba(0, 0, 0, .7); }
+.a-toile img { display: block; width: 100%; height: auto; }
+
+/* Le portefeuille de la planche, la suite */
+.a-docs-planche { list-style: none; margin: 30px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0 30px; }
+.a-docs-planche a { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px dotted rgba(138, 111, 82, .6); text-decoration: none; color: var(--encre); }
+.a-docs-planche a:hover b { color: var(--sapin); }
+.a-docs-planche a > .ic:first-child { color: var(--periode); width: 22px; height: 22px; }
+.a-docs-planche span { display: flex; flex-direction: column; line-height: 1.3; min-width: 0; }
+.a-docs-planche b { font: 600 17px/1.3 var(--police-texte); }
+.a-docs-planche small { font-style: italic; color: var(--encre-douce); font-size: 15px; }
+.a-dl { margin-left: auto; color: var(--encre-douce); width: 16px; height: 16px; }
+.a-suite { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; padding: 50px 0 0; }
+.a-suite a { text-decoration: none; font: italic 400 21px/1.3 var(--police-titre); color: var(--encre); }
+.a-suite a:hover { color: var(--sapin); }
+.a-suite .a-suivante { text-align: right; }
+.a-suite small { display: block; font: normal 400 14px/1 var(--police-etiquette); letter-spacing: .16em; color: var(--sapin); margin-bottom: 4px; }
+
+/* ═════════ Le mouvement ═════════ */
+@media (prefers-reduced-motion: no-preference) {
+  .a-carte-cadre img { animation: a-derive 40s ease-in-out infinite alternate; transform-origin: 62% 40%; }
+  @keyframes a-derive { from { transform: scale(1); } to { transform: scale(1.05); } }
+  .a-route path { animation: a-trace 3s .5s ease-out both; }
+  @keyframes a-trace { from { opacity: 0; } to { opacity: 1; } }
+  .a-ici-point::after { animation: a-onde 2.4s ease-out infinite; }
+  @keyframes a-onde { from { transform: scale(.4); opacity: 1; } to { transform: scale(1.6); opacity: 0; } }
+  .a-epingle .a-sceau { animation: a-pose .6s both cubic-bezier(.2, 1.5, .4, 1); }
+  .a-epingle[data-periode="2"] .a-sceau { animation-delay: .15s; } .a-epingle[data-periode="3"] .a-sceau { animation-delay: .3s; }
+  .a-epingle[data-periode="4"] .a-sceau { animation-delay: .45s; } .a-epingle[data-periode="5"] .a-sceau { animation-delay: .6s; }
+  @keyframes a-pose { from { transform: scale(0) rotate(-40deg); } }
+  .a-aiguille { transition: transform .6s cubic-bezier(.2, 1.4, .4, 1); transform-origin: 50% 50%; }
+  .a-boussole[aria-expanded="true"] .a-aiguille { transform: rotate(200deg); }
+  .a-legende:not([hidden]) { animation: a-deplie .35s ease-out; }
+  @keyframes a-deplie { from { opacity: 0; clip-path: circle(0 at calc(100% - 40px) 40px); } to { opacity: 1; clip-path: circle(150% at calc(100% - 40px) 40px); } }
+  .a-planche-menu:not([hidden]) { animation: a-ouvre .2s ease-out; }
+  @keyframes a-ouvre { from { opacity: 0; } to { opacity: 1; } }
 }
 
-/* — Les blocs : des feuilles collées au ruban adhésif — */
-[data-composant="bloc"] { border-color: var(--trait); box-shadow: 0 1px 0 var(--trait), 0 6px 18px rgba(80, 60, 30, .06); }
-[data-composant="bloc"]::before {
-  content: ""; position: absolute; top: -11px; left: 50%; width: 118px; height: 24px;
-  transform: translateX(-50%) rotate(-2.5deg); background: var(--t-ruban);
-  border-left: 2px dotted rgba(255, 255, 255, .6); border-right: 2px dotted rgba(255, 255, 255, .6);
-}
-[data-composant="bloc"][data-bloc="materiel"]::before { transform: translateX(-50%) rotate(2deg); left: 30%; }
-[data-composant="bloc"][data-bloc="documents"]::before { transform: translateX(-50%) rotate(-1deg); left: 72%; }
-[data-composant="bloc"] .zone-badge { font-family: var(--police-etiquette); border: 1.5px dashed var(--sapin); background: transparent; }
-
-/* — La frise : cinq timbres, dentelés, oblitérés — */
-[data-composant="frise"] .frise-bande {
-  border-radius: 3px; height: 62px;
-  background:
-    radial-gradient(circle, var(--feuille) 2.6px, transparent 3.1px) 1px -4px / 9px 8px repeat-x,
-    radial-gradient(circle, var(--feuille) 2.6px, transparent 3.1px) 1px calc(100% + 4px) / 9px 8px repeat-x,
-    radial-gradient(circle, var(--feuille) 2.6px, transparent 3.1px) -4px 1px / 8px 9px repeat-y,
-    radial-gradient(circle, var(--feuille) 2.6px, transparent 3.1px) calc(100% + 4px) 1px / 8px 9px repeat-y,
-    var(--periode);
-  box-shadow: inset 0 0 0 7px var(--periode), inset 0 0 0 8.5px rgba(255, 255, 255, .55);
-}
-[data-composant="frise"] .frise-periode.en-cours .frise-bande {
-  box-shadow: inset 0 0 0 7px var(--periode), inset 0 0 0 8.5px rgba(255, 255, 255, .55),
-              0 0 0 3px var(--feuille), 0 0 0 6px var(--bouton-dor);
-}
-[data-orne="frise"] {
-  display: block; position: absolute; z-index: -1; right: 6px; top: 12px; bottom: 12px; width: 58%;
-  background: var(--sur-periode); opacity: .22;
-  -webkit-mask: url("themes/tour-du-monde/motifs/obliteration.svg") right center / auto 100% no-repeat;
-          mask: url("themes/tour-du-monde/motifs/obliteration.svg") right center / auto 100% no-repeat;
-}
-[data-composant="frise"] .frise-num { font-family: var(--police-etiquette); font-size: 23px; }
-[data-composant="frise"] .frise-milieu { font-weight: 700; font-size: 18px; }
-
-/* — Le matériel : des étiquettes de bagage — */
-[data-composant="materiel"] { border-radius: 6px 22px 22px 6px; border-width: 1.5px; }
-[data-composant="materiel"] .materiel-tete { border-bottom: 2px dashed var(--periode-trait); padding-right: 56px; }
-[data-composant="materiel"] .materiel-num { font-family: var(--police-etiquette); letter-spacing: .12em; }
-[data-orne="materiel"] {
-  display: block; position: absolute; right: 20px; top: 50%; width: 18px; height: 18px; margin-top: -9px;
-  border-radius: 50%; background: var(--feuille); box-shadow: 0 0 0 4px var(--periode-trait), 0 0 0 5px var(--periode);
+/* ═════════ Tablette ═════════ */
+@media (max-width: 1180px) {
+  .a-entree { font-size: 17px; padding: 10px 6px; }
+  .a-marque-sous { display: none; }
+  .a-portefeuille { grid-template-columns: repeat(2, 1fr); }
+  .a-a-graver { grid-column: 1 / -1; }
+  .a-cabinet { grid-template-columns: 1fr 1fr; }
+  .a-cabinet > :last-child { grid-column: 1 / -1; }
+  .a-herbier { grid-template-columns: repeat(4, 1fr); }
+  .a-cartouche b { font-size: 18px; }
 }
 
-/* — Les documents, la pastille, les boutons — */
-[data-composant="documents"] h3 { font-family: var(--police-etiquette); letter-spacing: .12em; }
-.pastille { font-family: var(--police-etiquette); box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .5); }
-.btn { border-radius: 8px; }
-[data-composant="document"] h1 { font-weight: 800; }
-[data-composant="menu"] .groupe { font-family: var(--police-etiquette); letter-spacing: .12em; }
+/* ═════════ Téléphone : la rose des vents ouvre la légende ═════════ */
+@media (max-width: 920px) {
+  .a-table { display: none; }
+  .a-entete-int { padding: 10px 16px; gap: 12px; }
+  .a-marque .a-rose { display: none; }
+  .a-marque-nom { font-size: 22px; }
+  .a-marque-sous { display: block; font-size: 15px; }
+  .a-boussole {
+    display: grid; place-items: center; width: 60px; height: 60px; border-radius: 50%; padding: 0; position: relative; flex: none; cursor: pointer;
+    border: 1px solid var(--encre); background: var(--feuille); color: var(--sapin); box-shadow: inset 0 0 0 3px var(--feuille), inset 0 0 0 4px var(--trait-fort);
+  }
+  .a-boussole .a-rose { width: 44px; height: 44px; }
+  .a-mot { position: absolute; bottom: -11px; left: 50%; transform: translateX(-50%); font: 400 12px/1 var(--police-etiquette); letter-spacing: .1em; background: var(--feuille); padding: 2px 5px; color: var(--encre); border: 1px solid var(--trait-fort); }
+  .a-legende {
+    position: fixed; inset: 0; z-index: 90; overflow: auto; color: var(--t-sur-mer);
+    padding: calc(18px + env(safe-area-inset-top, 0px)) 18px calc(40px + env(safe-area-inset-bottom, 0px));
+    background: repeating-linear-gradient(0deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px),
+      repeating-linear-gradient(90deg, transparent 0 59px, rgba(232, 199, 126, .09) 59px 60px), var(--t-mer);
+  }
+  .a-legende-tete { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(232, 199, 126, .5); padding-bottom: 12px; }
+  .a-legende-titre { font: 400 32px/1 var(--police-etiquette); letter-spacing: .12em; color: var(--t-or-clair); margin: 0; }
+  .a-legende-titre small { display: block; font: italic 400 16px/1.2 var(--police-titre); letter-spacing: 0; color: var(--t-sur-mer-doux); margin-top: 4px; }
+  .a-fermer { display: inline-flex; align-items: center; gap: 8px; border: 1px solid rgba(232, 199, 126, .7); background: transparent; color: var(--t-sur-mer); padding: 10px 14px; font: 400 16px/1 var(--police-etiquette); letter-spacing: .08em; cursor: pointer; min-height: 44px; }
+  .a-legende h3 { font: 400 15px/1.2 var(--police-etiquette); letter-spacing: .2em; color: var(--t-or-clair); margin: 24px 0 8px; display: flex; align-items: center; gap: 10px; }
+  .a-legende ul { list-style: none; margin: 0; padding: 0; }
+  .a-legende li a { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: center; padding: 11px 0; text-decoration: none; color: var(--t-sur-mer); border-bottom: 1px solid rgba(232, 199, 126, .18); font: 400 21px/1.2 var(--police-titre); }
+  .a-legende li a .a-sym { text-align: center; color: var(--t-or-clair); font: 400 15px/1 var(--police-etiquette); }
+  .a-legende li a[aria-current="page"] { color: var(--t-or-clair); }
+  .a-legende .a-continents { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+  .a-legende .a-lavis { width: 20px; height: 20px; justify-self: center; border-color: rgba(255, 255, 255, .4); }
 
-@media (max-width: 760px) {
-  [data-composant="frise"] .frise-bande { height: 100%; }
-}
-@media (max-width: 640px) {
-  [data-composant="accueil-tete"] { padding-right: 0; padding-top: var(--esp-6); }
-  [data-orne="accueil"] { width: 110px; height: 96px; top: 64px; right: -4px; opacity: .6; }
-  [data-orne="accueil"]::after { width: 74px; height: 74px; }
-  [data-orne="accueil"]::before { display: none; }
-  [data-composant="bloc"]::before { width: 84px; height: 20px; top: -9px; }
-}
+  .a-ouverture { padding: 30px 16px 40px; }
+  .a-ouverture-tete { grid-template-columns: 1fr; gap: 10px; margin-bottom: 26px; }
+  .a-ouverture h1 { font-size: 56px; }
+  .a-ouverture .a-chapo { font-size: 18px; }
+  .a-carte-monde { padding: 5px; box-shadow: 0 0 0 4px var(--t-mer), 0 0 0 5px rgba(232, 199, 126, .35); }
+  .a-epingle .a-sceau { width: 30px; height: 30px; font-size: 14px; box-shadow: 0 0 0 2px rgba(255, 244, 220, .85), 0 3px 8px rgba(0, 0, 0, .45); }
+  .a-cartouche { display: none; }
+  .a-ici-point { width: 14px; height: 14px; box-shadow: 0 0 0 3px var(--sapin), 0 0 0 6px rgba(163, 50, 29, .3); }
+  .a-ici-texte { display: none; }
+  .a-planches-liste { display: grid; gap: 10px; list-style: none; margin: 22px 0 0; padding: 0; }
+  .a-planches-liste a { display: grid; grid-template-columns: 40px 1fr; gap: 2px 12px; align-items: center; text-decoration: none; color: var(--t-sur-mer); padding: 12px 14px; background: rgba(248, 241, 225, .06); border: 1px solid rgba(232, 199, 126, .35); }
+  .a-planches-liste .a-sceau { grid-row: span 2; width: 40px; height: 40px; font-size: 17px; }
+  .a-planches-liste b { font: 400 22px/1.1 var(--police-titre); }
+  .a-planches-liste span:not(.a-sceau) { font: italic 400 15px/1.3 var(--police-texte); color: var(--t-sur-mer-doux); }
+  .a-ici-liste { display: block; padding: 12px 14px; background: var(--sapin); color: var(--t-sur-vermillon); font: italic 400 16.5px/1.35 var(--police-titre); }
+  .a-ici-liste b { font: 400 14px/1 var(--police-etiquette); letter-spacing: .1em; display: block; margin-bottom: 3px; font-style: normal; }
+  .a-carte-legende { font-size: 13.5px; }
 
-/* ════════════════════════ Le papier ════════════════════════
-   L'apparence seulement : la pagination ne bouge pas. Peu d'encre : des
-   traits et des teintes pâles, l'aplat va à la couverture. */
+  .a-feuillet { padding: 0 16px; }
+  .a-chapitre { padding-top: 54px; }
+  .a-chapitre-tete h2 { font-size: 38px; }
+  .a-echelle { margin-top: 20px; display: grid; grid-template-columns: 26px 1fr; gap: 0 14px; }
+  .a-echelle-barre { flex-direction: column; height: auto; min-height: 640px; width: 26px; }
+  .a-seg { min-height: 0; }
+  .a-seg-nom, .a-seg-bas, .a-ici-fleche { display: none; }
+  .a-ici-seg::after { top: 50%; left: auto; right: -20px; transform: translateY(-50%); border-top-color: transparent; border-right-color: var(--sapin); }
+  .a-echelle-liste { display: flex; flex-direction: column; }
+  .a-echelle-liste > div { flex: var(--sem) 1 0; display: flex; flex-direction: column; justify-content: center; border-bottom: 1px dotted rgba(138, 111, 82, .5); font-size: 15px; line-height: 1.3; color: var(--encre-douce); padding: 4px 0; }
+  .a-echelle-liste > div b { font: 400 21px/1.1 var(--police-titre); color: var(--encre); }
+  .a-echelle-liste > div small { font: 400 13px/1 var(--police-etiquette); letter-spacing: .12em; color: var(--sapin); }
+  .a-echelle-liste > div.a-vac { background: none; border-left: 0; border-right: 0; font-style: italic; font-size: 14px; }
+  .a-echelle-liste > div.a-ici-l { color: var(--sapin); font-weight: 600; }
+  .a-echelle-pied { grid-template-columns: 1fr; margin-top: 34px; gap: 20px; }
+  .a-escales { font-size: 15px; }
+  .a-escales th, .a-escales td { padding: 8px 6px; }
+  .a-escales tbody th { font-size: 18px; }
+  .a-portefeuille { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .a-estampe { padding: 16px 12px 14px; }
+  .a-estampe strong { font-size: 22px; }
+  .a-lettre { font-size: 36px; }
+  .a-matieres { grid-template-columns: 1fr; padding: 26px 18px; gap: 10px; }
+  .a-colophon { padding: 44px 18px calc(40px + env(safe-area-inset-bottom, 0px)); }
+  .a-doc-tete { padding-top: 36px; }
+  .a-doc-corps { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+  .a-sommaire { position: static; }
+  .a-sommaire ol { display: flex; overflow-x: auto; border-left: 0; gap: 6px; padding-bottom: 6px; }
+  .a-sommaire a { white-space: nowrap; border: 1px solid var(--trait-fort); padding: 7px 12px; background: var(--feuille); }
+  .a-sommaire a::before { display: none; }
+  .a-texte h2 { font-size: 32px; }
+  .a-titre-planche .a-nom { font-size: 38px; }
+  .a-titre-planche .zone-badge { margin-left: 0; }
+  .a-article { grid-template-columns: minmax(0, 1fr); }
+  .a-marge { margin-top: 6px; }
+  .a-planche-tete { grid-template-columns: 1fr; gap: 24px; padding-top: 34px; }
+  .a-planche-tete h1 { font-size: 76px; }
+  .a-repere { width: 24px; height: 24px; font-size: 12px; }
+  .a-legende-carte { columns: 1; }
+  .a-planches-gravees, .a-bibliotheque, .a-cabinet, .a-carnet-route { grid-template-columns: 1fr; gap: 26px; }
+  .a-cabinet > :last-child { grid-column: auto; }
+  .a-herbier { grid-template-columns: repeat(3, 1fr); gap: 16px 12px; }
+  .a-herbier .mot-enfant { font-size: 16px; }
+  .a-glossaire { grid-template-columns: 1fr; }
+  .a-glossaire section + section { border-left: 0; border-top: 1px solid var(--trait-fort); }
+  .a-notes { columns: 1; }
+  .a-visas { gap: 6px; }
+  .a-visas > span { font-size: 12px; padding: 2px; letter-spacing: 0; }
+  .a-lettre-plume, .a-passeport { padding: 24px 20px; }
+  .a-lettre-plume img { width: 110px; }
+}
+.a-carnet-route > *, .a-bibliotheque > *, .a-cabinet > *, .a-planche-tete > * { min-width: 0; }
 
-/* — La fiche élève : un billet, une étiquette — */
-.fiche .entete .cartouche {
-  background:
-    radial-gradient(circle at 0 0, #fff 2mm, transparent 2.1mm),
-    radial-gradient(circle at 0 100%, #fff 2mm, transparent 2.1mm),
-    linear-gradient(var(--periode) 55%, transparent 0) 0 0 / .7pt 2.2mm repeat-y,
-    var(--periode-pale);
-}
-.fiche .entete .cartouche .ref { font-family: var(--police-etiquette); letter-spacing: .06em; }
-.fiche .titre {
-  text-decoration: underline; text-decoration-style: dashed; text-decoration-color: var(--periode-trait);
-  text-decoration-thickness: 1.4pt; text-underline-offset: 2.5pt;
-}
-.fiche .titre::after {                    /* le tampon de l'étape, à l'encre pâle */
-  content: ""; position: absolute; right: 0; top: -2.5mm; width: 26mm; height: 11mm;
-  background: var(--periode-trait);
-  -webkit-mask: url("themes/tour-du-monde/motifs/tampon.svg") right center / 11mm 11mm no-repeat, url("themes/tour-du-monde/motifs/obliteration.svg") left center / 17mm 7mm no-repeat;
-          mask: url("themes/tour-du-monde/motifs/tampon.svg") right center / 11mm 11mm no-repeat, url("themes/tour-du-monde/motifs/obliteration.svg") left center / 17mm 7mm no-repeat;
-}
-.fiche .exo .num { font-family: var(--police-etiquette); }
-.fiche .pied-fiche .codage { font-family: var(--police-etiquette); border-style: dashed; }
-
-/* — Les planches : l'en-tête tapé à la machine — */
-[data-composant="entete-planche"] { font-family: var(--police-etiquette); }
-
-/* — Les cartes : quatre coins photo, comme dans un album — */
-[data-composant="carte-imagier"] .photo::before, [data-composant="carte-imagier"] .photo::after,
-[data-composant="carte-corpus"] .visuel::before, [data-composant="carte-corpus"] .visuel::after,
-[data-composant="carte-imagier"]::before, [data-composant="carte-imagier"]::after,
-[data-composant="carte-corpus"]::before, [data-composant="carte-corpus"]::after {
-  content: ""; position: absolute; z-index: 1; width: 6mm; height: 6mm; background: var(--periode-trait);
-}
-[data-composant="carte-imagier"] .photo::before, [data-composant="carte-corpus"] .visuel::before {
-  left: 0; top: 0; clip-path: polygon(0 0, 100% 0, 0 100%);
-}
-[data-composant="carte-imagier"] .photo::after, [data-composant="carte-corpus"] .visuel::after {
-  right: 0; bottom: 0; clip-path: polygon(100% 0, 100% 100%, 0 100%);
-}
-[data-composant="carte-imagier"]::before, [data-composant="carte-corpus"]::before {
-  right: 2mm; top: 2mm; clip-path: polygon(0 0, 100% 0, 100% 100%);
-}
-[data-composant="carte-imagier"]::after, [data-composant="carte-corpus"]::after {
-  left: 2mm; top: 58mm; clip-path: polygon(0 0, 0 100%, 100% 100%);
-}
-
-/* — Les étiquettes de tri : des étiquettes de bagage, œillet compris — */
-[data-composant="etiquette-tri"] { border-style: dashed; }
-[data-composant="etiquette-tri"]::before {
-  content: ""; position: absolute; left: 5mm; top: 50%; width: 4.5mm; height: 4.5mm; margin-top: -2.25mm;
-  border-radius: 50%; border: .9pt solid var(--periode); background: #fff;
-}
-
-/* — La page de garde : l'itinéraire, en haut à droite — */
-[data-composant="garde"] .sous-titre { font-family: var(--police-etiquette); }
-[data-orne="garde"] {
-  display: block; position: absolute; right: 0; top: 0; width: 46mm; height: 12mm;
-  background: var(--periode-trait);
-  -webkit-mask: url("themes/tour-du-monde/motifs/itineraire.svg") center / contain no-repeat;
-          mask: url("themes/tour-du-monde/motifs/itineraire.svg") center / contain no-repeat;
-}
-[data-composant="credits"] h2 { font-family: var(--police-titre); }
-
-/* — La couverture : l'étiquette du bagage, tamponnée — */
-[data-composant="couverture"] {
-  background: url("themes/tour-du-monde/motifs/grille.svg") 0 0 / 7mm 7mm, var(--t-kraft);
-  border-color: var(--encre); border-style: solid;
-}
-[data-composant="couverture"] .couverture-tete { font-family: var(--police-etiquette); color: var(--encre); letter-spacing: .1em; }
-[data-composant="couverture"] .couverture-centre {
-  position: relative; margin: 0 6mm 0 14mm; padding: 22mm 14mm 18mm 24mm;
-  background: #fffdf8; border: 1.2pt solid var(--encre); border-radius: 5mm;
-  transform: rotate(-2.2deg); text-align: left;
-  box-shadow: inset 0 0 0 4mm #fffdf8, inset 0 0 0 4.5mm var(--periode-trait);
-}
-[data-composant="couverture"] .couverture-cahier {
-  font-family: var(--police-etiquette); font-size: 13pt; letter-spacing: .12em; text-transform: uppercase; color: var(--periode);
-}
-[data-composant="couverture"] .couverture-titre { text-align: left; }
-[data-composant="couverture"] .couverture-sous { margin-left: 0; font-size: 12.5pt; color: var(--encre-douce); }
-[data-orne="couverture-embleme"] {         /* l'œillet de l'étiquette */
-  display: block; position: absolute; left: 7mm; top: 50%; width: 8mm; height: 8mm; margin-top: -4mm;
-  border-radius: 50%; background: var(--t-kraft); box-shadow: 0 0 0 1.6mm var(--periode-trait), 0 0 0 2mm var(--periode);
-}
-[data-orne="couverture-fond"] {           /* la ficelle */
-  display: block; position: absolute; left: 4mm; top: 52mm; width: 40mm; height: 70mm;
-  background: var(--encre-douce); opacity: .8;
-  -webkit-mask: url("themes/tour-du-monde/motifs/ficelle.svg") center / contain no-repeat;
-          mask: url("themes/tour-du-monde/motifs/ficelle.svg") center / contain no-repeat;
-}
-[data-orne="couverture-tampon"] {         /* le tampon de la période, et ses ondes */
-  display: block; position: absolute; right: 12mm; top: 30mm; width: 92mm; height: 46mm;
-  background: var(--periode); opacity: .85; transform: rotate(-9deg);
-  -webkit-mask: url("themes/tour-du-monde/motifs/tampon.svg") right center / 46mm 46mm no-repeat, url("themes/tour-du-monde/motifs/obliteration.svg") left center / 52mm 26mm no-repeat;
-          mask: url("themes/tour-du-monde/motifs/tampon.svg") right center / 46mm 46mm no-repeat, url("themes/tour-du-monde/motifs/obliteration.svg") left center / 52mm 26mm no-repeat;
-}
-[data-composant="couverture"] .couverture-pied { border-top: 1.2pt dashed var(--encre); }
-[data-composant="couverture"] .couverture-periode { font-family: var(--police-etiquette); text-transform: uppercase; letter-spacing: .1em; color: var(--encre); }
-[data-composant="couverture"] .couverture-num {           /* le timbre du continent */
-  width: 16mm; height: 19mm; border-radius: 0; border: 0; color: var(--sur-periode); font-size: 20pt;
-  background:
-    radial-gradient(circle, var(--t-kraft) 1mm, transparent 1.15mm) .5mm -1.1mm / 2.6mm 2.2mm repeat-x,
-    radial-gradient(circle, var(--t-kraft) 1mm, transparent 1.15mm) .5mm calc(100% + 1.1mm) / 2.6mm 2.2mm repeat-x,
-    radial-gradient(circle, var(--t-kraft) 1mm, transparent 1.15mm) -1.1mm .5mm / 2.2mm 2.6mm repeat-y,
-    radial-gradient(circle, var(--t-kraft) 1mm, transparent 1.15mm) calc(100% + 1.1mm) .5mm / 2.2mm 2.6mm repeat-y,
-    var(--periode);
-  box-shadow: inset 0 0 0 2mm var(--periode), inset 0 0 0 2.4mm rgba(255, 255, 255, .6);
-}
-[data-composant="couverture"] .couverture-projet { font-family: var(--police-titre); font-size: 14pt; color: var(--sapin); }
+} /* fin de @media screen */

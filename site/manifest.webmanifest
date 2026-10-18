@@ -8,8 +8,8 @@
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#fffcf6",
-  "background_color": "#f5efe4",
+  "theme_color": "#f8f1e1",
+  "background_color": "#efe3c8",
   "categories": [
     "education"
   ],

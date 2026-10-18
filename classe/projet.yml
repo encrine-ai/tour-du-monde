@@ -1,21 +1,435 @@
-# Le projet de la classe, en données : ce que l'accueil et la page de chaque
-# période montrent (skill charte-graphique, « La page de période » ;
-# `classe.py verifier` en contrôle la forme). Il reprend les éléments du
-# projet annuel (01-projet-annuel.md) — il ne le remplace pas.
+# Le projet « Le tour du monde », en données : ce que l'accueil et la page
+# de chaque période montrent (skill charte-graphique, « La page de
+# période » ; `classe.py verifier` en contrôle la forme). Il reprend les
+# éléments de 01-projet-annuel.md, qui fait foi — il ne le remplace pas.
 #
-# annee:
-#   mascotte: {nom, texte, embleme}        # le fil rouge de l'année
-#   fils_rouges: [{nom, texte}, …]
-# periodes:
-#   <clé de la période>:                    # celles de classe.yml
-#     resume: ce qu'on y fait, en deux phrases
-#     fil_rouge: {nom, texte, message}       # ou mascotte
-#     albums / documentaires / textes / oeuvres / musique / sorties / spectacle:
-#       - un texte, ou {titre, auteur, note, etude: true, image}
-#     embleme: une image déclarée ci-dessous ou du thème, ou {imagier: <slug>}
-#     theme: {…}                             # les données propres au thème
-# images:                                    # sous site/, avec leur licence
-#   - {fichier: projet/….jpg, titre, auteur, date, institution, source, licence}
-annee: {}
-periodes: {}
-images: []
+# `theme.atlas` : les données propres au thème « atlas » — la position du
+# continent sur la mappemonde (en % de l'image, `cote` : où se pose son
+# cartouche) et, pour une planche gravée, sa carte, ses repères numérotés et
+# la route de Plume.
+
+annee:
+  mascotte:
+    cle: plume
+    nom: Plume, la cigogne voyageuse
+    texte: >-
+      La mascotte de la classe. Une cigogne blanche quitte l’Europe à la fin
+      de l’été pour passer l’hiver en Afrique : c’est elle qui emmène la
+      classe, envoie une carte postale de chaque continent et introduit les
+      situations-problèmes.
+    embleme: projet/cigogne-gravure.jpg
+  fils_rouges:
+    - cle: passeport
+      nom: Le passeport du petit voyageur
+      texte: >-
+        Un carnet individuel, tamponné à chaque continent : dessins
+        d’observation légendés, photographies, traces des expériences. Il
+        montre les progrès et circule à la maison à chaque fin de période.
+    - cle: carte
+      nom: La grande carte du monde
+      texte: >-
+        Un planisphère affiché dans la classe, où l’on pique à chaque période
+        les animaux, les plantes et les étapes du voyage de Plume.
+    - cle: valise
+      nom: La valise de la période
+      texte: >-
+        Une vraie valise arrive à chaque continent avec des objets-mystères :
+        un instrument, une étoffe, un fruit, une carte postale. Elle lance le
+        corpus et les questions des enfants.
+    - cle: langues
+      nom: Bonjour dans toutes les langues
+      texte: >-
+        Saluer, compter jusqu’à cinq et chanter une comptine dans une langue
+        du continent ; les langues des familles de la classe sont invitées en
+        premier.
+    - cle: elevages
+      nom: Élevages et plantations
+      texte: >-
+        Abri à hérisson et mangeoire, semis de mil ou de sorgho, riz en
+        barquette et phasmes, maïs, haricots et courges, bac à glace et
+        banquise miniature : un par continent.
+
+periodes:
+  europe:
+    resume: >-
+      On part de ce que les enfants voient chaque jour : l’Europe, c’est ici,
+      dans la cour et dans le parc voisin. Les repères de la carte disent où
+      vivent les animaux, les contes et les œuvres de la période.
+    fil_rouge:
+      nom: Lettre de Plume
+      message: >-
+        « Chers enfants, l’été se termine et je prépare mon grand voyage. Je
+        quitte l’Europe pour passer l’hiver en Afrique : venez avec moi ! »
+      texte: >-
+        Une cigogne blanche quitte l’Europe à la fin de l’été pour passer
+        l’hiver en Afrique : c’est elle qui emmène la classe. Son départ, à la
+        fin de la période 1, ouvre la période 2.
+      embleme: projet/cigogne-gravure.jpg
+    albums:
+      - titre: Boucle d’or et les trois ours
+        auteur: conte traditionnel anglais
+        etude: true
+        image: projet/trois-ours.jpg
+      - titre: Le Petit Chaperon rouge
+        auteur: Perrault, Grimm
+        image: projet/fokke-chaperon.jpg
+      - titre: Les Trois Petits Cochons
+        auteur: conte traditionnel anglais
+      - titre: Le réseau « l’ours et le loup des contes »
+        note: la version lue est au choix de l’enseignant
+    documentaires:
+      - la carte du monde et l’Europe
+      - la cigogne et sa migration
+      - titre: le hérisson
+        image: projet/tempesta-herisson.jpg
+      - les arbres d’automne
+    textes:
+      - comptines de rentrée
+      - '*Frère Jacques* chanté en français, en anglais, en allemand et en espagnol'
+      - '*Promenons-nous dans les bois* (traditionnel)'
+      - une comptine pour compter jusqu’à dix
+    oeuvres:
+      - titre: Les Coquelicots
+        auteur: Claude Monet
+        note: un paysage
+        image: projet/monet-coquelicots.jpg
+      - titre: L’Arbre de vie
+        auteur: Gustav Klimt
+        note: spirales et motifs
+        image: projet/klimt-arbre-de-vie.jpg
+      - titre: Joan Miró
+        note: signes, lignes et couleurs pures
+      - titre: Dessin d’observation
+        note: les feuilles et les fruits d’automne
+    musique:
+      - titre: « Dans l’antre du roi de la montagne »
+        auteur: Edvard Grieg, *Peer Gynt*
+        note: œuvre patrimoniale 1 — un tempo qui accélère, des nuances qui enflent
+      - rondes et jeux dansés traditionnels d’Europe
+    sorties:
+      - sortie au parc ou au bois le plus proche (chêne, châtaignier, traces du hérisson, oiseaux)
+      - Semaine du goût « le petit-déjeuner d’Europe »
+      - installation de l’abri à hérisson et de la mangeoire
+    spectacle:
+      - 'théâtre de marionnettes « Boucle d’or et les trois ours » (trois voix : la grosse, la moyenne, la petite)'
+    embleme: {imagier: herisson}
+    theme:
+      atlas:
+        carte: {x: 64, y: 24, cote: gauche}
+        planche:
+          image: images/carte-europe-maaskamp.jpg
+          route: M44 57 C 38 66, 31 80, 24 99
+          route_texte: En pointillé, la route de Plume vers l’Afrique, par le détroit de Gibraltar.
+          reperes:
+            - {lieu: Islande, texte: le macareux, x: 19, y: 15}
+            - {lieu: Laponie, texte: le renne, x: 57, y: 15}
+            - {lieu: Norvège, texte: 'Grieg, « Dans l’antre du roi de la montagne »', x: 44, y: 31}
+            - {lieu: Angleterre, texte: 'Boucle d’or et Les Trois Petits Cochons, contes anglais', x: 31, y: 45}
+            - {lieu: Allemagne, texte: Le Petit Chaperon rouge des frères Grimm, x: 45, y: 56}
+            - {lieu: France, texte: 'Monet, Les Coquelicots ; Perrault', x: 31, y: 61}
+            - {lieu: Vienne, texte: 'Klimt, L’Arbre de vie', x: 52, y: 64}
+            - {lieu: Les Alpes, texte: 'le bouquetin, l’edelweiss', x: 38.5, y: 67}
+            - {lieu: Provence, texte: la lavande, x: 33.5, y: 74}
+            - {lieu: Grèce, texte: l’olivier, x: 65, y: 86}
+
+  afrique:
+    resume: >-
+      Plume arrive au Sahel, où les cigognes d’Europe passent l’hiver. La
+      classe découvre la savane, le désert et l’oasis, le baobab, et le marché
+      de Handa.
+    fil_rouge:
+      nom: Plume au Sahel
+      texte: >-
+        Plume arrive au Sahel, où les cigognes d’Europe passent l’hiver ; elle
+        envoie sa carte postale d’Afrique.
+    albums:
+      - titre: La Surprise de Handa
+        auteur: Eileen Browne
+        etude: true
+      - titre: Rafara
+        auteur: conte populaire malgache, version d’Anne-Catherine De Boel
+      - titre: un conte du lièvre rusé
+        auteur: raconté d’après *La Belle Histoire de Leuk-le-Lièvre* (Léopold Sédar Senghor et Abdoulaye Sadji)
+      - titre: Le réseau « le petit qui trompe le plus fort »
+    documentaires:
+      - les animaux de la savane
+      - le baobab
+      - le voyage de la cigogne jusqu’au Sahel
+      - le désert et l’oasis
+    textes:
+      - '*Funga Alafia* (chant d’accueil traditionnel d’Afrique de l’Ouest)'
+      - '*Kye Kye Kule* (chant à répondre traditionnel du Ghana)'
+      - compter jusqu’à cinq en swahili
+      - comptines des animaux
+    oeuvres:
+      - titre: tissus wax et bogolan du Mali
+        note: motifs
+      - titre: peintures murales ndébélé
+        auteur: Esther Mahlangu (Afrique du Sud)
+      - titre: peinture à la terre et à l’ocre
+    musique:
+      - titre: Le Carnaval des animaux
+        auteur: Camille Saint-Saëns
+        note: "œuvre patrimoniale 2 — « Marche royale du lion », « L’Éléphant » : les timbres graves"
+      - le djembé, appels et réponses ; *Kye Kye Kule*
+    sorties:
+      - visite d’un parc zoologique (la savane africaine)
+      - un conteur invité
+      - semis de sorgho en classe
+      - le marché de Handa (jeu d’achat et de vente)
+    spectacle:
+      - '*La Surprise de Handa* mimée et chantée pour la fête de fin d’année, avec les tambours de la classe'
+    embleme: {imagier: girafe}
+    theme:
+      atlas:
+        carte: {x: 65, y: 51, cote: droite}
+        planche:
+          centre: {x: 60, y: 52}
+          zoom: 2.4
+          route: M53 30 C 55 36, 58 41, 62 44.4
+          route_texte: En pointillé, la route de Plume jusqu’au Sahel.
+          reperes:
+            - {lieu: Le Sahel, texte: Plume passe l’hiver avec les cigognes d’Europe, x: 62, y: 44.4}
+            - {lieu: Sénégal, texte: Leuk-le-Lièvre, le conte de Senghor, x: 52.4, y: 42}
+            - {lieu: Mali, texte: les tissus bogolan, x: 56, y: 42.6}
+            - {lieu: Ghana, texte: '*Kye Kye Kule*, le chant à répondre', x: 55.4, y: 47.5}
+            - {lieu: Égypte, texte: 'le désert, l’oasis et le papyrus', x: 64.6, y: 40.3}
+            - {lieu: Kenya, texte: La Surprise de Handa, x: 67.6, y: 52.5}
+            - {lieu: La savane, texte: 'le lion, la girafe, le zèbre', x: 64.6, y: 55.5}
+            - {lieu: Madagascar, texte: Rafara, le conte malgache, x: 68.2, y: 58.4}
+            - {lieu: Afrique du Sud, texte: 'Esther Mahlangu, les peintures ndébélé', x: 64.4, y: 64}
+
+  asie:
+    resume: >-
+      Plume franchit l’Himalaya et arrive en Chine. Le riz et la rizière, le
+      panda, le phasme et le ver à soie, et le Nouvel An lunaire, juste avant
+      les vacances.
+    fil_rouge:
+      nom: Plume en Chine
+      texte: Plume franchit l’Himalaya et arrive en Chine, à temps pour le Nouvel An lunaire.
+    albums:
+      - titre: La Grande Course des animaux
+        auteur: légende chinoise du zodiaque
+        etude: true
+      - titre: Le Lièvre de la Lune
+        auteur: conte traditionnel de l’Inde et du Japon
+      - titre: Issun-bōshi
+        auteur: conte traditionnel japonais
+      - titre: Le réseau « le petit qui réussit »
+    documentaires:
+      - le panda
+      - le riz et la rizière
+      - le phasme et le ver à soie
+      - le Nouvel An lunaire
+    textes:
+      - '*Sakura* (chant traditionnel japonais)'
+      - la comptine des douze animaux
+      - compter jusqu’à cinq en japonais et en chinois
+    oeuvres:
+      - titre: La Grande Vague de Kanagawa
+        auteur: Hokusai
+        note: estampe
+      - titre: calligraphie au pinceau et à l’encre
+      - titre: origami
+    musique:
+      - titre: « Pagodes » (*Estampes*)
+        auteur: Claude Debussy
+        note: œuvre patrimoniale 4 — le piano qui imite les gongs
+      - paysage sonore du temple (gong, clochettes, flûte de bambou)
+    sorties:
+      - élevage de phasmes et riz en barquette
+      - atelier d’origami et de calligraphie
+      - fabrication des cerfs-volants
+      - fête du Nouvel An lunaire (l’année de la chèvre commence le 6 février 2027)
+    spectacle:
+      - théâtre d’ombres *La Grande Course des animaux* et numéros de cirque
+    embleme: {imagier: panda-geant}
+    theme:
+      atlas:
+        carte: {x: 79, y: 31, cote: dessus}
+        planche:
+          centre: {x: 80, y: 38}
+          zoom: 2.3
+          route: M64 41 C 68 36, 72 36, 76.8 38.7
+          route_texte: En pointillé, la route de Plume par-dessus l’Himalaya.
+          reperes:
+            - {lieu: L’Himalaya, texte: 'Plume franchit les montagnes ; le yack', x: 76.8, y: 38.7}
+            - {lieu: Chine, texte: 'le Nouvel An lunaire, la Grande Course des animaux, le panda', x: 80.8, y: 38.1}
+            - {lieu: Japon, texte: 'Hokusai, Issun-bōshi, *Sakura*', x: 85.8, y: 33.6}
+            - {lieu: Inde, texte: Le Lièvre de la Lune, x: 74.4, y: 45.7}
+            - {lieu: Asie du Sud-Est, texte: le riz et la rizière, x: 78.9, y: 46.3}
+            - {lieu: Bornéo, texte: l’orang-outan, x: 82, y: 51.1}
+            - {lieu: Java, texte: 'le gamelan, qui a inspiré « Pagodes » à Debussy', x: 82.6, y: 54.7}
+
+  ameriques:
+    resume: >-
+      Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil.
+      Le maïs et le potager, le colibri, la forêt amazonienne, et le défilé du
+      carnaval.
+    fil_rouge:
+      nom: Plume au Brésil
+      texte: Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil.
+    albums:
+      - titre: La Légende des trois sœurs
+        auteur: légende haudenosaunee, peuples iroquoiens
+        etude: true
+      - titre: La Légende du colibri
+        auteur: conte amérindien, popularisé par Pierre Rabhi
+      - titre: Le réseau « s’entraider, faire sa part »
+        note: et des écrits fonctionnels — la recette, le documentaire
+    documentaires:
+      - le maïs et le potager
+      - le colibri
+      - les oiseaux d’Amérique
+      - la forêt amazonienne
+    textes:
+      - une comptine pour compter en espagnol
+      - les chants du carnaval
+      - la comptine du colibri
+    oeuvres:
+      - titre: autoportraits
+        auteur: Frida Kahlo
+        note: le portrait
+      - titre: molas du Panama
+        note: pavages
+      - titre: masques du carnaval
+    musique:
+      - titre: Symphonie du Nouveau Monde (largo)
+        auteur: Antonín Dvořák
+        note: œuvre patrimoniale 3 — le cor anglais, une mélodie lente
+      - la flûte de pan des Andes ; la batucada
+    sorties:
+      - semis du potager des trois sœurs (maïs, haricots, courges)
+      - atelier du chocolat chaud
+      - chasse au trésor au parc
+      - un spectacle vu au théâtre
+    spectacle:
+      - défilé du carnaval masqué dans l’école
+    embleme: {imagier: colibri}
+    theme:
+      atlas:
+        carte: {x: 36, y: 45.5, cote: droite}
+        planche:
+          centre: {x: 34, y: 45}
+          zoom: 2.4
+          route: M50 42 C 47 48, 44 54, 40.9 58
+          route_texte: En pointillé, la traversée de Plume, sur le mât d’un voilier.
+          reperes:
+            - {lieu: Brésil, texte: 'Plume arrive ; le carnaval, la batucada', x: 40.9, y: 58}
+            - {lieu: L’Amazonie, texte: 'la forêt amazonienne, le colibri', x: 36.7, y: 53.8}
+            - {lieu: Les Andes, texte: 'la flûte de pan, le lama', x: 33.3, y: 57.4}
+            - {lieu: Panama, texte: les molas, x: 31.2, y: 47.8}
+            - {lieu: Mexique, texte: 'Frida Kahlo ; le cacao', x: 28.4, y: 42.4}
+            - {lieu: Les Grandes Plaines, texte: le bison, x: 28.4, y: 37.8}
+            - {lieu: Les Grands Lacs, texte: La Légende des trois sœurs, x: 30.2, y: 31.6}
+            - {lieu: New York, texte: 'Dvořák y écrit la Symphonie du Nouveau Monde', x: 33.3, y: 36.1}
+
+  oceanie-poles:
+    resume: >-
+      Plume rentre en Europe au printemps : la classe continue seule vers
+      l’Océanie et les pôles, et lui raconte tout par lettre. La glace et les
+      pôles, le kangourou, le récif de corail, et l’exposition « Notre tour du
+      monde ».
+    fil_rouge:
+      nom: Des lettres pour Plume
+      texte: >-
+        Plume rentre en Europe au printemps : la classe continue seule vers
+        l’Océanie et les pôles, et lui raconte tout par lettre.
+    albums:
+      - titre: Tiddalik, la grenouille qui avait bu toute l’eau
+        auteur: légende aborigène d’Australie
+        etude: true
+      - titre: Perdu ? Retrouvé !
+        auteur: Oliver Jeffers, traduit par Élisabeth Duval, Kaléidoscope
+        note: un petit garçon traverse la mer en barque pour ramener un manchot chez lui
+      - titre: Le réseau « le voyage et l’amitié »
+      - titre: les lettres de la classe correspondante
+    documentaires:
+      - la glace et les pôles
+      - le kangourou
+      - le récif de corail
+    textes:
+      - '*Kookaburra* (chant traditionnel australien, en canon)'
+      - une comptine en anglais
+      - les chants de l’exposition
+    oeuvres:
+      - titre: peinture à points
+        auteur: les peintres aborigènes du désert australien
+      - titre: Polynésie, la mer
+        auteur: Henri Matisse
+        note: papiers découpés, blanc sur bleu
+      - titre: La Mer de glace
+        auteur: Caspar David Friedrich
+    musique:
+      - titre: « L’Hiver » (*Les Quatre Saisons*)
+        auteur: Antonio Vivaldi
+        note: œuvre patrimoniale 5
+      - chants des baleines ; le didgeridoo ; paysage sonore de la banquise
+    sorties:
+      - expériences sur la glace (bac à glace, banquise miniature)
+      - cycle piscine
+      - liaison GS-CP
+    spectacle:
+      - exposition « Notre tour du monde » et chorégraphie de fin d’année pour les familles
+    embleme: {imagier: koala}
+    theme:
+      atlas:
+        carte: {x: 88, y: 66, cote: gauche}
+        planche:
+          centre: {x: 84, y: 70}
+          zoom: 2
+          route_texte: Plume est rentrée en Europe ; la classe lui écrit.
+          reperes:
+            - {lieu: Australie, texte: 'Tiddalik ; la peinture à points', x: 86.9, y: 66.4}
+            - {lieu: Le récif de corail, texte: 'le poisson-clown, la tortue de mer', x: 90.7, y: 63.6}
+            - {lieu: La côte est, texte: 'le kangourou, le koala, *Kookaburra*', x: 89.6, y: 72.1}
+            - {lieu: Les terres australes, texte: 'vers le pôle Sud : la banquise, le manchot', x: 78.2, y: 75.8}
+
+# Les images de contenu (œuvres et gravures de la période 1), sous site/
+images:
+  - fichier: projet/cigogne-gravure.jpg
+    titre: Cigogne debout, une grenouille au premier plan
+    auteur: anonyme
+    date: 1688-1698
+    institution: Rijksmuseum
+    source: https://id.rijksmuseum.nl/200394304
+    licence: PDM
+    alt: Gravure ancienne en couleurs d’une cigogne debout, une grenouille à ses pieds.
+  - fichier: projet/trois-ours.jpg
+    titre: Trois ours (Animalium quadrupedum)
+    auteur: Nicolaes de Bruyn, édité par Assuerus van Londerseel
+    date: '1594'
+    institution: Rijksmuseum, RP-P-OB-16.164
+    source: https://id.rijksmuseum.nl/200167447
+    licence: PDM
+    alt: Gravure ancienne de trois ours près d’un arbre.
+  - fichier: projet/fokke-chaperon.jpg
+    titre: Le Petit Chaperon rouge et le loup (Contes de ma mère l’Oye)
+    auteur: Simon Fokke
+    date: 1754-1784
+    institution: Rijksmuseum
+    source: https://id.rijksmuseum.nl/200191322
+    licence: PDM
+    alt: Gravure du XVIIIe siècle, le Petit Chaperon rouge entre chez sa grand-mère.
+  - fichier: projet/tempesta-herisson.jpg
+    titre: Hérisson (Herinaceus / Riccio)
+    auteur: Antonio Tempesta
+    date: 1565-1630
+    institution: Rijksmuseum, RP-P-H-H-423
+    source: https://id.rijksmuseum.nl/200263487
+    licence: PDM
+    alt: Gravure ancienne d’un hérisson de profil.
+  - fichier: projet/monet-coquelicots.jpg
+    titre: Les Coquelicots (1873), Claude Monet
+    auteur: photographie de Grégory Lejeune
+    institution: Flickr, via Openverse
+    source: https://www.flickr.com/photos/125149010@N07/37991319026
+    licence: CC0-1.0
+    alt: Les Coquelicots de Claude Monet, un champ de coquelicots rouges et deux promeneuses.
+  - fichier: projet/klimt-arbre-de-vie.jpg
+    titre: L’Arbre de vie (1905-1909), Gustav Klimt
+    auteur: reproduction de rawpixel
+    institution: rawpixel, via Openverse
+    source: https://www.rawpixel.com/image/3844931/larbre-vie-1905-1909-paintings-high-resolution-gustav-klimt
+    licence: CC0-1.0
+    alt: L’Arbre de vie de Gustav Klimt, un arbre doré aux branches en spirales.
