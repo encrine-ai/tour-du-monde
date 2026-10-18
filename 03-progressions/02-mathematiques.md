@@ -39,7 +39,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs — longueurs | comparer des longueurs directement, puis avec une **bande témoin** ; ranger 5 objets selon leur longueur | **le cou des girafes** : des girafes dessinées loin l’une de l’autre, on mesure avec une bande de papier ; ranger des bâtons de pluie, des pagnes roulés, des branches | utilise une bande témoin pour comparer deux longueurs qu’on ne peut pas rapprocher ; range 5 bandes de la plus courte à la plus longue |
 | Motifs organisés | **transcrire** un motif avec d’autres éléments ; créer un motif | **les tissus du marché** : wax et bogolan observés, puis reproduits avec des gommettes ; le motif dit au djembé (fort, fort, doux) puis dessiné (rond, rond, croix) | refait un motif ABB avec d’autres objets et le joue au tambour |
 
-## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs — masses | comparer des masses à la **balance de Roberval** ; ranger 3 objets selon leur masse | les sacs de riz, de thé, de sable : lequel est le plus lourd ? ; la balance du marchand de thé ; si le riz est plus lourd que le thé et le thé plus lourd que le coton… | compare deux masses à la balance et range trois objets du plus léger au plus lourd |
 | Motifs organisés | reconnaître et prolonger un **motif évolutif** | les guirlandes de lanternes qui grandissent (1, 2, 3…) ; les marches du temple ; « un coq, un chien ; un coq, deux chiens ; un coq, trois chiens » | prolonge un motif évolutif et dit ce qui change à chaque fois |
 
-## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -63,7 +63,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs | **produire une longueur** égale à une longueur donnée | couper une ficelle aussi longue que la tige du tournesol ; tracer un trait aussi long que la bande | produit une longueur égale à une longueur donnée avec une ficelle ou la règle |
 | Motifs | **créer** un motif et le faire reproduire | les motifs des ponchos ; « invente un motif pour ton poncho, ton voisin le continue » | crée un motif, en dit la règle et vérifie celui du voisin |
 
-## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|

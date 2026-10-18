@@ -10,11 +10,12 @@ var CLASSE = {
   "sous_titre": "classe de démonstration",
   "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
-  "theme": "demo",
+  "theme": "tour-du-monde",
   "ton": "tu",
+  "depot": "encrine-ai/tour-du-monde",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": null
+    "version": "447c707"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
@@ -26,7 +27,9 @@ var CLASSE = {
       "Malik",
       "Elsa"
     ],
-    "textes_autorises": []
+    "textes_autorises": [],
+    "licence": "CC BY-SA 4.0",
+    "auteur": "Encrine"
   },
   "contenu": {
     "referentiel": "referentiel/cycle1-gs.yml",
@@ -35,11 +38,7 @@ var CLASSE = {
     "corpus": "classe/corpus.py"
   },
   "calendrier": {
-    "zones": [
-      "A",
-      "B",
-      "C"
-    ],
+    "zone": "C",
     "rentree": "2026-09-01",
     "fin": "2027-07-02",
     "toussaint": {
@@ -51,32 +50,12 @@ var CLASSE = {
       "reprise": "2027-01-04"
     },
     "hiver": {
-      "A": {
-        "debut": "2027-02-13",
-        "reprise": "2027-03-01"
-      },
-      "B": {
-        "debut": "2027-02-20",
-        "reprise": "2027-03-08"
-      },
-      "C": {
-        "debut": "2027-02-06",
-        "reprise": "2027-02-22"
-      }
+      "debut": "2027-02-06",
+      "reprise": "2027-02-22"
     },
     "printemps": {
-      "A": {
-        "debut": "2027-04-10",
-        "reprise": "2027-04-26"
-      },
-      "B": {
-        "debut": "2027-04-17",
-        "reprise": "2027-05-03"
-      },
-      "C": {
-        "debut": "2027-04-03",
-        "reprise": "2027-04-19"
-      }
+      "debut": "2027-04-03",
+      "reprise": "2027-04-19"
     },
     "ponts": [
       {
@@ -181,7 +160,8 @@ var CLASSE = {
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
       "nom": "imagier",
-      "budget": 30000
+      "budget": 30000,
+      "couverture": true
     },
     {
       "cle": "cartes-corpus",
@@ -198,7 +178,8 @@ var CLASSE = {
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
       "nom": "cartes-corpus",
-      "budget": 30000
+      "budget": 30000,
+      "couverture": true
     }
   ],
   "documents": [
@@ -338,5 +319,10 @@ var CLASSE = {
       "titre": "Période 5 · L’Océanie et les pôles",
       "icone": "waves"
     }
-  ]
+  ],
+  "appli": {
+    "nom": "Classe de démonstration — Le tour du monde",
+    "nom_court": "Tour du monde",
+    "initiale": "T"
+  }
 };

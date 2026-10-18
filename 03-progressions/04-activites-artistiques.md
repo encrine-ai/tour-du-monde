@@ -39,7 +39,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | repérer les **timbres** et les hauteurs ; connaître une œuvre patrimoniale | Saint-Saëns, *Le Carnaval des animaux* : « Marche royale du lion » (les cordes graves qui rugissent) et « L’Éléphant » (la contrebasse qui danse lourdement) ; dessin « la musique de l’éléphant » | reconnaît le lion et l’éléphant à l’écoute et dit pourquoi (grave, lent, lourd) |
 | Spectacle vivant | **enchaîner des émotions** par le corps et la voix ; jouer devant un public | *La Surprise de Handa* mimée et chantée pour la fête de fin d’année : chaque animal entre, prend un fruit, repart ; Handa est contente, puis inquiète, puis surprise | joue un animal ou Handa en montrant deux émotions successives |
 
-## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -52,7 +52,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | repérer les **timbres** ; connaître une œuvre patrimoniale | Debussy, « Pagodes » (*Estampes*) (œuvre patrimoniale 4) : un piano qui imite les gongs et les cloches d’un orchestre de Java ; écoute comparée d’un gong et d’un erhu ; traduire la musique en dessin à l’encre | reconnaît le gong et la flûte ; dit que le piano de Debussy « fait comme des cloches » |
 | Spectacle vivant | **théâtre d’ombres** : jouer derrière l’écran, utiliser les coulisses | *La Grande Course des animaux* en ombres chinoises pour la fête du Nouvel An : figurines articulées découpées, la lampe, l’écran ; entrer et sortir au bon moment | anime une figurine derrière l’écran en montrant une émotion du personnage |
 
-## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -65,7 +65,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | connaître une **œuvre patrimoniale** ; repérer les **timbres** et dire ce qu’on ressent | Dvořák, *Symphonie du Nouveau Monde*, le *Largo* : le cor anglais, une mélodie lente et douce ; la flûte de pan des Andes ; dessiner « la musique lente » | reconnaît le *Largo* et dit ce qu’il ressent (calme, triste, doux) |
 | Spectacle vivant | être **spectateur** de genres variés ; jouer dans un défilé | sortie au théâtre ou spectacle de marionnettes invité ; on en parle en revenant (qu’as-tu compris ? qu’as-tu aimé ?) ; le **défilé du carnaval** dans l’école, déguisés et masqués | dit ce qu’il a compris et aimé d’un spectacle ; défile en rythme dans son rôle |
 
-## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|

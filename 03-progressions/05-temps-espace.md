@@ -32,7 +32,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Espaces moins familiers | découvrir la **savane**, le **désert** et le **fleuve** par les documentaires | documentaires et photographies : la savane et ses animaux, le désert et son oasis, le fleuve Niger et ses pirogues ; maquette « le point d’eau » | décrit un paysage d’Afrique avec les mots du corpus |
 | Architecture | identifier des éléments d’**architecture** : la case ronde, le toit de paille, la grande mosquée de terre de Djenné | photographies de cases, de greniers, de la mosquée de Djenné ; construire une case en argile et en paille | dit en quoi une case est faite et nomme le toit, le mur, la porte |
 
-## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -43,7 +43,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Espace — la carte du monde | nommer les **continents et les océans** visités ; situer l’Asie | la grande carte du monde : l’Europe, l’Afrique, puis l’Asie ; le trajet de Plume ; l’océan Indien et l’océan Pacifique | montre trois continents et deux océans sur la carte et sur le globe |
 | Espace — la page | utiliser une page selon les **normes de l’écrit** (de haut en bas, de gauche à droite) — et découvrir d’autres écritures | la calligraphie chinoise s’écrit de haut en bas ; nos lignes vont de gauche à droite : on compare, puis on écrit son prénom au bon endroit sur la page | commence à écrire en haut à gauche et suit la ligne |
 
-## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Espace — la carte du monde | situer les Amériques, l’océan Atlantique et l’océan Pacifique | le trajet de Plume à travers l’Atlantique ; le globe | montre les Amériques et nomme l’océan que Plume a traversé |
 | Environnement | des espaces **moins familiers** ; des **éléments d’architecture** | photographies et documentaires : la forêt amazonienne, la prairie et ses bisons, le Grand Canyon ; les pyramides mayas et les gratte-ciel de New York | compare une pyramide et un gratte-ciel (en pierre, en verre ; des marches, des fenêtres) |
 
-## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|

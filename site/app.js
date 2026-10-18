@@ -6,8 +6,14 @@
 (function () {
   'use strict';
 
-  var etat = { zone: 'A', doc: 'accueil' };
+  var etat = { doc: 'accueil' };
   var cacheMd = {};
+
+  /* Un point d'accroche du thème : un élément vide, que le thème de la classe
+   * peut remplir d'un motif (skill charte-graphique). */
+  function orne(nom) {
+    return '<span class="orne" data-orne="' + nom + '" aria-hidden="true"></span>';
+  }
 
   function icone(nom) {
     return '<svg class="ic" aria-hidden="true"><use href="charte/icones.svg#i-' + nom + '"/></svg>';
@@ -55,11 +61,12 @@
   function rendDocument(doc) {
     var contenu = document.getElementById('contenu');
     contenu.className = 'contenu';
+    contenu.dataset.composant = 'document';
     if (doc.fiches) contenu.dataset.periode = doc.fiches; else delete contenu.dataset.periode;
     contenu.innerHTML = '<p class="chargement">Chargement…</p>';
     chargeMd(doc).then(function (md) {
       contenu.innerHTML = marked.parse(GS.nettoieMarkdown(md));
-      GS.annoteTitres(contenu, etat.zone);
+      GS.annoteTitres(contenu);
       window.scrollTo(0, 0);
     }).catch(function () {
       contenu.innerHTML = '<p>Impossible de charger ce document. Vérifiez votre connexion puis rechargez la page.</p>';
@@ -91,13 +98,13 @@
   /* La frise de l'année : cinq bandes, larges de leur nombre de semaines. */
   function frise(ps, pj, prochaine) {
     var total = ps.reduce(function (s, p) { return s + p.sem; }, 0);
-    return '<ol class="frise" aria-label="Les cinq périodes de l’année, zone ' + etat.zone + '">' +
+    return '<ol class="frise" data-composant="frise" aria-label="Les cinq périodes de l’année, zone ' + GS.ZONE + '">' +
       ps.map(function (p) {
         var enCours = pj && pj.n === p.n;
         var aVenir = !pj && prochaine && prochaine.n === p.n;
         return '<li class="frise-periode' + (enCours || aVenir ? ' en-cours' : '') + '" data-periode="' + p.n + '" style="flex-grow:' + p.sem + '">' +
           '<a href="#/' + docDe(p.n) + '">' +
-          '<span class="frise-bande">' + icone(GS.ICONES_MILIEU[p.n - 1]) + '<span class="frise-num">P' + p.n + '</span></span>' +
+          '<span class="frise-bande">' + orne('frise') + icone(GS.ICONES_MILIEU[p.n - 1]) + '<span class="frise-num">P' + p.n + '</span></span>' +
           '<span class="frise-milieu">' + GS.THEMES[p.n - 1] + '</span>' +
           '<span class="frise-dates">' + GS.fmtCourt(p.debut) + ' → ' + GS.fmtCourt(p.fin) + '</span>' +
           '<span class="frise-sem">' + p.sem + ' semaines</span>' +
@@ -120,8 +127,8 @@
     var cahiers = cahiersDe(n).map(function (m) {
       return [m.icone, m.titre, m.desc, pdfDe(m, n), GS.CLASSE.niveau.code + '-' + (m.fichier || m.nom) + '-periode-' + n + '.pdf'];
     });
-    return '<section class="materiel' + (statut ? ' en-cours' : '') + '" data-periode="' + n + '">' +
-      '<header class="materiel-tete">' + icone(GS.ICONES_MILIEU[n - 1]) +
+    return '<section class="materiel' + (statut ? ' en-cours' : '') + '" data-composant="materiel" data-periode="' + n + '">' +
+      '<header class="materiel-tete">' + orne('materiel') + icone(GS.ICONES_MILIEU[n - 1]) +
       '<div><div class="materiel-num">Période ' + n + (statut ? ' · ' + statut : '') + '</div>' +
       '<h3>' + GS.THEMES[n - 1] + '</h3></div></header>' +
       '<ul class="materiel-liste">' + cahiers.map(function (c) {
@@ -151,8 +158,9 @@
   function rendAccueil() {
     var contenu = document.getElementById('contenu');
     contenu.className = 'contenu accueil';
+    contenu.dataset.composant = 'accueil';
     delete contenu.dataset.periode;
-    var ps = GS.periodes(etat.zone);
+    var ps = GS.periodes();
     var pj = periodeDuJour(ps);
     var C = GS.CLASSE;
     // « Pont de l’Ascension : pas de classe du jeudi 6 au dimanche 9 mai … »
@@ -162,7 +170,7 @@
     }).join('');
     var vac = [
       ['Toussaint', GS.CAL.toussaint], ['Noël', GS.CAL.noel],
-      ['Hiver', GS.CAL.hiver[etat.zone]], ['Printemps', GS.CAL.printemps[etat.zone]]
+      ['Hiver', GS.CAL.hiver], ['Printemps', GS.CAL.printemps]
     ].map(function (v) {
       return '<li><strong>' + v[0] + '</strong><span>du ' + GS.fmtCourt(GS.d(v[1].debut)) + ' au ' + GS.fmtCourt(GS.veille(v[1].reprise)) +
         '</span><span class="reprise">reprise le ' + GS.fmtCourt(GS.d(v[1].reprise)) + '</span></li>';
@@ -182,26 +190,26 @@
       (groupes[doc.groupe] = groupes[doc.groupe] || []).push(doc);
     });
     var docs = Object.keys(groupes).map(function (g) {
-      return '<div class="docs-groupe"><h3>' + g + '</h3><ul class="docs">' + groupes[g].map(function (doc) {
+      return '<div class="docs-groupe" data-composant="documents"><h3>' + g + '</h3><ul class="docs">' + groupes[g].map(function (doc) {
         return '<li><a href="#/' + doc.id + '">' + icone(doc.ic) + '<span><strong>' + doc.titre + '</strong><small>' + doc.desc + '</small></span></a></li>';
       }).join('') + '</ul></div>';
     }).join('');
 
     contenu.innerHTML =
-      '<div class="accueil-tete">' +
+      '<div class="accueil-tete" data-composant="accueil-tete">' + orne('accueil') +
       '<p class="surtitre">' + C.niveau.libelle + ' · année ' + C.annee + '</p>' +
       '<h1>' + C.projet + '</h1>' +
       '<p class="chapo">' + C.accroche + '</p>' +
       '</div>' +
-      '<section class="bloc"><div class="bloc-tete"><h2>L’année en ' + nombre(ps.length) + ' ' + (C.periodes_nom || 'périodes') + '</h2><span class="zone-badge">Zone ' + etat.zone + '</span></div>' +
+      '<section class="bloc" data-composant="bloc" data-bloc="annee"><div class="bloc-tete"><h2>L’année en ' + nombre(ps.length) + ' ' + (C.periodes_nom || 'périodes') + '</h2><span class="zone-badge">zone ' + GS.ZONE + '</span></div>' +
       frise(ps, pj, tete) +
       '<ul class="vacances">' + vac + '</ul>' +
-      '<p class="note">' + ponts + 'Les dates suivent la zone choisie en haut de page ; ' +
+      '<p class="note">' + ponts + 'Les dates sont celles de la zone ' + GS.ZONE + ' ; ' +
       'chaque document se télécharge en PDF prêt à imprimer, dates comprises.</p></section>' +
-      (ordre.length ? '<section class="bloc"><div class="bloc-tete"><h2>À imprimer pour la classe</h2></div>' +
+      (ordre.length ? '<section class="bloc" data-composant="bloc" data-bloc="materiel"><div class="bloc-tete"><h2>À imprimer pour la classe</h2></div>' +
       '<p class="note">' + noteMateriel(sortes, sortes.every(function (m) { return m.periodes.length === ps.length; })) + '</p>' +
       '<div class="materiels">' + ordre.map(function (n) { return materiel(n, tete && tete.n === n ? (pj ? 'en cours' : 'à venir') : ''); }).join('') + '</div></section>' : '') +
-      '<section class="bloc"><div class="bloc-tete"><h2>Mes documents</h2></div>' + docs + '</section>';
+      '<section class="bloc" data-composant="bloc" data-bloc="documents"><div class="bloc-tete"><h2>Mes documents</h2></div>' + docs + '</section>';
     window.scrollTo(0, 0);
   }
 
@@ -215,8 +223,8 @@
     var btnPdf = document.getElementById('btn-pdf');
     if (doc.md) {
       btnPdf.hidden = false;
-      btnPdf.href = 'pdf/zone-' + etat.zone + '/' + doc.id + '.pdf';
-      btnPdf.setAttribute('download', GS.PREFIXE + '-' + doc.id + '-zone-' + etat.zone + '.pdf');
+      btnPdf.href = 'pdf/' + doc.id + '.pdf';
+      btnPdf.setAttribute('download', GS.PREFIXE + '-' + doc.id + '.pdf');
     } else {
       btnPdf.hidden = true;
     }
@@ -238,8 +246,8 @@
       pp.hidden = false;
       pp.innerHTML = '<span>' + icone('printer') + 'L’extrait d’une période, pour l’afficher en classe :</span> ' +
         GS.THEMES.map(function (_, i) { return i + 1; }).map(function (n) {
-          return '<a data-periode="' + n + '" href="pdf/zone-' + etat.zone + '/' + doc.id + '-periode-' + n + '.pdf" ' +
-            'download="' + GS.PREFIXE + '-' + doc.id + '-periode-' + n + '-zone-' + etat.zone + '.pdf">' + pastille(n) + GS.THEMES[n - 1] + '</a>';
+          return '<a data-periode="' + n + '" href="pdf/' + doc.id + '-periode-' + n + '.pdf" ' +
+            'download="' + GS.PREFIXE + '-' + doc.id + '-periode-' + n + '.pdf">' + pastille(n) + GS.THEMES[n - 1] + '</a>';
         }).join(' ');
     } else {
       pp.hidden = true;
@@ -255,16 +263,6 @@
     document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
   }
 
-  /* ——— Zone ——— */
-  function appliqueZone(zone, memorise) {
-    etat.zone = zone;
-    if (memorise) { try { localStorage.setItem('zone-vacances', zone); } catch (e) { /* ignore */ } }
-    document.querySelectorAll('.zone-btn').forEach(function (b) {
-      b.setAttribute('aria-pressed', String(b.dataset.zone === zone));
-    });
-    rend();
-  }
-
   /* ——— Démarrage ——— */
   // Les textes de la classe dans l'en-tête, le titre et le pied de page.
   function habilleClasse() {
@@ -272,7 +270,20 @@
     document.title = C.nom + ' ' + C.annee + ' · ' + C.projet;
     document.querySelector('.marque-titre').textContent = C.nom;
     document.querySelector('.marque-sous').textContent = C.annee + ' · ' + C.sous_titre;
-    document.querySelector('.pied').textContent = C.conformite + ' Dates des vacances : calendrier scolaire officiel ' + C.annee + '.';
+    var pied = document.querySelector('.pied');
+    pied.textContent = C.conformite + ' Dates des vacances : calendrier scolaire officiel ' + C.annee + ', zone ' + GS.ZONE + '.';
+    // La classe d'où celle-ci est partie : CC BY et CC BY-SA obligent à la créditer.
+    var o = C.origine;
+    if (o && o.titre) {
+      var credit = document.createElement('p');
+      credit.className = 'pied-origine';
+      credit.appendChild(document.createTextNode('Classe partie de « '));
+      var titre = credit.appendChild(document.createElement(o.site ? 'a' : 'span'));
+      titre.textContent = o.titre;
+      if (o.site) titre.href = o.site;
+      credit.appendChild(document.createTextNode(' »' + (o.auteur ? ', de ' + o.auteur : '') + ' (' + o.licence + ').'));
+      pied.appendChild(credit);
+    }
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -280,13 +291,6 @@
     habilleClasse();
     construireMenu();
 
-    var zone = 'A';
-    try { zone = localStorage.getItem('zone-vacances') || 'A'; } catch (e) { /* ignore */ }
-    if (['A', 'B', 'C'].indexOf(zone) === -1) zone = 'A';
-
-    document.querySelectorAll('.zone-btn').forEach(function (b) {
-      b.addEventListener('click', function () { appliqueZone(b.dataset.zone, true); });
-    });
     document.getElementById('menu-toggle').addEventListener('click', function (e) {
       e.stopPropagation();
       var sb = document.getElementById('sidebar');
@@ -304,6 +308,6 @@
     });
 
     etat.doc = (location.hash || '#/accueil').replace('#/', '') || 'accueil';
-    appliqueZone(zone, false);
+    rend();
   });
 })();

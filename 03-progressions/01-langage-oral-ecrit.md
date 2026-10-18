@@ -45,7 +45,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Textes mémorisés | un par semaine | *Funga Alafia* (chant d’accueil traditionnel d’Afrique de l’Ouest) ; *Kye Kye Kule* (chant à répondre traditionnel du Ghana) ; comptines des animaux ; compter jusqu’à cinq en swahili (*moja, mbili, tatu, nne, tano*) | récite ou chante 6 à 7 nouveaux textes courts |
 | Diversité des langues | saluer et compter dans une langue d’Afrique ; accueillir les langues des familles | « Jambo ! » (swahili) et « Na nga def ? » (wolof) au rituel du bonjour ; les familles qui parlent une langue d’Afrique viennent dire une comptine | salue en swahili ; compte jusqu’à cinq en swahili |
 
-## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -60,7 +60,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Textes mémorisés | un par semaine | *Sakura* (chant traditionnel japonais) ; la comptine des douze animaux ; compter jusqu’à cinq en japonais (*ichi, ni, san, shi, go*) et en chinois | récite ou chante 5 nouveaux textes courts |
 | Diversité des langues | saluer et compter dans une langue d’Asie | « Ni hao » (chinois), « Konnichiwa » (japonais), « Namasté » (hindi) au rituel du bonjour ; les familles viennent dire une comptine | salue en deux langues d’Asie ; compte jusqu’à cinq en japonais |
 
-## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -75,7 +75,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Textes mémorisés | un par semaine | une comptine pour compter en espagnol (*uno, dos, tres*) ; les chants du carnaval ; la comptine du colibri | récite ou chante 6 nouveaux textes courts |
 | Diversité des langues | saluer et compter dans les langues des Amériques | « Hola » (espagnol), « Olá » (portugais), « Hello » (anglais) au rituel du bonjour ; compter jusqu’à dix en espagnol | salue en trois langues et compte jusqu’à dix en espagnol |
 
-## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|

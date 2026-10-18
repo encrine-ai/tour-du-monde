@@ -16,17 +16,17 @@ Fils rouges sur l’année :
 - **Bonjour dans toutes les langues** : chaque période, la classe apprend à saluer, à compter jusqu’à cinq et à chanter une comptine dans une langue du continent ; les langues parlées dans les familles de la classe sont invitées en premier.
 - **Élevages et plantations** : abri à hérisson et mangeoire (P1), semis de mil ou de sorgho (P2), riz en barquette et phasmes (P3), maïs, haricots et courges (P4), bac à glace et banquise miniature (P5).
 
-## 2. Calendrier 2026-2027 (à ajuster selon la zone)
+## 2. Calendrier 2026-2027 (zone C)
 
-> Le sélecteur de zone (A, B ou C), en haut de page, affiche les dates exactes de chaque période pour votre zone de vacances.
+> Les dates exactes de chaque période, aux vacances de la zone de la classe, sont sur la frise de l’accueil du site.
 
 | Période | Semaines | Continent | Événements et sorties envisagés |
 |---|---|---|---|
 | P1 | 1/09 → 16/10/2026 (7 sem.) | 🇪🇺 L’Europe | Sortie au parc ou au bois le plus proche (chêne, châtaignier, traces du hérisson, oiseaux) ; Semaine du goût « le petit-déjeuner d’Europe » ; installation de l’abri à hérisson. |
 | P2 | 2/11 → 18/12/2026 (7 sem.) | 🌍 L’Afrique | Plume arrive au Sahel, où les cigognes d’Europe passent l’hiver ; visite d’un parc zoologique (la savane africaine) ; un conteur invité ; semis de sorgho en classe ; le marché de Handa (jeu d’achat et de vente) ; fête de fin d’année : *La Surprise de Handa* mimée et chantée, avec les tambours de la classe. |
-| P3 | 4/01 → vac. d’hiver 2027 (5 à 7 sem.) | 🌏 L’Asie | Plume franchit l’Himalaya et arrive en Chine ; élevage de phasmes et riz en barquette ; atelier d’origami et de calligraphie ; fabrication des cerfs-volants ; fête du Nouvel An lunaire (l’année de la chèvre commence le 6 février 2027) juste avant les vacances : théâtre d’ombres *La Grande Course des animaux* et numéros de cirque. |
-| P4 | mars → vac. de printemps (≈ 6 sem.) | 🌎 Les Amériques | Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil ; semis du potager des trois sœurs (maïs, haricots, courges) ; atelier du chocolat chaud ; chasse au trésor au parc ; un spectacle vu au théâtre ; défilé du carnaval masqué dans l’école. |
-| P5 | avril/mai → 2/07/2027 (9 à 11 sem. selon zone) | 🧊 L’Océanie et les pôles | Plume rentre en Europe au printemps : la classe continue seule vers l’Océanie et les pôles, et lui raconte tout par lettre ; expériences sur la glace (bac à glace, banquise miniature) ; cycle piscine ; exposition « Notre tour du monde » et chorégraphie présentées aux familles ; liaison GS-CP. |
+| P3 | 4/01 → 5/02/2027 (5 sem.) | 🌏 L’Asie | Plume franchit l’Himalaya et arrive en Chine ; élevage de phasmes et riz en barquette ; atelier d’origami et de calligraphie ; fabrication des cerfs-volants ; fête du Nouvel An lunaire (l’année de la chèvre commence le 6 février 2027) juste avant les vacances : théâtre d’ombres *La Grande Course des animaux* et numéros de cirque. |
+| P4 | 22/02 → 2/04/2027 (6 sem.) | 🌎 Les Amériques | Plume traverse l’Atlantique sur le mât d’un voilier et arrive au Brésil ; semis du potager des trois sœurs (maïs, haricots, courges) ; atelier du chocolat chaud ; chasse au trésor au parc ; un spectacle vu au théâtre ; défilé du carnaval masqué dans l’école. |
+| P5 | 19/04 → 2/07/2027 (11 sem.) | 🧊 L’Océanie et les pôles | Plume rentre en Europe au printemps : la classe continue seule vers l’Océanie et les pôles, et lui raconte tout par lettre ; expériences sur la glace (bac à glace, banquise miniature) ; cycle piscine ; exposition « Notre tour du monde » et chorégraphie présentées aux familles ; liaison GS-CP. |
 
 ## 3. Corpus de vocabulaire (3 corpus par période, conformément au programme GS)
 

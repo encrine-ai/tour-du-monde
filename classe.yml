@@ -16,59 +16,35 @@ accroche: >-
   fiches, imagier et cartes de vocabulaire.
 conformite: Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au
   programme d'éducation à la vie affective et relationnelle.
-theme: demo
+theme: tour-du-monde
 ton: tu
+# Le dépôt GitHub de CETTE classe, « propriétaire/dépôt » : à définir par
+# l'entretien (skill nouvelle-classe). S'il ne correspond pas au dépôt
+# courant, c'est une copie faite par « Use this template » d'une classe
+# partagée : l'entretien passe en mode « enrichir » et écrit `origine`
+# (depot, titre, auteur, licence, site, reprise_le), que le pied du site
+# crédite.
+depot: encrine-ai/tour-du-monde
 moteur:
   depot: encrine-ai/moteur
-  version: null
+  version: 447c707
 galerie:
   depot: encrine-ai/encrine-ai.github.io
 partage:
   # les personnages des problèmes de mathématiques (« Nils a 3 valises »)
   prenoms_fictifs: [Nils, Ana, Malik, Elsa]
   textes_autorises: []
+  licence: CC BY-SA 4.0
+  auteur: Encrine
 contenu:
   referentiel: referentiel/cycle1-gs.yml
   annotations: classe/annotations.yml
   imagier: classe/imagier.py
   corpus: classe/corpus.py
+# La zone de vacances de la classe : ses dates viennent du calendrier officiel
+# de l'année, dans le moteur (referentiel/calendrier-<annee>.yml).
 calendrier:
-  zones:
-  - A
-  - B
-  - C
-  rentree: 2026-09-01
-  fin: 2027-07-02
-  toussaint:
-    debut: 2026-10-17
-    reprise: 2026-11-02
-  noel:
-    debut: 2026-12-19
-    reprise: 2027-01-04
-  hiver:
-    A:
-      debut: 2027-02-13
-      reprise: 2027-03-01
-    B:
-      debut: 2027-02-20
-      reprise: 2027-03-08
-    C:
-      debut: 2027-02-06
-      reprise: 2027-02-22
-  printemps:
-    A:
-      debut: 2027-04-10
-      reprise: 2027-04-26
-    B:
-      debut: 2027-04-17
-      reprise: 2027-05-03
-    C:
-      debut: 2027-04-03
-      reprise: 2027-04-19
-  ponts:
-  - nom: Pont de l’Ascension
-    du: 2027-05-06
-    au: 2027-05-09
+  zone: C
 periodes:
 - cle: europe
   milieu: L’Europe

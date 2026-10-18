@@ -60,7 +60,7 @@ Yasmine Fatima Julie Salomé Elise Élise Marie Pauline Laura Océane Anaïs Emi
 CREDIT = re.compile(r"CC0|CC BY|licence|domaine public|iNaturalist|Wikimedia|Openverse|"
                     r"ARASAAC|Mulberry|Global Symbols|OpenMoji|SIL Open Font", re.I)
 IMAGES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".heic", ".tif", ".tiff", ".bmp"}
-IGNORES = {".git", ".claude", "node_modules", "_site"}
+IGNORES = {".git", ".agents", ".claude", "node_modules", "_site"}
 
 
 # Les textes que lit l'enseignant, et que lira qui partira de la classe.
@@ -139,8 +139,8 @@ def images(racine):
             if f.name not in banques[dossier] and f.stem not in auto:
                 anomalies.append("%s : image sans crédit dans la banque (photo de classe, "
                                  "scan ?)" % rel)
-        elif dossier == "site/icones" and f.name.startswith("favicon"):
-            pass
+        elif dossier == "site/icones":
+            pass   # l'icône de l'appli, fabriquée depuis le thème (scripts/appli.py)
         elif rel.parts[:2] == ("site", "charte") and ext == ".svg":
             pass
         else:

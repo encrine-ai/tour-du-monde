@@ -32,7 +32,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Objets — fabriquer | fabriquer un objet en exploitant une propriété : une **peau tendue** vibre | fabriquer un tambour avec un pot de fleurs et un ballon tendu ; plus la peau est tendue, plus le son est aigu | fabrique son tambour en suivant une fiche en images et dit ce qui fait le son |
 | Recette | suivre une **recette** en images | **la salade de fruits de Handa** : mangue, banane, ananas, orange, coupés et mélangés ; la recette illustrée, étape par étape | suit une recette de 5 étapes en lisant les images |
 
-## Période 3 — 🌏 L’Asie (5 à 7 semaines selon la zone)
+## Période 3 — 🌏 L’Asie (5 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Objets — instructions | élaborer une **suite d’instructions** | dicter à un camarade les étapes du pliage de la grue en origami, ou de la recette du riz au lait (3 à 5 étapes) | donne 4 instructions dans l’ordre pour qu’un camarade réussisse |
 | Le corps — articulations | nommer les **articulations** ; se représenter **en mouvement** | les figurines d’ombres articulées : où plier les bras et les jambes ? (épaule, coude, poignet, hanche, genou, cheville) ; se dessiner en train de jongler | nomme 5 articulations ; dessine un personnage aux bras et aux jambes pliés |
 
-## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
+## Période 4 — 🌎 Les Amériques (6 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|
@@ -55,7 +55,7 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Recette | suivre une **recette** et repérer sa structure | **le chocolat chaud** (le cacao vient des Amériques) : ingrédients, ustensiles, étapes numérotées ; le pop-corn | suit une recette de 5 étapes et dit ce qu’il faut avant de commencer |
 | Biodiversité | agir pour le vivant : **faire sa part** | après *La Légende du colibri* : un hôtel à insectes et un coin de fleurs pour les papillons au potager | dit ce qu’il fait, lui, pour aider la nature (« je fais ma part ») |
 
-## Période 5 — 🧊 L’Océanie et les pôles (9 à 11 semaines selon la zone)
+## Période 5 — 🧊 L’Océanie et les pôles (11 semaines)
 
 | Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 # Évaluations Période 3 — 🌏 L’Asie (début février 2027)
 
-Passation en ateliers de 4 à 6 élèves (sauf mention « individuel »), intégrée aux activités. Codage : **A / EC / NE** (voir le mode d’emploi). Les fiches élève de cette batterie forment le cahier « Évaluation » de la période 3 ; les cartes et les étiquettes viennent des cartes-corpus et de l’imagier de la période. La période est courte (5 à 7 semaines selon la zone) : la batterie se passe pendant les deux dernières semaines, avant la fête du Nouvel An lunaire.
+Passation en ateliers de 4 à 6 élèves (sauf mention « individuel »), intégrée aux activités. Codage : **A / EC / NE** (voir le mode d’emploi). Les fiches élève de cette batterie forment le cahier « Évaluation » de la période 3 ; les cartes et les étiquettes viennent des cartes-corpus et de l’imagier de la période. La période est courte (5 semaines) : la batterie se passe pendant les deux dernières semaines, avant la fête du Nouvel An lunaire.
 
 ---
 
