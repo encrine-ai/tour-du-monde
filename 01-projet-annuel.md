@@ -16,17 +16,17 @@ Fils rouges sur l’année :
 - **Bonjour dans toutes les langues** : chaque période, la classe apprend à saluer, à compter jusqu’à cinq et à chanter une comptine dans une langue du continent ; les langues parlées dans les familles de la classe sont invitées en premier.
 - **Élevages et plantations** : abri à hérisson et mangeoire (P1), semis de mil ou de sorgho (P2), riz en barquette et phasmes (P3), maïs, haricots et courges (P4), bac à glace et banquise miniature (P5).
 
-## 2. Calendrier 2026-2027 (à ajuster selon la zone)
+## 2. Calendrier 2026-2027 (zone C)
 
-> Le sélecteur de zone (A, B ou C), en haut de page, affiche les dates exactes de chaque période pour votre zone de vacances.
+> Les dates exactes de chaque période, aux vacances de la zone de la classe, sont sur la frise de l’accueil du site.
 
 | Période | Semaines | Continent | Événements et sorties envisagés |
 |---|---|---|---|
 | P1 | 1/09 → 16/10/2026 (7 sem.) | 🇪🇺 L’Europe | Sortie au parc ou au bois le plus proche (chêne, châtaignier, traces du hérisson, oiseaux) ; Semaine du goût « le petit-déjeuner d’Europe » ; installation de l’abri à hérisson. |
 | P2 | 2/11 → 18/12/2026 (7 sem.) | 🌍 L’Afrique | *Esquisse* : visite d’un parc zoologique ou d’une exposition ; conte africain raconté par un conteur ; spectacle de fin d’année. |
-| P3 | 4/01 → vac. d’hiver 2027 (5 à 7 sem.) | 🌏 L’Asie | *Esquisse* : Nouvel An lunaire ; atelier d’origami ; cerf-volant. |
-| P4 | mars → vac. de printemps (≈ 6 sem.) | 🌎 Les Amériques | *Esquisse* : semis de maïs, haricots et courges ; carnaval ; découverte des instruments des Andes. |
-| P5 | avril/mai → 2/07/2027 (9 à 11 sem. selon zone) | 🧊 L’Océanie et les pôles | *Esquisse* : expériences sur la glace ; exposition de fin d’année « Notre tour du monde » présentée aux familles ; liaison GS-CP. |
+| P3 | 4/01 → 5/02/2027 (5 sem.) | 🌏 L’Asie | *Esquisse* : Nouvel An lunaire ; atelier d’origami ; cerf-volant. |
+| P4 | 22/02 → 2/04/2027 (6 sem.) | 🌎 Les Amériques | *Esquisse* : semis de maïs, haricots et courges ; carnaval ; découverte des instruments des Andes. |
+| P5 | 19/04 → 2/07/2027 (11 sem.) | 🧊 L’Océanie et les pôles | *Esquisse* : expériences sur la glace ; exposition de fin d’année « Notre tour du monde » présentée aux familles ; liaison GS-CP. |
 
 ## 3. Corpus de vocabulaire (3 corpus par période, conformément au programme GS)
 
