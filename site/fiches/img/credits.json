@@ -1,1 +1,443 @@
-{}
+{
+ "valise": {
+  "fichier": "valise.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "billet": {
+  "fichier": "billet.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/39493",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "passeport": {
+  "fichier": "passeport.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "train": {
+  "fichier": "train.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "locomotive": {
+  "fichier": "locomotive.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "avion": {
+  "fichier": "avion.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "bateau": {
+  "fichier": "bateau.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "globe": {
+  "fichier": "globe.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau": {
+  "fichier": "drapeau.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chateau": {
+  "fichier": "chateau.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "moulin": {
+  "fichier": "moulin.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/13086",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "nid": {
+  "fichier": "nid.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "terrier": {
+  "fichier": "terrier.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/7149",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "plume": {
+  "fichier": "plume.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "arbre": {
+  "fichier": "arbre.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "sapin": {
+  "fichier": "sapin.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "feuille": {
+  "fichier": "feuille.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "gland": {
+  "fichier": "gland.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chataigne": {
+  "fichier": "chataigne.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "olive": {
+  "fichier": "olive.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/8317",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "raisin": {
+  "fichier": "raisin.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "fleur": {
+  "fichier": "fleur.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "velo": {
+  "fichier": "velo.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "herisson": {
+  "fichier": "herisson.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "ecureuil": {
+  "fichier": "ecureuil.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "cigogne": {
+  "fichier": "cigogne.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/3015",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "renard": {
+  "fichier": "renard.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "ours": {
+  "fichier": "ours.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "loup": {
+  "fichier": "loup.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "cerf": {
+  "fichier": "cerf.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "canard": {
+  "fichier": "canard.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "macareux": {
+  "fichier": "macareux.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "renne": {
+  "fichier": "renne.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "carre": {
+  "fichier": "carre.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "rectangle": {
+  "fichier": "rectangle.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "triangle-forme": {
+  "fichier": "triangle-forme.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "disque": {
+  "fichier": "disque.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "croissant": {
+  "fichier": "croissant.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "papa-ours": {
+  "fichier": "papa-ours.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6165",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "maman-ours": {
+  "fichier": "maman-ours.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6144",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "petit-ours": {
+  "fichier": "petit-ours.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6162",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "carte": {
+  "fichier": "carte.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/5505",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "pont": {
+  "fichier": "pont.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6194",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "chouette": {
+  "fichier": "chouette.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-france": {
+  "fichier": "drapeau-france.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-allemagne": {
+  "fichier": "drapeau-allemagne.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-italie": {
+  "fichier": "drapeau-italie.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-espagne": {
+  "fichier": "drapeau-espagne.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-belgique": {
+  "fichier": "drapeau-belgique.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-irlande": {
+  "fichier": "drapeau-irlande.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-grece": {
+  "fichier": "drapeau-grece.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "drapeau-suede": {
+  "fichier": "drapeau-suede.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chocolat": {
+  "fichier": "chocolat.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "pomme": {
+  "fichier": "pomme.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "lapin": {
+  "fichier": "lapin.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chat": {
+  "fichier": "chat.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "bol": {
+  "fichier": "bol.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "chaise": {
+  "fichier": "chaise.svg",
+  "source": "Mulberry Symbols",
+  "page": "https://mulberrysymbols.org/",
+  "licence": "CC BY-SA 4.0",
+  "auteur": "Paxtoncrafts Charitable Trust"
+ },
+ "boucle-d-or": {
+  "fichier": "boucle-d-or.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/6207",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-triste": {
+  "fichier": "visage-triste.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/35545",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-colere": {
+  "fichier": "visage-colere.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/35539",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-surpris": {
+  "fichier": "visage-surpris.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/35529",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ },
+ "visage-content": {
+  "fichier": "visage-content.png",
+  "source": "ARASAAC",
+  "page": "https://arasaac.org/pictograms/fr/35547",
+  "licence": "CC BY-NC-SA",
+  "auteur": "Sergio Palao — propriété du Gouvernement d’Aragon (Espagne)"
+ }
+}

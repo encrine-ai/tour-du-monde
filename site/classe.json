@@ -7,7 +7,7 @@
   "annee": "2026-2027",
   "projet": "Le tour du monde",
   "sous_titre": "classe de démonstration",
-  "accroche": "Une classe de démonstration en cours d’écriture : un continent par période. Les documents et les cahiers arriveront période par période.",
+  "accroche": "Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. La période 1 est prête : progressions, évaluations, fiches, imagier et cartes de vocabulaire. Les autres continents arrivent période par période.",
   "conformite": "Conforme au programme officiel de l'école maternelle (cycle 1, 2024-2026) et au programme d'éducation à la vie affective et relationnelle.",
   "theme": "demo",
   "ton": "tu",
@@ -19,7 +19,12 @@
     "depot": "encrine-ai/encrine-ai.github.io"
   },
   "partage": {
-    "prenoms_fictifs": [],
+    "prenoms_fictifs": [
+      "Nils",
+      "Ana",
+      "Malik",
+      "Elsa"
+    ],
     "textes_autorises": []
   },
   "contenu": {
@@ -87,7 +92,7 @@
       "icone": "map-pin",
       "emoji": "🇪🇺",
       "couleur": "bleu",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes d’Europe, du parc voisin aux montagnes et aux côtes."
     },
     {
       "cle": "afrique",
@@ -123,7 +128,62 @@
     }
   ],
   "periodes_nom": "continents",
-  "materiel": [],
+  "materiel": [
+    {
+      "cle": "entrainement",
+      "titre": "Entraînement",
+      "icone": "pencil",
+      "desc": "12 fiches, 2 niveaux (★ / ★★) et défis",
+      "periodes": [
+        1
+      ],
+      "source": "fiches/entrainement-periode-{n}.html",
+      "pdf": "pdf/fiches-entrainement-periode-{n}.pdf",
+      "nom": "fiches-entrainement",
+      "budget": 10000
+    },
+    {
+      "cle": "evaluation",
+      "titre": "Évaluation",
+      "icone": "printer",
+      "desc": "les fiches élève de fin de période",
+      "periodes": [
+        1
+      ],
+      "source": "fiches/periode-{n}.html",
+      "pdf": "pdf/fiches-eleve-periode-{n}.pdf",
+      "nom": "fiches-eleve",
+      "budget": 10000
+    },
+    {
+      "cle": "imagier",
+      "titre": "Imagier",
+      "icone": "image",
+      "desc": "12 animaux et 12 plantes en photographies",
+      "intitule": "animaux et plantes du monde",
+      "fichier": "imagier-monde",
+      "periodes": [
+        1
+      ],
+      "source": "imagier/periode-{n}.html",
+      "pdf": "pdf/imagier-periode-{n}.pdf",
+      "nom": "imagier",
+      "budget": 30000
+    },
+    {
+      "cle": "cartes-corpus",
+      "titre": "Cartes-corpus",
+      "icone": "layers",
+      "desc": "les mots des trois corpus et les étiquettes de tri",
+      "periodes": [
+        1
+      ],
+      "source": "cartes-corpus/periode-{n}.html",
+      "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
+      "nom": "cartes-corpus",
+      "budget": 30000
+    }
+  ],
   "documents": [
     {
       "id": "accueil",
@@ -145,6 +205,85 @@
       "md": "content/02-programmation-annuelle.md",
       "groupe": "Pour piloter l’année",
       "desc": "Tous les domaines période par période, en un coup d’œil."
+    },
+    {
+      "id": "langage",
+      "titre": "Langage oral et écrit",
+      "icone": "message-circle",
+      "md": "content/03-progressions/01-langage-oral-ecrit.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Vocabulaire, phonologie, lettres, écriture, compréhension."
+    },
+    {
+      "id": "maths",
+      "titre": "Mathématiques",
+      "icone": "shapes",
+      "md": "content/03-progressions/02-mathematiques.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Nombres, problèmes, formes, grandeurs, motifs."
+    },
+    {
+      "id": "eps",
+      "titre": "Activités physiques",
+      "icone": "person-standing",
+      "md": "content/03-progressions/03-activites-physiques.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Les unités d’apprentissage de l’année, séance par séance."
+    },
+    {
+      "id": "arts",
+      "titre": "Activités artistiques",
+      "icone": "palette",
+      "md": "content/03-progressions/04-activites-artistiques.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Dessin, graphisme, compositions, musique, spectacle vivant."
+    },
+    {
+      "id": "temps-espace",
+      "titre": "Temps et espace",
+      "icone": "compass",
+      "md": "content/03-progressions/05-temps-espace.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Rituels, chronologie, positions, la carte du monde."
+    },
+    {
+      "id": "monde",
+      "titre": "Le monde du vivant et des objets",
+      "icone": "sprout",
+      "md": "content/03-progressions/06-monde-vivant-matiere-objets.md",
+      "groupe": "Mes progressions",
+      "par_periode": true,
+      "desc": "Animaux et plantes des continents, élevages, matière, objets."
+    },
+    {
+      "id": "evar",
+      "titre": "Vie affective et relationnelle",
+      "icone": "heart-handshake",
+      "md": "content/03-progressions/07-evar.md",
+      "groupe": "Mes progressions",
+      "desc": "Les séances spécifiques et le fil continu."
+    },
+    {
+      "id": "eval-guide",
+      "titre": "Mode d’emploi et livret de suivi",
+      "icone": "clipboard-list",
+      "md": "content/04-evaluations/00-mode-emploi-et-livret-de-suivi.md",
+      "groupe": "Mes évaluations",
+      "desc": "Principes, codage, livret de l’année."
+    },
+    {
+      "id": "eval-p1",
+      "fiches": 1,
+      "md": "content/04-evaluations/periode-1-europe.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (octobre).",
+      "titre": "Période 1 · L’Europe",
+      "icone": "map-pin"
     }
   ]
 }
