@@ -59,9 +59,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 - Course régulière deux fois par semaine, malgré l’hiver ; Plume franchit les montagnes de l’Himalaya sur la carte.
 - Réussite en fin de période : court 7 minutes sans s’arrêter.
 
-## Période 4 — 🌎 Les Amériques (esquisse)
+## Période 4 — 🌎 Les Amériques (2 unités)
 
-À écrire avec la période : courir vite et sauter (le jaguar) ; orientation dans l’école puis au parc.
+### Unité 7 : Courir vite, sauter — « Les athlètes de la forêt » (7 séances)
+- Objectifs : courir vite sur une courte distance ; franchir des obstacles bas sans ralentir ; sauter loin à pieds joints puis après un élan ; sauter haut par-dessus un élastique.
+- Situations : la course du jaguar (20 m, départ au signal) ; les troncs de la forêt (franchir des haies basses sans les toucher) ; les bonds de la grenouille (sauter loin, mesurer avec des cerceaux) ; la liane (sauter haut au-dessus de l’élastique) ; chacun note ses performances avec des gommettes et cherche à les battre.
+- Réussite : court 20 m sans ralentir ; franchit 4 haies basses en courant ; améliore sa longueur de saut entre la séance 2 et la séance 7.
+
+### Unité 8 : Orientation — « La chasse au trésor des Incas » (6 séances)
+- Objectifs : se repérer dans un milieu connu puis moins connu grâce à des indices (photographies, plan) ; revenir à son point de départ.
+- Situations : retrouver dans la cour un objet photographié ; la course aux balises dans l’école avec le plan de la classe ; la chasse au trésor au parc (les balises sont des cartes-corpus des Amériques) ; par deux, l’un lit le plan, l’autre court.
+- Réussite : trouve 4 balises sur 5 avec le plan ; montre sur le plan où il est.
 
 ## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
 

@@ -117,7 +117,7 @@ var CLASSE = {
       "icone": "compass",
       "emoji": "🌎",
       "couleur": "ocre",
-      "imagier": "À écrire."
+      "imagier": "Les animaux et les plantes des Amériques, de la prairie aux forêts tropicales et aux déserts."
     },
     {
       "cle": "oceanie-poles",
@@ -138,7 +138,8 @@ var CLASSE = {
       "periodes": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "source": "fiches/entrainement-periode-{n}.html",
       "pdf": "pdf/fiches-entrainement-periode-{n}.pdf",
@@ -153,7 +154,8 @@ var CLASSE = {
       "periodes": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "source": "fiches/periode-{n}.html",
       "pdf": "pdf/fiches-eleve-periode-{n}.pdf",
@@ -170,7 +172,8 @@ var CLASSE = {
       "periodes": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "source": "imagier/periode-{n}.html",
       "pdf": "pdf/imagier-periode-{n}.pdf",
@@ -185,7 +188,8 @@ var CLASSE = {
       "periodes": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "source": "cartes-corpus/periode-{n}.html",
       "pdf": "pdf/cartes-corpus-periode-{n}.pdf",
@@ -311,6 +315,15 @@ var CLASSE = {
       "desc": "12 fiches d’évaluation + grilles d’observation (février).",
       "titre": "Période 3 · L’Asie",
       "icone": "mountain-snow"
+    },
+    {
+      "id": "eval-p4",
+      "fiches": 4,
+      "md": "content/04-evaluations/periode-4-ameriques.md",
+      "groupe": "Mes évaluations",
+      "desc": "12 fiches d’évaluation + grilles d’observation (avril).",
+      "titre": "Période 4 · Les Amériques",
+      "icone": "compass"
     }
   ]
 };

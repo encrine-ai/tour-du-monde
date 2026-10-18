@@ -52,9 +52,18 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Écoute | repérer les **timbres** ; connaître une œuvre patrimoniale | Debussy, « Pagodes » (*Estampes*) (œuvre patrimoniale 4) : un piano qui imite les gongs et les cloches d’un orchestre de Java ; écoute comparée d’un gong et d’un erhu ; traduire la musique en dessin à l’encre | reconnaît le gong et la flûte ; dit que le piano de Debussy « fait comme des cloches » |
 | Spectacle vivant | **théâtre d’ombres** : jouer derrière l’écran, utiliser les coulisses | *La Grande Course des animaux* en ombres chinoises pour la fête du Nouvel An : figurines articulées découpées, la lampe, l’écran ; entrer et sortir au bon moment | anime une figurine derrière l’écran en montrant une émotion du personnage |
 
-## Période 4 — 🌎 Les Amériques (esquisse)
+## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
 
-À écrire avec la période : totems et molas ; portraits ; *Symphonie du Nouveau Monde* (œuvre patrimoniale 3) ; carnaval.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Dessin | représenter un **personnage** ; employer le vocabulaire du portrait (de face, de profil, les yeux, le cou) | **autoportraits** à la manière de Frida Kahlo : se dessiner de face, entouré d’un animal des Amériques (un perroquet, un singe) et de fleurs | se dessine de face avec les détails du visage et un animal |
+| Graphisme | transformer des motifs ; inventer | les **molas** du Panama (formes emboîtées cernées de couleurs) ; les motifs des ponchos et des tissus des Andes | invente un motif de poncho et le reproduit |
+| Compositions plastiques | combiner matériaux et techniques ; **détourner des objets** | masques du carnaval avec des assiettes, des plumes, des bouchons ; maracas fabriquées avec des bouteilles et des graines ; la grande carte du monde : quatrième pièce, les Amériques | fabrique un masque en détournant des objets et dit comment il a fait |
+| Images | différencier **portrait, paysage, nature morte** | les autoportraits de Frida Kahlo, une photographie du Grand Canyon, une nature morte de fruits (Frida Kahlo a peint aussi des fruits) : « qu’est-ce que c’est ? comment le sais-tu ? » | dit si une image est un portrait, un paysage ou une nature morte, et pourquoi |
+| Voix et chant | chanter en rythme, en canon simple | chants du carnaval ; une comptine en espagnol | chante avec le groupe en rythme avec les maracas |
+| Instruments | jouer ensemble ; faire le lien entre le son et le geste | la batucada du carnaval : tambours, maracas, bâtons de pluie ; jouer fort, doucement, s’arrêter au signal | joue au signal et s’arrête ensemble |
+| Écoute | connaître une **œuvre patrimoniale** ; repérer les **timbres** et dire ce qu’on ressent | Dvořák, *Symphonie du Nouveau Monde*, le *Largo* : le cor anglais, une mélodie lente et douce ; la flûte de pan des Andes ; dessiner « la musique lente » | reconnaît le *Largo* et dit ce qu’il ressent (calme, triste, doux) |
+| Spectacle vivant | être **spectateur** de genres variés ; jouer dans un défilé | sortie au théâtre ou spectacle de marionnettes invité ; on en parle en revenant (qu’as-tu compris ? qu’as-tu aimé ?) ; le **défilé du carnaval** dans l’école, déguisés et masqués | dit ce qu’il a compris et aimé d’un spectacle ; défile en rythme dans son rôle |
 
 ## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
 

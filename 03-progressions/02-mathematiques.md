@@ -51,9 +51,17 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Grandeurs — masses | comparer des masses à la **balance de Roberval** ; ranger 3 objets selon leur masse | les sacs de riz, de thé, de sable : lequel est le plus lourd ? ; la balance du marchand de thé ; si le riz est plus lourd que le thé et le thé plus lourd que le coton… | compare deux masses à la balance et range trois objets du plus léger au plus lourd |
 | Motifs organisés | reconnaître et prolonger un **motif évolutif** | les guirlandes de lanternes qui grandissent (1, 2, 3…) ; les marches du temple ; « un coq, un chien ; un coq, deux chiens ; un coq, trois chiens » | prolonge un motif évolutif et dit ce qui change à chaque fois |
 
-## Période 4 — 🌎 Les Amériques (esquisse)
+## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
 
-À écrire avec la période : au-delà de 10, de 2 en 2 ; groupements et partages (les graines de maïs) ; tangrams et pavages ; la règle.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Quantités et nombres | dénombrer **au-delà de 10**, jusqu’à 20 et plus ; écrire les nombres jusqu’à 20 | **les graines du potager** : compter les graines de chaque sachet ; le marché aux légumes ; le tableau des présents | dénombre une collection de 20 objets en l’organisant (par 5, par 10) |
+| Suite orale | dire la suite **jusqu’à 30** ; **à partir d’un nombre donné** ; **de 2 en 2** jusqu’à 20 | le jeu du furet ; compter les paires de chaussures, les yeux des grenouilles, les ailes des papillons de 2 en 2 | dit la suite jusqu’à 30, repart de n’importe quel nombre et compte de 2 en 2 jusqu’à 20 |
+| Rang et déplacement | comprendre **l’effet d’un déplacement** sur une piste (avancer, reculer) | le jeu de l’oie des Andes : avancer de 3, reculer de 2 ; la piste du lama | dit sur quelle case il arrivera avant de jouer |
+| Problèmes | problèmes de **groupement**, de **partage** (avec reste), de **position initiale et finale** | les sachets de 5 graines ; partager les carrés de chocolat entre trois enfants ; « le lama était sur la case 5, il arrive sur la case 9 : de combien a-t-il avancé ? » | résout un problème de groupement et de partage en manipulant puis en dessinant, et dit le reste |
+| Géométrie | **utiliser la règle** pour tracer ; réaliser un **pavage** | les **molas** du Panama et les tissus des Andes : des pavages de formes ; relier des points à la règle pour dessiner une pyramide maya ou un gratte-ciel | trace un trait droit avec la règle entre deux points ; continue un pavage |
+| Grandeurs | **produire une longueur** égale à une longueur donnée | couper une ficelle aussi longue que la tige du tournesol ; tracer un trait aussi long que la bande | produit une longueur égale à une longueur donnée avec une ficelle ou la règle |
+| Motifs | **créer** un motif et le faire reproduire | les motifs des ponchos ; « invente un motif pour ton poncho, ton voisin le continue » | crée un motif, en dit la règle et vérifie celui du voisin |
 
 ## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
 

@@ -109,7 +109,36 @@ IMAGIER = {
    ("rhododendron",      "le rhododendron",      "Rhododendron arboreum"),
   ],
  },
- 4: {"faune": [], "flore": []},
+ 4: {
+  "faune": [
+   ("lama",              "le lama",              "Lama glama"),
+   ("bison",             "le bison",             "Bos bison"),
+   ("raton-laveur",      "le raton laveur",      "Procyon lotor"),
+   ("tatou",             "le tatou",             "Dasypus novemcinctus"),
+   ("paresseux",         "le paresseux",         "Bradypus variegatus"),
+   ("capybara",          "le capybara",          "Hydrochoerus hydrochaeris"),
+   ("toucan",            "le toucan",            "Ramphastos toco"),
+   ("ara-rouge",         "l’ara rouge",          "Ara macao"),
+   ("colibri",           "le colibri",           "Archilochus colubris"),
+   ("rainette",          "la rainette aux yeux rouges", "Agalychnis callidryas"),
+   ("iguane",            "l’iguane vert",        "Iguana iguana"),
+   ("monarque",          "le papillon monarque", "Danaus plexippus"),
+  ],
+  "flore": [
+   ("mais",              "le maïs",              "Zea mays"),
+   ("haricot",           "le haricot",           "Phaseolus vulgaris"),
+   ("potiron",           "le potiron",           "Cucurbita maxima"),
+   ("tomate",            "la tomate",            "Solanum lycopersicum"),
+   ("pomme-de-terre",    "la pomme de terre",    "Solanum tuberosum"),
+   ("cacaoyer",          "le cacaoyer",          "Theobroma cacao"),
+   ("ananas",            "l’ananas",             "Ananas comosus"),
+   ("tournesol",         "le tournesol",         "Helianthus annuus"),
+   ("saguaro",           "le cactus saguaro",    "Carnegiea gigantea"),
+   ("sequoia",           "le séquoia géant",     "Sequoiadendron giganteum"),
+   ("erable-sucre",      "l’érable à sucre",     "Acer saccharum"),
+   ("victoria",          "le nénuphar géant",    "Victoria amazonica"),
+  ],
+ },
  5: {"faune": [], "flore": []},
 }
 
@@ -121,6 +150,9 @@ DOMESTIQUES = {
     # période 3 : les animaux d'élevage, l'élevage de la soie, la rizière
     "Bos grunniens", "Camelus bactrianus", "Oryza sativa",
     "Cyprinus rubrofuscus",
+    # période 4 : le lama et les cultures des Amériques
+    "Lama glama", "Zea mays", "Phaseolus vulgaris", "Cucurbita maxima",
+    "Solanum lycopersicum", "Solanum tuberosum", "Ananas comosus",
 }
 
 # La photographie retenue à l'œil pour chaque espèce, sur planche de
@@ -203,6 +235,32 @@ OVERRIDES = {
     "manguier": 67997344,              # la mangue pendue à l'arbre
     "murier-blanc": 395310852,         # le rameau et ses mûres
     "rhododendron": 518147795,         # un bouquet de fleurs rouges
+    # — période 4, les Amériques : choisies à l'œil sur planches ; le lama et
+    #   les cultures cherchés en captivité —
+    "lama": 343380888,                 # un seul, entier, sa laine
+    "bison": 297923496,                # entier, de profil
+    "raton-laveur": 37567305,          # entier, sur le chemin, son masque
+    "tatou": 58055050,           # entier, de profil, sa carapace en bandes
+    "paresseux": 333191551,            # accroché, entier, au milieu des feuilles
+    "capybara": 415053243,             # entier, de profil
+    "toucan": 684246875,               # entier sur sa branche, le grand bec
+    "ara-rouge": 625153580,    # grand, net, dans les feuilles (les autres : un panneau, ou coupé)
+    "colibri": 76330558,               # un mâle posé, la gorge rouge
+    "rainette": 38855688,              # entière, les yeux rouges
+    "iguane": 19063248,                # vert, entier sur son poteau
+    "monarque": 45078365,              # ailes ouvertes sur une fleur
+    "mais": 308363418,                 # les épis
+    "haricot": 194171827,              # les gousses sur la plante
+    "potiron": 56392554,               # le fruit sur la tige
+    "tomate": 135603141,               # une grappe de tomates qui mûrissent
+    "pomme-de-terre": 418668629,       # les tubercules
+    "cacaoyer": 339713047,             # la cabosse sur le tronc
+    "ananas": 263834600,               # le fruit au cœur de la plante
+    "tournesol": 191809016,            # une plante entière en fleur
+    "saguaro": 34304159,               # les grands cactus du désert de Sonora
+    "sequoia": 234355751,              # le tronc géant
+    "erable-sucre": 27471670,          # la feuille, symbole du Canada
+    "victoria": 68253999,              # une feuille géante, son bord relevé
 }
 
 

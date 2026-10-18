@@ -94,7 +94,7 @@ periodes:
   icone: compass
   emoji: 🌎
   couleur: ocre
-  imagier: À écrire.
+  imagier: Les animaux et les plantes des Amériques, de la prairie aux forêts tropicales et aux déserts.
 - cle: oceanie-poles
   milieu: L’Océanie et les pôles
   icone: waves
@@ -107,24 +107,24 @@ materiel:
   titre: Entraînement
   icone: pencil
   desc: 12 fiches, 2 niveaux (★ / ★★) et défis
-  periodes: [1, 2, 3]
+  periodes: [1, 2, 3, 4]
 - cle: evaluation
   titre: Évaluation
   icone: printer
   desc: les fiches élève de fin de période
-  periodes: [1, 2, 3]
+  periodes: [1, 2, 3, 4]
 - cle: imagier
   titre: Imagier
   icone: image
   desc: 12 animaux et 12 plantes en photographies
   intitule: animaux et plantes du monde
   fichier: imagier-monde
-  periodes: [1, 2, 3]
+  periodes: [1, 2, 3, 4]
 - cle: cartes-corpus
   titre: Cartes-corpus
   icone: layers
   desc: les mots des trois corpus et les étiquettes de tri
-  periodes: [1, 2, 3]
+  periodes: [1, 2, 3, 4]
 documents:
 - id: accueil
   titre: Accueil
@@ -210,3 +210,8 @@ documents:
   md: content/04-evaluations/periode-3-asie.md
   groupe: Mes évaluations
   desc: 12 fiches d’évaluation + grilles d’observation (février).
+- id: eval-p4
+  fiches: 4
+  md: content/04-evaluations/periode-4-ameriques.md
+  groupe: Mes évaluations
+  desc: 12 fiches d’évaluation + grilles d’observation (avril).

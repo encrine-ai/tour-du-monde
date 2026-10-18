@@ -18,6 +18,7 @@ CORPUS = {
     1: ("le voyage et l’Europe", "les animaux d’Europe", "les arbres et les plantes d’Europe"),
     2: ("le voyage en Afrique", "les animaux d’Afrique", "les arbres et les plantes d’Afrique"),
     3: ("le voyage en Asie", "les animaux d’Asie", "les arbres et les plantes d’Asie"),
+    4: ("le voyage aux Amériques", "les animaux des Amériques", "les arbres et les plantes des Amériques"),
 }
 
 GROUPES = ("milieu", "faune", "flore")
@@ -154,7 +155,50 @@ CARTES = {
    ("rhododendron", "le rhododendron", ("imagier", "rhododendron")),
   ],
  },
- 4: {g: [] for g in GROUPES},
+ 4: {
+  "milieu": [
+   ("foret-tropicale", "la forêt tropicale", ("fiche", "foret-tropicale")),
+   ("prairie", "la prairie", ("fiche", "prairie")),
+   ("canyon", "le canyon", ("fiche", "canyon")),
+   ("volcan", "le volcan", ("fiche", "volcan")),
+   ("pyramide", "la pyramide", ("fiche", "pyramide-maya")),
+   ("gratte-ciel", "le gratte-ciel", ("fiche", "gratte-ciel")),
+   ("hamac", "le hamac", ("fiche", "hamac")),
+   ("poncho", "le poncho", ("fiche", "poncho")),
+   ("flute-pan", "la flûte de pan", ("fiche", "flute-pan")),
+   ("maracas", "les maracas", ("fiche", "maracas")),
+   ("masque", "le masque", ("fiche", "masque")),
+   ("voilier", "le voilier", ("fiche", "voilier")),
+  ],
+  "faune": [
+   ("lama", "le lama", ("imagier", "lama")),
+   ("bison", "le bison", ("imagier", "bison")),
+   ("raton-laveur", "le raton laveur", ("imagier", "raton-laveur")),
+   ("tatou", "le tatou", ("imagier", "tatou")),
+   ("paresseux", "le paresseux", ("imagier", "paresseux")),
+   ("capybara", "le capybara", ("imagier", "capybara")),
+   ("toucan", "le toucan", ("imagier", "toucan")),
+   ("perroquet", "le perroquet", ("imagier", "ara-rouge")),
+   ("colibri", "le colibri", ("imagier", "colibri")),
+   ("grenouille", "la grenouille", ("imagier", "rainette")),
+   ("iguane", "l’iguane", ("imagier", "iguane")),
+   ("papillon", "le papillon", ("imagier", "monarque")),
+  ],
+  "flore": [
+   ("mais", "le maïs", ("imagier", "mais")),
+   ("haricot", "le haricot", ("imagier", "haricot")),
+   ("potiron", "le potiron", ("imagier", "potiron")),
+   ("tomate", "la tomate", ("imagier", "tomate")),
+   ("pomme-de-terre", "la pomme de terre", ("imagier", "pomme-de-terre")),
+   ("cacao", "le cacao", ("imagier", "cacaoyer")),
+   ("ananas", "l’ananas", ("imagier", "ananas")),
+   ("tournesol", "le tournesol", ("imagier", "tournesol")),
+   ("cactus", "le cactus", ("imagier", "saguaro")),
+   ("sequoia", "le séquoia", ("imagier", "sequoia")),
+   ("erable", "l’érable", ("imagier", "erable-sucre")),
+   ("epi", "l’épi", ("fiche", "epi")),
+  ],
+ },
  5: {g: [] for g in GROUPES},
 }
 
@@ -174,6 +218,9 @@ NON_ILLUSTRES = {
  3: ("fêter", "souhaiter", "joyeux", "fier", "timide", "surpris",
      "se transformer", "pondre", "manger", "lent", "soyeux", "doux",
      "planter", "repiquer", "fleurir", "lisse", "rugueux"),
+ 4: ("explorer", "défiler", "se déguiser", "immense", "coloré", "humide",
+     "butiner", "se balancer", "s’envoler", "lent", "rapide", "minuscule",
+     "récolter", "éplucher", "mûr", "juteux", "géant"),
 }
 
 # Les étiquettes de tri de la fiche X.1 (les « boîtes-catégories »).
@@ -181,6 +228,7 @@ TRI = {
  1: ("le voyage", "les animaux", "les végétaux"),
  2: ("le voyage", "les animaux", "les végétaux"),
  3: ("le voyage", "les animaux", "les végétaux"),
+ 4: ("le voyage", "les animaux", "les végétaux"),
 }
 TRI_MILIEUX = ()
 

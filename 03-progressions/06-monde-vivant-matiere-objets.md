@@ -44,9 +44,16 @@ Références : programme du cycle 1 (2024-2026), repères « à partir de 5 ans 
 | Objets — instructions | élaborer une **suite d’instructions** | dicter à un camarade les étapes du pliage de la grue en origami, ou de la recette du riz au lait (3 à 5 étapes) | donne 4 instructions dans l’ordre pour qu’un camarade réussisse |
 | Le corps — articulations | nommer les **articulations** ; se représenter **en mouvement** | les figurines d’ombres articulées : où plier les bras et les jambes ? (épaule, coude, poignet, hanche, genou, cheville) ; se dessiner en train de jongler | nomme 5 articulations ; dessine un personnage aux bras et aux jambes pliés |
 
-## Période 4 — 🌎 Les Amériques (esquisse)
+## Période 4 — 🌎 Les Amériques (≈ 6 semaines)
 
-À écrire avec la période : semis de maïs, de haricots et de courges ; étapes de la vie d’une plante ; le corps en mouvement.
+| Champ | Objectifs | Situations en lien avec le thème | Ce que l’élève sait faire en fin de période |
+|---|---|---|---|
+| Végétaux — la vie d’une plante | connaître les **étapes de la vie d’une plante** : graine, germination, pousse, fleur, fruit et graine | **le potager des trois sœurs** : maïs, haricots et courges semés ensemble ; la germination du haricot sur du coton dans un bocal transparent (on voit la racine sortir) ; carnet d’observation dans le passeport | ordonne les étapes de la vie du haricot et du maïs |
+| Végétaux — les besoins | décrire les **besoins** d’une plante : eau, lumière, terre | l’expérience des haricots : avec et sans eau, à la lumière et au placard ; on compare au bout d’une semaine | dit ce dont la plante a besoin et le prouve avec l’expérience |
+| Végétaux — les plantes cultivées | savoir que beaucoup de plantes que nous mangeons viennent des Amériques | maïs, tomate, pomme de terre, haricot, cacao, ananas : la carte du monde des légumes ; la dégustation | cite trois plantes venues des Amériques que l’on mange |
+| Le corps en mouvement | se représenter avec un corps **articulé en mouvement** | les athlètes de l’unité d’EPS photographiés en train de courir et de sauter : on se dessine bras et jambes pliés ; les pantins du carnaval | dessine un personnage qui court, les bras et les jambes pliés |
+| Recette | suivre une **recette** et repérer sa structure | **le chocolat chaud** (le cacao vient des Amériques) : ingrédients, ustensiles, étapes numérotées ; le pop-corn | suit une recette de 5 étapes et dit ce qu’il faut avant de commencer |
+| Biodiversité | agir pour le vivant : **faire sa part** | après *La Légende du colibri* : un hôtel à insectes et un coin de fleurs pour les papillons au potager | dit ce qu’il fait, lui, pour aider la nature (« je fais ma part ») |
 
 ## Période 5 — 🧊 L’Océanie et les pôles (esquisse)
 

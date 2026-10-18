@@ -23,16 +23,16 @@ Une page par enfant et par domaine, où l’on reporte à chaque période le cod
 
 | Domaine | P1 Europe | P2 Afrique | P3 Asie | P4 Amériques | P5 Océanie et pôles |
 |---|---|---|---|---|---|
-| Vocabulaire (3 corpus) | fiche 1.1 | fiche 2.1 | fiche 3.1 | — | — |
-| Langage oral | fiche 1.2 | fiche 2.2 | fiche 3.2 | — | — |
-| Phonologie | fiche 1.3 | fiche 2.3 | fiche 3.3 | — | — |
-| Lettres et écriture | fiches 1.4, 1.5 | fiches 2.4, 2.5 | fiches 3.4, 3.5 | — | — |
-| Compréhension | fiche 1.6 | fiche 2.6 | fiche 3.6 | — | — |
-| Nombres et problèmes | fiches 1.7, 1.8 | fiches 2.7, 2.8 | fiches 3.7, 3.8 | — | — |
-| Formes et motifs | fiches 1.9, 1.10 | fiches 2.9, 2.10 | fiches 3.9, 3.10 | — | — |
-| Temps et espace | fiche 1.11 | fiche 2.11 | fiche 3.11 | — | — |
-| Le vivant | fiche 1.12 | fiche 2.12 | fiche 3.12 | — | — |
-| Activités physiques, arts, vie de la classe | grilles d’observation | grilles d’observation | grilles d’observation | — | — |
+| Vocabulaire (3 corpus) | fiche 1.1 | fiche 2.1 | fiche 3.1 | fiche 4.1 | — |
+| Langage oral | fiche 1.2 | fiche 2.2 | fiche 3.2 | fiche 4.2 | — |
+| Phonologie | fiche 1.3 | fiche 2.3 | fiche 3.3 | fiche 4.3 | — |
+| Lettres et écriture | fiches 1.4, 1.5 | fiches 2.4, 2.5 | fiches 3.4, 3.5 | fiches 4.4, 4.5 | — |
+| Compréhension | fiche 1.6 | fiche 2.6 | fiche 3.6 | fiche 4.6 | — |
+| Nombres et problèmes | fiches 1.7, 1.8 | fiches 2.7, 2.8 | fiches 3.7, 3.8 | fiches 4.7, 4.8 | — |
+| Formes et motifs | fiches 1.9, 1.10 | fiches 2.9, 2.10 | fiches 3.9, 3.10 | fiches 4.9, 4.10 | — |
+| Temps et espace | fiche 1.11 | fiche 2.11 | fiche 3.11 | fiche 4.11 | — |
+| Le vivant | fiche 1.12 | fiche 2.12 | fiche 3.12 | fiche 4.12 | — |
+| Activités physiques, arts, vie de la classe | grilles d’observation | grilles d’observation | grilles d’observation | grilles d’observation | — |
 
 Les colonnes des périodes 2 à 5 se rempliront avec leurs batteries.
 
