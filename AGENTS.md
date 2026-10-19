@@ -44,6 +44,7 @@ commentaires et les messages de commit.
 | `site/fiches/` | les fiches élève imprimables, une page A4 par fiche |
 | `site/imagier/` | l'imagier Montessori, un cahier de cartes par période |
 | `site/cartes-corpus/` | les cartes-corpus de vocabulaire, un cahier par période |
+| `PRISE-EN-MAIN.md` | dans une classe : le guide de l'enseignant (sa classe, la reprise après un transfert, ce qu'il peut demander), fabriqué par `classe.py generer` depuis `classe.yml` (`scripts/prise_en_main.py`) ; seule sa section « Propre à cette classe » s'écrit à la main |
 | `classe.yml` | **la classe** : nom, niveau, année, projet, zone de vacances, milieux, documents — la seule source de ce qui la distingue d'une autre ; `scripts/classe.py verifier` refuse qu'une de ces données soit écrite en dur dans le code |
 | `classe/` | le contenu propre à la classe, que `classe.yml` désigne : les espèces de l'imagier (`imagier.py`), les cartes-corpus (`corpus.py`), ce que l'année traite du programme (`annotations.yml`), le projet en données pour le site (`projet.yml` : fil rouge, albums, œuvres, sorties… par période) |
 | `scripts/` | fabrication des pages et des images |
@@ -123,6 +124,7 @@ n'en porte jamais.
 | [`nouvelle-classe`](.agents/skills/nouvelle-classe/SKILL.md) | faire du dépôt la classe d'un autre enseignant : l'entretien (niveau, zone, thème, matériel), puis `classe.yml`, les progressions, les cahiers et les PDF |
 | [`retours-enseignant`](.agents/skills/retours-enseignant/SKILL.md) | l'enseignant fait ses retours avec ses mots (une fiche, une image, une idée) : les trier, corriger la classe, remonter ce qui vaut pour toutes |
 | [`remonter-au-moteur`](.agents/skills/remonter-au-moteur/SKILL.md) | un défaut, une amélioration ou une idée qui servirait à toutes les classes devient une issue sur le dépôt du moteur (`moteur` dans `classe.yml`) |
+| [`reprendre-ma-classe`](.agents/skills/reprendre-ma-classe/SKILL.md) | la première session de l'enseignant après le transfert de sa classe sur son compte (« je reprends ma classe ») : `depot` à jour, contrôles et PDF, réglage de Pages, publication vue en ligne à la nouvelle adresse, l'accompagnant gardé comme collaborateur |
 | [`synchroniser-moteur`](.agents/skills/synchroniser-moteur/SKILL.md) | mettre à jour le moteur d'une classe depuis le dépôt modèle, sans toucher à son contenu, contrôles et PDF compris |
 | [`partager-ma-classe`](.agents/skills/partager-ma-classe/SKILL.md) | à la demande de l'enseignant seulement : vérifier (dont `verifier-partage.py` : aucun prénom d'élève, aucune photo de classe, aucun texte recopié), préparer la fiche, recueillir l'accord et proposer la classe à « Les classes » d'encrine.ai, qui en montre une copie relue ; la mettre à jour (nouvelle relecture) ou l'en retirer |
 | [`capitaliser`](.agents/skills/capitaliser/SKILL.md) | en fin de tâche : verser ce qu'elle a appris dans le bon skill, le bon script ou ce fichier |
@@ -202,8 +204,8 @@ La procédure complète — sources dans l'ordre, pièges des noms trompeurs,
 planche de candidats obligatoire, installation, contrôles — est dans le
 skill [`fiches-illustrations`](.agents/skills/fiches-illustrations/SKILL.md),
 outillée par `scripts/chercher-pictos.py` (chercher / installer / verifier).
-`scripts/chercher-images.py` et `scripts/images-manifest.py` sont l'ancienne
-moisson Commons : ne pas les relancer.
+L'ancienne moisson Commons a été retirée du moteur ; une classe qui en garde
+les scripts (`chercher-images.py`, `images-manifest.py`) ne les relance pas.
 
 ### Vérifier la licence avant de retenir une image
 
