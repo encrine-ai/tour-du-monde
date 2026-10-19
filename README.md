@@ -10,6 +10,8 @@ Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voya
 
 **[Voir le site de la classe](https://encrine.ai/tour-du-monde/)** · [Partir de cette classe](https://github.com/new?template_owner=encrine-ai&template_name=tour-du-monde)
 
+Vous reprenez cette classe ? **[Prendre en main la classe](PRISE-EN-MAIN.md)** : ce qu’elle est, le premier lancement, ce qu’on peut demander, ce qui est protégé.
+
 Contenu sous licence [CC BY-SA 4.0](LICENCE-CONTENU.md).
 
 <p><a href="https://encrine.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://encrine.ai/assets/logo-encrine-craie.svg"><img src="https://encrine.ai/assets/logo-encrine.svg" alt="Encrine" height="32" align="absmiddle"></picture></a>&nbsp; Conçu avec <a href="https://encrine.ai">Encrine</a>, le moteur qui fabrique l’année d’une classe.</p>

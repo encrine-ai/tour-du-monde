@@ -9,8 +9,8 @@ Une classe créée depuis le dépôt modèle **ne partage aucun historique** ave
 lui : ce n'est pas une branche qu'on fusionne, c'est une **copie délibérée,
 fichier par fichier**, de la couche moteur. Elle n'est possible que parce
 que le moteur et le contenu sont séparés — `python3 scripts/classe.py
-verifier` le prouve. C'est la mécanique de Ludea (`sync-engine`) :
-chaque enseignant met à jour **sa** classe, quand il le veut.
+verifier` le prouve. Chaque enseignant met à jour **sa** classe, quand il
+le veut.
 
 ## Ce qui bouge, ce qui ne bouge jamais
 
@@ -30,10 +30,10 @@ fichiers moteur/main` liste ce qui sera copié).
 | **propre à la classe, dans un skill** | la section qui finit un `SKILL.md`, entre `<!-- classe:debut -->` et `<!-- classe:fin -->` (« ## Propre à cette classe » : son thème, une décision de l'enseignant…) | **jamais écrasée** : `copier` la garde et la repose à la fin du skill neuf ; `ecarts` et `bilan` ne la comptent pas comme une retouche du moteur |
 | **propre au moteur** | le skill `trier-remontees` et ses cas de `tests/`, et la ligne qui le présente dans la table des skills d'`AGENTS.md` : la boîte du moteur ne vit que dans `encrine-ai/moteur` ; `.github/workflows/controles.yml`, les contrôles de ses demandes de fusion | **jamais** : la copie les écarte, `chemins_moteur.py verifier` refuse de les trouver dans une classe |
 | **la classe** | `classe.yml`, `classe/`, les documents `01-…` à `04-…`, `README.md` (jamais écrasé par celui du modèle : seul son bloc de tête, entre `<!-- encrine:debut -->` et `<!-- encrine:fin -->`, est refait par `classe.py generer`), les cahiers fabriqués (`site/fiches/*.html`, `site/imagier/`, `site/cartes-corpus/`, leurs images et crédits), `site/classe.json`, `site/classe.js`, les thèmes `site/charte/themes/` | **jamais** |
-| **fabriqué** | `site/charte/charte.css` (socle + thème), `site/charte/gabarits.js` (le renvoi vers les gabarits du thème), `site/charte/icones.svg` (icônes génériques + celles des milieux de `classe.yml`), l'appli installable : `site/manifest.webmanifest`, `site/sw.js` (malgré `site/*.js`), `site/icones/`, `site/favicon.ico` | **jamais copiés** : refaits après la synchronisation, `python3 scripts/classe.py generer` puis `python3 scripts/generer-icones.py` (réseau) |
+| **fabriqué** | `site/charte/charte.css` (socle + thème), `site/charte/gabarits.js` (le renvoi vers les gabarits du thème), `site/charte/icones.svg` (icônes génériques + celles des milieux de `classe.yml`), l'appli installable : `site/manifest.webmanifest`, `site/sw.js` (malgré `site/*.js`), `site/icones/`, `site/favicon.ico` ; `PRISE-EN-MAIN.md`, le guide de l'enseignant (sa section « Propre à cette classe », entre `<!-- classe:debut -->` et `<!-- classe:fin -->`, est gardée) | **jamais copiés** : refaits après la synchronisation, `python3 scripts/classe.py generer` puis `python3 scripts/generer-icones.py` (réseau) |
 | **à la main** | `AGENTS.md` (les consignes de l'agent : il mêle les règles du moteur et l'identité de la classe ; jamais la ligne de `trier-remontees`) ; `CLAUDE.md` (l'import `@AGENTS.md` et quelques lignes propres à Claude Code) | ne reprendre que les règles générales, par une lecture attentive ; une classe d'avant `AGENTS.md`, dont tout tient dans `CLAUDE.md`, y déplace ses consignes et ne garde dans `CLAUDE.md` que l'import |
 
-La charte est scindée (`docs/vers-un-moteur.md`, « Deux couches de style ») :
+La charte est scindée en deux couches :
 le socle suit le moteur, **les thèmes jamais** — même celui que le modèle
 apporterait sous le même nom, puisque la classe a pu retoucher le sien. Un
 thème nouveau du modèle ne s'ajoute que si l'enseignant le demande.
@@ -85,13 +85,13 @@ thème nouveau du modèle ne s'ajoute que si l'enseignant le demande.
   copie le laisse en place) ; `D` : un fichier du moteur absent d'ici. Le
   titre et l'aperçu de lien d'`index.html`, refaits pour chaque classe, ne
   comptent pas, ni la section « Propre à cette classe » d'un skill. Deux
-  sortes d'écarts, vus en octobre 2026 :
-  - **une leçon qui vaut pour toutes les classes** (la retouche de
-    `verifier-cartes-corpus.py` du tour du monde) : la remonter ; elle est
-    depuis dans le moteur ;
-  - **du contenu de la classe écrit dans un skill** (la Grande Section : son
-    thème « La Promenade » dans `charte-graphique`, la vipère gardée dans
-    `imagier-photos`) : le déplacer **une fois**, dans un commit à lui, dans
+  sortes d'écarts :
+  - **une leçon qui vaut pour toutes les classes** (un contrôle retouché
+    dans la classe, par exemple `verifier-cartes-corpus.py`) : la remonter
+    (skill remonter-au-moteur) ;
+  - **du contenu de la classe écrit dans un skill** (le nom de son thème
+    dans `charte-graphique`, une décision de l'enseignant sur une espèce
+    dans `imagier-photos`) : le déplacer **une fois**, dans un commit à lui, dans
     la section balisée qui finit le skill (`<!-- classe:debut -->`, « ##
     Propre à cette classe », `<!-- classe:fin -->`), et rendre au reste du
     skill le texte du moteur ; `chemins_moteur.py verifier` contrôle la

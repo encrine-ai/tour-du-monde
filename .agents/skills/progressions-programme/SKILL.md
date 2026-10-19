@@ -5,9 +5,9 @@ description: Écrire ou modifier le projet annuel, la programmation, une progres
 
 # Les progressions et le programme
 
-L'année est un **projet** (`projet` dans classe.yml — ici « À la découverte
-de la faune et de la flore »), un **thème par période** (`periodes` — ici cinq
-milieux : ville, forêt, montagne, campagne, mer), et
+L'année est un **projet** (`projet` dans classe.yml — dans la classe
+d'exemple, « Le tour du monde »), un **thème par période** (`periodes` — un
+continent par période : l'Europe, l'Afrique, l'Asie…), et
 sept **progressions** de domaine qui déclinent chaque période dans un tableau.
 Tout est écrit en Markdown, en français, et rendu tel quel par le site.
 
@@ -44,7 +44,7 @@ notion ajoutée à l'une s'ajoute à l'autre.
 
 **Une modification pédagogique se propose, elle ne se glisse pas.** Ce qui
 part en classe, et que les familles lisent sur le site, est relu par
-l'enseignante : présenter la séance ajoutée et la faire valider, sauf
+l'enseignant : présenter la séance ajoutée et la faire valider, sauf
 demande explicite de l'écrire directement. Les sept lignes ajoutées pour
 combler les trous (cinq « Articulation » en langage, deux « Environnement »
 — charte du promeneur en P2, ramassage raisonné des déchets de plage en

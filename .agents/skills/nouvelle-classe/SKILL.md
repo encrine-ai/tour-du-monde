@@ -127,7 +127,7 @@ simple, selon son niveau :
 |---|---|
 | **Grande Section** | tout : la liste numérotée du programme existe (`referentiel/cycle1-gs.yml`, 159 attendus), le contrôle de couverture tourne, tous les cahiers se fabriquent |
 | **Petite ou Moyenne Section** | les cahiers et le site se fabriquent, mais **la liste du programme de ce niveau n'existe pas encore** : il faut d'abord l'écrire, ligne par ligne, BO à l'appui (skill progressions-programme), sinon personne ne peut dire que l'année couvre le programme |
-| **Double niveau** (MS-GS…) | pas encore traité par le moteur : une seule liste du programme, un seul jeu de fiches. Proposer de commencer par le niveau le plus nombreux, et noter le besoin dans `docs/vers-un-moteur.md` |
+| **Double niveau** (MS-GS…) | pas encore traité par le moteur : une seule liste du programme, un seul jeu de fiches. Proposer de commencer par le niveau le plus nombreux, et, avec son accord, signaler le besoin au moteur (skill remonter-au-moteur), s'il n'y a pas déjà une issue |
 | **Élémentaire** (CP → CM2) | pas encore : ni programme, ni gabarits de fiches. Le dire franchement |
 
 ## Une période, ou les cinq : l'enseignant choisit
@@ -172,6 +172,40 @@ partir de <adresse> ») : son site, son dépôt, ou sa carte de galerie.
 4. **Écrire `origine`** comme en mode « enrichir » (point 4), `depot` au
    dépôt courant : le bloc de tête du README cite l'auteur (étape 7). Les images gardent
    leurs propres crédits, à recopier avec elles.
+
+## Pour quelqu'un d'autre : un accompagnant prépare la classe
+
+Quand la personne qui parle **prépare la classe pour un enseignant** (« je
+fais la classe de ma femme », « je prépare sa classe pour une collègue »),
+le demander dès l'entretien et le noter. Ce qui change :
+
+- **On parle à l'accompagnant**, mais la classe est celle de l'enseignant :
+  la signature (`enseignant.signature`) est la sienne, ses choix de
+  pédagogie l'emportent — l'accompagnant les rapporte, ou on attend sa
+  réponse. Le ton (`ton`) est celui qu'on aura avec l'enseignant.
+- `classe.yml` reçoit **`accompagnant`** : `nom` (le prénom qui apparaîtra
+  dans `PRISE-EN-MAIN.md`) et `github` (son identifiant, pour le garder
+  collaborateur) ; et, quand l'enseignant a relu et validé le contenu,
+  **`valide_le`** (la date). `PRISE-EN-MAIN.md`, fabriqué par `classe.py
+  generer`, lui explique sa classe et la reprise.
+- Le dépôt est d'abord sur le compte de l'accompagnant.
+
+**La passation**, à la fin (étape 7 faite, site en ligne) — à dire à
+l'accompagnant, dans l'ordre :
+
+1. l'enseignant crée son compte GitHub (gratuit) ;
+2. l'accompagnant transfère le dépôt : *Settings → General → Danger Zone →
+   Transfer ownership*, vers ce compte ; l'enseignant **accepte** le
+   transfert (courriel de GitHub) ;
+3. l'enseignant active Pages s'il le faut (*Settings → Pages → Source :
+   GitHub Actions*), ouvre sa session Claude Code sur sa classe et dit
+   « **Je reprends ma classe** » (skill reprendre-ma-classe : nouveau
+   `depot`, contrôles, PDF, publication à sa nouvelle adresse) ;
+4. il ajoute l'accompagnant comme collaborateur, s'il doit continuer à
+   aider (la session le propose).
+
+L'ancienne adresse du site cesse de répondre au transfert : ne la donner à
+personne d'ici là, ou prévenir qu'elle changera.
 
 ## Étape 1 — L'entretien
 
@@ -239,13 +273,18 @@ seulement si les réponses ne permettent pas de trancher :
    public (et que l'école se reconnaît, et donc ses élèves). La signature
    sert aussi d'auteur sur la carte de la galerie, s'il partage sa classe
    (skill partager-ma-classe).
+   Elle fait enfin l'éditeur des **mentions légales** que le site fabrique
+   tout seul (lien au pied ; contact : son compte GitHub) : le lui dire en
+   une phrase, sans question de plus — sauf s'il veut un autre contact, qui
+   s'écrit `enseignant.contact` (une adresse e-mail ou une page https://),
+   ou s'il a déjà ses pages légales (`mentions_legales: https://…`).
 
-Les réglages que cette classe-ci avait fixés sans qu'on les demande (rythme
-des fiches, codage A / EC / NE, nombre d'espèces de l'imagier, espèces
-sensibles, albums, sorties, piscine, modèle de cursive, matériel de la
-classe) sont listés dans `docs/vers-un-moteur.md` §3 : les reprendre comme
-**valeurs par défaut annoncées**, et ne les poser en question que plus tard,
-au moment où le matériel concerné se fabrique.
+Les réglages qu'une classe fixe sans qu'on les demande (rythme des fiches,
+codage A / EC / NE, nombre d'espèces de l'imagier, espèces sensibles,
+albums, sorties, piscine, modèle de cursive, matériel de la classe) : les
+reprendre de la classe de départ comme **valeurs par défaut annoncées**, et
+ne les poser en question que plus tard, au moment où le matériel concerné se
+fabrique.
 
 **Règles de l'entretien**, celles du dépôt :
 
@@ -458,7 +497,7 @@ déploiement échoue.
 - **Le moteur ne se modifie pas pour du contenu.** S'il manque une capacité
   (un double niveau, un nouveau type de cahier), l'ajouter de façon
   générique, sans un mot de la classe dedans — `classe.py verifier` vert —
-  et la noter dans `docs/vers-un-moteur.md`.
+  et, dans une classe, la remonter au moteur (skill remonter-au-moteur).
 - **Une modification faite à la main par l'enseignant n'est jamais écrasée**
   par une régénération : relire avant de régénérer.
 - **Licences** : CC0, domaine public, CC BY, CC BY-SA ; jamais ND ; NC

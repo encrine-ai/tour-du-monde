@@ -12,16 +12,17 @@
   "theme": "atlas",
   "ton": "tu",
   "enseignant": {
-    "signature": "",
-    "mot": "",
+    "contact": "",
     "ecole": "",
+    "mot": "",
+    "signature": "",
     "ville": ""
   },
   "depot": "encrine-ai/tour-du-monde",
   "site": "https://encrine.ai/tour-du-monde/",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "9ecc3d4"
+    "version": "f150c1c"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"

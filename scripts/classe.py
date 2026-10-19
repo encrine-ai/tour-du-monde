@@ -79,6 +79,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import appli  # noqa: E402  (l'appli installable : manifeste, icônes, service worker)
 import apercu  # noqa: E402  (l'aperçu de lien : titre, Open Graph, image de partage)
 import readme  # noqa: E402  (le bloc de tête du README de la classe)
+import prise_en_main  # noqa: E402  (PRISE-EN-MAIN.md, le guide de l'enseignant)
 
 RACINE = pathlib.Path(__file__).resolve().parent.parent
 SOURCE = RACINE / "classe.yml"
@@ -316,7 +317,7 @@ def donnees_site(c):
     polices = [{k: x.get(k) for k in ("famille", "auteur", "licence", "source")} for x in t.get("polices") or []]
     ens = c.get("enseignant") or {}
     return {
-        "enseignant": {k: (ens.get(k) or "") for k in ("signature", "mot", "ecole", "ville")},
+        "enseignant": {k: (ens.get(k) or "") for k in sorted(CLES_ENSEIGNANT)},
         "donnees_projet": p, "imagier": _imagier_site(c), "corpus": _corpus_site(c),
         "images_theme": images, "polices_theme": polices,
     }
@@ -387,6 +388,7 @@ def generer():
     apercu.ecrire(c)      # avant l'appli : index.html entre dans la version de sw.js
     appli.fabriquer(c)
     readme.ecrire(c)
+    prise_en_main.ecrire(c)
 
 
 # Ce que le moteur n'a pas le droit d'écrire en dur : chaque valeur de classe.yml
@@ -505,7 +507,12 @@ def _verifier_identite(anomalies, avertissements):
 # Ce que l'enseignant dit de lui : sa signature (« Claire Martin », « Mme
 # Martin », un prénom, ou rien) et un mot d'accueil ; l'école et la ville
 # seulement s'il y tient — le site est public (skill nouvelle-classe).
-CLES_ENSEIGNANT = {"signature", "mot", "ecole", "ville"}
+# `contact`, facultatif : le contact des mentions légales que le moteur
+# fabrique (#/mentions-legales), une adresse e-mail ou une page https:// ;
+# sans lui, c'est le compte GitHub du propriétaire de `depot`.
+CLES_ENSEIGNANT = {"signature", "mot", "ecole", "ville", "contact"}
+COURRIEL = re.compile(r"^[^\s@<>\"]+@[^\s@<>\"]+\.[^\s@<>\"]+$")
+PAGE_HTTPS = re.compile(r"^https://[^\s<>\"]+$")
 
 
 def _verifier_enseignant(c, anomalies, avertissements):
@@ -526,6 +533,22 @@ def _verifier_enseignant(c, anomalies, avertissements):
         anomalies.append("enseignant.signature : %d signes — un nom, pas une phrase" % len(e["signature"]))
     if isinstance(e.get("mot"), str) and len(e["mot"]) > 400:
         anomalies.append("enseignant.mot : %d signes — un petit mot, 400 au plus" % len(e["mot"]))
+    contact = e.get("contact")
+    if contact and isinstance(contact, str) and not (COURRIEL.match(contact) or PAGE_HTTPS.match(contact)):
+        anomalies.append("enseignant.contact : « %s » — une adresse e-mail ou une page https://" % contact)
+
+
+def _verifier_mentions(c, anomalies):
+    """`mentions_legales`, facultatif : l'adresse des pages légales que la
+    classe a déjà (le pied pointe dessus) ; sans lui, le moteur fabrique la
+    page #/mentions-legales (skill site-et-calendrier, « Les mentions
+    légales »)."""
+    m = c.get("mentions_legales")
+    if m in (None, ""):
+        return
+    if not (isinstance(m, str) and PAGE_HTTPS.match(m)):
+        anomalies.append("mentions_legales : « %s » — une adresse https://, ou rien "
+                         "(le moteur fabrique alors la page)" % m)
 
 
 # classe/projet.yml : les données structurées du projet, que montrent
@@ -687,6 +710,7 @@ def verifier():
         if not GABARITS.exists() or GABARITS.read_text(encoding="utf-8") != _gabarits(c):
             anomalies.append("site/charte/gabarits.js périmé : relancer  python3 scripts/classe.py generer")
     _verifier_enseignant(c, anomalies, avertissements)
+    _verifier_mentions(c, anomalies)
     _verifier_projet(c, anomalies)
     if c.get("ton", "tu") not in ("tu", "vous"):
         anomalies.append("ton : « %s » — `tu` ou `vous`" % c.get("ton"))
@@ -776,6 +800,7 @@ def verifier():
     a_appli, w_appli = appli.anomalies(c)
     a_appli += apercu.anomalies(c)
     a_appli += readme.anomalies(c)
+    a_appli += prise_en_main.anomalies(c)
     anomalies += a_appli
     avertissements += w_appli
     for a in avertissements:
