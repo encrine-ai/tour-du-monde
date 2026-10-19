@@ -21,7 +21,7 @@ var CLASSE = {
   "depot": "encrine-ai/tour-du-monde",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "1d04581"
+    "version": "c720449"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
