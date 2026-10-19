@@ -227,7 +227,7 @@
     return '<section class="a-ouverture" aria-labelledby="a-titre"><div class="a-ouverture-int">' +
       '<div class="a-ouverture-tete"><div><p class="a-surtitre">' + esc(C.niveau.libelle) + ' · ' + esc(C.annee) + '</p>' +
         '<h1 id="a-titre">' + esc(C.projet) + '<em>' + esc(sous) + '</em></h1>' +
-        (ens.signature ? '<p class="a-signature-classe">La classe de ' + esc(ens.signature) + '</p>' : '') + '</div>' +
+        (ens.signature ? '<p class="a-signature-classe">La classe ' + esc(GS.de(ens.signature)) + '</p>' : '') + '</div>' +
         '<div><p class="a-chapo">' + o.texte(C.accroche) + '</p>' +
         (ens.mot ? '<p class="a-mot">' + o.texte(ens.mot) + '</p>' : '') +
         '<ul class="a-reperes"><li><b>' + m.periodes.length + '</b>planches</li><li><b>' + m.annee.semaines + '</b>semaines</li><li><b>' + esc(C.zone) + '</b>zone</li></ul></div></div>' +
@@ -474,7 +474,7 @@
       if (s && sources.indexOf(s) === -1) sources.push(s);
     });
     return '<div class="a-colophon"><div class="a-colophon-int">' + fleuron() +
-      (C.enseignant.signature ? '<p class="a-signature-classe">La classe de ' + esc(C.enseignant.signature) + '</p>' : '') +
+      (C.enseignant.signature ? '<p class="a-signature-classe">La classe ' + esc(GS.de(C.enseignant.signature)) + '</p>' : '') +
       '<p>' + esc(m.pied.conformite) + ' ' + esc(m.pied.calendrier) + '</p>' +
       '<a class="a-signature" href="' + m.signature.lien + '">' + rose() + '<span>Atlas de la classe<b>' + esc(m.signature.texte) + '</b></span></a>' +
       '<p class="a-credits">Cartes et gravures anciennes du domaine public (' + esc(sources.join(', ')) + ') ; photographies de l’imagier : iNaturalist, CC BY et CC0. ' +
