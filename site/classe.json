@@ -20,7 +20,7 @@
   "depot": "encrine-ai/tour-du-monde",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "e86e472"
+    "version": "f2833dc"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"

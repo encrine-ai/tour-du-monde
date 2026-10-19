@@ -75,3 +75,12 @@ contrastes:
   - [--encre, --t-velin]
   - [--encre-douce, --t-velin]
   - [--sapin, --t-velin]
+
+# L'icône de l'appli : la rose d'or sur la mer, comme le bouton « Légende »
+# de l'accueil (choisie par le propriétaire le 19 octobre 2026).
+icone:
+  svg: icone/boussole.svg
+  licence: CC0-1.0
+  auteur: tracé pour le thème
+  fond: --t-mer
+  marge_maskable: 0.1

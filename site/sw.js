@@ -17,7 +17,7 @@
  */
 'use strict';
 
-var VERSION = "6480ef935b27";
+var VERSION = "543cc949f6ab";
 var PRECACHE = [
   "./",
   "index.html",
@@ -47,6 +47,7 @@ var PRECACHE = [
   "charte/polices/andika-latin-700.woff2",
   "charte/polices/andika-latin-ext-400.woff2",
   "charte/polices/andika-latin-ext-700.woff2",
+  "charte/themes/atlas/icone/boussole.svg",
   "charte/themes/atlas/motifs/grain.svg",
   "charte/themes/atlas/polices/imfell-latin-italic.woff2",
   "charte/themes/atlas/polices/imfell-latin.woff2",
