@@ -1,117 +1,68 @@
-# Encrine — le moteur
+<!-- encrine:debut -->
+<!-- Écrit par scripts/classe.py generer, depuis classe.yml : ne pas retoucher à la main.
+     Le reste du fichier, sous le bloc, est à vous. -->
 
-Un **dépôt modèle** pour fabriquer l'année d'une classe : la programmation,
-des progressions qui couvrent le programme, les fiches élève, l'imagier, les
-cartes de vocabulaire et tous les PDF, prêts à imprimer. On ne programme
-rien : on répond à quelques questions, et le skill **`nouvelle-classe`**
-écrit la classe dans `classe.yml` et fabrique le reste.
+# Le tour du monde
 
-Pour voir ce que cela donne : la **classe de démonstration**, une Grande
-Section « Le tour du monde », un continent par période, publiée sur
-**https://encrine.ai/tour-du-monde/** (dépôt
-[encrine-ai/tour-du-monde](https://github.com/encrine-ai/tour-du-monde)).
-Elle est créée depuis ce modèle, comme la vôtre le sera ; ses documents
-arrivent période par période. Le modèle, lui, ne publie rien.
+**Grande Section · 2026-2027 · zone C**
 
-▶ **[encrine.ai](https://encrine.ai)** — le principe, et « Les classes » que
-des enseignants ont choisi de partager.
+Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.
+
+**[Voir le site de la classe](https://encrine.ai/tour-du-monde/)** · [Partir de cette classe](https://github.com/new?template_owner=encrine-ai&template_name=tour-du-monde)
+
+Contenu sous licence [CC BY-SA 4.0](LICENCE-CONTENU.md).
+
+<p><a href="https://encrine.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="https://encrine.ai/assets/logo-encrine-craie.svg"><img src="https://encrine.ai/assets/logo-encrine.svg" alt="Encrine" height="32" align="absmiddle"></picture></a>&nbsp; Conçu avec <a href="https://encrine.ai">Encrine</a>, le moteur qui fabrique l’année d’une classe.</p>
 
 ---
+<!-- encrine:fin -->
 
-## Il faut…
+## La classe d’exemple d’Encrine
 
-- un compte **GitHub** (gratuit) ;
-- un **agent de code** : **Claude Code** (recommandé, testé) ; le moteur
-  suit le standard ouvert des skills et `AGENTS.md`, et devrait fonctionner
-  avec d'autres agents, comme Codex.
+« Le tour du monde » est une Grande Section complète, écrite pour montrer ce
+que fabrique [Encrine](https://encrine.ai) : **un continent par période**,
+l’Europe, l’Afrique, l’Asie, les Amériques, puis l’Océanie et les pôles.
+**Plume, la cigogne voyageuse**, emmène la classe : elle quitte l’Europe à la
+fin de l’été, envoie une carte postale de chaque continent et introduit les
+situations-problèmes.
 
-## Créer sa classe, en quatre étapes
+Ce que contient la classe, pour les cinq périodes :
 
-1. **Choisissez votre départ**, puis **Use this template → Create a new
-   repository** :
-   - **de zéro** : sur la page de ce dépôt, le bouton vert **« Use this
-     template »** — ou directement
-     **[github.com/new?template_owner=encrine-ai&template_name=moteur](https://github.com/new?template_owner=encrine-ai&template_name=moteur)** ;
-     vous obtenez le moteur entier et une classe de départ, que l'entretien
-     remplace par la vôtre ;
-   - **depuis une classe de la galerie** : sur sa carte
-     ([encrine.ai](https://encrine.ai), « Les classes »), le bouton
-     **« Partir de cette classe »** ; vous repartez avec tout son contenu,
-     son thème et ses PDF, et l'entretien l'adapte à votre niveau, votre
-     zone et votre année, en créditant son auteur.
+- **le projet annuel et la programmation** : les fils rouges (le passeport
+  du petit voyageur, la grande carte du monde, la valise de la période), les
+  corpus de vocabulaire, les albums, les chants, les œuvres et les sorties —
+  [`01-projet-annuel.md`](01-projet-annuel.md),
+  [`02-programmation-annuelle.md`](02-programmation-annuelle.md) ;
+- **une progression par domaine**, période par période, qui couvre tout le
+  programme de Grande Section — [`03-progressions/`](03-progressions/) ;
+- **les évaluations** de fin de période et le livret de suivi —
+  [`04-evaluations/`](04-evaluations/) ;
+- **les cahiers à imprimer** : les fiches d’entraînement à deux niveaux, les
+  fiches d’évaluation, l’imagier « animaux et plantes du monde » en
+  photographies et les cartes de vocabulaire, en PDF sur le site ;
+- **le site de la classe**, au thème « Le grand atlas », installable comme
+  une appli.
 
-   Dans les deux cas, nommez votre classe (par exemple `ma-grande-section`)
-   et choisissez **Public** — GitHub Pages publie gratuitement les dépôts
-   publics.
-2. **Activez le site** : dans votre dépôt, **Settings → Pages → Source →
-   « GitHub Actions »**. C'est le seul réglage à faire à la main.
-3. **Ouvrez le dépôt dans votre agent de code, sur la branche `main`**, et
-   tapez **`/nouvelle-classe`** dans Claude Code, sans rien d'autre (dans un
-   autre agent : demandez « crée ma classe », ou appelez le skill
-   nouvelle-classe). Parti de zéro, l'entretien vous
-   demande le niveau, votre zone de vacances (le site et les PDF prennent
-   ses dates), le thème de l'année, le matériel voulu ; il commence par une
-   période complète, ou par les cinq si vous le préférez. Parti d'une
-   classe, il voit qu'elle est déjà là, dit ce qu'il garde, et ne demande
-   que le niveau, la zone, l'année et le profil de votre classe.
-4. **Répondez, imprimez, dites ce qui ne va pas.** Vos retours corrigent votre
-   classe ; ce qui vaut pour tous remonte au moteur, avec votre accord, et
-   revient dans chaque classe à la mise à jour suivante.
+## Partir de cette classe
 
-> **⚠️ Travaillez sur `main`.** Pages publie la branche par défaut : une
-> session partie sur une autre branche fait échouer le premier déploiement.
+1. Le bouton **[Partir de cette classe](https://github.com/new?template_owner=encrine-ai&template_name=tour-du-monde)**
+   crée votre dépôt à partir de celui-ci (choisissez **Public**).
+2. Dans votre dépôt, **Settings → Pages → Source → « GitHub Actions »**.
+3. Ouvrez-le dans Claude Code, sur la branche `main`, et tapez
+   **`/nouvelle-classe`** : l’entretien voit que vous partez du « Tour du
+   monde », garde son thème, ses périodes, son style et son contenu, et ne
+   vous demande que votre niveau, votre zone de vacances, votre année et le
+   profil de votre classe. Votre site cite cette classe, comme le demande sa
+   licence.
 
-Votre site vit alors à `https://<vous>.github.io/<dépôt>/`, et chaque envoi
-sur `main` le republie, PDF compris.
+Le contenu reste sous CC BY-SA 4.0 dans votre classe ; les exceptions (les
+pictogrammes ARASAAC, les photographies, les polices) sont dans
+[`LICENCE-CONTENU.md`](LICENCE-CONTENU.md).
 
----
+## La technique
 
-## Ce que vous recevez
-
-- **un site pour la classe**, publié à chaque envoi, avec tous les PDF prêts à imprimer ;
-- **une appli à installer** : sur téléphone ou tablette, « Ajouter à l'écran d'accueil » pose l'icône de **votre** classe (ses couleurs, son initiale), qui s'ouvre comme une appli et garde hors connexion les documents déjà consultés.
-
-## Ce que le moteur garantit
-
-Des contrôles qui sortent en erreur plutôt que de laisser passer :
-
-- **le programme** : chaque attendu de la liste numérotée (`referentiel/`)
-  relié à une séance — `scripts/couverture.py` refuse une année incomplète ;
-- **l'impression** : une page par fiche et par planche, vérifiée sur les PDF
-  eux-mêmes — `scripts/verifier-pagination.py` ;
-- **les images** : licences libres et crédits, la bonne espèce sur chaque
-  photographie — `scripts/verifier-imagier.py`, `scripts/chercher-pictos.py verifier` ;
-- **la classe à sa place** : rien de propre à une classe écrit dans le code —
-  `scripts/classe.py verifier`.
-
-## Les skills
-
-Chaque capacité a son skill, dans `.agents/skills/` (le dossier commun du standard ouvert des skills ; `.claude/skills` y renvoie pour Claude Code) : on demande avec ses mots (« la consigne de la fiche 2.4 n'est pas claire », « il manque le hérisson dans l'imagier »), et le bon skill s'ouvre.
-
-| Pour | Skill |
-|---|---|
-| créer sa classe | `nouvelle-classe` |
-| l'année et le programme | `progressions-programme` |
-| les fiches et leurs images | `fiches-eleve`, `fiches-illustrations` |
-| l'imagier et les cartes | `imagier-photos`, `cartes-corpus` |
-| l'apparence et l'impression | `charte-graphique`, `imprimer-pdf` |
-| le site et le calendrier | `site-et-calendrier` |
-| les retours et les mises à jour | `retours-enseignant`, `remonter-au-moteur`, `synchroniser-moteur` |
-| partager sa classe | `partager-ma-classe` |
-| retenir ce qu'on apprend | `capitaliser` |
-
-## Ce qui est prêt
-
-- **Grande Section** : prête — la liste numérotée du programme est écrite.
-- **Petite et Moyenne Section**, **double niveau** : le matériel se fabrique,
-  la liste du programme de ces niveaux est à écrire.
-- **Élémentaire** : plus tard.
-
-## Licences
-
-Le **code du moteur** est sous licence MIT (fichier [`LICENSE`](LICENSE)). Le
-**contenu des classes**, c'est-à-dire les documents et le matériel, reste sous
-la licence choisie par chaque enseignant ; les **polices et les images**
-gardent leurs propres licences (SIL Open Font License pour Andika, Bricolage
-Grotesque et Atkinson Hyperlegible Next ; ISC pour les icônes Lucide ; la
-licence de chaque image dans les crédits de son cahier).
+Cette classe est un dépôt créé depuis le modèle d’Encrine, comme le sera la
+vôtre. Le fonctionnement — l’entretien, les skills, les contrôles, la
+fabrication des PDF, les mises à jour — est décrit dans le dépôt du moteur,
+[encrine-ai/moteur](https://github.com/encrine-ai/moteur), et sur
+[encrine.ai](https://encrine.ai).

@@ -34,9 +34,12 @@ enseignant:
 # (depot, titre, auteur, licence, site, reprise_le), que le pied du site
 # crédite.
 depot: encrine-ai/tour-du-monde
+# L'adresse du site, quand ce n'est pas https://<propriétaire>.github.io/<dépôt>/ :
+# la classe d'exemple est servie sur le domaine d'Encrine.
+site: https://encrine.ai/tour-du-monde/
 moteur:
   depot: encrine-ai/moteur
-  version: c720449
+  version: 46eb2d4
 galerie:
   depot: encrine-ai/encrine-ai.github.io
 partage:

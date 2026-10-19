@@ -18,9 +18,10 @@
     "ville": ""
   },
   "depot": "encrine-ai/tour-du-monde",
+  "site": "https://encrine.ai/tour-du-monde/",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "c720449"
+    "version": "46eb2d4"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
