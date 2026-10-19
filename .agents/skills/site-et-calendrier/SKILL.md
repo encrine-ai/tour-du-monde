@@ -15,7 +15,7 @@ sauf les PDF.
 | `referentiel/calendrier-AAAA-AAAA.yml` | **le calendrier officiel** d'une année scolaire, pour les trois zones : données nationales, communes à toutes les classes, qui font partie du moteur |
 | `scripts/classe.py` | `generer` fabrique `site/classe.json` et `site/classe.js` (versionnés), avec les dates de **la zone de la classe** seulement, tirées du calendrier de son année ; `verifier` sort en code 1 si ces fichiers sont périmés, si la zone n'est pas A, B ou C, si l'année n'a pas de fichier de calendrier, s'il reste des dates (les anciennes clés) dans `classe.yml`, ou si une donnée de la classe — l'année, le projet, un milieu — est écrite en dur dans le moteur. Le déploiement le refait |
 | `site/commun.js` | l'objet `GS`, bâti sur `CLASSE` : le calendrier de la classe (`CAL`, et sa zone `ZONE`), les milieux (`THEMES`, `ICONES_MILIEU`), les documents (`DOCS`), le préfixe des fichiers téléchargés, le calcul des périodes et le badge de dates. Partagé par l'application et la vue d'impression |
-| `site/index.html` | trois emplacements — `#entete`, `#contenu`, `#pied` — et le lien d'évitement ; le manifeste et les meta de l'appli ; charge `modele.js`, `gabarits.js`, puis `charte/gabarits.js` (ceux du thème) et `app.js` |
+| `site/index.html` | le bloc du titre et de l'aperçu de lien (`scripts/apercu.py`, ci-dessous) ; trois emplacements — `#entete`, `#contenu`, `#pied` — et le lien d'évitement ; le manifeste et les meta de l'appli ; charge `modele.js`, `gabarits.js`, puis `charte/gabarits.js` (ceux du thème) et `app.js` |
 | `site/modele.js` | `GS.modele()` : le modèle des pages — périodes datées pour la zone, « Nous y sommes » (une période, ou des vacances : « pendant les vacances de la Toussaint »), vacances, ponts, menu groupé, documents et leurs PDF, cahiers de chaque période, projet, imagier, corpus, images et crédits, signature. `?date=AAAA-MM-JJ` dans l'adresse simule un jour |
 | `site/app.js` | la logique : routes (`#/accueil`, `#/<document>`, `#/periode/<clé>`, `#/credits`), lecture et rendu du Markdown (titre, sections, badges de dates), menu (sous-menus, dialogue du téléphone, Échap, focus), crédits ; la **forme** vient des gabarits (skill charte-graphique, « Le mini-site ») ; aucun sélecteur de zone |
 | `site/gabarits.js` | les gabarits par défaut : l'en-tête et le menu, l'accueil, le document (boutons PDF `pdf/<doc>.pdf`, extraits `pdf/<doc>-periode-N.pdf`), la période, le pied |
@@ -60,19 +60,43 @@ réseau. Tout est fabriqué par `scripts/appli.py`, que lance
 |---|---|
 | `site/manifest.webmanifest` | nom (`nom — projet`) et nom court (l'étiquette sous l'icône), tirés de `classe.yml` ; `start_url` et `scope` à `./` (le site vit dans un sous-dossier) ; **pas d'`id`** — résolu contre la seule origine, il ferait de deux classes d'un même domaine une seule appli ; `display: standalone`, `lang: fr` ; `theme_color` = `--feuille` (l'en-tête), `background_color` = `--papier`, lus dans le bloc clair de `theme.css` |
 | `site/icones/` et `site/favicon.ico` | l'icône de la classe : les cinq bandes de ses périodes (`--p1`…`--p5`) et un disque `--feuille` portant son initiale en `--sapin`, dans la police des titres du thème — `appli.svg` (la lettre en contour, sans police), `appli-192.png`, `appli-512.png`, `appli-maskable-512.png` (le disque dans la zone sûre), `apple-touch-icon.png` (180, plein, iOS l'arrondit), `favicon-32.png`, `favicon.ico` (16, 32, 48). Aucun logo d'Encrine : c'est l'appli de la classe. Les PNG demandent Pillow, fontTools et brotli ; chaque icône porte l'empreinte de ce dont elle est faite, que `verifier` relit sans eux |
-| `site/sw.js` | le service worker, tiré de `scripts/modele-sw.js` : l'application, les polices, les icônes, `classe.json` et les documents Markdown du menu en cache à l'installation ; **réseau d'abord** pour les pages, documents, scripts et `classe.json` (la copie gardée si le réseau échoue ou tarde 4 s) ; PDF et images **à l'usage** seulement (40 PDF, 300 images au plus) ; un PDF jamais ouvert répond hors connexion par une page qui le dit. `VERSION` est l'empreinte du site : chaque publication qui change quelque chose remplace l'ancien cache. Caches préfixés par la portée : deux classes d'un même domaine ne s'effacent pas |
+| `site/sw.js` | le service worker, tiré de `scripts/modele-sw.js` : l'application, les polices, les icônes, `classe.json` et les documents Markdown du menu en cache à l'installation ; **réseau d'abord**, en revalidant le cache HTTP (`cache: 'no-cache'` : GitHub Pages sert tout avec `max-age=600`), pour les pages, documents, scripts et `classe.json` (la copie gardée si le réseau échoue ou tarde 4 s — seulement de la version demandée) ; l'installation range un **instantané** de la version (pages et scripts de la même publication, sinon elle échoue), que le réseau ne modifie plus ; PDF et images **à l'usage** seulement (40 PDF, 300 images au plus) ; un PDF jamais ouvert répond hors connexion par une page qui le dit. `VERSION` est l'empreinte du site : chaque publication qui change quelque chose remplace l'ancien cache. Caches préfixés par la portée : deux classes d'un même domaine ne s'effacent pas |
 | `site/appli.js` (moteur) | enregistre `sw.js` ; l'**invitation** (`data-composant="invitation"`) : « Installer » par `beforeinstallprompt` sur Android et Chrome, « Partager, puis Sur l'écran d'accueil » dans Safari d'iPhone et d'iPad ; refermée, elle ne revient plus (`localStorage`, par dossier de classe) ; jamais dans l'appli installée ni à l'impression. En mode appli sur iOS, les PDF s'ouvrent dans une feuille du navigateur (`target="_blank"`, sans `download`) ; la couleur de la barre et le titre iOS viennent du thème et de `classe.yml` |
 
 - `classe.yml` peut fixer `appli: {nom, nom_court, initiale}` ; sinon le nom
   court est le nom de la classe (≤ 12 lettres), le projet sans article
   (≤ 15), ou « GS 2026-2027 », et l'initiale celle du nom court.
+- **Jamais une page d'une publication avec les scripts d'une autre** (un
+  iPhone est resté sur « Chargement… » : le nouvel `index.html` avec les
+  anciens scripts, tirés du cache HTTP ou de la copie du service worker).
+  Trois parades : `classe.py estampiller` écrit, sur le site assemblé
+  seulement, chaque `<script src>` et `<link rel=stylesheet>` locaux
+  d'`index.html` et d'`imprimer.html` en `?v=<version de sw.js>` (jamais
+  dans le dépôt : `verifier` refuse un `?v=` en dur) ; le service worker
+  sert un `?v=` de sa version depuis son instantané, un autre depuis le
+  réseau, jamais une copie d'une autre version ; et un nouveau service
+  worker prend la main tout de suite — la page se recharge **une fois**
+  (`controllerchange`, garde de 30 s dans `sessionStorage`, pas au premier
+  enregistrement).
+- **Le garde-fou** (`<script id="garde-fou">`, en ligne et en ES5, avant
+  tous les autres dans `index.html`) : une erreur de script ou une promesse
+  rejetée avant le premier rendu, ou pas de rendu au bout de 15 s, et
+  « Chargement… » laisse place à « Le site n'a pas pu se charger. » et un
+  bouton « Recharger », qui désinscrit le service worker de la classe, vide
+  ses caches (`encrine <portée>`) et recharge. `app.js` pose
+  `data-rendu="ok"` sur `<html>` au premier rendu ; `verifier` refuse un
+  `index.html` sans garde-fou.
+- Safari d'iOS : le JS du moteur et des gabarits reste en ES5 (ni `=>`, ni
+  `?.`, ni `groupBy`, `toSorted`, `findLast`, `at()`, `structuredClone`,
+  lookbehind, champs privés, blocs `static`) ; `marked.min.js` v12 utilise
+  des méthodes privées (`#e()`), d'où iOS 15 au minimum.
 - `imprimer.html` lie le manifeste mais **n'enregistre pas** le service
   worker : Chromium y fabrique les PDF sans rien en cache (vérifié : mêmes
   PDF, mêmes pages, avant et après l'appli).
 - `classe.py verifier` refuse un manifeste, une icône ou un `sw.js` absent ou
   périmé, un chemin absolu ; une version en retard (un document changé sans
   `generer`) n'est qu'un avertissement : le déploiement la recalcule sur le
-  site assemblé (`python3 scripts/classe.py estampiller _site`).
+  site assemblé (`python3 scripts/classe.py estampiller _site --adresse …`).
 - Pour l'essayer : servir le site assemblé **dans un sous-dossier**
   (`http://127.0.0.1:PORT/<dépôt>/`). Hors connexion : arrêter le serveur —
   `setOffline` de Playwright ne coupe pas les requêtes du service worker.
@@ -196,6 +220,52 @@ refuse qu'elle s'écarte des pages fabriquées : un cahier déclaré sans page,
 ou une page sans déclaration. Les nombres (« 18 animaux et 18 plantes ») et
 l'intitulé de l'imagier (`intitule`, ici « faune et flore ») vivent là, jamais
 dans `site/*.js`.
+
+## Le titre des pages et l'aperçu de lien
+
+Le titre de l'onglet (et du raccourci posé sur l'écran d'accueil) est
+**« Encrine – <projet> »** sur l'accueil, **« <titre de la page> · Encrine –
+<projet> »** ailleurs (« L’Afrique · Encrine – Le tour du monde », « Crédits ·
+… », « Page introuvable · … ») : `titrePage()` dans `app.js`. Le manifeste,
+lui, garde son nom court sous l'icône.
+
+Les messageries (iMessage, WhatsApp, Signal, Slack) et les réseaux
+**n'exécutent pas le JavaScript** : ils lisent le `<head>` statique de
+`index.html`. `scripts/apercu.py` y écrit, entre `<!-- apercu:debut -->` et
+`<!-- apercu:fin -->`, le `<title>` de l'accueil, la meta description, les
+balises Open Graph (`og:type` website, `og:locale` fr_FR, `og:site_name`
+Encrine, `og:title`, `og:description`, `og:url`, `og:image` et ses
+`width`/`height`/`alt`) et Twitter (`summary_large_image`). La description
+est l'`accroche` de `classe.yml`, suivie de « La classe de <signature>. » si
+l'enseignant signe. Ce bloc porte la classe par construction : la chasse aux
+données écrites en dur l'ignore ; ne jamais le retoucher à la main.
+
+- `classe.py generer` écrit le bloc en adresses **relatives** (le dépôt ne
+  connaît pas son adresse) ; `classe.py verifier` refuse un bloc absent ou
+  périmé. Après une synchronisation du moteur, `index.html` arrive avec le
+  bloc du modèle : `generer` le refait.
+- Au déploiement, `classe.py estampiller _site --adresse <base_url>` (l'étape
+  `actions/configure-pages`, `id: pages`, passe donc **avant** l'estampille)
+  fabrique l'image de partage puis réécrit le bloc du site assemblé en
+  adresses **absolues** — Open Graph l'exige ; `og:image` porte `?v=<empreinte>`
+  pour que les messageries ne gardent pas l'ancienne image. Sans `--adresse`,
+  le bloc reste relatif et un avertissement le dit. L'aperçu passe avant la
+  version de `sw.js`, calculée sur ce qui sera publié.
+- **L'image de partage**, `partage.png`, 1200 × 630, n'est pas versionnée :
+  Chromium (celui des PDF) rend le haut de l'accueil à 1200 × 630, sur une
+  copie temporaire de `index.html` sans `appli.js` (ni service worker, ni
+  invitation à installer), avec une discrète pastille « Conçu avec
+  Encrine ». Un thème peut dessiner la sienne : un gabarit `partage`
+  (`GS.theme({ partage: function (m) { … } })`, une vignette de 1200 × 630).
+  Pillow la réduit à une palette (sous 300 Ko ; d'où `pip install pillow`
+  dans le workflow). Piège : le nouveau mode sans tête de Chrome retranche
+  87 px de `--window-size` pour une barre fantôme ; `apercu.py` mesure cet
+  écart, agrandit la fenêtre d'autant et recadre.
+- Pour vérifier : assembler le site comme le workflow, lancer
+  `estampiller --adresse https://<domaine>/<dépôt>/`, lire les balises
+  **sans JavaScript** (le HTML brut), regarder `partage.png` réduite à
+  300 px de large (la taille d'un aperçu sur téléphone) et simuler une bulle
+  d'iMessage ou de WhatsApp.
 
 ## Le déploiement
 
