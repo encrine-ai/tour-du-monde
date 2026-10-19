@@ -29,7 +29,7 @@
  */
 'use strict';
 
-var VERSION = "5dcfa2fd41e0";
+var VERSION = "228704f25c56";
 var PRECACHE = [
   "./",
   "index.html",

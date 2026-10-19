@@ -8,22 +8,25 @@ description: Envoyer au dépôt du moteur ce qu'une classe a appris et qui servi
 Une classe vit dans **son propre dépôt**, créé depuis le dépôt modèle : ce
 qu'elle corrige ou ajoute au moteur y reste, si personne ne le signale. Ce
 skill l'envoie à la **boîte du moteur** — les issues du dépôt modèle — où il
-sera qualifié, intégré au moteur, puis propagé à toutes les classes (skill
+sera qualifié, intégré au moteur (skill trier-remontees, qui ne vit que
+dans le dépôt du moteur), puis propagé à toutes les classes (skill
 synchroniser-moteur). C'est la mécanique de Ludea (`report-upstream`,
 `ludea-feedback`) : on remonte des apprentissages, jamais la classe
 elle-même — la montrer aux autres est le rôle de partager-ma-classe.
 
 ## 0. Faut-il remonter ici ?
 
-Lire `moteur` dans `classe.yml` :
+Lire `moteur` dans `classe.yml` (`moteur.depot`, l'adresse
+`propriétaire/dépôt` du moteur), puis :
 
-- **`depot` n'est pas renseigné** (`à définir`) : ce dépôt **est** celui où
-  le moteur se développe (c'est le cas de la Grande Section tant que le
-  dépôt modèle n'existe pas). Ne rien remonter : corriger directement ici,
-  de façon générique (skill capitaliser, `classe.py verifier` vert), et le
-  noter dans `docs/vers-un-moteur.md`.
-- **`depot` est renseigné** : c'est l'adresse `propriétaire/dépôt` du
-  moteur. Continuer.
+- **Ce dépôt est le moteur** — le dépôt courant, `depot` de `classe.yml` ou
+  à défaut celui de `git remote get-url origin`, est `moteur.depot`
+  (`python3 scripts/chemins_moteur.py ou` répond « moteur ») : on ne se
+  remonte pas à soi-même. Corriger directement ici, de façon générique
+  (skill capitaliser, `classe.py verifier` vert). L'ancien test,
+  « `depot` à définir », est périmé : une copie toute fraîche du modèle a
+  aussi `depot: à définir`, et elle remonte comme toute classe.
+- **Ce dépôt est une classe** (« classe ») : continuer.
 - L'enseignant a dit qu'il ne voulait pas de remontées : respecter son
   choix, et l'écrire dans `classe.yml` (`moteur.remontees: non`).
 
@@ -32,7 +35,7 @@ Lire `moteur` dans `classe.yml` :
 | Genre | Ce que c'est | Titre |
 |---|---|---|
 | **défaut** | quelque chose du moteur a mal marché : un skill qui a mené de travers, un contrôle qui a laissé passer une erreur ou qui en a vu une à tort, un script en échec, un gabarit qui déborde, une documentation fausse. Corrigé ici ou contourné, peu importe : avec de quoi le reproduire | `[défaut] …` |
-| **amélioration** | un changement **déjà fait ici** dans un fichier du moteur (liste des chemins dans le skill synchroniser-moteur) : la liste des fichiers, les commits, et le correctif | `[amélioration] …` |
+| **amélioration** | un changement **déjà fait ici** dans un fichier du moteur (la liste est dans `scripts/chemins_moteur.py`, la seule ; `python3 scripts/chemins_moteur.py ecarts <moteur.version>` montre ce que la classe a retouché) : la liste des fichiers, les commits, et le correctif | `[amélioration] …` |
 | **idée** | une capacité que la classe aurait voulue et que le moteur n'a pas : un type de cahier, un niveau, une question de l'entretien | `[idée] …` |
 
 Ne se remontent pas : le contenu de la classe (une fiche, une espèce, une
@@ -68,6 +71,12 @@ journal ferait doublon).
 ## 4. Écrire l'issue — elle est publique
 
 Titre : `[genre] description courte et générale` (sans le nom de la classe).
+La marque de première ligne dit de quelle version du moteur part la classe
+(`moteur.version`) : un défaut vu sur une vieille version est peut-être déjà
+corrigé. Si elle vaut `null`, la reconstituer d'abord et l'écrire
+(`git fetch moteur main` puis `python3 scripts/chemins_moteur.py version
+moteur/main --ecrire`, skill synchroniser-moteur, étape 0) ; sans accès au
+moteur, écrire `moteur=inconnue`, jamais `null` ni une version devinée.
 Corps, en français :
 
 ```
@@ -81,9 +90,16 @@ Corps, en français :
 ### Ce qui est proposé
 <pour une amélioration : les fichiers, les commits de la classe
  (https://github.com/<propriétaire/dépôt>/commit/<sha>) et le correctif dans un bloc <details>
- (git diff des seuls fichiers du moteur) ; au-delà de 40 Ko, les liens des commits seulement>
+ (git diff des seuls fichiers du moteur, ci-dessous) ; au-delà de 40 Ko, les liens des commits seulement>
 ### La classe d'où ça vient
 <niveau · thème · version du moteur · lien du site>
+```
+
+Le correctif ne montre **que** les fichiers du moteur, jamais le contenu
+de la classe qui a pu changer dans les mêmes commits :
+
+```sh
+git diff <premier sha>^ <dernier sha> -- $(python3 scripts/chemins_moteur.py chemins)
 ```
 
 **Jamais** : un prénom d'élève ou d'adulte, une adresse, une photo d'enfant

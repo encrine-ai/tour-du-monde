@@ -14,12 +14,24 @@ chaque enseignant met à jour **sa** classe, quand il le veut.
 
 ## Ce qui bouge, ce qui ne bouge jamais
 
+**La liste des chemins du moteur n'est écrite qu'à un endroit** :
+`scripts/chemins_moteur.py` (`MOTEUR`, `FABRIQUES`, `PROPRES_AU_MOTEUR`).
+Ce skill, remonter-au-moteur et trier-remontees la lisent ; aucun ne la
+recopie. La commande de copie écrite ici à la main oubliait
+`site/modele.js`, `site/gabarits.js`, `site/appli.js` et `site/marque/`,
+que la table ci-dessous annonçait pourtant (« `site/*.js` ») : une liste
+recopiée vieillit sans que personne le voie. La table résume ; en cas de
+doute, c'est le script qui a raison (`python3 scripts/chemins_moteur.py
+fichiers moteur/main` liste ce qui sera copié).
+
 | Couche | Chemins | Synchronisée ? |
 |---|---|---|
-| **le moteur** | `scripts/`, `site/*.js` (sauf `site/classe.js`), `site/*.html`, `site/*.css`, `site/marked.min.js`, les feuilles des cahiers (`site/fiches/fiches.css`, `site/imagier/imagier.css`, `site/cartes-corpus/cartes-corpus.css`), le socle de la charte : `site/charte/socle.css`, `site/charte/composants.css` et `site/charte/polices/` (Andika), `referentiel/` (la liste du programme **et le calendrier officiel de chaque année**, `calendrier-AAAA-AAAA.yml`), `.agents/skills/` (les skills, au standard ouvert) et le lien symbolique `.claude/skills` qui y renvoie pour Claude Code, `.github/workflows/`, `tests/` | **oui** |
+| **le moteur** | `scripts/`, `site/*.js` (sauf `site/classe.js` et `site/sw.js`), `site/*.html`, `site/*.css`, `site/marque/` (le logo et les polices d'Encrine), les feuilles des cahiers (`site/fiches/fiches.css`, `site/imagier/imagier.css`, `site/cartes-corpus/cartes-corpus.css`), le socle de la charte : `site/charte/socle.css`, `site/charte/composants.css` et `site/charte/polices/` (Andika), `referentiel/` (la liste du programme **et le calendrier officiel de chaque année**, `calendrier-AAAA-AAAA.yml`), `.agents/skills/` (les skills, au standard ouvert) et le lien symbolique `.claude/skills` qui y renvoie pour Claude Code, `.github/workflows/`, `tests/` | **oui** |
+| **propre à la classe, dans un skill** | la section qui finit un `SKILL.md`, entre `<!-- classe:debut -->` et `<!-- classe:fin -->` (« ## Propre à cette classe » : son thème, une décision de l'enseignant…) | **jamais écrasée** : `copier` la garde et la repose à la fin du skill neuf ; `ecarts` et `bilan` ne la comptent pas comme une retouche du moteur |
+| **propre au moteur** | le skill `trier-remontees` et ses cas de `tests/`, et la ligne qui le présente dans la table des skills d'`AGENTS.md` : la boîte du moteur ne vit que dans `encrine-ai/moteur` ; `.github/workflows/controles.yml`, les contrôles de ses demandes de fusion | **jamais** : la copie les écarte, `chemins_moteur.py verifier` refuse de les trouver dans une classe |
 | **la classe** | `classe.yml`, `classe/`, les documents `01-…` à `04-…`, `README.md` (jamais écrasé par celui du modèle : seul son bloc de tête, entre `<!-- encrine:debut -->` et `<!-- encrine:fin -->`, est refait par `classe.py generer`), les cahiers fabriqués (`site/fiches/*.html`, `site/imagier/`, `site/cartes-corpus/`, leurs images et crédits), `site/classe.json`, `site/classe.js`, les thèmes `site/charte/themes/` | **jamais** |
-| **fabriqué** | `site/charte/charte.css` (socle + thème), `site/charte/icones.svg` (icônes génériques + celles des milieux de `classe.yml`), l'appli installable : `site/manifest.webmanifest`, `site/sw.js` (malgré `site/*.js`), `site/icones/`, `site/favicon.ico` | **jamais copiés** : refaits après la synchronisation, `python3 scripts/classe.py generer` puis `python3 scripts/generer-icones.py` (réseau) |
-| **à la main** | `AGENTS.md` (les consignes de l'agent : il mêle les règles du moteur et l'identité de la classe) ; `CLAUDE.md` (l'import `@AGENTS.md` et quelques lignes propres à Claude Code) | ne reprendre que les règles générales, par une lecture attentive ; une classe d'avant `AGENTS.md`, dont tout tient dans `CLAUDE.md`, y déplace ses consignes et ne garde dans `CLAUDE.md` que l'import |
+| **fabriqué** | `site/charte/charte.css` (socle + thème), `site/charte/gabarits.js` (le renvoi vers les gabarits du thème), `site/charte/icones.svg` (icônes génériques + celles des milieux de `classe.yml`), l'appli installable : `site/manifest.webmanifest`, `site/sw.js` (malgré `site/*.js`), `site/icones/`, `site/favicon.ico` | **jamais copiés** : refaits après la synchronisation, `python3 scripts/classe.py generer` puis `python3 scripts/generer-icones.py` (réseau) |
+| **à la main** | `AGENTS.md` (les consignes de l'agent : il mêle les règles du moteur et l'identité de la classe ; jamais la ligne de `trier-remontees`) ; `CLAUDE.md` (l'import `@AGENTS.md` et quelques lignes propres à Claude Code) | ne reprendre que les règles générales, par une lecture attentive ; une classe d'avant `AGENTS.md`, dont tout tient dans `CLAUDE.md`, y déplace ses consignes et ne garde dans `CLAUDE.md` que l'import |
 
 La charte est scindée (`docs/vers-un-moteur.md`, « Deux couches de style ») :
 le socle suit le moteur, **les thèmes jamais** — même celui que le modèle
@@ -28,15 +40,65 @@ thème nouveau du modèle ne s'ajoute que si l'enseignant le demande.
 
 ## 0. Avant de commencer
 
-- Lire `moteur` dans `classe.yml`. **`depot` non renseigné** : ce dépôt est
-  celui où le moteur se développe, il n'y a rien à synchroniser. Arrêter.
+- **Ce dépôt est-il le moteur lui-même ?** Le dépôt courant — `depot` de
+  `classe.yml`, ou à défaut celui de `git remote get-url origin` — est
+  `moteur.depot` : c'est là que le moteur se développe, il n'y a rien à
+  synchroniser ; une correction s'y fait sur place. Arrêter.
+
+  ```sh
+  python3 scripts/chemins_moteur.py ou     # « moteur » : arrêter ; « classe » : continuer
+  ```
+
+  (L'ancien test, « `depot` à définir », est périmé : le modèle garde
+  `depot: à définir`, mais une copie toute fraîche faite par « Use this
+  template », avant son entretien, aussi — et elle, se synchronise.
+  `chemins_moteur.py copier` refuse de toute façon de tourner dans le moteur.)
 - L'arbre de travail doit être **propre** (`git status`) : sinon, finir ou
   committer le travail en cours d'abord.
+- **`moteur.version` vaut `null`** (une classe créée avant que
+  nouvelle-classe ne l'écrive, ou dont personne ne l'a noté) : sans elle, on
+  ne sait ni ce qui a changé ni ce que la classe a retouché. La
+  reconstituer, une fois le dépôt modèle récupéré (étape 1) : le commit du
+  moteur dont les fichiers du moteur égalent le mieux ceux de la classe,
+  sur la liste unique.
+
+  ```sh
+  python3 scripts/chemins_moteur.py version moteur/main --ecrire
+  ```
+
+  Il dit combien de fichiers diffèrent encore de ce commit : zéro, la
+  classe est une copie exacte ; quelques-uns, ce sont ses retouches (les
+  voir avec `ecarts`, ci-dessous). L'annoncer à l'enseignant en une phrase
+  (« ta classe venait de la version de septembre de l'outil »), et le
+  garder dans le commit de l'étape 5.
 - **Les modifications faites ici au moteur** : comparer les fichiers du
-  moteur à la version d'où la classe dérive (`moteur.version`) —
-  `git diff --stat <version>..HEAD -- <chemins du moteur>` une fois le dépôt
-  modèle récupéré (étape 1). Un fichier du moteur modifié ici et pas encore
-  remonté serait **perdu** : passer par le skill **remonter-au-moteur**
+  moteur à la version d'où la classe dérive (`moteur.version`), une fois le
+  dépôt modèle récupéré (étape 1) :
+
+  ```sh
+  python3 scripts/chemins_moteur.py ecarts <moteur.version>
+  ```
+
+  `M` : un fichier du moteur retouché ici (hors de la section propre à la
+  classe d'un skill, qui est à elle et que la copie garde) ; `A` : un fichier rangé dans un
+  dossier du moteur qui n'existe que dans la classe (un vieux script : la
+  copie le laisse en place) ; `D` : un fichier du moteur absent d'ici. Le
+  titre et l'aperçu de lien d'`index.html`, refaits pour chaque classe, ne
+  comptent pas, ni la section « Propre à cette classe » d'un skill. Deux
+  sortes d'écarts, vus en octobre 2026 :
+  - **une leçon qui vaut pour toutes les classes** (la retouche de
+    `verifier-cartes-corpus.py` du tour du monde) : la remonter ; elle est
+    depuis dans le moteur ;
+  - **du contenu de la classe écrit dans un skill** (la Grande Section : son
+    thème « La Promenade » dans `charte-graphique`, la vipère gardée dans
+    `imagier-photos`) : le déplacer **une fois**, dans un commit à lui, dans
+    la section balisée qui finit le skill (`<!-- classe:debut -->`, « ##
+    Propre à cette classe », `<!-- classe:fin -->`), et rendre au reste du
+    skill le texte du moteur ; `chemins_moteur.py verifier` contrôle la
+    forme. Dès lors, `copier` la garde à chaque synchronisation.
+
+  Un fichier du moteur modifié ici
+  et pas encore remonté serait **perdu** : passer par le skill **remonter-au-moteur**
   d'abord, puis le réappliquer après la synchronisation si le moteur ne l'a
   pas encore intégré. On ne force jamais.
 
@@ -54,17 +116,19 @@ grandes ; l'entretien demande le modèle d'écriture cursive »).
 
 ## 2. Copier la couche moteur, et elle seule
 
+Le script de copie est **celui de la nouvelle version** : c'est elle qui
+sait quels sont ses fichiers. On le prend du moteur avant de s'en servir.
+
 ```sh
-git checkout moteur/main -- scripts/ referentiel/ .agents/skills/ .github/workflows/ tests/ \
-  site/app.js site/commun.js site/marked.min.js site/index.html site/imprimer.html \
-  site/app.css site/impression.css site/charte/socle.css site/charte/composants.css site/charte/polices/ \
-  site/fiches/fiches.css site/imagier/imagier.css site/cartes-corpus/cartes-corpus.css
-# Les skills vivent dans .agents/skills ; .claude/skills n'est qu'un lien,
-# pour Claude Code. Une classe d'avant ce découpage a encore un vrai dossier :
-# il est remplacé par le lien (ses leçons propres ont été remontées à l'étape 0).
-if [ -d .claude/skills ] && [ ! -L .claude/skills ]; then git rm -rq .claude/skills; rm -rf .claude/skills; fi
-mkdir -p .claude && { [ -L .claude/skills ] || ln -s ../.agents/skills .claude/skills; }
-git add .claude/skills
+git checkout moteur/main -- scripts/chemins_moteur.py
+python3 scripts/chemins_moteur.py copier moteur/main --depuis <moteur.version>
+# copie (index compris) les fichiers du moteur de moteur/main, et eux seuls ;
+# écarte ce qui est propre au moteur (trier-remontees et ses tests, controles.yml) ;
+# repose à la fin de chaque skill neuf sa section propre à la classe ;
+# remplace un vieux dossier .claude/skills par le lien vers .agents/skills ;
+# retire ce que le moteur a retiré depuis <moteur.version>, s'il n'a pas été
+# retouché ici (sinon il le garde et le dit) ; liste ce qui n'existe qu'ici
+python3 scripts/chemins_moteur.py verifier   # rien de propre au moteur, AGENTS.md compris
 git ls-files -s .claude/skills         # doit montrer le mode 120000 (un lien, pas un dossier)
 python3 scripts/classe.py generer      # refait charte.css : nouveau socle + thème de la classe ;
                                        # et le titre et l'aperçu de lien d'index.html (venu du modèle) ;
@@ -72,7 +136,18 @@ python3 scripts/classe.py generer      # refait charte.css : nouveau socle + th�
 python3 scripts/verifier-theme.py      # le thème de la classe tient-il le contrat du nouveau moteur ?
 ```
 
-Puis **relire `git diff --cached`** fichier par fichier : rien de la classe
+Puis le bilan, qui range chaque fichier changé — du moteur, refait par
+`classe.py generer`, ou du contenu — et sort en code 1 si le contenu de la
+classe a bougé (`classe.yml` n'a le droit de changer que par
+`moteur.version`) ; il signale aussi, d'un ⚠, chaque fichier du moteur que
+la classe avait retouché et que la copie écrase — à retrouver dans la
+nouvelle version, ou à réappliquer (étape 0) :
+
+```sh
+python3 scripts/chemins_moteur.py bilan --depuis <moteur.version>
+```
+
+et **relire `git diff --cached`** fichier par fichier : rien de la classe
 ne doit y apparaître, et une retouche locale déjà remontée doit être
 retrouvée dans la nouvelle version (sinon la réappliquer et la signaler à
 nouveau). Un skill que la classe avait enrichi d'une leçon à elle : garder
@@ -123,12 +198,13 @@ bash scripts/generer-pdf.sh <site assemblé> && python3 scripts/verifier-paginat
 Assembler le site comme le déploiement (skill imprimer-pdf, étape 1). Un
 contrôle rouge : ne pas committer ; corriger s'il s'agit du contenu de la
 classe, sinon **remonter** le défaut et revenir à la version précédente du
-moteur (`git checkout HEAD -- <chemins>`).
+moteur (`git checkout HEAD -- $(python3 scripts/chemins_moteur.py chemins)`).
 
 ## 5. Committer, noter la version
 
 Mettre `moteur.version` à jour dans `classe.yml` (le commit du moteur
-copié, `git rev-parse moteur/main`), `classe.py generer`, puis un seul
+copié : `python3 scripts/chemins_moteur.py ecrire-version moteur/main`),
+`classe.py generer`, puis un seul
 commit : `Moteur <version courte> : <ce qui change pour la classe>`, avec
 dans le corps la liste des contrôles et leurs résultats chiffrés. Fusionner
 sur `main` une fois les contrôles verts (AGENTS.md, « Branches, commits,

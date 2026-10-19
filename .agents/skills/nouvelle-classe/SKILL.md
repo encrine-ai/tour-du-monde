@@ -16,10 +16,13 @@ programme), les documents `01-…` à `04-…`, et les cahiers fabriqués dans
 
 ## Étape 0 — Une classe est-elle déjà là ?
 
-Décidé le 18 octobre 2026 : chaque classe partagée est elle-même un
-dépôt-modèle GitHub. « Partir de cette classe », c'est **« Use this
-template » sur le dépôt de cette classe** : l'enseignant arrive avec tout
-son contenu, son thème et ses PDF, puis lance l'entretien **sans adresse**
+La galerie montre une **copie relue** de chaque classe partagée, hébergée
+par Encrine dans l'organisation `encrine-ai` et marquée dépôt-modèle GitHub
+quand sa licence le permet (skill partager-ma-classe). « Partir de cette
+classe », c'est **« Use this template » sur cette copie relue** — jamais sur
+le dépôt de l'auteur, qui a pu changer depuis la relecture : l'enseignant
+arrive avec tout son contenu, son thème et ses PDF, tels que la galerie les
+a relus, puis lance l'entretien **sans adresse**
 (`/nouvelle-classe` dans Claude Code ; ailleurs « crée ma classe », ou le
 skill nouvelle-classe). Avant toute question, regarder donc ce que contient le dépôt :
 
@@ -56,7 +59,8 @@ collègue ? », puis suivre la ligne qui correspond.
    - **CC BY** : la nouvelle classe choisira la sienne au partage ; le crédit
      reste obligatoire ;
    - **NC, tous droits réservés, licence absente** : cette classe n'aurait
-     pas dû être un modèle (partager-ma-classe l'empêche). Le dire, ne garder
+     pas dû être un modèle (la galerie ne marque modèle que les copies sous
+     CC BY ou CC BY-SA). Le dire, ne garder
      que le thème et les milieux (une idée ne se protège pas), et réécrire
      tout le reste comme pour une classe partie de zéro.
 3. **Ne poser que** — en une fois avec l'outil de questions interactives de
@@ -73,15 +77,17 @@ collègue ? », puis suivre la ligne qui correspond.
 
    ```yaml
    origine:
-     depot: <l'ancienne valeur de `depot`>
+     depot: <l'ancienne valeur de `depot` : le dépôt de l'auteur — la copie relue de la galerie le garde tel quel>
      titre: <le projet de la classe d'origine>
      auteur: <LICENCE-CONTENU.md, sinon partage.auteur ou partage/fiche.json>
      licence: CC BY-SA 4.0
-     site: https://<propriétaire>.github.io/<dépôt>/
+     site: <le site de la copie relue d'où l'on part, https://encrine.ai/<id>/ ; sinon celui de l'auteur>
      reprise_le: AAAA-MM-JJ          # aujourd'hui
    ```
 
-   puis **mettre `depot` au dépôt courant**. `classe.py verifier` refuse une
+   puis **mettre `depot` au dépôt courant**. `moteur` ne change pas : sa
+   `version` est celle de la classe d'origine, dont on a copié le moteur
+   (étape 2). `classe.py verifier` refuse une
    `origine` sans titre ni licence, et une `origine.depot` égale à `depot`.
    Le pied du site crédite alors l'original (« Classe partie de « … », de …
    (…) », avec le lien) : c'est l'obligation de CC BY et CC BY-SA.
@@ -261,7 +267,7 @@ au moment où le matériel concerné se fabrique.
    mot, question 7), `depot` (ce dépôt-ci,
    `propriétaire/dépôt`, tiré de `git remote get-url origin`), `origine` si
    la classe est partie d'une autre (mode « enrichir »), `moteur` (le dépôt modèle d'où vient
-   ce dépôt et le commit copié : skill synchroniser-moteur), `calendrier`
+   ce dépôt et **le commit copié**, ci-dessous), `calendrier`
    — la zone seule, plus un pont propre à l'école s'il y en a
    (`calendrier.ponts`), les dates venant du moteur —, les cinq `periodes` (clé, milieu,
    icône du sprite, couleur, phrase de l'imagier), la section `contenu` et
@@ -271,6 +277,26 @@ au moment où le matériel concerné se fabrique.
    python3 scripts/classe.py generer    # site/classe.json et site/classe.js
    python3 scripts/classe.py verifier   # code 0 attendu
    ```
+
+   **`moteur.version`** — le commit du moteur d'où vient la copie. Le
+   modèle la laisse à `null` (il n'est la copie de rien) ; une classe ne la
+   garde jamais ainsi : sans elle, la première mise à jour ne sait ni ce qui
+   a changé, ni ce que la classe a retouché (skill synchroniser-moteur).
+   « Use this template » ne garde aucun historique : le commit se retrouve
+   en comparant les fichiers du moteur de la classe à ceux de chaque commit
+   du moteur, sur la liste unique.
+
+   ```sh
+   git remote add moteur https://github.com/<moteur.depot>.git
+   git fetch moteur main
+   python3 scripts/chemins_moteur.py version moteur/main --ecrire   # « identiques » attendu
+   ```
+
+   Partie **d'une autre classe** (mode « enrichir », ou le repli par
+   l'adresse) : la version **hérite** de celle de la classe d'origine, qui
+   est arrivée avec son `classe.yml` — la garder telle quelle, ce sont ses
+   fichiers du moteur qu'on a copiés. Si elle vaut `null`, la reconstituer
+   de même.
 2. **Le dossier `classe/`** : `annotations.yml` vide de blocs pour commencer,
    `imagier.py` et `corpus.py` sur le modèle de ceux de la classe de départ
    (garder leur structure : les scripts en dépendent), et `projet.yml` (le
@@ -413,8 +439,11 @@ fois `depot` écrit) remplace le README du modèle — il porte
 `<!-- encrine:moteur -->` — par un README de classe : un bloc tiré de
 `classe.yml`, entre `<!-- encrine:debut -->` et `<!-- encrine:fin -->` (le
 projet, la signature, le niveau, l'année et la zone, l'accroche, le lien du
-site tiré de `depot` ou de `site`, la licence, « Partir de cette classe » si
-elle le permet, le crédit de `origine`, « Conçu avec Encrine »), puis un
+site tiré de `depot` ou de `site`, la licence, « Partir de cette classe »
+pour la seule classe servie par Encrine qui le permet — l'exemple ou une
+copie relue — ou, pour la classe d'un enseignant, le lien de sa copie dans
+la galerie (`partage.carte`, skill partager-ma-classe), le crédit de
+`origine`, « Conçu avec Encrine »), puis un
 court texte « Ce dépôt ». Sous le bloc, le fichier est à l'enseignant : y
 écrire, avec lui, ce que la classe a de propre (le tableau des périodes et
 des vacances, le matériel), jamais la technique du moteur. Le bloc ne se

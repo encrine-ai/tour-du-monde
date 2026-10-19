@@ -175,8 +175,9 @@
   }
 
   /* Ce que le pied doit toujours porter, quel que soit le gabarit : la
-     signature « Conçu avec Encrine », le lien des crédits, et le crédit de
-     la classe d'origine (CC BY et CC BY-SA l'exigent). Un gabarit qui les
+     signature « Conçu avec Encrine », le lien des crédits, le crédit de
+     la classe d'origine (CC BY et CC BY-SA l'exigent), et, pour une classe
+     servie par Encrine (modele.mentions), ses mentions légales. Un gabarit qui les
      oublie les reçoit ici, sous leur forme sobre. */
   function garantirPied() {
     var pied = document.getElementById('pied');
@@ -186,6 +187,16 @@
     }
     if (modele.images.length && !pied.querySelector('a[href="#/credits"]')) {
       pied.insertAdjacentHTML('beforeend', '<p class="pied-credits"><a href="#/credits">Crédits des images</a></p>');
+    }
+    /* Les mentions légales se glissent juste après le lien des crédits (ou,
+       sans lui, après la signature) : elles prennent ainsi le style que le
+       thème donne à ce coin du pied, sans bloc à elles. */
+    var ment = modele.mentions;
+    if (ment && !pied.querySelector('a[href="' + ment.lien + '"]')) {
+      var ancre = pied.querySelector('a[href="#/credits"]') || pied.querySelector('a[href="' + GS.SIGNATURE.lien + '"]');
+      var lien = '<a class="pied-mentions" href="' + ment.lien + '">' + ment.texte + '</a>';
+      if (ancre) ancre.insertAdjacentHTML('afterend', ' · ' + lien);
+      else pied.insertAdjacentHTML('beforeend', '<p class="pied-mentions">' + lien + '</p>');
     }
     var org = modele.classe.origine;
     if (org && !pied.querySelector('[data-origine]')) {
