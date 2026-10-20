@@ -23,7 +23,7 @@ var CLASSE = {
   "site": "https://encrine.ai/tour-du-monde/",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "f150c1c"
+    "version": "35f69c6"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
