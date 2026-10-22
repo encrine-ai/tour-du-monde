@@ -22,7 +22,7 @@
   "site": "https://encrine.ai/tour-du-monde/",
   "moteur": {
     "depot": "encrine-ai/moteur",
-    "version": "9abd97e"
+    "version": "78a03c0"
   },
   "galerie": {
     "depot": "encrine-ai/encrine-ai.github.io"
