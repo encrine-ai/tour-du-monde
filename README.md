@@ -1,16 +1,16 @@
 <!-- encrine:debut -->
-<!-- Écrit par scripts/classe.py generer, depuis classe.yml : ne pas retoucher à la main.
+<!-- Écrit par scripts/classe.py generer, depuis classe.yml : ne pas retoucher à la main.
      Le reste du fichier, sous le bloc, est à vous. -->
 
 # Le tour du monde
 
 **Grande Section · 2026-2027 · zone C**
 
-Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.
+Un continent par période, de l’Europe aux pôles, avec Plume, la cigogne voyageuse. Les cinq périodes sont prêtes : progressions, évaluations, fiches, imagier et cartes de vocabulaire.
 
 **[Voir le site de la classe](https://encrine.ai/tour-du-monde/)** · [Partir de cette classe](https://github.com/new?template_owner=encrine-ai&template_name=tour-du-monde)
 
-Vous reprenez cette classe ? **[Prendre en main la classe](PRISE-EN-MAIN.md)** : ce qu’elle est, le premier lancement, ce qu’on peut demander, ce qui est protégé.
+Vous reprenez cette classe ? **[Prendre en main la classe](PRISE-EN-MAIN.md)** : ce qu’elle est, le premier lancement, ce qu’on peut demander, ce qui est protégé.
 
 Contenu sous licence [CC BY-SA 4.0](LICENCE-CONTENU.md).
 
