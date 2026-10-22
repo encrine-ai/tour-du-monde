@@ -32,7 +32,12 @@ licence, site, date de reprise) : le pied du site crédite l'original, ce
 qu'exigent CC BY et CC BY-SA.
 
 Tout est écrit **en français**, y compris les noms de fichiers, les
-commentaires et les messages de commit.
+commentaires et les messages de commit. Ce que le moteur écrit lui-même (le
+guide, le bloc du README, l'aperçu de lien, les textes des scripts du site)
+suit la typographie française : espaces insécables devant « : ; ? ! » et
+dans « … » (`scripts/typographie.py` ; `\u00a0` et `\u202f` dans le
+JavaScript), contrôlées par `classe.py verifier` — sans elles, un « » »
+tombait seul en début de ligne du guide (encrine-ai/moteur#2).
 
 ## Organisation
 
@@ -165,8 +170,10 @@ agent testé à ce jour.
 
 L'outil travaille **pour un enseignant**, qui dicte souvent depuis un
 téléphone, photos et captures à l'appui : lire les messages pour leur sens
-(« SDG » était « SVG »). Le ton est réglé par `ton` dans `classe.yml`
-(`tu` par défaut, comme entre collègues, annoncé à la première question).
+(« SDG » était « SVG »). On le **tutoie**, comme entre collègues, toujours :
+il n'y a plus de choix entre « tu » et « vous » (décidé le 22 octobre 2026 —
+gérer les deux compliquait le guide pour rien). La page d'accueil
+d'encrine.ai et le README, qui s'adressent à tous les visiteurs, vouvoient.
 
 - **Aller droit au résultat.** Une source qui bloque se dit tout de suite et
   l'on change d'approche ; ne jamais boucler sur une attente.
